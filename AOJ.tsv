@@ -1,0 +1,1843 @@
+<name4> = <val1>	<name4> に <val1> を代入する
+<name1> = <val2>	<name1> に <val2> を代入する
+<name3> = <val5>	<name3> を <val5> とする
+<name1> = <val2>	<name1> を <val2> とする
+<name4> = <val5>	<name4> イコール <val5>
+<name1> = <val2>	<name1> イコール <val2>
+<name3> = <val2>	<name3> イコール <val2> とする
+<name1> = <val2>	<name1> イコール <val2> とする
+<name6> = <name5>	<name6> に <name5> を代入する
+<name1> = <name2>	<name1> に <name2> を代入する
+<name3> = <name5>	<name5> を <name3> に代入する
+<name1> = <name2>	<name2> を <name1> に代入する
+<name6> + <name3>	<name6> に <name3> を加えた値
+<name1> + <name2>	<name1> に <name2> を加えた値
+<name1> + <name6>	<name1> に <name6> を加えた値を算出する
+<name1> + <name2>	<name1> に <name2> を加えた値を算出する
+<name4> + <name3>	<name4> プラス <name3>
+<name1> + <name2>	<name1> プラス <name2>
+<name6> + <name3>	<name6> たす <name3> を計算する
+<name1> + <name2>	<name1> たす <name2> を計算する
+<name5> + <name4>	<name5> と <name4> の和
+<name1> + <name2>	<name1> と <name2> の和
+<name3> + <name4>	<name3> と <name4> の和を算出する
+<name1> + <name2>	<name1> と <name2> の和を算出する
+<name6> - <name5>	<name6> から <name5> を引いた値
+<name1> - <name2>	<name1> から <name2> を引いた値
+<name6> - <name1>	<name6> から <name1> を引いた値を求める
+<name1> - <name2>	<name1> から <name2> を引いた値を求める
+<name5> - <name4>	<name5> マイナス <name4>
+<name1> - <name2>	<name1> マイナス <name2>
+<name2> - <name6>	<name2> 引く <name6> を算出する
+<name1> - <name2>	<name1> 引く <name2> を算出する
+<name1> - <name4>	<name1> と <name4> の差
+<name1> - <name2>	<name1> と <name2> の差
+<name2> - <name3>	<name2> と <name3> の差を算出する
+<name1> - <name2>	<name1> と <name2> の差を算出する
+<name2> * <name1>	<name2> に <name1> をかけた値
+<name1> * <name2>	<name1> に <name2> をかけた値
+<name3> * <name4>	<name3> に <name4> をかけた値を算出する
+<name1> * <name2>	<name1> に <name2> をかけた値を算出する
+<name6> * <name4>	<name6> 掛ける <name4>
+<name1> * <name2>	<name1> 掛ける <name2>
+<name5> * <name2>	<name5> かける <name2> を計算する
+<name1> * <name2>	<name1> かける <name2> を計算する
+<name5> * <name3>	<name5> と <name3> の積
+<name1> * <name2>	<name1> と <name2> の積
+<name5> * <name4>	<name5> と <name4> の積を求める
+<name1> * <name2>	<name1> と <name2> の積を求める
+<name6> / <name4>	<name6> を <name4> でわった値
+<name1> / <name2>	<name1> を <name2> でわった値
+<name1> / <name3>	<name1> を <name3> でわった値を求める
+<name1> / <name2>	<name1> を <name2> でわった値を求める
+<name3> / <name6>	<name3> わる <name6>
+<name1> / <name2>	<name1> わる <name2>
+<name3> / <name1>	<name3> 割る <name1> を求める
+<name1> / <name2>	<name1> 割る <name2> を求める
+<name1> / <name4>	<name1> と <name4> の商
+<name1> / <name2>	<name1> と <name2> の商
+<name6> / <name5>	<name6> と <name5> の商を計算する
+<name1> / <name2>	<name1> と <name2> の商を計算する
+<name5> / <name3>	<name3> 分の <name5>
+<name1> / <name2>	<name2> 分の <name1>
+<name1> / <name5>	<name5> 分の <name1> を計算する
+<name1> / <name2>	<name2> 分の <name1> を計算する
+<name3> // <name1>	<name3> を <name1> でわった値の整数部分
+<name1> // <name2>	<name1> を <name2> でわった値の整数部分
+<name2> // <name6>	<name2> を <name6> でわった値の整数部分を計算する
+<name1> // <name2>	<name1> を <name2> でわった値の整数部分を計算する
+<name5> ** 2	<name5> の二乗
+<name1> ** 2	<name1> の二乗
+<name6> ** <val4>	<name6> の <val4> 乗を算出する
+<name1> ** <val2>	<name1> の <val2> 乗を算出する
+<name3> % <name2>	<name3> を <name2> で割った余り
+<name1> % <name2>	<name1> を <name2> で割った余り
+<name6> % <name3>	<name6> を <name3> で割った余りを計算する
+<name1> % <name2>	<name1> を <name2> で割った余りを計算する
+<name1> % <name3>	<name1> を <name3> で剰余
+<name1> % <name2>	<name1> を <name2> で剰余
+<name2> % <name1>	<name2> を <name1> で剰余を計算する
+<name1> % <name2>	<name1> を <name2> で剰余を計算する
+<name5> % <name2>	<name5> と <name2> の mod
+<name1> % <name2>	<name1> と <name2> の mod
+<name1> % <name2>	<name1> と <name2> の mod を求める
+<name6> % <name1>	<name6> と <name1> の割り算の余り
+<name1> % <name2>	<name1> と <name2> の割り算の余り
+<name3> % <name6>	<name3> と <name6> の割り算の余りを算出する
+<name1> % <name2>	<name1> と <name2> の割り算の余りを算出する
+( <name2> + <name4> - 1 ) // <name4>	<name2> を <name4> で割った結果の切り上げ
+( <name1> + <name2> - 1 ) // <name2>	<name1> を <name2> で割った結果の切り上げ
+( <name3> + <name6> - 1 ) // <name6>	<name3> を <name6> でわった結果の切り上げを求める
+( <name1> + <name2> - 1 ) // <name2>	<name1> を <name2> でわった結果の切り上げを求める
+( <name2> + <name1> - 1 ) // <name1>	<name2> 割る <name1> を切り上げる
+( <name1> + <name2> - 1 ) // <name2>	<name1> 割る <name2> を切り上げる
+( <name4> + <name2> - 1 ) // <name2>	<name4> 割る <name2> の切り上げ
+( <name1> + <name2> - 1 ) // <name2>	<name1> 割る <name2> の切り上げ
+( <name6> + <name2> - 1 ) // <name2>	<name6> 割る <name2> の切り上げを算出する
+( <name1> + <name2> - 1 ) // <name2>	<name1> 割る <name2> の切り上げを算出する
+( <name1> + <name2> - 1 ) // <name2>	<name1> を <name2> でわった値を切り上げる
+<name1> & <name3>	<name1> と <name3> の論理積
+<name1> & <name2>	<name1> と <name2> の論理積
+<name4> & <name2>	<name4> と <name2> の論理積を算出する
+<name1> & <name2>	<name1> と <name2> の論理積を算出する
+<name3> | <name6>	<name3> と <name6> の論理和
+<name1> | <name2>	<name1> と <name2> の論理和
+<name6> | <name2>	<name6> と <name2> の論理和を計算する
+<name1> | <name2>	<name1> と <name2> の論理和を計算する
+x ^ <name3>	a と <name3> の排他的論理和
+x ^ <name1>	a と <name1> の排他的論理和
+x ^ <name1>	a と <name1> の排他的論理和を計算する
+<name6> << <name5>	<name6> を <name5> だけシフトした左シフト値
+<name1> << <name2>	<name1> を <name2> だけシフトした左シフト値
+<name1> << <name6>	<name1> を <name6> だけシフトした左シフト値を求める
+<name1> << <name2>	<name1> を <name2> だけシフトした左シフト値を求める
+<name4> >> <name5>	<name4> を <name5> だけシフトした右シフト値
+<name1> >> <name2>	<name1> を <name2> だけシフトした右シフト値
+<name5> >> <name2>	<name5> を <name2> だけシフトした右シフト値を算出する
+<name1> >> <name2>	<name1> を <name2> だけシフトした右シフト値を算出する
+<name6> += <name4>	<name6> を <name4> だけ増加させる
+<name1> += <name2>	<name1> を <name2> だけ増加させる
+<name2> += <name3>	<name2> に <name3> を足して代入する
+<name1> += <name2>	<name1> に <name2> を足して代入する
+<name2> += <name5>	<name2> と <name5> の値を足して <name2> に代入する
+<name1> += <name2>	<name1> と <name2> の値を足して <name1> に代入する
+<name4> += <name5>	<name4> たす <name5> の値を <name4> に代入する
+<name1> += <name2>	<name1> たす <name2> の値を <name1> に代入する
+<name3> -= <name4>	<name3> を <name4> だけ減少させる
+<name1> -= <name2>	<name1> を <name2> だけ減少させる
+<name3> -= <name1>	<name3> から <name1> の値を引いて <name3> に代入する
+<name1> -= <name2>	<name1> から <name2> の値を引いて <name1> に代入する
+<name1> -= <name4>	<name1> ひく <name4> の値を <name1> に代入する
+<name1> -= <name2>	<name1> ひく <name2> の値を <name1> に代入する
+<name2> *= <name5>	<name2> を <name5> 倍にする
+<name1> *= <name2>	<name1> を <name2> 倍にする
+<name5> *= <name4>	<name5> に <name4> をかけた値を <name5> に代入する
+<name1> *= <name2>	<name1> に <name2> をかけた値を <name1> に代入する
+<name6> ** = <name5>	<name6> を <name5> 乗する
+<name1> ** = <name2>	<name1> を <name2> 乗する
+<name6> /= <name5>	<name6> を <name5> 分の一にする
+<name1> /= <name2>	<name1> を <name2> 分の一にする
+<name3> // = <name4>	<name3> を <name4> 分の一にする
+<name1> // = <name2>	<name1> を <name2> 分の一にする
+<name6> % = <name3>	<name6> を <name3> で割った余りを <name6> に代入する
+<name1> % = <name2>	<name1> を <name2> で割った余りを <name1> に代入する
+abs ( <name5> )	<name5> の絶対値
+abs ( <name1> )	<name1> の絶対値
+abs ( <name3> )	<name3> の絶対値を計算する
+abs ( <name1> )	<name1> の絶対値を計算する
+complex ( <name1> )	<name1> の複素数
+complex ( <name5> )	<name5> の複素数を計算する
+complex ( <name1> )	<name1> の複素数を計算する
+complex ( <name5> , <name1> )	<name5> を実部 <name1> を虚部とした複素数
+complex ( <name1> , <name2> )	<name1> を実部 <name2> を虚部とした複素数
+complex ( <name6> , <name5> )	<name6> を実部 <name5> を虚部とした複素数を求める
+complex ( <name1> , <name2> )	<name1> を実部 <name2> を虚部とした複素数を求める
+divmod ( <name1> , <name2> )	<name1> を <name2> で割ったときの商と剰余の組
+divmod ( <name3> , <name6> )	<name3> を <name6> で割ったときの商とあまりの組を求める
+divmod ( <name1> , <name2> )	<name1> を <name2> で割ったときの商とあまりの組を求める
+divmod ( <name4> , <name6> )	<name4> と <name6> の商と剰余の組
+divmod ( <name1> , <name2> )	<name1> と <name2> の商と剰余の組
+divmod ( <name2> , <name4> )	<name2> と <name4> の商と剰余の組を求める
+divmod ( <name1> , <name2> )	<name1> と <name2> の商と剰余の組を求める
+hash ( <name5> )	<name5> のハッシュ値
+hash ( <name1> )	<name1> のハッシュ値
+hash ( <name1> )	<name1> のハッシュ値を算出する
+pow ( <name6> , <name2> )	<name6> の <name2> 乗
+pow ( <name1> , <name2> )	<name1> の <name2> 乗
+pow ( <name2> , <name3> )	<name2> の <name3> 乗を求める
+pow ( <name1> , <name2> )	<name1> の <name2> 乗を求める
+pow ( <name4> , <name2> , <name1> )	<name4> の <name2> 乗に対する <name1> の剰余
+pow ( <name1> , <name2> , <name3> )	<name1> の <name2> 乗に対する <name3> の剰余
+pow ( <name5> , <name2> , <name6> )	<name5> の <name2> 乗に対する <name6> の剰余を計算する
+pow ( <name1> , <name2> , <name3> )	<name1> の <name2> 乗に対する <name3> の剰余を計算する
+pow ( <name2> , <name4> , <name1> )	<name2> の <name4> 乗を <name1> で割った余り
+pow ( <name1> , <name2> , <name3> )	<name1> の <name2> 乗を <name3> で割った余り
+pow ( <name3> , <name5> , <name4> )	<name3> の <name5> 乗を <name4> で割った余りを算出する
+pow ( <name1> , <name2> , <name3> )	<name1> の <name2> 乗を <name3> で割った余りを算出する
+round ( <name2> )	<name2> の小数点を丸めた値
+round ( <name1> )	<name1> の小数点を丸めた値
+round ( <name6> )	<name6> の小数点を丸めた値を計算する
+round ( <name1> )	<name1> の小数点を丸めた値を計算する
+round ( <name1> )	<name1> の整数値
+round ( <name3> )	<name3> の整数値を求める
+round ( <name1> )	<name1> の整数値を求める
+round ( <name1> , 1 )	<name1> を小数点第一位までに丸めた値
+round ( <name5> , 1 )	<name5> を小数点第一位までに丸めた値を求める
+round ( <name1> , 1 )	<name1> を小数点第一位までに丸めた値を求める
+round ( <name1> , -1 )	<name1> を十の位までに丸めた値
+round ( <name5> , -1 )	<name5> を十の位までに丸めた値を計算する
+round ( <name1> , -1 )	<name1> を十の位までに丸めた値を計算する
+max ( <name2> , <name1> , <name4> )	<name2> 、 <name1> 、 <name4> の中で一番大きい値
+max ( <name1> , <name2> , <name3> )	<name1> 、 <name2> 、 <name3> の中で一番大きい値
+max ( <name4> , <name6> , <name2> )	<name4> 、 <name6> 、 <name2> の中で一番大きい値を算出する
+max ( <name1> , <name2> , <name3> )	<name1> 、 <name2> 、 <name3> の中で一番大きい値を算出する
+max ( <name6> , <name1> , <name3> )	<name6> 、 <name1> 、 <name3> の最大値
+max ( <name1> , <name2> , <name3> )	<name1> 、 <name2> 、 <name3> の最大値
+max ( <name2> , <name4> , <name5> )	<name2> 、 <name4> 、 <name5> の最大値を算出する
+max ( <name1> , <name2> , <name3> )	<name1> 、 <name2> 、 <name3> の最大値を算出する
+min ( <name1> , <name5> , <name6> )	<name1> 、 <name5> 、 <name6> の中で一番小さい値
+min ( <name1> , <name2> , <name3> )	<name1> 、 <name2> 、 <name3> の中で一番小さい値
+min ( <name2> , <name3> , <name1> )	<name2> 、 <name3> 、 <name1> の中で一番小さい値を算出する
+min ( <name1> , <name2> , <name3> )	<name1> 、 <name2> 、 <name3> の中で一番小さい値を算出する
+min ( <name3> , <name5> , <name6> )	<name3> 、 <name5> 、 <name6> の最小値
+min ( <name1> , <name2> , <name3> )	<name1> 、 <name2> 、 <name3> の最小値
+min ( <name2> , <name3> , <name6> )	<name2> 、 <name3> 、 <name6> の最小値を求める
+min ( <name1> , <name2> , <name3> )	<name1> 、 <name2> 、 <name3> の最小値を求める
+del <name6>	<name6> をデリートする
+del <name1>	<name1> をデリートする
+global <name1>	<name1> をグローバル変数とする
+nonlocal <name2>	<name2> を非ローカル変数とする
+nonlocal <name1>	<name1> を非ローカル変数とする
+float ( <name2> )	<name2> を浮動小数点数に変換する
+float ( <name1> )	<name1> を浮動小数点数に変換する
+<name5> = float ( <name3> )	<name3> を浮動小数点数にし、 <name5> とする
+<name1> = float ( <name2> )	<name2> を浮動小数点数にし、 <name1> とする
+<name5> = float ( <name6> )	<name6> を浮動小数点数にした結果を <name5> にする
+<name1> = float ( <name2> )	<name2> を浮動小数点数にした結果を <name1> にする
+float ( <name6> )	<name6> を変換した浮動小数点数
+float ( <name1> )	<name1> を変換した浮動小数点数
+<name3> = float ( <name1> )	<name1> を変換した浮動小数点数を <name3> にする
+<name1> = float ( <name2> )	<name2> を変換した浮動小数点数を <name1> にする
+float ( <name2> )	<name2> を浮動小数点数型として得る
+float ( <name1> )	<name1> を浮動小数点数型として得る
+<name6> = float ( <name2> )	<name2> を浮動小数点数型として得、 <name6> に代入する
+<name1> = float ( <name2> )	<name2> を浮動小数点数型として得、 <name1> に代入する
+<name3> = float ( <name6> )	<name6> を浮動小数点数型として得た結果を <name3> に代入する
+<name1> = float ( <name2> )	<name2> を浮動小数点数型として得た結果を <name1> に代入する
+int ( <name1> )	<name1> を整数型にする
+<name2> = int ( <name3> )	<name3> を整数に変換し、 <name2> にする
+<name1> = int ( <name2> )	<name2> を整数に変換し、 <name1> にする
+<name5> = int ( <name3> )	<name3> を整数に変換した結果を <name5> に代入する
+<name1> = int ( <name2> )	<name2> を整数に変換した結果を <name1> に代入する
+int ( <name5> )	<name5> を変換した整数
+int ( <name1> )	<name1> を変換した整数
+<name6> = int ( <name4> )	<name4> を変換した整数を <name6> に代入する
+<name1> = int ( <name2> )	<name2> を変換した整数を <name1> に代入する
+int ( <name6> )	<name6> を整数型として得る
+int ( <name1> )	<name1> を整数型として得る
+<name1> = int ( <name5> )	<name5> を整数型として得、 <name1> とする
+<name1> = int ( <name2> )	<name2> を整数型として得、 <name1> とする
+<name2> = int ( <name4> )	<name4> を整数型として得た結果を <name2> に代入する
+<name1> = int ( <name2> )	<name2> を整数型として得た結果を <name1> に代入する
+str ( <name5> )	<name5> を文字列型に変換する
+str ( <name1> )	<name1> を文字列型に変換する
+<name1> = str ( <name2> )	<name2> を文字列に変換して、 <name1> にする
+<name1> = str ( <name2> )	<name2> を文字列に変換した結果を <name1> とする
+str ( <name3> )	<name3> を変換した文字列
+str ( <name1> )	<name1> を変換した文字列
+<name1> = str ( <name3> )	<name3> を変換した文字列を <name1> とする
+<name1> = str ( <name2> )	<name2> を変換した文字列を <name1> とする
+str ( <name4> )	<name4> を文字列型として取得する
+str ( <name1> )	<name1> を文字列型として取得する
+<name4> = str ( <name5> )	<name5> を文字列型として取得し、 <name4> に代入する
+<name1> = str ( <name2> )	<name2> を文字列型として取得し、 <name1> に代入する
+<name2> = str ( <name3> )	<name3> を文字列型として取得した結果を <name2> にする
+<name1> = str ( <name2> )	<name2> を文字列型として取得した結果を <name1> にする
+list ( <name1> )	<name1> のリスト
+<name2> = list ( <name5> )	<name5> のリストを <name2> にする
+<name1> = list ( <name2> )	<name2> のリストを <name1> にする
+list ( <name6> )	<name6> をリストに変換する
+list ( <name1> )	<name1> をリストに変換する
+<name4> = list ( <name3> )	<name3> をリスト型に変換して、 <name4> に代入する
+<name1> = list ( <name2> )	<name2> をリスト型に変換して、 <name1> に代入する
+<name5> = list ( <name2> )	<name2> をリスト型に変換された結果を <name5> とする
+<name1> = list ( <name2> )	<name2> をリスト型に変換された結果を <name1> とする
+list ( <name2> )	<name2> をリスト型として取得する
+list ( <name1> )	<name1> をリスト型として取得する
+<name1> = list ( <name4> )	<name4> をリスト型として取得して、 <name1> にする
+<name1> = list ( <name2> )	<name2> をリスト型として取得して、 <name1> にする
+<name5> = list ( <name1> )	<name1> をリスト型として取得された結果を <name5> にする
+<name1> = list ( <name2> )	<name2> をリスト型として取得された結果を <name1> にする
+type ( <name6> )	<name6> のタイプ
+type ( <name1> )	<name1> のタイプ
+type ( <name5> )	<name5> のタイプを抽出する
+type ( <name1> )	<name1> のタイプを抽出する
+type ( <name4> )	<name4> のタイプを見る
+type ( <name1> )	<name1> のタイプを見る
+<name1> == <name2>	<name1> と <name2> が等しいかどうか
+<name4> != <name5>	<name4> と <name5> が等しくないかどうか
+<name1> != <name2>	<name1> と <name2> が等しくないかどうか
+if <name2> == <name4> :	もし <name2> と <name4> が等しい場合
+if <name1> == <name2> :	もし <name1> と <name2> が等しい場合
+if <name5> != <name4> :	もし <name5> と <name4> が等しくないならば
+if <name1> != <name2> :	もし <name1> と <name2> が等しくないならば
+while <name1> == <name4> :	<name1> と <name4> が等しい間
+while <name1> == <name2> :	<name1> と <name2> が等しい間
+while <name6> != <name5> :	<name6> と <name5> が等しくない間
+while <name1> != <name2> :	<name1> と <name2> が等しくない間
+<name2> == <name1>	<name2> が <name1> と等しいかどうか
+<name1> == <name2>	<name1> が <name2> と等しいかどうか
+<name1> != <name3>	<name1> が <name3> と等しくないかどうか
+<name1> != <name2>	<name1> が <name2> と等しくないかどうか
+if <name2> == <name6> :	もし <name2> が <name6> と等しいならば
+if <name1> == <name2> :	もし <name1> が <name2> と等しいならば
+if <name2> != <name5> :	<name2> が <name5> と等しくないなら
+if <name1> != <name2> :	<name1> が <name2> と等しくないなら
+while <name6> == <name3> :	<name6> が <name3> と等しい間
+while <name1> == <name2> :	<name1> が <name2> と等しい間
+while <name5> != <name6> :	<name5> が <name6> と等しくない間
+while <name1> != <name2> :	<name1> が <name2> と等しくない間
+<name2> == <name6>	<name2> が <name6> かどうか
+<name1> == <name2>	<name1> が <name2> かどうか
+<name6> != <name2>	<name6> が <name2> でないかどうか
+<name1> != <name2>	<name1> が <name2> でないかどうか
+if <name6> == <name3> :	<name6> が <name3> の場合
+if <name1> == <name2> :	<name1> が <name2> の場合
+if <name5> != <name4> :	もし <name5> が <name4> でないなら
+if <name1> != <name2> :	もし <name1> が <name2> でないなら
+while <name6> == <name5> :	<name6> が <name5> の間
+while <name1> == <name2> :	<name1> が <name2> の間
+while <name5> != <name4> :	<name5> が <name4> でない間
+while <name1> != <name2> :	<name1> が <name2> でない間
+<name6> > <name1>	<name6> が <name1> より大きいかどうか
+<name1> > <name2>	<name1> が <name2> より大きいかどうか
+not <name3> > <name1>	<name3> が <name1> より大きくないかどうか
+not <name1> > <name2>	<name1> が <name2> より大きくないかどうか
+if <name6> > <name1> :	<name6> が <name1> より大きいとき
+if <name1> > <name2> :	<name1> が <name2> より大きいとき
+if not <name4> > <name6> :	もし <name4> が <name6> より大きくないならば
+if not <name1> > <name2> :	もし <name1> が <name2> より大きくないならば
+while <name2> > <name1> :	<name2> が <name1> より大きい間
+while <name1> > <name2> :	<name1> が <name2> より大きい間
+while not <name4> > <name2> :	<name4> が <name2> より大きくない間
+while not <name1> > <name2> :	<name1> が <name2> より大きくない間
+<name6> > <name1>	<name6> が <name1> よりも大きいかどうか
+<name1> > <name2>	<name1> が <name2> よりも大きいかどうか
+not <name6> > <name1>	<name6> が <name1> よりも大きくないかどうか
+not <name1> > <name2>	<name1> が <name2> よりも大きくないかどうか
+if <name3> > <name5> :	もし <name3> が <name5> よりも大きいなら
+if <name1> > <name2> :	もし <name1> が <name2> よりも大きいなら
+if not <name2> > <name3> :	もし <name2> が <name3> よりも大きくないならば
+if not <name1> > <name2> :	もし <name1> が <name2> よりも大きくないならば
+while <name6> > <name3> :	<name6> が <name3> よりも大きい間
+while <name1> > <name2> :	<name1> が <name2> よりも大きい間
+while not <name1> > <name4> :	<name1> が <name4> よりも大きくない間
+while not <name1> > <name2> :	<name1> が <name2> よりも大きくない間
+<name3> < <name6>	<name3> が <name6> より小さいかどうか
+<name1> < <name2>	<name1> が <name2> より小さいかどうか
+not <name5> < <name6>	<name5> が <name6> より小さくないかどうか
+not <name1> < <name2>	<name1> が <name2> より小さくないかどうか
+if <name2> < <name3> :	もし <name2> が <name3> より小さいならば
+if <name1> < <name2> :	もし <name1> が <name2> より小さいならば
+if not <name3> < <name2> :	もし <name3> が <name2> より小さくないとき
+if not <name1> < <name2> :	もし <name1> が <name2> より小さくないとき
+while <name5> < <name1> :	<name5> が <name1> より小さい間
+while <name1> < <name2> :	<name1> が <name2> より小さい間
+while not <name1> < <name3> :	<name1> が <name3> より小さくない間
+while not <name1> < <name2> :	<name1> が <name2> より小さくない間
+<name6> < <name4>	<name6> が <name4> よりも小さいかどうか
+<name1> < <name2>	<name1> が <name2> よりも小さいかどうか
+not <name1> < <name3>	<name1> が <name3> よりも小さくないかどうか
+not <name1> < <name2>	<name1> が <name2> よりも小さくないかどうか
+if <name3> < <name5> :	<name3> が <name5> よりも小さいとき
+if <name1> < <name2> :	<name1> が <name2> よりも小さいとき
+if not <name6> < <name2> :	<name6> が <name2> よりも小さくない場合
+if not <name1> < <name2> :	<name1> が <name2> よりも小さくない場合
+while <name6> < <name3> :	<name6> が <name3> よりも小さい間
+while <name1> < <name2> :	<name1> が <name2> よりも小さい間
+while not <name4> < <name5> :	<name4> が <name5> よりも小さくない間
+while not <name1> < <name2> :	<name1> が <name2> よりも小さくない間
+<name1> >= <name5>	<name1> が <name5> 以上かどうか
+<name1> >= <name2>	<name1> が <name2> 以上かどうか
+not <name4> >= <name2>	<name4> が <name2> 以上でないかどうか
+not <name1> >= <name2>	<name1> が <name2> 以上でないかどうか
+if <name4> >= <name6> :	もし <name4> が <name6> 以上の場合
+if <name1> >= <name2> :	もし <name1> が <name2> 以上の場合
+if not <name4> >= <name6> :	もし <name4> が <name6> 以上でないならば
+if not <name1> >= <name2> :	もし <name1> が <name2> 以上でないならば
+while <name1> >= <name4> :	<name1> が <name4> 以上の間
+while <name1> >= <name2> :	<name1> が <name2> 以上の間
+while not <name1> >= <name6> :	<name1> が <name6> 以上でない間
+while not <name1> >= <name2> :	<name1> が <name2> 以上でない間
+<name5> <= <name6>	<name5> が <name6> 以下かどうか
+<name1> <= <name2>	<name1> が <name2> 以下かどうか
+not <name3> <= <name2>	<name3> が <name2> 以下でないかどうか
+not <name1> <= <name2>	<name1> が <name2> 以下でないかどうか
+if <name6> <= <name4> :	もし <name6> が <name4> 以下ならば
+if <name1> <= <name2> :	もし <name1> が <name2> 以下ならば
+if not <name3> <= <name1> :	もし <name3> が <name1> 以下でないならば
+if not <name1> <= <name2> :	もし <name1> が <name2> 以下でないならば
+while <name2> <= <name6> :	<name2> が <name6> 以下の間
+while <name1> <= <name2> :	<name1> が <name2> 以下の間
+while not <name5> <= <name1> :	<name5> が <name1> 以下でない間
+while not <name1> <= <name2> :	<name1> が <name2> 以下でない間
+<name6> % 2 == 0	<name6> が偶数かどうか
+<name1> % 2 == 0	<name1> が偶数かどうか
+<name4> % 2 != 0	<name4> が偶数でないかどうか
+<name1> % 2 != 0	<name1> が偶数でないかどうか
+if <name3> % 2 == 0 :	もし <name3> が偶数の場合
+if <name1> % 2 == 0 :	もし <name1> が偶数の場合
+if <name6> % 2 != 0 :	<name6> が偶数でないなら
+if <name1> % 2 != 0 :	<name1> が偶数でないなら
+<name2> % <val1> == <val5>	<name2> が <val1> で割った時の余りが <val5> であるかどうか
+<name1> % <val2> == <val3>	<name1> が <val2> で割った時の余りが <val3> であるかどうか
+<name3> % <val4> != <val2>	<name3> が <val4> で割った時の余りが <val2> であるでないかどうか
+<name1> % <val2> != <val3>	<name1> が <val2> で割った時の余りが <val3> であるでないかどうか
+if <name4> % <val3> == <val1> :	<name4> が <val3> で割った時の余りが <val1> であるならば
+if <name1> % <val2> == <val3> :	<name1> が <val2> で割った時の余りが <val3> であるならば
+if <name1> % <val6> != <val4> :	もし <name1> が <val6> で割った時の余りが <val4> であるでない場合
+if <name1> % <val2> != <val3> :	もし <name1> が <val2> で割った時の余りが <val3> であるでない場合
+<name4> % 2 == 1	<name4> が奇数かどうか
+<name1> % 2 == 1	<name1> が奇数かどうか
+<name1> % 2 != 1	<name1> が奇数でないかどうか
+if <name5> % 2 == 1 :	もし <name5> が奇数の場合
+if <name1> % 2 == 1 :	もし <name1> が奇数の場合
+if <name5> % 2 != 1 :	もし <name5> が奇数でないならば
+if <name1> % 2 != 1 :	もし <name1> が奇数でないならば
+<name4> % <val3> == <val6>	<name4> が <val3> で割った時の余りが <val6> かどうか
+<name1> % <val2> == <val3>	<name1> が <val2> で割った時の余りが <val3> かどうか
+<name5> % <val3> != <val2>	<name5> が <val3> で割った時の余りが <val2> でないかどうか
+<name1> % <val2> != <val3>	<name1> が <val2> で割った時の余りが <val3> でないかどうか
+if <name2> % <val3> == <val5> :	もし <name2> が <val3> で割った時の余りが <val5> ならば
+if <name1> % <val2> == <val3> :	もし <name1> が <val2> で割った時の余りが <val3> ならば
+if <name2> % <val4> != <val5> :	もし <name2> が <val4> で割った時の余りが <val5> でないならば
+if <name1> % <val2> != <val3> :	もし <name1> が <val2> で割った時の余りが <val3> でないならば
+<name2> % <name1> == 0	<name2> が <name1> の倍数かどうか
+<name1> % <name2> == 0	<name1> が <name2> の倍数かどうか
+<name5> % <name4> != 0	<name5> が <name4> の倍数でないかどうか
+<name1> % <name2> != 0	<name1> が <name2> の倍数でないかどうか
+if <name4> % <name2> == 0 :	もし <name4> が <name2> の倍数ならば
+if <name1> % <name2> == 0 :	もし <name1> が <name2> の倍数ならば
+if <name5> % <name2> != 0 :	<name5> が <name2> の倍数でないとき
+if <name1> % <name2> != 0 :	<name1> が <name2> の倍数でないとき
+<name6> % <name3> == 0	<name6> が <name3> で割り切れるかどうか
+<name1> % <name2> == 0	<name1> が <name2> で割り切れるかどうか
+<name1> % <name6> != 0	<name1> が <name6> で割り切れるでないかどうか
+<name1> % <name2> != 0	<name1> が <name2> で割り切れるでないかどうか
+if <name2> % <name1> == 0 :	もし <name2> が <name1> で割り切れるならば
+if <name1> % <name2> == 0 :	もし <name1> が <name2> で割り切れるならば
+if <name4> % <name1> != 0 :	もし <name4> が <name1> で割り切れるでないとき
+if <name1> % <name2> != 0 :	もし <name1> が <name2> で割り切れるでないとき
+<name1> and <name4>	<name1> かつ <name4>
+<name1> and <name2>	<name1> かつ <name2>
+not <name4> and <name5>	<name4> かつ <name5> でない
+not <name1> and <name2>	<name1> かつ <name2> でない
+if <name6> and <name3> :	もし <name6> かつ <name3> のとき
+if <name1> and <name2> :	もし <name1> かつ <name2> のとき
+if not <name1> and <name4> :	もし <name1> かつ <name4> でないなら
+if not <name1> and <name2> :	もし <name1> かつ <name2> でないなら
+<name4> or <name5>	<name4> または <name5>
+<name1> or <name2>	<name1> または <name2>
+not <name2> or <name5>	<name2> または <name5> でない
+not <name1> or <name2>	<name1> または <name2> でない
+if <name6> or <name4> :	もし <name6> または <name4> のとき
+if <name1> or <name2> :	もし <name1> または <name2> のとき
+if not <name2> or <name6> :	もし <name2> または <name6> でない場合
+if not <name1> or <name2> :	もし <name1> または <name2> でない場合
+not <name5>	<name5> ではない
+not <name1>	<name1> ではない
+not not <name2>	<name2> ではなくない
+not not <name1>	<name1> ではなくない
+if not <name3> :	もし <name3> ではないとき
+if not <name1> :	もし <name1> ではないとき
+if not not <name3> :	もし <name3> ではなくないとき
+if not not <name1> :	もし <name1> ではなくないとき
+True	真
+False	偽
+None	未定値
+print ( )	改行を表示する
+print ( )	空行を出力する
+print ( <name3> )	<name3> を表示する
+print ( <name1> )	<name1> を表示する
+print ( <name5> , end = '' )	改行なしで <name5> をプリントする
+print ( <name1> , end = '' )	改行なしで <name1> をプリントする
+print ( <name2> , end = '' )	<name2> の出力を改行しないで行う
+print ( <name1> , end = '' )	<name1> の出力を改行しないで行う
+print ( <name5> , sep = '' )	区切りなしで <name5> をプリントする
+print ( <name1> , sep = '' )	区切りなしで <name1> をプリントする
+print ( <name5> , sep = '' )	<name5> の出力を区切らないで行う
+print ( <name1> , sep = '' )	<name1> の出力を区切らないで行う
+print ( <name2> , sep = ',' )	カンマ区切りで <name2> をプリントする
+print ( <name1> , sep = ',' )	カンマ区切りで <name1> をプリントする
+print ( <name3> , sep = <val2> )	<val2> 区切りで <name3> をプリントする
+print ( <name1> , sep = <val2> )	<val2> 区切りで <name1> をプリントする
+print ( <name1> , sep = ',' )	<name1> の出力をカンマ区切りで行う
+print ( <val1> )	<val1> とプリントする
+print ( 'Hello World' )	「ハローワールド」とプリントする
+print ( 'Hello World' )	試しに何か動かす
+print ( 'Hello World' )	最初のプログラム
+print ( '{:.5f}' . format ( <name1> ) )	<name1> の小数点以下 5 桁までをプリントする
+print ( '{:.5f}' . format ( <name4> ) )	<name4> の小数点以下を 5 桁までプリントする
+print ( '{:.5f}' . format ( <name1> ) )	<name1> の小数点以下を 5 桁までプリントする
+print ( '{:.5f}' . format ( <name3> ) )	<name3> の小数点以下を 5 桁で揃える
+print ( '{:.5f}' . format ( <name1> ) )	<name1> の小数点以下を 5 桁で揃える
+print ( '{:.5f}' . format ( <name2> ) )	<name2> の小数部を 5 桁で丸める
+print ( '{:.5f}' . format ( <name1> ) )	<name1> の小数部を 5 桁で丸める
+print ( * <name2> )	<name2> を展開してプリントする
+print ( * <name1> )	<name1> を展開してプリントする
+input ( )	ユーザから入力を受け取る
+<name3> = input ( )	ユーザから入力を受け取って、 <name3> に代入する
+<name1> = input ( )	ユーザから入力を受け取って、 <name1> に代入する
+<name3> = input ( )	ユーザから入力を受け取った結果を <name3> にする
+<name1> = input ( )	ユーザから入力を受け取った結果を <name1> にする
+input ( )	入力値を受け取る
+<name4> = input ( )	入力値を受け取って、 <name4> とする
+<name1> = input ( )	入力値を受け取って、 <name1> とする
+<name1> = input ( )	入力値を受け取った結果を <name1> とする
+input ( )	ユーザが入力した文字列
+<name5> = input ( )	ユーザが入力した文字列を <name5> にする
+<name1> = input ( )	ユーザが入力した文字列を <name1> にする
+input ( )	ユーザから入力された文字列
+<name6> = input ( )	ユーザから入力された文字列を <name6> に代入する
+<name1> = input ( )	ユーザから入力された文字列を <name1> に代入する
+input ( )	入力された文字列
+<name5> = input ( )	入力された文字列を <name5> に代入する
+<name1> = input ( )	入力された文字列を <name1> に代入する
+input ( )	文字列を入力する
+<name5> = input ( )	文字列を入力して、 <name5> に代入する
+<name1> = input ( )	文字列を入力して、 <name1> に代入する
+<name3> = input ( )	文字列を入力した結果を <name3> にする
+<name1> = input ( )	文字列を入力した結果を <name1> にする
+input ( )	データを入力する
+<name3> = input ( )	データを入力して、 <name3> に代入する
+<name1> = input ( )	データを入力して、 <name1> に代入する
+<name4> = input ( )	データを入力した結果を <name4> とする
+<name1> = input ( )	データを入力した結果を <name1> とする
+int ( input ( ) )	ユーザから入力を整数値として受け取る
+<name2> = int ( input ( ) )	ユーザから入力を数字として受け取り、 <name2> にする
+<name1> = int ( input ( ) )	ユーザから入力を数字として受け取り、 <name1> にする
+<name4> = int ( input ( ) )	ユーザから入力を数字として受け取られた結果を <name4> に代入する
+<name1> = int ( input ( ) )	ユーザから入力を数字として受け取られた結果を <name1> に代入する
+int ( input ( ) )	整数値を受け取る
+<name5> = int ( input ( ) )	整数値を受け取って、 <name5> とする
+<name1> = int ( input ( ) )	整数値を受け取って、 <name1> とする
+<name1> = int ( input ( ) )	整数値を受け取った結果を <name1> に代入する
+int ( input ( ) )	ユーザが入力した整数値
+<name5> = int ( input ( ) )	ユーザが入力した整数値を <name5> とする
+<name1> = int ( input ( ) )	ユーザが入力した整数値を <name1> とする
+int ( input ( ) )	ユーザから入力された整数値
+<name5> = int ( input ( ) )	ユーザから入力された整数値を <name5> に代入する
+<name1> = int ( input ( ) )	ユーザから入力された整数値を <name1> に代入する
+int ( input ( ) )	入力された整数値
+<name3> = int ( input ( ) )	入力された整数値を <name3> とする
+<name1> = int ( input ( ) )	入力された整数値を <name1> とする
+int ( input ( ) )	整数値を入力する
+<name2> = int ( input ( ) )	整数値を入力し、 <name2> とする
+<name1> = int ( input ( ) )	整数値を入力し、 <name1> とする
+<name5> = int ( input ( ) )	整数値を入力した結果を <name5> にする
+<name1> = int ( input ( ) )	整数値を入力した結果を <name1> にする
+int ( input ( ) )	数値データを入力する
+<name6> = int ( input ( ) )	数値データを入力し、 <name6> に代入する
+<name1> = int ( input ( ) )	数値データを入力し、 <name1> に代入する
+<name1> = int ( input ( ) )	数値データを入力した結果を <name1> とする
+list ( input ( ) )	複数の入力値をリストとして受け取る
+<name5> = list ( input ( ) )	複数の入力値をリストとして受け取り、 <name5> に代入する
+<name1> = list ( input ( ) )	複数の入力値をリストとして受け取り、 <name1> に代入する
+<name4> = list ( input ( ) )	複数の入力値をリストとして受け取った結果を <name4> に代入する
+<name1> = list ( input ( ) )	複数の入力値をリストとして受け取った結果を <name1> に代入する
+list ( input ( ) )	ユーザが入力したデータをリストに入れる
+<name2> = list ( input ( ) )	ユーザが入力したデータをリストに突っ込んで、 <name2> に代入する
+<name1> = list ( input ( ) )	ユーザが入力したデータをリストに突っ込んで、 <name1> に代入する
+<name5> = list ( input ( ) )	ユーザが入力したデータをリストに突っ込んだ結果を <name5> に代入する
+<name1> = list ( input ( ) )	ユーザが入力したデータをリストに突っ込んだ結果を <name1> に代入する
+list ( input ( ) )	ユーザが入力したデータをリストに変換する
+<name4> = list ( input ( ) )	ユーザが入力した値をリストに変換し、 <name4> に代入する
+<name1> = list ( input ( ) )	ユーザが入力した値をリストに変換し、 <name1> に代入する
+<name6> = list ( input ( ) )	ユーザが入力した値をリストに変換した結果を <name6> に代入する
+<name1> = list ( input ( ) )	ユーザが入力した値をリストに変換した結果を <name1> に代入する
+list ( input ( ) )	ユーザが入力した値をリスト化する
+<name5> = list ( input ( ) )	ユーザが入力した値をリスト化し、 <name5> にする
+<name1> = list ( input ( ) )	ユーザが入力した値をリスト化し、 <name1> にする
+<name4> = list ( input ( ) )	ユーザが入力した値をリスト化した結果を <name4> とする
+<name1> = list ( input ( ) )	ユーザが入力した値をリスト化した結果を <name1> とする
+list ( map ( int , input ( ) . split ( ) ) )	空白ごとに入力された複数の整数をリストとして受け取る
+<name2> = list ( map ( int , input ( ) . split ( ) ) )	空白ごとに入力された複数の整数をリストとして受け取り、 <name2> に代入する
+<name1> = list ( map ( int , input ( ) . split ( ) ) )	空白ごとに入力された複数の整数をリストとして受け取り、 <name1> に代入する
+<name4> = list ( map ( int , input ( ) . split ( ) ) )	空白ごとに入力された複数の整数をリストとして受け取られた結果を <name4> に代入する
+<name1> = list ( map ( int , input ( ) . split ( ) ) )	空白ごとに入力された複数の整数をリストとして受け取られた結果を <name1> に代入する
+list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数値をスペースで区切ってリストとして受け取る
+<name5> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数値をスペースで区切ってリストとして受け取り、 <name5> に代入する
+<name1> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数値をスペースで区切ってリストとして受け取り、 <name1> に代入する
+<name2> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数値をスペースで区切ってリストとして受け取られた結果を <name2> にする
+<name1> = list ( map ( int , input ( ) . split ( ) ) )	ユーザが入力した整数値をスペースで区切ってリストとして受け取られた結果を <name1> にする
+<name2> , <name3> , <name6> = input ( ) . split ( )	入力された文字列を半角スペースで分割し <name2> 、 <name3> 、 <name6> とする
+<name1> , <name2> , <name3> = input ( ) . split ( )	入力された文字列を半角スペースで分割し <name1> 、 <name2> 、 <name3> とする
+<name2> , <name4> , <name6> = input ( ) . split ( )	空白ごとに入力文字列を受け取り <name2> 、 <name4> 、 <name6> とする
+<name1> , <name2> , <name3> = input ( ) . split ( )	空白ごとに入力文字列を受け取り <name1> 、 <name2> 、 <name3> とする
+<name2> , <name1> , <name5> = input ( ) . split ( )	半角スペースで区切って入力文字列を受け取り <name2> 、 <name1> 、 <name5> とする
+<name1> , <name2> , <name3> = input ( ) . split ( )	半角スペースで区切って入力文字列を受け取り <name1> 、 <name2> 、 <name3> とする
+<name2> , <name3> , <name1> = map ( int , input ( ) . split ( ) )	入力された整数値を半角スペースで分割し <name2> 、 <name3> 、 <name1> とする
+<name1> , <name2> , <name3> = map ( int , input ( ) . split ( ) )	入力された整数値を半角スペースで分割し <name1> 、 <name2> 、 <name3> とする
+<name5> , <name3> , <name1> = map ( int , input ( ) . split ( ) )	半角スペースごとに入力された整数値を受け取り <name5> 、 <name3> 、 <name1> とする
+<name1> , <name2> , <name3> = map ( int , input ( ) . split ( ) )	半角スペースごとに入力された整数値を受け取り <name1> 、 <name2> 、 <name3> とする
+if <name4> == <val5> :	<name4> が <val5> ならば
+if <name1> == <val2> :	<name1> が <val2> ならば
+if <name4> == <val5> :	もし <name4> が <val5> ならば
+if <name1> == <val2> :	もし <name1> が <val2> ならば
+elif <name5> == <val3> :	そうでなくて <name5> が <val3> ならば
+elif <name1> == <val2> :	そうでなくて <name1> が <val2> ならば
+else	そうでなければ
+else	どれでもなければ
+else	それ以外のとき
+if <name3> < <val4> or <name3> >= <val6> :	<name3> が <val4> 未満または <val6> 以上ならば
+if <name1> < <val2> or <name1> >= <val3> :	<name1> が <val2> 未満または <val3> 以上ならば
+if <name2> < <val4> or <name2> >= <val5> :	もし <name2> が <val4> 未満または <val5> 以上ならば
+if <name1> < <val2> or <name1> >= <val3> :	もし <name1> が <val2> 未満または <val3> 以上ならば
+if <name2> < <val4> and <name2> >= <val3> :	<name2> が <val4> 未満かつ <val3> 以上ならば
+if <name1> < <val2> and <name1> >= <val3> :	<name1> が <val2> 未満かつ <val3> 以上ならば
+if <name2> < <val3> and <name2> >= <val4> :	もし <name2> が <val3> 未満かつ <val4> 以上ならば
+if <name1> < <val2> and <name1> >= <val3> :	もし <name1> が <val2> 未満かつ <val3> 以上ならば
+for i in range ( <val4> ) :	以下の処理を <val4> 回ループする
+for i in range ( <val1> ) :	以下の処理を <val1> 回ループする
+for i in range ( <val3> ) :	<val3> 回ループする
+for i in range ( <val1> ) :	<val1> 回ループする
+for <name6> in range ( 10 ) :	<name6> に 0 から 9 を代入して、以降のプログラムをループする
+for <name1> in range ( 10 ) :	<name1> に 0 から 9 を代入して、以降のプログラムをループする
+for <name3> in range ( <val6> ) :	<name3> に <val6> 未満の連続した数値を代入して、以降のプログラムをループする
+for <name1> in range ( <val2> ) :	<name1> に <val2> 未満の連続した数値を代入して、以降のプログラムをループする
+for <name3> in range ( 10 ) :	<name3> を 0 から 9 まで 1 つずつ取り出しながら繰り返し処理を行う
+for <name1> in range ( 10 ) :	<name1> を 0 から 9 まで 1 つずつ取り出しながら繰り返し処理を行う
+for i in range ( <val3> ) :	繰り返し処理を <val3> 回行う
+for i in range ( <val1> ) :	繰り返し処理を <val1> 回行う
+for i in range ( <val4> ) :	<val4> 回だけ繰り返し処理を行う
+for i in range ( <val1> ) :	<val1> 回だけ繰り返し処理を行う
+for i in range ( len ( <name1> ) ) :	以降のプログラムを <name1> の長さだけループする
+for <name1> , <name5> in enumerate ( <name6> ) :	<name6> のインデックスを <name1> 、要素を <name5> へ順番に代入して以降のプログラムをループする
+for <name1> , <name2> in enumerate ( <name3> ) :	<name3> のインデックスを <name1> 、要素を <name2> へ順番に代入して以降のプログラムをループする
+for <name1> , <name5> in zip ( <name2> , <name6> ) :	<name2> の要素を <name1> 、 <name6> の要素を <name5> へ順番に代入して以降のプログラムをループする
+for <name1> , <name2> in zip ( <name3> , <name4> ) :	<name3> の要素を <name1> 、 <name4> の要素を <name2> へ順番に代入して以降のプログラムをループする
+while True :	以下の処理をずっとループする
+while True :	無限ループを行う
+pass	何もしない
+pass	何も行わない
+pass	パスする
+break	抜ける
+break	中断する
+break	ループ処理を終了する
+break	繰り返し処理から抜け出す
+continue	先頭に戻ってやり直す
+continue	最初から繰り返す
+try :	可能なら以下のプログラムを実行する
+except :	もし何らかの例外が発生した場合
+except :	もし try の中のプログラムが実行できなかった時
+except <name5> :	もし <name5> が発生したとき
+except <name1> :	もし <name1> が発生したとき
+finally :	例外が発生してもしなくても
+def <name4> ( <name2> ) :	<name2> を引数に持つ関数 <name4> を定義する
+def <name1> ( <name2> ) :	<name2> を引数に持つ関数 <name1> を定義する
+def <name4> ( <name1> ) :	<name1> を引数に持つ関数を <name4> という名前で定義する
+def <name1> ( <name2> ) :	<name2> を引数に持つ関数を <name1> という名前で定義する
+return	何も返さない
+return <name3>	<name3> をリターンする
+return <name1>	<name1> をリターンする
+yield <val3>	<val3> を一旦リターンする
+yield <val1>	<val1> を一旦リターンする
+[ ]	空列
+<name4> = [ ]	空列を <name4> にする
+<name1> = [ ]	空列を <name1> にする
+[ ]	空のリスト
+<name4> = [ ]	空のリストを <name4> にする
+<name1> = [ ]	空のリストを <name1> にする
+( )	空のタプル
+<name6> = ( )	空のタプルを <name6> にする
+<name1> = ( )	空のタプルを <name1> にする
+<name6> [ 0 ]	<name6> の最初の要素
+<name1> [ 0 ]	<name1> の最初の要素
+<name3> [ -1 ]	<name3> の末尾の要素
+<name1> [ -1 ]	<name1> の末尾の要素
+<name3> [ : ]	<name3> のコピー
+<name1> [ : ]	<name1> のコピー
+<name4> [ : ]	<name4> がコピーされた列
+<name1> [ : ]	<name1> がコピーされた列
+<name4> [ : -1 ]	<name4> の最後を除いた部分列
+<name1> [ : -1 ]	<name1> の最後を除いた部分列
+<name2> [ 1 : ]	<name2> の最初を除いた部分列
+<name1> [ 1 : ]	<name1> の最初を除いた部分列
+<name3> [ <name1> : <name6> ]	<name3> の <name1> 番目から <name6> 番目の要素を得る
+<name1> [ <name2> : <name3> ]	<name1> の <name2> 番目から <name3> 番目の要素を得る
+<name4> [ <name2> : ]	<name4> の <name2> 番目から末尾までの要素を取り出す
+<name1> [ <name2> : ]	<name1> の <name2> 番目から末尾までの要素を取り出す
+<name5> [ <name3> : ]	<name5> の <name3> 番目以降の値を取り出す
+<name1> [ <name2> : ]	<name1> の <name2> 番目以降の値を取り出す
+<name3> [ : <name2> ]	<name3> の 0 番目から <name2> 番目の要素を取り出す
+<name1> [ : <name2> ]	<name1> の 0 番目から <name2> 番目の要素を取り出す
+<name5> [ : : -1 ]	<name5> の逆順
+<name1> [ : : -1 ]	<name1> の逆順
+<name5> [ : : -1 ]	<name5> 内の要素の順番を逆にする
+<name1> [ : : -1 ]	<name1> 内の要素の順番を逆にする
+len ( <name3> )	<name3> の長さ
+len ( <name1> )	<name1> の長さ
+len ( <name4> )	<name4> の長さを見る
+len ( <name1> )	<name1> の長さを見る
+len ( <name6> )	<name6> の長さを算出する
+len ( <name1> )	<name1> の長さを算出する
+sum ( <name1> )	<name1> の合計
+sum ( <name4> )	<name4> の合計を確認する
+sum ( <name1> )	<name1> の合計を確認する
+sum ( <name5> )	<name5> の合計値を計算する
+sum ( <name1> )	<name1> の合計値を計算する
+min ( <name2> )	<name2> の一番小さい値
+min ( <name1> )	<name1> の一番小さい値
+min ( <name3> )	<name3> の一番小さい値をチェックする
+min ( <name1> )	<name1> の一番小さい値をチェックする
+min ( <name3> )	<name3> の最小値を求める
+min ( <name1> )	<name1> の最小値を求める
+max ( <name4> ) @check @calc	<name4> の一番大きい値
+max ( <name1> ) @check @calc	<name1> の一番大きい値
+sum ( <name6> ) / len ( <name6> )	<name6> の平均
+sum ( <name1> ) / len ( <name1> )	<name1> の平均
+sum ( <name5> ) / len ( <name5> )	<name5> の平均値を調べる
+sum ( <name1> ) / len ( <name1> )	<name1> の平均値を調べる
+sum ( <name3> ) / len ( <name3> )	<name3> の平均を計算する
+sum ( <name1> ) / len ( <name1> )	<name1> の平均を計算する
+range ( <name1> )	0 から <name1> -1 までの数列
+range ( <name5> )	0 から <name5> -1 の範囲の数列
+range ( <name1> )	0 から <name1> -1 の範囲の数列
+range ( <name4> )	0 から <name4> -1 の範囲で 1 ずつ増える数列
+range ( <name1> )	0 から <name1> -1 の範囲で 1 ずつ増える数列
+range ( <name5> )	0 ~ <name5> -1 の範囲の数列
+range ( <name1> )	0 ~ <name1> -1 の範囲の数列
+range ( <name3> )	0 ~ <name3> -1 の範囲で 1 ずつ増える数列
+range ( <name1> )	0 ~ <name1> -1 の範囲で 1 ずつ増える数列
+range ( <name2> )	0 以上 <name2> 未満の範囲で 1 ずつ増える数列
+range ( <name1> )	0 以上 <name1> 未満の範囲で 1 ずつ増える数列
+range ( <name5> )	0 以上 <name5> 未満の範囲の数列
+range ( <name1> )	0 以上 <name1> 未満の範囲の数列
+range ( <val1> , <name5> + <val1> )	<val1> から <name5> までの数列
+range ( <val1> , <name2> + <val1> )	<val1> から <name2> までの数列
+range ( <val4> , <name5> + <val4> )	<val4> から <name5> の範囲の数列
+range ( <val1> , <name2> + <val1> )	<val1> から <name2> の範囲の数列
+range ( <val1> , <name5> + <val1> )	<val1> から <name5> の範囲で <val1> ずつ増える数列
+range ( <val1> , <name2> + <val1> )	<val1> から <name2> の範囲で <val1> ずつ増える数列
+range ( <val3> , <name6> + <val3> )	<val3> ~ <name6> の範囲の数列
+range ( <val1> , <name2> + <val1> )	<val1> ~ <name2> の範囲の数列
+range ( <val2> , <name1> + <val2> )	<val2> ~ <name1> の範囲で <val2> ずつ増える数列
+range ( <val1> , <name2> + <val1> )	<val1> ~ <name2> の範囲で <val1> ずつ増える数列
+range ( <val6> , <name5> + <val6> )	<val6> 以上 <name5> + <val6> 未満の範囲で <val6> ずつ増える数列
+range ( <val1> , <name2> + <val1> )	<val1> 以上 <name2> + <val1> 未満の範囲で <val1> ずつ増える数列
+range ( <val5> , <name3> + <val5> , <val2> )	<val5> から <name3> までの <val2> つ飛ばしの数列
+range ( <val1> , <name2> + <val1> , <val3> )	<val1> から <name2> までの <val3> つ飛ばしの数列
+range ( <val1> , <name5> + <val1> , <val6> )	<val1> から <name5> の範囲の <val6> つ飛ばしの数列
+range ( <val1> , <name2> + <val1> , <val3> )	<val1> から <name2> の範囲の <val3> つ飛ばしの数列
+range ( <val3> , <name6> + <val3> , <val1> )	<val3> から <name6> の範囲で <val1> つずつ増える数列
+range ( <val1> , <name2> + <val1> , <val3> )	<val1> から <name2> の範囲で <val3> つずつ増える数列
+range ( <val5> , <name1> + <val5> , <val6> )	<val5> ~ <name1> の範囲の <val6> つ飛ばしの数列
+range ( <val1> , <name2> + <val1> , <val3> )	<val1> ~ <name2> の範囲の <val3> つ飛ばしの数列
+range ( <val1> , <name2> + <val1> , <val3> )	<val1> ~ <name2> の範囲で <val3> ずつ増える数列
+range ( <val5> , <name2> + <val5> , <val1> )	<val5> 以上 <name2> + <val5> 未満の範囲で <val1> ずつ増える数列
+range ( <val1> , <name2> + <val1> , <val3> )	<val1> 以上 <name2> + <val1> 未満の範囲で <val3> ずつ増える数列
+<name4> . append ( <name3> )	<name4> に <name3> を追加する
+<name1> . append ( <name2> )	<name1> に <name2> を追加する
+<name3> . append ( <name2> )	<name3> の最後に <name2> をアペンドする
+<name1> . append ( <name2> )	<name1> の最後に <name2> をアペンドする
+<name1> . extend ( <name6> )	<name1> に <name6> を展開して入れる
+<name1> . extend ( <name2> )	<name1> に <name2> を展開して入れる
+<name2> . extend ( <name5> )	<name5> を追加して <name2> を拡張する
+<name1> . extend ( <name2> )	<name2> を追加して <name1> を拡張する
+<name2> . insert ( <name6> , <name4> )	<name2> の <name6> 番目に <name4> を追加する
+<name1> . insert ( <name2> , <name3> )	<name1> の <name2> 番目に <name3> を追加する
+<name3> . pop ( )	<name3> の末尾から値をポップする
+<name1> . pop ( )	<name1> の末尾から値をポップする
+<name6> . pop ( <name3> )	<name6> の <name3> 番目から要素をポップする
+<name1> . pop ( <name2> )	<name1> の <name2> 番目から要素をポップする
+<name1> . clear ( )	<name1> の全ての要素を削除する
+<name5> . remove ( <name4> )	<name5> 内の <name4> と等しい要素の先頭を取り除く
+<name1> . remove ( <name2> )	<name1> 内の <name2> と等しい要素の先頭を取り除く
+del <name5> [ <val6> ]	<name5> の <val6> 番目の要素を取り除く
+del <name1> [ <val2> ]	<name1> の <val2> 番目の要素を取り除く
+<name2> . index ( <name4> )	<name2> 内の <name4> が存在する先頭のインデックスを取得する
+<name1> . index ( <name2> )	<name1> 内の <name2> が存在する先頭のインデックスを取得する
+<name4> . sort ( )	<name4> を昇順にソートする
+<name1> . sort ( )	<name1> を昇順にソートする
+<name1> = <name5> . sort ( )	<name5> を昇順にソートし、 <name1> に代入する
+<name1> = <name2> . sort ( )	<name2> を昇順にソートし、 <name1> に代入する
+<name1> = <name3> . sort ( )	<name3> を昇順にソートした結果を <name1> にする
+<name1> = <name2> . sort ( )	<name2> を昇順にソートした結果を <name1> にする
+<name6> . sort ( reverse = True )	<name6> を降順にソートする
+<name1> . sort ( reverse = True )	<name1> を降順にソートする
+<name1> = <name2> . sort ( reverse = True )	<name2> を降順にソートして、 <name1> にする
+<name1> = <name5> . sort ( reverse = True )	<name5> を降順にソートした結果を <name1> にする
+<name1> = <name2> . sort ( reverse = True )	<name2> を降順にソートした結果を <name1> にする
+<name5> . reverse ( )	<name5> を降順にする
+<name1> . reverse ( )	<name1> を降順にする
+<name3> = <name4> . reverse ( )	<name4> を降順にして、 <name3> とする
+<name1> = <name2> . reverse ( )	<name2> を降順にして、 <name1> とする
+<name4> = <name2> . reverse ( )	<name2> を降順にされた結果を <name4> に代入する
+<name1> = <name2> . reverse ( )	<name2> を降順にされた結果を <name1> に代入する
+<name3> . copy ( )	<name3> のコピー
+<name1> . copy ( )	<name1> のコピー
+<name5> = <name2> . copy ( )	<name2> のコピーを <name5> に代入する
+<name1> = <name2> . copy ( )	<name2> のコピーを <name1> に代入する
+sorted ( <name2> )	<name2> を昇順にソートする
+sorted ( <name1> )	<name1> を昇順にソートする
+sorted ( <name6> )	<name6> を昇順にソートした列
+sorted ( <name1> )	<name1> を昇順にソートした列
+sorted ( <name4> , reverse = True )	<name4> を降順にソートする
+sorted ( <name1> , reverse = True )	<name1> を降順にソートする
+sorted ( <name2> , reverse = True )	<name2> を降順にソートした列
+sorted ( <name1> , reverse = True )	<name1> を降順にソートした列
+sorted ( <name5> , key = <name2> )	<name5> に <name2> 関数を適用してソートする
+sorted ( <name1> , key = <name2> )	<name1> に <name2> 関数を適用してソートする
+sorted ( <name3> , key = abs )	<name3> を絶対値に直してソートする
+sorted ( <name1> , key = abs )	<name1> を絶対値に直してソートする
+sorted ( <name4> , key = abs )	<name4> を絶対値に直してソートした列
+sorted ( <name1> , key = abs )	<name1> を絶対値に直してソートした列
+sorted ( <name1> , key = abs )	<name1> の各要素の絶対値でソートする
+reversed ( <name1> )	<name1> を降順にする
+reversed ( <name4> )	<name4> をリバースした列
+reversed ( <name1> )	<name1> をリバースした列
+all ( <name2> )	<name2> 内の全ての要素が真かどうか
+all ( <name1> )	<name1> 内の全ての要素が真かどうか
+all ( <name6> )	<name6> 内の要素が全て真かどうか
+all ( <name1> )	<name1> 内の要素が全て真かどうか
+any ( <name6> )	<name6> 内の少なくともひとつの要素が真かどうか
+any ( <name1> )	<name1> 内の少なくともひとつの要素が真かどうか
+any ( <name3> )	<name3> 内の要素が少なくともひとつは真かどうか
+any ( <name1> )	<name1> 内の要素が少なくともひとつは真かどうか
+[ <val4> for i in range ( <name3> ) ]	<name3> 個の <val4> が含まれるリスト
+[ <val1> for i in range ( <name2> ) ]	<name2> 個の <val1> が含まれるリスト
+<name3> = [ <val2> for i in range ( <name6> ) ]	<name6> 個の <val2> が含まれるリストを <name3> にする
+<name1> = [ <val2> for i in range ( <name3> ) ]	<name3> 個の <val2> が含まれるリストを <name1> にする
+[ i for i in range ( <val4> , 101 ) ]	<val4> から 100 までの数が並んだリスト
+[ i for i in range ( <val1> , 101 ) ]	<val1> から 100 までの数が並んだリスト
+<name5> = [ i for i in range ( <val1> , 101 ) ]	<val1> から 100 までの数が並んだリストを <name5> に代入する
+<name1> = [ i for i in range ( <val2> , 101 ) ]	<val2> から 100 までの数が並んだリストを <name1> に代入する
+[ i for i in range ( <val4> , <val3> ) ]	<val4> 以上 <val3> 未満の数が並んだリスト
+[ i for i in range ( <val1> , <val2> ) ]	<val1> 以上 <val2> 未満の数が並んだリスト
+<name3> = [ i for i in range ( <val2> , <val4> ) ]	<val2> 以上 <val4> 未満の数が並んだリストを <name3> とする
+<name1> = [ i for i in range ( <val2> , <val3> ) ]	<val2> 以上 <val3> 未満の数が並んだリストを <name1> とする
+''	空文字
+'\n'	改行文字
+'\n'	改行
+'\t'	タブ文字
+'\t'	タブ
+' '	空白文字
+' '	空白
+chr ( <name4> )	文字コード <name4> の文字
+chr ( <name1> )	文字コード <name1> の文字
+ord ( <name1> )	<name1> の文字コード
+bin ( <name5> )	<name5> の 2 進数文字列
+bin ( <name1> )	<name1> の 2 進数文字列
+oct ( <name4> )	<name4> の 8 進数表現
+oct ( <name1> )	<name1> の 8 進数表現
+hex ( <name1> )	<name1> の 16 進数表現
+<name3> . to_bytes ( )	<name3> のバイト列
+<name1> . to_bytes ( )	<name1> のバイト列
+byteorder = 'big'	ビッグエンディアンとして
+byteorder = 'little'	リトルエンディアンとして
+<name6> . from_bytes ( )	バイト列 <name6> からの整数値
+<name1> . from_bytes ( )	バイト列 <name1> からの整数値
+<name5> . is_integer ( )	<name5> が整数かどうか
+<name1> . is_integer ( )	<name1> が整数かどうか
+<name4> . upper ( )	<name4> を英大文字に変換した文字列
+<name1> . upper ( )	<name1> を英大文字に変換した文字列
+<name4> = <name1> . upper ( )	<name1> を英大文字に変換した文字列を <name4> に代入する
+<name1> = <name2> . upper ( )	<name2> を英大文字に変換した文字列を <name1> に代入する
+<name4> . upper ( )	<name4> 内の小文字を大文字にする
+<name1> . upper ( )	<name1> 内の小文字を大文字にする
+<name1> = <name5> . upper ( )	<name5> 内の小文字を大文字に変換して、 <name1> とする
+<name1> = <name2> . upper ( )	<name2> 内の小文字を大文字に変換して、 <name1> とする
+<name2> = <name1> . upper ( )	<name1> 内の小文字を大文字に変換した結果を <name2> にする
+<name1> = <name2> . upper ( )	<name2> 内の小文字を大文字に変換した結果を <name1> にする
+<name4> . upper ( )	<name4> を全て大文字に変換する
+<name1> . upper ( )	<name1> を全て大文字に変換する
+<name4> = <name1> . upper ( )	<name1> を全て大文字に変換し、 <name4> に代入する
+<name1> = <name2> . upper ( )	<name2> を全て大文字に変換し、 <name1> に代入する
+<name2> = <name6> . upper ( )	<name6> を全て大文字に変換した結果を <name2> とする
+<name1> = <name2> . upper ( )	<name2> を全て大文字に変換した結果を <name1> とする
+<name2> . lower ( )	<name2> を英小文字に変換した文字列
+<name1> . lower ( )	<name1> を英小文字に変換した文字列
+<name1> = <name2> . lower ( )	<name2> を英小文字に変換した文字列を <name1> に代入する
+<name4> . lower ( )	<name4> 内の大文字を小文字に変換する
+<name1> . lower ( )	<name1> 内の大文字を小文字に変換する
+<name3> = <name5> . lower ( )	<name5> 内の大文字を小文字に直し、 <name3> とする
+<name1> = <name2> . lower ( )	<name2> 内の大文字を小文字に直し、 <name1> とする
+<name6> = <name2> . lower ( )	<name2> 内の大文字を小文字に直された結果を <name6> にする
+<name1> = <name2> . lower ( )	<name2> 内の大文字を小文字に直された結果を <name1> にする
+<name4> . lower ( )	<name4> を全て小文字に変換する
+<name1> . lower ( )	<name1> を全て小文字に変換する
+<name3> = <name6> . lower ( )	<name6> を全て小文字に変換し、 <name3> に代入する
+<name1> = <name2> . lower ( )	<name2> を全て小文字に変換し、 <name1> に代入する
+<name3> = <name6> . lower ( )	<name6> を全て小文字に変換した結果を <name3> にする
+<name1> = <name2> . lower ( )	<name2> を全て小文字に変換した結果を <name1> にする
+list ( <name4> )	<name4> の文字リスト
+list ( <name1> )	<name1> の文字リスト
+<name3> = list ( <name2> )	<name2> の文字リストを <name3> とする
+<name1> = list ( <name2> )	<name2> の文字リストを <name1> とする
+<name3> . split ( )	<name3> を空白で分割した文字列のリスト
+<name1> . split ( )	<name1> を空白で分割した文字列のリスト
+<name3> = <name5> . split ( )	<name5> を空白で分割した文字列のリストを <name3> とする
+<name1> = <name2> . split ( )	<name2> を空白で分割した文字列のリストを <name1> とする
+<name6> . split ( )	<name6> を空白で分割してリストを返す
+<name1> . split ( )	<name1> を空白で分割してリストを返す
+<name6> = <name5> . split ( )	<name5> を空白で分割してリストを返し、 <name6> にする
+<name1> = <name2> . split ( )	<name2> を空白で分割してリストを返し、 <name1> にする
+<name1> = <name2> . split ( )	<name2> を空白で分割してリストを返した結果を <name1> に代入する
+<name4> . split ( )	空白を区切り文字として <name4> を分割した結果をリスト型にして返す
+<name1> . split ( )	空白を区切り文字として <name1> を分割した結果をリスト型にして返す
+<name6> = <name1> . split ( )	空白を区切り文字として <name1> を分割した結果をリスト型にして返し、 <name6> にする
+<name1> = <name2> . split ( )	空白を区切り文字として <name2> を分割した結果をリスト型にして返し、 <name1> にする
+<name4> = <name1> . split ( )	空白を区切り文字として <name1> を分割した結果をリスト型にして返した結果を <name4> とする
+<name1> = <name2> . split ( )	空白を区切り文字として <name2> を分割した結果をリスト型にして返した結果を <name1> とする
+<name6> . split ( <name2> )	<name6> を <name2> で分割した文字列のリスト
+<name1> . split ( <name2> )	<name1> を <name2> で分割した文字列のリスト
+<name1> = <name4> . split ( <name3> )	<name4> を <name3> で分割した文字列のリストを <name1> にする
+<name1> = <name2> . split ( <name3> )	<name2> を <name3> で分割した文字列のリストを <name1> にする
+<name5> . split ( <name4> )	<name5> を <name4> で分割してリストを返す
+<name1> . split ( <name2> )	<name1> を <name2> で分割してリストを返す
+<name5> = <name4> . split ( <name1> )	<name4> を <name1> で分割してリストを返し、 <name5> にする
+<name1> = <name2> . split ( <name3> )	<name2> を <name3> で分割してリストを返し、 <name1> にする
+<name4> = <name6> . split ( <name5> )	<name6> を <name5> で分割してリストを返した結果を <name4> とする
+<name1> = <name2> . split ( <name3> )	<name2> を <name3> で分割してリストを返した結果を <name1> とする
+<name6> . split ( <name3> )	<name3> を区切り文字として <name6> を分割した結果をリスト型にして返す
+<name1> . split ( <name2> )	<name2> を区切り文字として <name1> を分割した結果をリスト型にして返す
+<name2> = <name5> . split ( <name6> )	<name6> を区切り文字として <name5> を分割した結果をリスト型にして返して、 <name2> に代入する
+<name1> = <name2> . split ( <name3> )	<name3> を区切り文字として <name2> を分割した結果をリスト型にして返して、 <name1> に代入する
+<name6> = <name3> . split ( <name4> )	<name4> を区切り文字として <name3> を分割した結果をリスト型にして返した結果を <name6> にする
+<name1> = <name2> . split ( <name3> )	<name3> を区切り文字として <name2> を分割した結果をリスト型にして返した結果を <name1> にする
+<name4> . split ( <name6> , <val2> )	<name4> を <name6> で最大分割数 <val2> まで分割した文字列のリスト
+<name1> . split ( <name2> , <val3> )	<name1> を <name2> で最大分割数 <val3> まで分割した文字列のリスト
+<name1> = <name6> . split ( <name3> , <val4> )	<name6> を <name3> で最大分割数 <val4> まで分割した文字列のリストを <name1> に代入する
+<name1> = <name2> . split ( <name3> , <val4> )	<name2> を <name3> で最大分割数 <val4> まで分割した文字列のリストを <name1> に代入する
+<name3> . split ( <name4> , <val2> )	<name3> を <name4> で最大分割数 <val2> まで分割してリストを返す
+<name1> . split ( <name2> , <val3> )	<name1> を <name2> で最大分割数 <val3> まで分割してリストを返す
+<name4> = <name5> . split ( <name1> , <val2> )	<name5> を <name1> で最大分割数 <val2> まで分割してリストを返して、 <name4> にする
+<name1> = <name2> . split ( <name3> , <val4> )	<name2> を <name3> で最大分割数 <val4> まで分割してリストを返して、 <name1> にする
+<name6> = <name2> . split ( <name3> , <val4> )	<name2> を <name3> で最大分割数 <val4> まで分割してリストを返した結果を <name6> に代入する
+<name1> = <name2> . split ( <name3> , <val4> )	<name2> を <name3> で最大分割数 <val4> まで分割してリストを返した結果を <name1> に代入する
+<name3> . split ( <name6> , <val1> )	<name6> を区切り文字、最大分割数を <val1> として <name3> を分割した結果をリスト型にして返す
+<name1> . split ( <name2> , <val3> )	<name2> を区切り文字、最大分割数を <val3> として <name1> を分割した結果をリスト型にして返す
+<name1> = <name4> . split ( <name3> , <val2> )	<name3> を区切り文字、最大分割数を <val2> として <name4> を分割した結果をリスト型にして返し、 <name1> にする
+<name1> = <name2> . split ( <name3> , <val4> )	<name3> を区切り文字、最大分割数を <val4> として <name2> を分割した結果をリスト型にして返し、 <name1> にする
+<name6> = <name5> . split ( <name1> , <val4> )	<name1> を区切り文字、最大分割数を <val4> として <name5> を分割した結果をリスト型にして返した結果を <name6> とする
+<name1> = <name2> . split ( <name3> , <val4> )	<name3> を区切り文字、最大分割数を <val4> として <name2> を分割した結果をリスト型にして返した結果を <name1> とする
+<name4> . rsplit ( )	<name4> を末尾から空白で分割した文字列のリスト
+<name1> . rsplit ( )	<name1> を末尾から空白で分割した文字列のリスト
+<name4> = <name3> . rsplit ( )	<name3> を最後から空白で分割した文字列のリストを <name4> とする
+<name1> = <name2> . rsplit ( )	<name2> を最後から空白で分割した文字列のリストを <name1> とする
+<name2> . rsplit ( )	<name2> を末尾から空白で分割してリストを返す
+<name1> . rsplit ( )	<name1> を末尾から空白で分割してリストを返す
+<name4> = <name2> . rsplit ( )	<name2> を末尾から空白で分割してリストを返し、 <name4> とする
+<name1> = <name2> . rsplit ( )	<name2> を末尾から空白で分割してリストを返し、 <name1> とする
+<name2> = <name4> . rsplit ( )	<name4> を末尾から空白で分割してリストを返した結果を <name2> に代入する
+<name1> = <name2> . rsplit ( )	<name2> を末尾から空白で分割してリストを返した結果を <name1> に代入する
+<name3> . rsplit ( )	空白を区切り文字として <name3> を末尾から分割してリスト型にして返す
+<name1> . rsplit ( )	空白を区切り文字として <name1> を末尾から分割してリスト型にして返す
+<name4> = <name5> . rsplit ( )	空白を区切り文字として <name5> を最後から分割してリスト型にして返して、 <name4> に代入する
+<name1> = <name2> . rsplit ( )	空白を区切り文字として <name2> を最後から分割してリスト型にして返して、 <name1> に代入する
+<name2> = <name4> . rsplit ( )	空白を区切り文字として <name4> を最後から分割してリスト型にして返された結果を <name2> とする
+<name1> = <name2> . rsplit ( )	空白を区切り文字として <name2> を最後から分割してリスト型にして返された結果を <name1> とする
+<name2> . rsplit ( <name1> )	<name2> を末尾から <name1> で分割した文字列のリスト
+<name1> . rsplit ( <name2> )	<name1> を末尾から <name2> で分割した文字列のリスト
+<name1> = <name4> . rsplit ( <name2> )	<name4> を末尾から <name2> で分割した文字列のリストを <name1> とする
+<name1> = <name2> . rsplit ( <name3> )	<name2> を末尾から <name3> で分割した文字列のリストを <name1> とする
+<name6> . rsplit ( <name4> )	<name6> を末尾から <name4> で分割してリストを返す
+<name1> . rsplit ( <name2> )	<name1> を末尾から <name2> で分割してリストを返す
+<name6> = <name1> . rsplit ( <name3> )	<name1> を末尾から <name3> で分割してリストを返し、 <name6> に代入する
+<name1> = <name2> . rsplit ( <name3> )	<name2> を末尾から <name3> で分割してリストを返し、 <name1> に代入する
+<name2> = <name1> . rsplit ( <name3> )	<name1> を末尾から <name3> で分割してリストを返した結果を <name2> に代入する
+<name1> = <name2> . rsplit ( <name3> )	<name2> を末尾から <name3> で分割してリストを返した結果を <name1> に代入する
+<name5> . rsplit ( <name1> )	<name1> を区切り文字として <name5> を最後から分割してリスト型にして返す
+<name1> . rsplit ( <name2> )	<name2> を区切り文字として <name1> を最後から分割してリスト型にして返す
+<name4> = <name3> . rsplit ( <name2> )	<name2> を区切り文字として <name3> を末尾から分割してリスト型にして返して、 <name4> にする
+<name1> = <name2> . rsplit ( <name3> )	<name3> を区切り文字として <name2> を末尾から分割してリスト型にして返して、 <name1> にする
+<name1> = <name3> . rsplit ( <name5> )	<name5> を区切り文字として <name3> を末尾から分割してリスト型にして返した結果を <name1> に代入する
+<name1> = <name2> . rsplit ( <name3> )	<name3> を区切り文字として <name2> を末尾から分割してリスト型にして返した結果を <name1> に代入する
+<name4> . rsplit ( <name5> , <val6> )	<name4> を末尾から <name5> で最大分割数 <val6> まで分割した文字列のリスト
+<name1> . rsplit ( <name2> , <val3> )	<name1> を末尾から <name2> で最大分割数 <val3> まで分割した文字列のリスト
+<name3> = <name1> . rsplit ( <name5> , <val4> )	<name1> を最後から <name5> で最大分割数 <val4> まで分割した文字列のリストを <name3> に代入する
+<name1> = <name2> . rsplit ( <name3> , <val4> )	<name2> を最後から <name3> で最大分割数 <val4> まで分割した文字列のリストを <name1> に代入する
+<name1> . rsplit ( <name2> , <val5> )	<name1> を末尾から <name2> で最大分割数 <val5> まで分割してリストを返す
+<name1> . rsplit ( <name2> , <val3> )	<name1> を末尾から <name2> で最大分割数 <val3> まで分割してリストを返す
+<name1> = <name2> . rsplit ( <name4> , <val6> )	<name2> を最後から <name4> で最大分割数 <val6> まで分割してリストを返して、 <name1> に代入する
+<name1> = <name2> . rsplit ( <name3> , <val4> )	<name2> を最後から <name3> で最大分割数 <val4> まで分割してリストを返して、 <name1> に代入する
+<name2> = <name1> . rsplit ( <name3> , <val6> )	<name1> を最後から <name3> で最大分割数 <val6> まで分割してリストを返した結果を <name2> にする
+<name1> = <name2> . rsplit ( <name3> , <val4> )	<name2> を最後から <name3> で最大分割数 <val4> まで分割してリストを返した結果を <name1> にする
+<name6> . rsplit ( <name4> , <val1> )	<name4> を区切り文字、最大分割数を <val1> として <name6> を最後から分割してリスト型にして返す
+<name1> . rsplit ( <name2> , <val3> )	<name2> を区切り文字、最大分割数を <val3> として <name1> を最後から分割してリスト型にして返す
+<name1> = <name4> . rsplit ( <name2> , <val3> )	<name2> を区切り文字、最大分割数を <val3> として <name4> を最後から分割してリスト型にして返して、 <name1> に代入する
+<name1> = <name2> . rsplit ( <name3> , <val4> )	<name3> を区切り文字、最大分割数を <val4> として <name2> を最後から分割してリスト型にして返して、 <name1> に代入する
+<name4> = <name2> . rsplit ( <name3> , <val1> )	<name3> を区切り文字、最大分割数を <val1> として <name2> を最後から分割してリスト型にして返された結果を <name4> に代入する
+<name1> = <name2> . rsplit ( <name3> , <val4> )	<name3> を区切り文字、最大分割数を <val4> として <name2> を最後から分割してリスト型にして返された結果を <name1> に代入する
+<name3> . replace ( <name5> , <name1> )	<name3> 内の <name5> を <name1> に置き換えた文字列
+<name1> . replace ( <name2> , <name3> )	<name1> 内の <name2> を <name3> に置き換えた文字列
+<name2> = <name3> . replace ( <name6> , <name5> )	<name3> 内の <name6> を <name5> に置き換えた文字列を <name2> とする
+<name1> = <name2> . replace ( <name3> , <name4> )	<name2> 内の <name3> を <name4> に置き換えた文字列を <name1> とする
+<name5> . strip ( )	<name5> の両端から空白改行を除いた文字列
+<name1> . strip ( )	<name1> の両端から空白改行を除いた文字列
+<name3> = <name5> . strip ( )	<name5> の両端から空白改行を抜いた文字列を <name3> にする
+<name1> = <name2> . strip ( )	<name2> の両端から空白改行を抜いた文字列を <name1> にする
+<name2> . strip ( <val4> )	<name2> の両端から <val4> を取り除いた文字列
+<name1> . strip ( <val2> )	<name1> の両端から <val2> を取り除いた文字列
+<name2> = <name3> . strip ( <val6> )	<name3> の両端から <val6> を抜いた文字列を <name2> にする
+<name1> = <name2> . strip ( <val3> )	<name2> の両端から <val3> を抜いた文字列を <name1> にする
+<name5> . lstrip ( )	<name5> の左側から空白改行を取り除いた文字列
+<name1> . lstrip ( )	<name1> の左側から空白改行を取り除いた文字列
+<name2> = <name5> . lstrip ( )	<name5> の先頭から空白改行を取り除いた文字列を <name2> に代入する
+<name1> = <name2> . lstrip ( )	<name2> の先頭から空白改行を取り除いた文字列を <name1> に代入する
+<name6> . lstrip ( <val4> )	<name6> の左側から <val4> を取り除いた文字列
+<name1> . lstrip ( <val2> )	<name1> の左側から <val2> を取り除いた文字列
+<name1> = <name3> . lstrip ( <val6> )	<name3> の先頭から <val6> を取り除いた文字列を <name1> に代入する
+<name1> = <name2> . lstrip ( <val3> )	<name2> の先頭から <val3> を取り除いた文字列を <name1> に代入する
+<name4> . rstrip ( )	<name4> の終わりから空白改行を取り除いた文字列
+<name1> . rstrip ( )	<name1> の終わりから空白改行を取り除いた文字列
+<name3> = <name2> . rstrip ( )	<name2> の最後から空白改行を取り除いた文字列を <name3> に代入する
+<name1> = <name2> . rstrip ( )	<name2> の最後から空白改行を取り除いた文字列を <name1> に代入する
+<name3> . rstrip ( <val4> )	<name3> の後ろから <val4> を取り除いた文字
+<name1> . rstrip ( <val2> )	<name1> の後ろから <val2> を取り除いた文字
+<name4> = <name2> . rstrip ( <val5> )	<name2> の終わりから <val5> を取り除いた文字を <name4> にする
+<name1> = <name2> . rstrip ( <val3> )	<name2> の終わりから <val3> を取り除いた文字を <name1> にする
+<name2> . zfill ( <name3> )	<name2> を長さが <name3> になるように左を '0' で埋めた文字列
+<name1> . zfill ( <name2> )	<name1> を長さが <name2> になるように左を '0' で埋めた文字列
+<name4> = <name3> . zfill ( <name2> )	<name3> を長さが <name2> になるように左を '0' で埋めた文字列を <name4> とする
+<name1> = <name2> . zfill ( <name3> )	<name2> を長さが <name3> になるように左を '0' で埋めた文字列を <name1> とする
+<name6> . zfill ( <name1> )	<name6> を長さが <name1> になるように '0' で右寄せした文字列
+<name1> . zfill ( <name2> )	<name1> を長さが <name2> になるように '0' で右寄せした文字列
+<name6> = <name2> . zfill ( <name4> )	<name2> を長さが <name4> になるように '0' で右寄せした文字列を <name6> にする
+<name1> = <name2> . zfill ( <name3> )	<name2> を長さが <name3> になるように '0' で右寄せした文字列を <name1> にする
+<name6> . capitalize ( )	<name6> の先頭を英大文字、残りを全て英小文字にした文字列
+<name1> . capitalize ( )	<name1> の先頭を英大文字、残りを全て英小文字にした文字列
+<name3> = <name1> . capitalize ( )	<name1> の最初を英大文字、残りを全て英小文字に変換した文字列を <name3> に代入する
+<name1> = <name2> . capitalize ( )	<name2> の最初を英大文字、残りを全て英小文字に変換した文字列を <name1> に代入する
+<name5> . strswap ( )	<name5> の英大小文字を逆にした文字列
+<name1> . strswap ( )	<name1> の英大小文字を逆にした文字列
+<name4> = <name2> . strswap ( )	<name2> の英大小文字を逆にした文字列を <name4> とする
+<name1> = <name2> . strswap ( )	<name2> の英大小文字を逆にした文字列を <name1> とする
+<name3> . strswap ( )	<name3> の英大文字と英小文字を逆にした文字列
+<name1> . strswap ( )	<name1> の英大文字と英小文字を逆にした文字列
+<name3> = <name1> . strswap ( )	<name1> の英大文字と英小文字を交換した文字列を <name3> に代入する
+<name1> = <name2> . strswap ( )	<name2> の英大文字と英小文字を交換した文字列を <name1> に代入する
+<name2> . find ( <val4> )	<name2> の最初から <val4> を探して見つかった位置
+<name1> . find ( <val2> )	<name1> の最初から <val2> を探して見つかった位置
+<name3> = <name1> . find ( <val5> )	<name1> の最初から <val5> を探して見つかった位置を <name3> とする
+<name1> = <name2> . find ( <val3> )	<name2> の最初から <val3> を探して見つかった位置を <name1> とする
+<name6> . find ( <val5> )	<name6> 内の <val5> がある位置
+<name1> . find ( <val2> )	<name1> 内の <val2> がある位置
+<name3> = <name6> . find ( <val1> )	<name6> 内の <val1> がある位置を <name3> にする
+<name1> = <name2> . find ( <val3> )	<name2> 内の <val3> がある位置を <name1> にする
+<name2> . find ( <val5> , <val3> )	<name2> の <val3> 番目から <val5> を探して見つかった位置
+<name1> . find ( <val2> , <val3> )	<name1> の <val3> 番目から <val2> を探して見つかった位置
+<name1> = <name4> . find ( <val5> , <val3> )	<name4> の <val3> 番目から <val5> を探して見つかった位置を <name1> にする
+<name1> = <name2> . find ( <val3> , <val4> )	<name2> の <val4> 番目から <val3> を探して見つかった位置を <name1> にする
+<name1> . find ( <val3> , <val6> )	<name1> 内の <val6> 番目以降に <val3> がある位置
+<name1> . find ( <val2> , <val3> )	<name1> 内の <val3> 番目以降に <val2> がある位置
+<name1> = <name3> . find ( <val4> , <val2> )	<name3> 内の <val2> 番目以降に <val4> がある位置を <name1> に代入する
+<name1> = <name2> . find ( <val3> , <val4> )	<name2> 内の <val4> 番目以降に <val3> がある位置を <name1> に代入する
+<name5> . find ( <val4> , <val3> , <val2> )	<name5> の <val3> 番目から <val2> 番目の間で <val4> を探して見つかった位置
+<name1> . find ( <val2> , <val3> , <val4> )	<name1> の <val3> 番目から <val4> 番目の間で <val2> を探して見つかった位置
+<name3> = <name1> . find ( <val2> , <val4> , <val5> )	<name1> の <val4> 番目から <val5> 番目の間で <val2> を探して見つかった位置を <name3> にする
+<name1> = <name2> . find ( <val3> , <val4> , <val5> )	<name2> の <val4> 番目から <val5> 番目の間で <val3> を探して見つかった位置を <name1> にする
+<name5> . find ( <val1> , <val4> , <val2> )	<name5> 内の <val4> 番目から <val2> 番目に <val1> がある位置
+<name1> . find ( <val2> , <val3> , <val4> )	<name1> 内の <val3> 番目から <val4> 番目に <val2> がある位置
+<name4> = <name2> . find ( <val1> , <val6> , <val5> )	<name2> 内の <val6> 番目から <val5> 番目に <val1> がある位置を <name4> とする
+<name1> = <name2> . find ( <val3> , <val4> , <val5> )	<name2> 内の <val4> 番目から <val5> 番目に <val3> がある位置を <name1> とする
+<name3> . rfind ( <val5> )	<name3> の後ろから <val5> を探して見つかった位置
+<name1> . rfind ( <val2> )	<name1> の後ろから <val2> を探して見つかった位置
+<name4> = <name6> . rfind ( <val1> )	<name6> の後ろから <val1> を探して見つかった位置を <name4> に代入する
+<name1> = <name2> . rfind ( <val3> )	<name2> の後ろから <val3> を探して見つかった位置を <name1> に代入する
+<name2> . rfind ( <val6> )	<name2> 内の <val6> がある後ろ側の位置
+<name1> . rfind ( <val2> )	<name1> 内の <val2> がある後ろ側の位置
+<name3> = <name6> . rfind ( <val2> )	<name6> 内の <val2> がある後ろ側の位置を <name3> にする
+<name1> = <name2> . rfind ( <val3> )	<name2> 内の <val3> がある後ろ側の位置を <name1> にする
+<name4> . rfind ( <val3> , <val2> )	<name4> の <val2> 番目から <val3> を後ろから探して見つかった位置
+<name1> . rfind ( <val2> , <val3> )	<name1> の <val3> 番目から <val2> を後ろから探して見つかった位置
+<name2> = <name6> . rfind ( <val1> , <val4> )	<name6> の <val4> 番目から <val1> を後ろから探して見つかった位置を <name2> に代入する
+<name1> = <name2> . rfind ( <val3> , <val4> )	<name2> の <val4> 番目から <val3> を後ろから探して見つかった位置を <name1> に代入する
+<name1> . rfind ( <val3> , <val2> )	<name1> 内の <val2> 番目以降に <val3> がある後ろ側の位置
+<name1> . rfind ( <val2> , <val3> )	<name1> 内の <val3> 番目以降に <val2> がある後ろ側の位置
+<name1> = <name4> . rfind ( <val3> , <val6> )	<name4> 内の <val6> 番目以降に <val3> がある右側の位置を <name1> に代入する
+<name1> = <name2> . rfind ( <val3> , <val4> )	<name2> 内の <val4> 番目以降に <val3> がある右側の位置を <name1> に代入する
+<name5> . rfind ( <val4> , <val6> , <val2> )	<name5> の <val6> 番目から <val2> 番目の間で <val4> を後ろから探して見つかった位置
+<name1> . rfind ( <val2> , <val3> , <val4> )	<name1> の <val3> 番目から <val4> 番目の間で <val2> を後ろから探して見つかった位置
+<name4> = <name3> . rfind ( <val2> , <val6> , <val1> )	<name3> の <val6> 番目から <val1> 番目の間で <val2> を後ろから探して見つかった位置を <name4> とする
+<name1> = <name2> . rfind ( <val3> , <val4> , <val5> )	<name2> の <val4> 番目から <val5> 番目の間で <val3> を後ろから探して見つかった位置を <name1> とする
+<name6> . rfind ( <val1> , <val4> , <val3> )	<name6> 内の <val4> 番目から <val3> 番目に <val1> がある右側の位置
+<name1> . rfind ( <val2> , <val3> , <val4> )	<name1> 内の <val3> 番目から <val4> 番目に <val2> がある右側の位置
+<name5> = <name6> . rfind ( <val3> , <val4> , <val1> )	<name6> 内の <val4> 番目から <val1> 番目に <val3> がある後ろ側の位置を <name5> にする
+<name1> = <name2> . rfind ( <val3> , <val4> , <val5> )	<name2> 内の <val4> 番目から <val5> 番目に <val3> がある後ろ側の位置を <name1> にする
+'' . join ( <name2> )	<name2> 内の要素を連結した文字列
+'' . join ( <name1> )	<name1> 内の要素を連結した文字列
+<name2> = '' . join ( <name1> )	<name1> 内の要素を連結した文字列を <name2> とする
+<name1> = '' . join ( <name2> )	<name2> 内の要素を連結した文字列を <name1> とする
+<val6> . join ( <name4> )	<val6> を間に入れて <name4> 内の要素を連結した文字列
+<val1> . join ( <name2> )	<val1> を間に入れて <name2> 内の要素を連結した文字列
+<name2> = <val4> . join ( <name1> )	<val4> を間に入れて <name1> 内の値を連結した文字列を <name2> とする
+<name1> = <val2> . join ( <name3> )	<val2> を間に入れて <name3> 内の値を連結した文字列を <name1> とする
+<name1> . count ( <name4> )	<name1> 内の <name4> の出現回数
+<name1> . count ( <name2> )	<name1> 内の <name2> の出現回数
+<name1> . count ( <name6> )	<name1> 内の <name6> の出現回数を見る
+<name1> . count ( <name2> )	<name1> 内の <name2> の出現回数を見る
+<name6> . startswith ( <name5> )	<name6> の先頭が <name5> で始まる{かどうか}
+<name1> . startswith ( <name2> )	<name1> の先頭が <name2> で始まる{かどうか}
+if <name6> . startswith ( <name5> ) :	もし <name6> の先頭が <name5> で始まる{かどうか}なら
+if <name1> . startswith ( <name2> ) :	もし <name1> の先頭が <name2> で始まる{かどうか}なら
+<name6> . startswith ( <name5> )	<name6> が <name5> で始まるかどうか
+<name1> . startswith ( <name2> )	<name1> が <name2> で始まるかどうか
+if <name2> . startswith ( <name3> ) :	<name2> が <name3> で始まるなら
+if <name1> . startswith ( <name2> ) :	<name1> が <name2> で始まるなら
+<name3> . startswith ( <name5> , <val2> )	<name3> の <val2> 番目が <name5> で始まる{かどうか}
+<name1> . startswith ( <name2> , <val3> )	<name1> の <val3> 番目が <name2> で始まる{かどうか}
+if <name3> . startswith ( <name5> , <val1> ) :	もし <name3> の <val1> 番目が <name5> で始まる{かどうか}のとき
+if <name1> . startswith ( <name2> , <val3> ) :	もし <name1> の <val3> 番目が <name2> で始まる{かどうか}のとき
+<name2> . endswith ( <name3> )	<name2> の後ろが <name3> で終わるかどうか
+<name1> . endswith ( <name2> )	<name1> の後ろが <name2> で終わるかどうか
+if <name1> . endswith ( <name2> ) :	<name1> の末尾が <name2> で終わるならば
+<name6> . endswith ( <name1> )	<name6> の後ろが <name1> であるかどうか
+<name1> . endswith ( <name2> )	<name1> の後ろが <name2> であるかどうか
+if <name4> . endswith ( <name6> ) :	もし <name4> の末尾が <name6> であるのとき
+if <name1> . endswith ( <name2> ) :	もし <name1> の末尾が <name2> であるのとき
+<name6> . endswith ( <name5> , <val3> )	<name6> の <val3> 番目が <name5> で終わるかどうか
+<name1> . endswith ( <name2> , <val3> )	<name1> の <val3> 番目が <name2> で終わるかどうか
+if <name1> . endswith ( <name6> , <val5> ) :	もし <name1> の <val5> 番目が <name6> で終わるの場合
+if <name1> . endswith ( <name2> , <val3> ) :	もし <name1> の <val3> 番目が <name2> で終わるの場合
+<name4> . isupper ( )	<name4> が英大文字かどうか
+<name1> . isupper ( )	<name1> が英大文字かどうか
+if <name2> . isupper ( ) :	もし <name2> が英大文字のとき
+if <name1> . isupper ( ) :	もし <name1> が英大文字のとき
+<name4> . isupper ( )	<name4> 中の全ての文字が英大文字かどうか
+<name1> . isupper ( )	<name1> 中の全ての文字が英大文字かどうか
+if <name1> . isupper ( ) :	もし <name1> 中の全ての文字が英大文字のとき
+<name1> . isupper ( )	<name1> 中の全ての英字が大文字かどうか
+if <name4> . isupper ( ) :	もし <name4> 中の全ての英字が大文字ならば
+if <name1> . isupper ( ) :	もし <name1> 中の全ての英字が大文字ならば
+<name3> . isupper ( )	<name3> 中の英字全てが大文字かどうか
+<name1> . isupper ( )	<name1> 中の英字全てが大文字かどうか
+if <name5> . isupper ( ) :	もし <name5> 中の英字全てが大文字ならば
+if <name1> . isupper ( ) :	もし <name1> 中の英字全てが大文字ならば
+<name6> . islower ( )	<name6> が英小文字かどうか
+<name1> . islower ( )	<name1> が英小文字かどうか
+if <name4> . islower ( ) :	もし <name4> が英小文字のとき
+if <name1> . islower ( ) :	もし <name1> が英小文字のとき
+<name1> . islower ( )	<name1> 中の全ての文字が英小文字かどうか
+if <name4> . islower ( ) :	もし <name4> 中の全ての文字が英小文字の場合
+if <name1> . islower ( ) :	もし <name1> 中の全ての文字が英小文字の場合
+<name3> . islower ( )	<name3> 中の全ての英字が小文字かどうか
+<name1> . islower ( )	<name1> 中の全ての英字が小文字かどうか
+if <name6> . islower ( ) :	もし <name6> 中の全ての英字が小文字ならば
+if <name1> . islower ( ) :	もし <name1> 中の全ての英字が小文字ならば
+<name6> . islower ( )	<name6> 中の英字全てが小文字かどうか
+<name1> . islower ( )	<name1> 中の英字全てが小文字かどうか
+if <name4> . islower ( ) :	もし <name4> 中の英字全てが小文字の場合
+if <name1> . islower ( ) :	もし <name1> 中の英字全てが小文字の場合
+<name2> . isdigit ( )	<name2> が数字かどうか
+<name1> . isdigit ( )	<name1> が数字かどうか
+if <name6> . isdigit ( ) :	もし <name6> が数字ならば
+if <name1> . isdigit ( ) :	もし <name1> が数字ならば
+<name2> . isdigit ( )	<name2> 中の全ての文字が数字かどうか
+<name1> . isdigit ( )	<name1> 中の全ての文字が数字かどうか
+if <name4> . isdigit ( ) :	<name4> 中の全ての文字が数字なら
+if <name1> . isdigit ( ) :	<name1> 中の全ての文字が数字なら
+<name1> . isdigit ( )	<name1> 全てが数字かどうか
+if <name1> . isdigit ( ) :	もし <name1> 全てが数字の場合
+<name6> . isdigit ( )	<name6> が数字であるかどうか
+<name1> . isdigit ( )	<name1> が数字であるかどうか
+if <name5> . isdigit ( ) :	もし <name5> が数字であるなら
+if <name1> . isdigit ( ) :	もし <name1> が数字であるなら
+<name5> . isalpha ( )	<name5> が全てアルファベットかどうか
+<name1> . isalpha ( )	<name1> が全てアルファベットかどうか
+if <name1> . isalpha ( ) :	もし <name1> が全てアルファベットならば
+<name5> . isalnum ( )	<name5> が全て英数字かどうか
+<name1> . isalnum ( )	<name1> が全て英数字かどうか
+if <name6> . isalnum ( ) :	もし <name6> が全て英数字のとき
+if <name1> . isalnum ( ) :	もし <name1> が全て英数字のとき
+<name3> . isascii ( )	<name3> が全て ASCII 文字かどうか
+<name1> . isascii ( )	<name1> が全て ASCII 文字かどうか
+if <name4> . isascii ( ) :	もし <name4> が全て ASCII 文字なら
+if <name1> . isascii ( ) :	もし <name1> が全て ASCII 文字なら
+<name1> . isdecimal ( )	<name1> が全て数字かどうか
+if <name5> . isdecimal ( ) :	もし <name5> が全て数字ならば
+if <name1> . isdecimal ( ) :	もし <name1> が全て数字ならば
+<name2> . isnumeric ( )	<name2> が全て数字かどうか
+<name1> . isnumeric ( )	<name1> が全て数字かどうか
+if <name6> . isnumeric ( ) :	もし <name6> が全て数字ならば
+if <name1> . isnumeric ( ) :	もし <name1> が全て数字ならば
+<name5> . isidentifier ( )	<name5> が識別子として利用可能かどうか
+<name1> . isidentifier ( )	<name1> が識別子として利用可能かどうか
+if <name5> . isidentifier ( ) :	もし <name5> が識別子として利用可能なら
+if <name1> . isidentifier ( ) :	もし <name1> が識別子として利用可能なら
+<name4> . isprintable ( )	<name4> が印字可能かどうか
+<name1> . isprintable ( )	<name1> が印字可能かどうか
+if <name2> . isprintable ( ) :	もし <name2> が印字可能なら
+if <name1> . isprintable ( ) :	もし <name1> が印字可能なら
+set ( )	空のセット
+<name2> = set ( )	空の集合を <name2> に代入する
+<name1> = set ( )	空の集合を <name1> に代入する
+set ( )	空集合
+<name2> = set ( )	空集合を <name2> に代入する
+<name1> = set ( )	空集合を <name1> に代入する
+set ( <name4> )	<name4> のセット
+set ( <name1> )	<name1> のセット
+<name4> = set ( <name6> )	<name6> の集合を <name4> とする
+<name1> = set ( <name2> )	<name2> の集合を <name1> とする
+<name3> . add ( <val5> )	<name3> に <val5> を追加する
+<name1> . add ( <val2> )	<name1> に <val2> を追加する
+<name1> . remove ( <val4> )	<name1> から <val4> を取り除く
+<name1> . remove ( <val2> )	<name1> から <val2> を取り除く
+<name1> . union ( <name3> )	<name1> と <name3> の和集合
+<name1> . union ( <name2> )	<name1> と <name2> の和集合
+<name1> . union ( <name4> )	<name1> と <name4> の和集合を計算する
+<name1> . union ( <name2> )	<name1> と <name2> の和集合を計算する
+<name5> . union ( <name2> )	<name5> と <name2> の和集合を抽出する
+<name1> . union ( <name2> )	<name1> と <name2> の和集合を抽出する
+<name4> . intersection ( <name3> )	<name4> と <name3> の積集合
+<name1> . intersection ( <name2> )	<name1> と <name2> の積集合
+<name2> . intersection ( <name3> )	<name2> と <name3> の積集合を算出する
+<name1> . intersection ( <name2> )	<name1> と <name2> の積集合を算出する
+<name6> . intersection ( <name3> )	<name6> と <name3> の積集合を得る
+<name1> . intersection ( <name2> )	<name1> と <name2> の積集合を得る
+<name5> . intersection ( <name2> )	<name5> と <name2> の積集合
+<name1> . intersection ( <name2> )	<name1> と <name2> の積集合
+<name1> . intersection ( <name6> )	<name1> と <name6> の共通部分を求める
+<name1> . intersection ( <name2> )	<name1> と <name2> の共通部分を求める
+<name1> . intersection ( <name2> )	<name1> と <name2> の共通部分を得る
+<name2> . difference ( <name1> )	<name2> と <name1> の差集合
+<name1> . difference ( <name2> )	<name1> と <name2> の差集合
+<name5> . difference ( <name6> )	<name5> と <name6> の差集合を計算する
+<name1> . difference ( <name2> )	<name1> と <name2> の差集合を計算する
+<name5> . difference ( <name6> )	<name5> と <name6> の差集合を得る
+<name1> . difference ( <name2> )	<name1> と <name2> の差集合を得る
+<name3> . symmetric_difference ( <name2> )	<name3> と <name2> の対称差集合
+<name1> . symmetric_difference ( <name2> )	<name1> と <name2> の対称差集合
+<name4> . symmetric_difference ( <name3> )	<name4> と <name3> の対称差を計算する
+<name1> . symmetric_difference ( <name2> )	<name1> と <name2> の対称差を計算する
+<name2> . symmetric_difference ( <name3> )	<name2> と <name3> の対称差集合をえる
+<name1> . symmetric_difference ( <name2> )	<name1> と <name2> の対称差集合をえる
+<name5> . issubset ( <name1> )	<name5> が <name1> の部分集合かどうか
+<name1> . issubset ( <name2> )	<name1> が <name2> の部分集合かどうか
+if <name6> . issubset ( <name3> ) :	もし <name6> が <name3> の部分集合なら
+if <name1> . issubset ( <name2> ) :	もし <name1> が <name2> の部分集合なら
+<name2> . issuperset ( <name5> )	<name2> が <name5> の上位集合かどうか
+<name1> . issuperset ( <name2> )	<name1> が <name2> の上位集合かどうか
+if <name3> . issuperset ( <name4> ) :	もし <name3> が <name4> の上位集合ならば
+if <name1> . issuperset ( <name2> ) :	もし <name1> が <name2> の上位集合ならば
+<name3> . isdisjoint ( <name4> )	<name3> が <name4> と互いに素かどうか
+<name1> . isdisjoint ( <name2> )	<name1> が <name2> と互いに素かどうか
+if <name6> . isdisjoint ( <name1> ) :	<name6> が <name1> と互いに素の場合
+if <name1> . isdisjoint ( <name2> ) :	<name1> が <name2> と互いに素の場合
+<name6> . isdisjoint ( <name5> )	<name6> と <name5> が互いに素かどうか
+<name1> . isdisjoint ( <name2> )	<name1> と <name2> が互いに素かどうか
+if <name6> . isdisjoint ( <name3> ) :	もし <name6> と <name3> が互いに素なら
+if <name1> . isdisjoint ( <name2> ) :	もし <name1> と <name2> が互いに素なら
+frozenset ( )	イミュータブルなセット
+<name5> = frozenset ( )	イミュータブルなセットを <name5> にする
+<name1> = frozenset ( )	イミュータブルなセットを <name1> にする
+frozenset ( <name3> )	<name3> のイミュータブルなセット
+frozenset ( <name1> )	<name1> のイミュータブルなセット
+<name2> = frozenset ( <name3> )	<name3> のイミュータブルなセットを <name2> とする
+<name1> = frozenset ( <name2> )	<name2> のイミュータブルなセットを <name1> とする
+breakpoint ( )	デバッガーを起動する
+globals	グローバル変数の辞書
+locals	ローカル変数の辞書
+import <name2>	<name2> モジュールをインポートする
+import <name1>	<name1> モジュールをインポートする
+random . random ( )	0.0 〜 1.0 の乱数
+random . random ( )	0.0 以上 1.0 未満の乱数
+random . randrange ( <val3> )	0 から <val3> 未満までの整数乱数
+random . randrange ( <val1> )	0 から <val1> 未満までの整数乱数
+<name3> = random . randrange ( <val2> )	0 から <val2> 未満までの整数乱数を <name3> とする
+<name1> = random . randrange ( <val2> )	0 から <val2> 未満までの整数乱数を <name1> とする
+random . randrange ( <val1> )	<val1> 未満までの整数乱数
+<name3> = random . randrange ( <val5> )	<val5> 未満までの整数乱数を <name3> とする
+<name1> = random . randrange ( <val2> )	<val2> 未満までの整数乱数を <name1> とする
+random . randrange ( <val6> , <val2> )	<val6> から <val2> 未満までの整数乱数
+random . randrange ( <val1> , <val2> )	<val1> から <val2> 未満までの整数乱数
+<name1> = random . randrange ( <val3> , <val6> )	<val3> から <val6> 未満までの整数乱数を <name1> とする
+<name1> = random . randrange ( <val2> , <val3> )	<val2> から <val3> 未満までの整数乱数を <name1> とする
+random . randrange ( <val5> , <val1> )	<val5> 以上 <val1> 未満までの整数乱数
+random . randrange ( <val1> , <val2> )	<val1> 以上 <val2> 未満までの整数乱数
+<name6> = random . randrange ( <val2> , <val4> )	<val2> 以上 <val4> 未満までの整数乱数を <name6> に代入する
+<name1> = random . randrange ( <val2> , <val3> )	<val2> 以上 <val3> 未満までの整数乱数を <name1> に代入する
+random . randint ( <val6> , <val3> )	<val6> 以上 <val3> 以下の整数乱数
+random . randint ( <val1> , <val2> )	<val1> 以上 <val2> 以下の整数乱数
+<name3> = random . randint ( <val5> , <val2> )	<val5> 以上 <val2> 以下の整数乱数を <name3> に代入する
+<name1> = random . randint ( <val2> , <val3> )	<val2> 以上 <val3> 以下の整数乱数を <name1> に代入する
+random . seed ( <val1> )	乱数シードを <val1> に固定する
+random . seed ( <val5> )	乱数シードを <val5> として乱数生成器を初期化する
+random . seed ( <val1> )	乱数シードを <val1> として乱数生成器を初期化する
+random . choice ( <name6> )	<name6> からランダムに要素をチョイスする
+random . choice ( <name1> )	<name1> からランダムに要素をチョイスする
+random . sample ( <name4> , <val5> )	<name4> からランダムに要素を <val5> つチョイスする
+random . sample ( <name1> , <val2> )	<name1> からランダムに要素を <val2> つチョイスする
+random . shuffle ( <name1> )	<name1> をランダムにシャッフルする
+import <name3>	<name3> モジュールをインポートする
+import <name1>	<name1> モジュールをインポートする
+math . sqrt ( <name4> )	<name4> の平方根
+math . sqrt ( <name1> )	<name1> の平方根
+math . sqrt ( <name4> )	<name4> の平方根を表示する
+math . sqrt ( <name1> )	<name1> の平方根を表示する
+math . sqrt ( <name6> )	<name6> の平方根を算出する
+math . sqrt ( <name1> )	<name1> の平方根を算出する
+<name4> = math . sqrt ( <name2> )	<name2> の平方根を <name4> に代入する
+<name1> = math . sqrt ( <name2> )	<name2> の平方根を <name1> に代入する
+math . sqrt ( <name2> )	<name2> のルート
+math . sqrt ( <name1> )	<name1> のルート
+math . sqrt ( <name3> )	<name3> のルートを調べる
+math . sqrt ( <name1> )	<name1> のルートを調べる
+math . sqrt ( <name2> )	<name2> のルートを求める
+math . sqrt ( <name1> )	<name1> のルートを求める
+<name4> = math . sqrt ( <name5> )	<name5> のルートを <name4> に代入する
+<name1> = math . sqrt ( <name2> )	<name2> のルートを <name1> に代入する
+math . ceil ( <name5> )	<name5> の小数点以下切り上げ
+math . ceil ( <name1> )	<name1> の小数点以下切り上げ
+math . ceil ( <name2> )	<name2> の切り上げを調べる
+math . ceil ( <name1> )	<name1> の切り上げを調べる
+math . ceil ( <name5> )	<name5> の切り上げを計算する
+math . ceil ( <name1> )	<name1> の切り上げを計算する
+<name2> = math . ceil ( <name4> )	<name4> の切り上げを <name2> にする
+<name1> = math . ceil ( <name2> )	<name2> の切り上げを <name1> にする
+math . ceil ( <name2> )	<name2> を最も近い数値に切り上げ
+math . ceil ( <name1> )	<name1> を最も近い数値に切り上げ
+math . ceil ( <name5> )	<name5> を最も近い整数に切り上げを調べる
+math . ceil ( <name1> )	<name1> を最も近い整数に切り上げを調べる
+math . ceil ( <name4> )	<name4> を最も近い整数に切り上げを算出する
+math . ceil ( <name1> )	<name1> を最も近い整数に切り上げを算出する
+<name4> = math . ceil ( <name1> )	<name1> を最も近い整数に切り上げを <name4> にする
+<name1> = math . ceil ( <name2> )	<name2> を最も近い整数に切り上げを <name1> にする
+math . ceil ( <name5> )	<name5> に最も近い数値に切り上げ
+math . ceil ( <name1> )	<name1> に最も近い数値に切り上げ
+math . ceil ( <name6> )	<name6> に最も近い数値に切り上げを調べる
+math . ceil ( <name1> )	<name1> に最も近い数値に切り上げを調べる
+math . ceil ( <name3> )	<name3> に最も近い整数に切り上げを計算する
+math . ceil ( <name1> )	<name1> に最も近い整数に切り上げを計算する
+<name6> = math . ceil ( <name5> )	<name5> に最も近い整数に切り上げを <name6> に代入する
+<name1> = math . ceil ( <name2> )	<name2> に最も近い整数に切り上げを <name1> に代入する
+math . floor ( <name3> )	<name3> の小数点以下切り捨て
+math . floor ( <name1> )	<name1> の小数点以下切り捨て
+math . floor ( <name2> )	<name2> の切り捨てを表示する
+math . floor ( <name1> )	<name1> の切り捨てを表示する
+math . floor ( <name3> )	<name3> の小数点以下切り捨てを算出する
+math . floor ( <name1> )	<name1> の小数点以下切り捨てを算出する
+<name4> = math . floor ( <name1> )	<name1> の小数点以下切り捨てを <name4> にする
+<name1> = math . floor ( <name2> )	<name2> の小数点以下切り捨てを <name1> にする
+math . floor ( <name2> )	<name2> を最も近い整数に切り捨て
+math . floor ( <name1> )	<name1> を最も近い整数に切り捨て
+math . floor ( <name6> )	<name6> を最も近い整数に切り捨てを調べる
+math . floor ( <name1> )	<name1> を最も近い整数に切り捨てを調べる
+math . floor ( <name5> )	<name5> を最も近い整数に切り捨てを算出する
+math . floor ( <name1> )	<name1> を最も近い整数に切り捨てを算出する
+<name5> = math . floor ( <name4> )	<name4> を最も近い整数に切り捨てを <name5> に代入する
+<name1> = math . floor ( <name2> )	<name2> を最も近い整数に切り捨てを <name1> に代入する
+math . floor ( <name3> )	<name3> に最も近い整数に切り捨て
+math . floor ( <name1> )	<name1> に最も近い整数に切り捨て
+math . floor ( <name5> )	<name5> に最も近い整数に切り捨てを見る
+math . floor ( <name1> )	<name1> に最も近い整数に切り捨てを見る
+math . floor ( <name6> )	<name6> に最も近い整数に切り捨てを求める
+math . floor ( <name1> )	<name1> に最も近い整数に切り捨てを求める
+<name2> = math . floor ( <name5> )	<name5> に最も近い整数に切り捨てを <name2> に代入する
+<name1> = math . floor ( <name2> )	<name2> に最も近い整数に切り捨てを <name1> に代入する
+math . gcd ( <name2> , <name3> )	<name2> と <name3> の最大公約数
+math . gcd ( <name1> , <name2> )	<name1> と <name2> の最大公約数
+math . gcd ( <name2> , <name6> )	<name2> と <name6> の最大公約数をチェックする
+math . gcd ( <name1> , <name2> )	<name1> と <name2> の最大公約数をチェックする
+math . gcd ( <name5> , <name6> )	<name5> と <name6> の最大公約数を計算する
+math . gcd ( <name1> , <name2> )	<name1> と <name2> の最大公約数を計算する
+<name1> = math . gcd ( <name3> , <name5> )	<name3> と <name5> の最大公約数を <name1> にする
+<name1> = math . gcd ( <name2> , <name3> )	<name2> と <name3> の最大公約数を <name1> にする
+math . lcm ( <name5> , <name1> )	<name5> と <name1> の最小公倍数
+math . lcm ( <name1> , <name2> )	<name1> と <name2> の最小公倍数
+math . lcm ( <name3> , <name6> )	<name3> と <name6> の最小公倍数を見る
+math . lcm ( <name1> , <name2> )	<name1> と <name2> の最小公倍数を見る
+math . lcm ( <name3> , <name2> )	<name3> と <name2> の最小公倍数を計算する
+math . lcm ( <name1> , <name2> )	<name1> と <name2> の最小公倍数を計算する
+<name2> = math . lcm ( <name5> , <name4> )	<name5> と <name4> の最小公倍数を <name2> とする
+<name1> = math . lcm ( <name2> , <name3> )	<name2> と <name3> の最小公倍数を <name1> とする
+math . comb ( <name4> , <name3> )	<name4> と <name3> の組み合わせ
+math . comb ( <name1> , <name2> )	<name1> と <name2> の組み合わせ
+math . comb ( <name4> , <name2> )	<name4> と <name2> の組み合わせを確認する
+math . comb ( <name1> , <name2> )	<name1> と <name2> の組み合わせを確認する
+math . comb ( <name2> , <name1> )	<name2> と <name1> のコンビネーションを算出する
+math . comb ( <name1> , <name2> )	<name1> と <name2> のコンビネーションを算出する
+<name6> = math . comb ( <name5> , <name2> )	<name5> と <name2> のコンビネーションを <name6> に代入する
+<name1> = math . comb ( <name2> , <name3> )	<name2> と <name3> のコンビネーションを <name1> に代入する
+math . copysign ( <name3> , <name4> )	<name4> の符号を持った <name3>
+math . copysign ( <name1> , <name2> )	<name2> の符号を持った <name1>
+math . copysign ( <name1> , <name3> )	<name3> の符号を持った <name1> を確認する
+math . copysign ( <name1> , <name2> )	<name2> の符号を持った <name1> を確認する
+math . copysign ( <name5> , <name6> )	<name6> の符号を持った <name5> を求める
+math . copysign ( <name1> , <name2> )	<name2> の符号を持った <name1> を求める
+<name5> = math . copysign ( <name2> , <name3> )	<name3> の符号を持った <name2> を <name5> とする
+<name1> = math . copysign ( <name2> , <name3> )	<name3> の符号を持った <name2> を <name1> とする
+math . copysign ( <name3> , <name2> )	<name3> を <name2> の符号にした値
+math . copysign ( <name1> , <name2> )	<name1> を <name2> の符号にした値
+math . copysign ( <name2> , <name4> )	<name2> を <name4> の符号にした値を見る
+math . copysign ( <name1> , <name2> )	<name1> を <name2> の符号にした値を見る
+math . copysign ( <name2> , <name5> )	<name2> を <name5> の符号にした値を計算する
+math . copysign ( <name1> , <name2> )	<name1> を <name2> の符号にした値を計算する
+<name3> = math . copysign ( <name1> , <name6> )	<name1> を <name6> の符号にした値を <name3> とする
+<name1> = math . copysign ( <name2> , <name3> )	<name2> を <name3> の符号にした値を <name1> とする
+math . fabs ( <name1> )	<name1> の絶対値
+math . fabs ( <name1> )	<name1> の絶対値を表示する
+math . fabs ( <name4> )	<name4> の絶対値を求める
+math . fabs ( <name1> )	<name1> の絶対値を求める
+<name4> = math . fabs ( <name6> )	<name6> の絶対値を <name4> にする
+<name1> = math . fabs ( <name2> )	<name2> の絶対値を <name1> にする
+math . factorial ( <name1> )	<name1> の階乗
+math . factorial ( <name5> )	<name5> の階乗を調べる
+math . factorial ( <name1> )	<name1> の階乗を調べる
+math . factorial ( <name2> )	<name2> の階乗を計算する
+math . factorial ( <name1> )	<name1> の階乗を計算する
+<name1> = math . factorial ( <name4> )	<name4> の階乗を <name1> にする
+<name1> = math . factorial ( <name2> )	<name2> の階乗を <name1> にする
+math . frexp ( <name2> )	<name2> の仮数と指数
+math . frexp ( <name1> )	<name1> の仮数と指数
+math . frexp ( <name5> )	<name5> の仮数と指数を調べる
+math . frexp ( <name1> )	<name1> の仮数と指数を調べる
+math . frexp ( <name6> )	<name6> の仮数と指数を求める
+math . frexp ( <name1> )	<name1> の仮数と指数を求める
+math . isclose ( <name6> , <name3> )	<name6> と <name3> が近いかどうか
+math . isclose ( <name1> , <name2> )	<name1> と <name2> が近いかどうか
+math . isclose ( <name4> , <name2> )	<name4> と <name2> が近いかどうかを調べる
+math . isclose ( <name1> , <name2> )	<name1> と <name2> が近いかどうかを調べる
+math . isclose ( <name4> , <name1> )	<name4> と <name1> が近いかどうかを求める
+math . isclose ( <name1> , <name2> )	<name1> と <name2> が近いかどうかを求める
+if math . isclose ( <name2> , <name5> ) :	もし <name2> と <name5> が近いとき
+if math . isclose ( <name1> , <name2> ) :	もし <name1> と <name2> が近いとき
+math . isclose ( <name3> , <name1> )	<name3> と <name1> が近似値かどうか
+math . isclose ( <name1> , <name2> )	<name1> と <name2> が近似値かどうか
+math . isclose ( <name3> , <name5> )	<name3> と <name5> が近似値かどうかを確認する
+math . isclose ( <name1> , <name2> )	<name1> と <name2> が近似値かどうかを確認する
+math . isclose ( <name3> , <name6> )	<name3> と <name6> が近似値かどうかを求める
+math . isclose ( <name1> , <name2> )	<name1> と <name2> が近似値かどうかを求める
+if math . isclose ( <name6> , <name5> ) :	もし <name6> と <name5> が近似値の場合
+if math . isclose ( <name1> , <name2> ) :	もし <name1> と <name2> が近似値の場合
+math . isfinite ( <name1> )	<name1> が有限かどうか
+math . isfinite ( <name4> )	<name4> が有限かどうかを表示する
+math . isfinite ( <name1> )	<name1> が有限かどうかを表示する
+math . isfinite ( <name6> )	<name6> が有限かどうかを求める
+math . isfinite ( <name1> )	<name1> が有限かどうかを求める
+if math . isfinite ( <name3> ) :	もし <name3> が有限なら
+if math . isfinite ( <name1> ) :	もし <name1> が有限なら
+math . isinf ( <name3> )	<name3> が無限大かどうか
+math . isinf ( <name1> )	<name1> が無限大かどうか
+math . isinf ( <name1> )	<name1> が無限大かどうかを確認する
+math . isinf ( <name1> )	<name1> が無限大かどうかを算出する
+if math . isinf ( <name6> ) :	<name6> が無限大の場合
+if math . isinf ( <name1> ) :	<name1> が無限大の場合
+math . isnan ( <name6> )	<name6> が NaN かどうか
+math . isnan ( <name1> )	<name1> が NaN かどうか
+math . isnan ( <name5> )	<name5> が NaN かどうかを見る
+math . isnan ( <name1> )	<name1> が NaN かどうかを見る
+math . isnan ( <name4> )	<name4> が NaN かどうかを求める
+math . isnan ( <name1> )	<name1> が NaN かどうかを求める
+if math . isnan ( <name4> ) :	もし <name4> が NaN なら
+if math . isnan ( <name1> ) :	もし <name1> が NaN なら
+math . modf ( <name3> )	<name3> の小数部と整数部
+math . modf ( <name1> )	<name1> の小数部と整数部
+math . modf ( <name1> )	<name1> の小数部と整数部を調べる
+math . modf ( <name5> )	<name5> の小数部と整数部を計算する
+math . modf ( <name1> )	<name1> の小数部と整数部を計算する
+math . perm ( <name1> )	<name1> の順列の総数
+math . perm ( <name6> )	<name6> の順列の総数をチェックする
+math . perm ( <name1> )	<name1> の順列の総数をチェックする
+math . perm ( <name5> )	<name5> の順列の総数を算出する
+math . perm ( <name1> )	<name1> の順列の総数を算出する
+<name6> = math . perm ( <name2> )	<name2> の順列の総数を <name6> とする
+<name1> = math . perm ( <name2> )	<name2> の順列の総数を <name1> とする
+math . perm ( <name5> , <name6> )	<name5> から <name6> 個取り出した時の順列の総数
+math . perm ( <name1> , <name2> )	<name1> から <name2> 個取り出した時の順列の総数
+math . perm ( <name3> , <name5> )	<name3> から <name5> 個取り出した時の順列の総数を調べる
+math . perm ( <name1> , <name2> )	<name1> から <name2> 個取り出した時の順列の総数を調べる
+math . perm ( <name2> , <name3> )	<name2> から <name3> 個取り出した時の順列の総数を算出する
+math . perm ( <name1> , <name2> )	<name1> から <name2> 個取り出した時の順列の総数を算出する
+<name6> = math . perm ( <name5> , <name2> )	<name5> から <name2> 個取り出した時の順列の総数を <name6> とする
+<name1> = math . perm ( <name2> , <name3> )	<name2> から <name3> 個取り出した時の順列の総数を <name1> とする
+math . prod ( <name4> )	<name4> の要素積
+math . prod ( <name1> )	<name1> の要素積
+math . prod ( <name6> )	<name6> の要素積を表示する
+math . prod ( <name1> )	<name1> の要素積を表示する
+math . prod ( <name6> )	<name6> の要素積を算出する
+math . prod ( <name1> )	<name1> の要素積を算出する
+<name3> = math . prod ( <name4> )	<name4> の要素積を <name3> にする
+<name1> = math . prod ( <name2> )	<name2> の要素積を <name1> にする
+math . remainder ( <name1> , <name4> )	<name1> を <name4> で割った剰余
+math . remainder ( <name1> , <name2> )	<name1> を <name2> で割った剰余
+math . remainder ( <name5> , <name2> )	<name5> を <name2> で割った剰余を表示する
+math . remainder ( <name1> , <name2> )	<name1> を <name2> で割った剰余を表示する
+math . remainder ( <name3> , <name5> )	<name3> を <name5> で割った剰余を算出する
+math . remainder ( <name1> , <name2> )	<name1> を <name2> で割った剰余を算出する
+<name6> = math . remainder ( <name5> , <name2> )	<name5> を <name2> で割った剰余を <name6> に代入する
+<name1> = math . remainder ( <name2> , <name3> )	<name2> を <name3> で割った剰余を <name1> に代入する
+math . exp ( <name1> )	e の <name1> 乗
+math . exp ( <name4> )	e の <name4> 乗を確認する
+math . exp ( <name1> )	e の <name1> 乗を確認する
+math . exp ( <name6> )	e の <name6> 乗を求める
+math . exp ( <name1> )	e の <name1> 乗を求める
+<name6> = math . exp ( <name1> )	e の <name1> 乗を <name6> とする
+<name1> = math . exp ( <name2> )	e の <name2> 乗を <name1> とする
+math . log ( <name6> )	<name6> の自然対数
+math . log ( <name1> )	<name1> の自然対数
+math . log ( <name5> )	<name5> の自然対数を見る
+math . log ( <name1> )	<name1> の自然対数を見る
+math . log ( <name4> )	<name4> の自然対数を計算する
+math . log ( <name1> )	<name1> の自然対数を計算する
+<name3> = math . log ( <name6> )	<name6> の自然対数を <name3> とする
+<name1> = math . log ( <name2> )	<name2> の自然対数を <name1> とする
+math . log ( <name5> , <name4> )	<name4> を底とする <name5> の対数
+math . log ( <name1> , <name2> )	<name2> を底とする <name1> の対数
+math . log ( <name6> , <name2> )	<name2> を底とする <name6> の対数を見る
+math . log ( <name1> , <name2> )	<name2> を底とする <name1> の対数を見る
+math . log ( <name4> , <name1> )	<name1> を底とする <name4> の対数を計算する
+math . log ( <name1> , <name2> )	<name2> を底とする <name1> の対数を計算する
+<name6> = math . log ( <name1> , <name5> )	<name5> を底とする <name1> の対数を <name6> にする
+<name1> = math . log ( <name2> , <name3> )	<name3> を底とする <name2> の対数を <name1> にする
+math . log ( <name3> , <name5> )	<name5> に対する <name3> の対数
+math . log ( <name1> , <name2> )	<name2> に対する <name1> の対数
+math . log ( <name3> , <name5> )	<name5> に対する <name3> の対数をチェックする
+math . log ( <name1> , <name2> )	<name2> に対する <name1> の対数をチェックする
+math . log ( <name1> , <name6> )	<name6> に対する <name1> の対数を計算する
+math . log ( <name1> , <name2> )	<name2> に対する <name1> の対数を計算する
+<name6> = math . log ( <name2> , <name5> )	<name5> に対する <name2> の対数を <name6> に代入する
+<name1> = math . log ( <name2> , <name3> )	<name3> に対する <name2> の対数を <name1> に代入する
+math . log1p ( <name3> )	1 + <name3> の自然対数
+math . log1p ( <name1> )	1 + <name1> の自然対数
+math . log1p ( <name6> )	1 + <name6> の自然対数を見る
+math . log1p ( <name1> )	1 + <name1> の自然対数を見る
+math . log1p ( <name6> )	1 + <name6> の自然対数を計算する
+math . log1p ( <name1> )	1 + <name1> の自然対数を計算する
+<name6> = math . log1p ( <name5> )	1 + <name5> の自然対数を <name6> に代入する
+<name1> = math . log1p ( <name2> )	1 + <name2> の自然対数を <name1> に代入する
+math . log2 ( <name6> )	2 を底とする <name6> の対数
+math . log2 ( <name1> )	2 を底とする <name1> の対数
+math . log2 ( <name2> )	2 を底とする <name2> の対数を表示する
+math . log2 ( <name1> )	2 を底とする <name1> の対数を表示する
+math . log2 ( <name6> )	2 を底とする <name6> の対数を算出する
+math . log2 ( <name1> )	2 を底とする <name1> の対数を算出する
+<name6> = math . log2 ( <name4> )	2 を底とする <name4> の対数を <name6> とする
+<name1> = math . log2 ( <name2> )	2 を底とする <name2> の対数を <name1> とする
+math . log10 ( <name4> )	<name4> の常用対数
+math . log10 ( <name1> )	<name1> の常用対数
+math . log10 ( <name2> )	<name2> の常用対数を表示する
+math . log10 ( <name1> )	<name1> の常用対数を表示する
+math . log10 ( <name2> )	<name2> の常用対数を求める
+math . log10 ( <name1> )	<name1> の常用対数を求める
+<name3> = math . log10 ( <name5> )	<name5> の常用対数を <name3> とする
+<name1> = math . log10 ( <name2> )	<name2> の常用対数を <name1> とする
+math . log10 ( <name5> )	<name5> の 10 を底とする対数
+math . log10 ( <name1> )	<name1> の 10 を底とする対数
+math . log10 ( <name3> )	<name3> の 10 を底とする対数を表示する
+math . log10 ( <name1> )	<name1> の 10 を底とする対数を表示する
+math . log10 ( <name3> )	<name3> の 10 を底とする対数を求める
+math . log10 ( <name1> )	<name1> の 10 を底とする対数を求める
+<name2> = math . log10 ( <name3> )	<name3> の 10 を底とする対数を <name2> とする
+<name1> = math . log10 ( <name2> )	<name2> の 10 を底とする対数を <name1> とする
+math . cos ( <name6> )	<name6> の余弦
+math . cos ( <name1> )	<name1> の余弦
+math . cos ( <name4> )	<name4> の余弦をチェックする
+math . cos ( <name1> )	<name1> の余弦をチェックする
+math . cos ( <name2> )	<name2> の余弦を計算する
+math . cos ( <name1> )	<name1> の余弦を計算する
+<name1> = math . cos ( <name2> )	<name2> の余弦を <name1> にする
+math . cos ( <name5> )	<name5> のコサイン
+math . cos ( <name1> )	<name1> のコサイン
+math . cos ( <name5> )	<name5> のコサインをチェックする
+math . cos ( <name1> )	<name1> のコサインをチェックする
+math . cos ( <name6> )	<name6> のコサインを計算する
+math . cos ( <name1> )	<name1> のコサインを計算する
+<name2> = math . cos ( <name3> )	<name3> のコサインを <name2> にする
+<name1> = math . cos ( <name2> )	<name2> のコサインを <name1> にする
+math . sin ( <name1> )	<name1> の正弦
+math . sin ( <name1> )	<name1> の正弦を調べる
+math . sin ( <name4> )	<name4> の正弦を求める
+math . sin ( <name1> )	<name1> の正弦を求める
+<name5> = math . sin ( <name4> )	<name4> の正弦を <name5> に代入する
+<name1> = math . sin ( <name2> )	<name2> の正弦を <name1> に代入する
+math . sin ( <name5> )	<name5> のサイン
+math . sin ( <name1> )	<name1> のサイン
+math . sin ( <name1> )	<name1> のサインを表示する
+math . sin ( <name6> )	<name6> のサインを計算する
+math . sin ( <name1> )	<name1> のサインを計算する
+<name6> = math . sin ( <name3> )	<name3> のサインを <name6> に代入する
+<name1> = math . sin ( <name2> )	<name2> のサインを <name1> に代入する
+math . tan ( <name6> )	<name6> の正接
+math . tan ( <name1> )	<name1> の正接
+math . tan ( <name5> )	<name5> の正接をチェックする
+math . tan ( <name1> )	<name1> の正接をチェックする
+math . tan ( <name5> )	<name5> の正接を算出する
+math . tan ( <name1> )	<name1> の正接を算出する
+<name3> = math . tan ( <name4> )	<name4> の正接を <name3> に代入する
+<name1> = math . tan ( <name2> )	<name2> の正接を <name1> に代入する
+math . tan ( <name6> )	<name6> のタンジェント
+math . tan ( <name1> )	<name1> のタンジェント
+math . tan ( <name6> )	<name6> のタンジェントをチェックする
+math . tan ( <name1> )	<name1> のタンジェントをチェックする
+math . tan ( <name3> )	<name3> のタンジェントを算出する
+math . tan ( <name1> )	<name1> のタンジェントを算出する
+<name1> = math . tan ( <name4> )	<name4> のタンジェントを <name1> とする
+<name1> = math . tan ( <name2> )	<name2> のタンジェントを <name1> とする
+math . acos ( <name4> )	<name4> の逆余弦
+math . acos ( <name1> )	<name1> の逆余弦
+math . acos ( <name6> )	<name6> の逆余弦を表示する
+math . acos ( <name1> )	<name1> の逆余弦を表示する
+math . acos ( <name3> )	<name3> の逆余弦を計算する
+math . acos ( <name1> )	<name1> の逆余弦を計算する
+<name6> = math . acos ( <name2> )	<name2> の逆余弦を <name6> に代入する
+<name1> = math . acos ( <name2> )	<name2> の逆余弦を <name1> に代入する
+math . acos ( <name2> )	<name2> のアークコサイン
+math . acos ( <name1> )	<name1> のアークコサイン
+math . acos ( <name2> )	<name2> のアークコサインを調べる
+math . acos ( <name1> )	<name1> のアークコサインを調べる
+math . acos ( <name5> )	<name5> のアークコサインを求める
+math . acos ( <name1> )	<name1> のアークコサインを求める
+<name2> = math . acos ( <name1> )	<name1> のアークコサインを <name2> にする
+<name1> = math . acos ( <name2> )	<name2> のアークコサインを <name1> にする
+math . asin ( <name3> )	<name3> の逆正弦
+math . asin ( <name1> )	<name1> の逆正弦
+math . asin ( <name1> )	<name1> の逆正弦をチェックする
+math . asin ( <name5> )	<name5> の逆正弦を算出する
+math . asin ( <name1> )	<name1> の逆正弦を算出する
+<name4> = math . asin ( <name2> )	<name2> の逆正弦を <name4> に代入する
+<name1> = math . asin ( <name2> )	<name2> の逆正弦を <name1> に代入する
+math . asin ( <name6> )	<name6> のアークサイン
+math . asin ( <name1> )	<name1> のアークサイン
+math . asin ( <name1> )	<name1> のアークサインをチェックする
+math . asin ( <name3> )	<name3> のアークサインを求める
+math . asin ( <name1> )	<name1> のアークサインを求める
+<name5> = math . asin ( <name2> )	<name2> のアークサインを <name5> に代入する
+<name1> = math . asin ( <name2> )	<name2> のアークサインを <name1> に代入する
+math . atan ( <name6> )	<name6> の逆正接
+math . atan ( <name1> )	<name1> の逆正接
+math . atan ( <name2> )	<name2> の逆正接を見る
+math . atan ( <name1> )	<name1> の逆正接を見る
+math . atan ( <name4> )	<name4> の逆正接を算出する
+math . atan ( <name1> )	<name1> の逆正接を算出する
+<name6> = math . atan ( <name3> )	<name3> の逆正接を <name6> にする
+<name1> = math . atan ( <name2> )	<name2> の逆正接を <name1> にする
+math . atan ( <name6> )	<name6> のアークタンジェント
+math . atan ( <name1> )	<name1> のアークタンジェント
+math . atan ( <name3> )	<name3> のアークタンジェントをチェックする
+math . atan ( <name1> )	<name1> のアークタンジェントをチェックする
+math . atan ( <name1> )	<name1> のアークタンジェントを計算する
+<name3> = math . atan ( <name2> )	<name2> のアークタンジェントを <name3> にする
+<name1> = math . atan ( <name2> )	<name2> のアークタンジェントを <name1> にする
+math . degrees ( <name1> )	<name1> の角度
+math . degrees ( <name1> )	<name1> の角度をチェックする
+math . degrees ( <name5> )	<name5> の角度を求める
+math . degrees ( <name1> )	<name1> の角度を求める
+<name6> = math . degrees ( <name4> )	<name4> の角度を <name6> とする
+<name1> = math . degrees ( <name2> )	<name2> の角度を <name1> とする
+math . radians ( <name3> )	<name3> のラジアン
+math . radians ( <name1> )	<name1> のラジアン
+math . radians ( <name6> )	<name6> のラジアンをチェックする
+math . radians ( <name1> )	<name1> のラジアンをチェックする
+math . radians ( <name4> )	<name4> のラジアンを求める
+math . radians ( <name1> )	<name1> のラジアンを求める
+<name6> = math . radians ( <name3> )	<name3> のラジアンを <name6> に代入する
+<name1> = math . radians ( <name2> )	<name2> のラジアンを <name1> に代入する
+math . acosh ( <name2> )	<name2> の逆双曲線余弦
+math . acosh ( <name1> )	<name1> の逆双曲線余弦
+math . acosh ( <name6> )	<name6> の逆双曲線余弦を見る
+math . acosh ( <name1> )	<name1> の逆双曲線余弦を見る
+math . acosh ( <name6> )	<name6> の逆双曲線余弦を求める
+math . acosh ( <name1> )	<name1> の逆双曲線余弦を求める
+<name5> = math . acosh ( <name6> )	<name6> の逆双曲線余弦を <name5> にする
+<name1> = math . acosh ( <name2> )	<name2> の逆双曲線余弦を <name1> にする
+math . asinh ( <name1> )	<name1> の逆双曲線正弦
+math . asinh ( <name4> )	<name4> の逆双曲線正弦を表示する
+math . asinh ( <name1> )	<name1> の逆双曲線正弦を表示する
+math . asinh ( <name1> )	<name1> の逆双曲線正弦を求める
+<name2> = math . asinh ( <name5> )	<name5> の逆双曲線正弦を <name2> とする
+<name1> = math . asinh ( <name2> )	<name2> の逆双曲線正弦を <name1> とする
+math . atanh ( <name4> )	<name4> の逆双曲線正接
+math . atanh ( <name1> )	<name1> の逆双曲線正接
+math . atanh ( <name4> )	<name4> の逆双曲線正接を確認する
+math . atanh ( <name1> )	<name1> の逆双曲線正接を確認する
+math . atanh ( <name5> )	<name5> の逆双曲線正接を求める
+math . atanh ( <name1> )	<name1> の逆双曲線正接を求める
+<name5> = math . atanh ( <name3> )	<name3> の逆双曲線正接を <name5> に代入する
+<name1> = math . atanh ( <name2> )	<name2> の逆双曲線正接を <name1> に代入する
+math . cosh ( <name2> )	<name2> の双曲線余弦
+math . cosh ( <name1> )	<name1> の双曲線余弦
+math . cosh ( <name2> )	<name2> の双曲線余弦を見る
+math . cosh ( <name1> )	<name1> の双曲線余弦を見る
+math . cosh ( <name4> )	<name4> の双曲線余弦を求める
+math . cosh ( <name1> )	<name1> の双曲線余弦を求める
+<name3> = math . cosh ( <name6> )	<name6> の双曲線余弦を <name3> にする
+<name1> = math . cosh ( <name2> )	<name2> の双曲線余弦を <name1> にする
+math . sinh ( <name6> )	<name6> の双曲線正弦
+math . sinh ( <name1> )	<name1> の双曲線正弦
+math . sinh ( <name5> )	<name5> の双曲線正弦を見る
+math . sinh ( <name1> )	<name1> の双曲線正弦を見る
+math . sinh ( <name3> )	<name3> の双曲線正弦を求める
+math . sinh ( <name1> )	<name1> の双曲線正弦を求める
+<name5> = math . sinh ( <name3> )	<name3> の双曲線正弦を <name5> にする
+<name1> = math . sinh ( <name2> )	<name2> の双曲線正弦を <name1> にする
+math . tanh ( <name2> )	<name2> の双曲線正接
+math . tanh ( <name1> )	<name1> の双曲線正接
+math . tanh ( <name4> )	<name4> の双曲線正接を表示する
+math . tanh ( <name1> )	<name1> の双曲線正接を表示する
+math . tanh ( <name6> )	<name6> の双曲線正接を求める
+math . tanh ( <name1> )	<name1> の双曲線正接を求める
+<name1> = math . tanh ( <name3> )	<name3> の双曲線正接を <name1> とする
+<name1> = math . tanh ( <name2> )	<name2> の双曲線正接を <name1> とする
+math . dist ( <name4> , <name1> )	<name4> と <name1> のユークリッド距離
+math . dist ( <name1> , <name2> )	<name1> と <name2> のユークリッド距離
+math . dist ( <name2> , <name4> )	<name2> と <name4> のユークリッド距離を確認する
+math . dist ( <name1> , <name2> )	<name1> と <name2> のユークリッド距離を確認する
+math . dist ( <name6> , <name1> )	<name6> と <name1> のユークリッド距離を求める
+math . dist ( <name1> , <name2> )	<name1> と <name2> のユークリッド距離を求める
+<name2> = math . dist ( <name5> , <name3> )	<name5> と <name3> のユークリッド距離を <name2> にする
+<name1> = math . dist ( <name2> , <name3> )	<name2> と <name3> のユークリッド距離を <name1> にする
+math . hypot ( <name6> , <name2> )	<name6> と <name2> のノルム
+math . hypot ( <name1> , <name2> )	<name1> と <name2> のノルム
+math . hypot ( <name6> , <name2> )	<name6> と <name2> のノルムをチェックする
+math . hypot ( <name1> , <name2> )	<name1> と <name2> のノルムをチェックする
+math . hypot ( <name5> , <name3> )	<name5> と <name3> のノルムを求める
+math . hypot ( <name1> , <name2> )	<name1> と <name2> のノルムを求める
+<name6> = math . hypot ( <name5> , <name4> )	<name5> と <name4> のノルムを <name6> に代入する
+<name1> = math . hypot ( <name2> , <name3> )	<name2> と <name3> のノルムを <name1> に代入する
+math . hypot ( <name1> , <name3> )	原点からの ( <name1> , <name3> ) の距離
+math . hypot ( <name1> , <name2> )	原点からの ( <name1> , <name2> ) の距離
+math . hypot ( <name2> , <name1> )	原点からの ( <name2> , <name1> ) の距離を見る
+math . hypot ( <name1> , <name2> )	原点からの ( <name1> , <name2> ) の距離を見る
+math . hypot ( <name4> , <name5> )	原点からの ( <name4> , <name5> ) の距離を算出する
+math . hypot ( <name1> , <name2> )	原点からの ( <name1> , <name2> ) の距離を算出する
+<name5> = math . hypot ( <name4> , <name6> )	原点からの ( <name4> , <name6> ) の距離を <name5> に代入する
+<name1> = math . hypot ( <name2> , <name3> )	原点からの ( <name2> , <name3> ) の距離を <name1> に代入する
+math . gamma ( <name4> )	<name4> のガンマ関数
+math . gamma ( <name1> )	<name1> のガンマ関数
+math . gamma ( <name3> )	<name3> のガンマ関数を表示する
+math . gamma ( <name1> )	<name1> のガンマ関数を表示する
+math . gamma ( <name6> )	<name6> のガンマ関数を算出する
+math . gamma ( <name1> )	<name1> のガンマ関数を算出する
+<name4> = math . gamma ( <name6> )	<name6> のガンマ関数を <name4> とする
+<name1> = math . gamma ( <name2> )	<name2> のガンマ関数を <name1> とする
+math . lgamma ( <name1> )	<name1> のガンマ関数の絶対値の自然対数
+math . lgamma ( <name1> )	<name1> のガンマ関数の絶対値の自然対数を見る
+math . lgamma ( <name5> )	<name5> のガンマ関数の絶対値の自然対数を求める
+math . lgamma ( <name1> )	<name1> のガンマ関数の絶対値の自然対数を求める
+<name3> = math . lgamma ( <name1> )	<name1> のガンマ関数の絶対値の自然対数を <name3> に代入する
+<name1> = math . lgamma ( <name2> )	<name2> のガンマ関数の絶対値の自然対数を <name1> に代入する
+math . pi	円周率
+math . pi	円周率をチェックする
+math . pi	円周率を算出する
+math . e	ネイピア数
+math . e	ネイピア数を確認する
+math . e	ネイピア数を算出する
+math . inf	無限大
+math . inf	無限大を確認する
+math . inf	無限大を算出する
+math . nan	NaN
+math . nan	NaN を確認する
+math . nan	NaN を算出する
+import <name5>	<name5> モジュールをインポートする
+import <name1>	<name1> モジュールをインポートする
+copy . copy ( <name1> )	<name1> をコピーした結果
+copy . deepcopy ( <name3> )	<name3> を深くコピーした結果
+copy . deepcopy ( <name1> )	<name1> を深くコピーした結果
+import <name3>	<name3> モジュールをインポートする
+import <name1>	<name1> モジュールをインポートする
+bisect . bisect_left ( <name1> , <name5> )	ソートされた順序を保ったまま <name5> を <name1> に挿入できる位置
+bisect . bisect_left ( <name1> , <name2> )	ソートされた順序を保ったまま <name2> を <name1> に挿入できる位置
+bisect . bisect_right ( <name3> , <name4> )	ソートされた順序を保ったまま <name4> を <name3> に挿入できる最後の位置
+bisect . bisect_right ( <name1> , <name2> )	ソートされた順序を保ったまま <name2> を <name1> に挿入できる最後の位置
+bisect . insort_left ( <name1> , <name4> )	<name4> を <name1> にソート順で挿入する
+bisect . insort_left ( <name1> , <name2> )	<name2> を <name1> にソート順で挿入する
+bisect . insort_right ( <name6> , <name1> )	<name1> を <name6> にソート順で最後に挿入する
+bisect . insort_right ( <name1> , <name2> )	<name2> を <name1> にソート順で最後に挿入する
+import <name4>	<name4> モジュールをインポートする
+import <name1>	<name1> モジュールをインポートする
+itertools . repeat ( <val1> )	<val1> の無限列
+itertools . repeat ( <val1> , <val6> )	<val1> の <val6> 回続く列
+itertools . repeat ( <val1> , <val2> )	<val1> の <val2> 回続く列
+itertools . count ( )	無限にカウントアップする整数列
+itertools . count ( <val1> )	<val1> からカウントアップする無限の整数列
+itertools . count ( <val1> , <val4> )	<val1> から始まり <val4> 間隔でカウントアップする無限の整数列
+itertools . count ( <val1> , <val2> )	<val1> から始まり <val2> 間隔でカウントアップする無限の整数列
+itertools . cycle ( <name6> )	<name6> を無限に繰り返した列
+itertools . cycle ( <name1> )	<name1> を無限に繰り返した列
+itertools . product ( <name1> , <name4> )	<name1> と <name4> の直積
+itertools . product ( <name1> , <name2> )	<name1> と <name2> の直積
+itertools . permutations ( <name2> )	<name2> の順列
+itertools . permutations ( <name1> )	<name1> の順列
+itertools . permutations ( <name5> , <val4> )	<name5> のうち <val4> 個までの順列
+itertools . permutations ( <name1> , <val2> )	<name1> のうち <val2> 個までの順列
+itertools . combinations ( <name3> , <val2> )	<name3> のうち <val2> 個までの組み合わせ
+itertools . combinations ( <name1> , <val2> )	<name1> のうち <val2> 個までの組み合わせ
+itertools . combinations_with_replacement ( <name6> , <val3> )	<name6> のうち <val3> 個までの重複組み合わせ
+itertools . combinations_with_replacement ( <name1> , <val2> )	<name1> のうち <val2> 個までの重複組み合わせ
+import <name1>	<name1> モジュールを用いる
+collections . deque ( )	deque オブジェクトを作る
+<name4> = collections . deque ( )	deque オブジェクトを作成し、 <name4> に代入する
+<name1> = collections . deque ( )	deque オブジェクトを作成し、 <name1> に代入する
+<name2> = collections . deque ( )	deque オブジェクトを作成した結果を <name2> とする
+<name1> = collections . deque ( )	deque オブジェクトを作成した結果を <name1> とする
+collections . deque ( <name5> )	<name5> から deque オブジェクトを作成する
+collections . deque ( <name1> )	<name1> から deque オブジェクトを作成する
+<name1> = collections . deque ( <name5> )	<name5> から deque オブジェクトを作成して、 <name1> に代入する
+<name1> = collections . deque ( <name2> )	<name2> から deque オブジェクトを作成して、 <name1> に代入する
+<name5> = collections . deque ( <name6> )	<name6> から deque オブジェクトを作成した結果を <name5> とする
+<name1> = collections . deque ( <name2> )	<name2> から deque オブジェクトを作成した結果を <name1> とする
+maxlen = <val3>	<val3> を最大長として
+maxlen = <val1>	<val1> を最大長として
+<name5> . appendleft ( <val6> )	<name5> の左側に <val6> を追加する
+<name1> . appendleft ( <val2> )	<name1> の左側に <val2> を追加する
+<name6> . appendleft ( <val1> )	<name6> の最初を <val1> で拡張する
+<name1> . appendleft ( <val2> )	<name1> の最初を <val2> で拡張する
+<name2> . popleft ( )	<name2> の先頭から取り除いた値
+<name1> . popleft ( )	<name1> の先頭から取り除いた値
+<name3> . rotate ( )	<name3> の要素を右にひとつローテート直す
+<name1> . rotate ( )	<name1> の要素を右にひとつローテート直す
+<name5> . rotate ( <val1> )	<name5> の要素を右に <val1> つずつローテートする
+<name1> . rotate ( <val2> )	<name1> の要素を右に <val2> つずつローテートする
+collections . Counter ( <name3> )	<name3> の辞書カウンタ
+collections . Counter ( <name1> )	<name1> の辞書カウンタ
+<name6> = collections . Counter ( <name1> )	<name1> の辞書カウンタを <name6> とする
+<name1> = collections . Counter ( <name2> )	<name2> の辞書カウンタを <name1> とする
+<name3> . most_common ( )	<name3> の出現回数順の列
+<name1> . most_common ( )	<name1> の出現回数順の列
+<name4> . most_common ( <val2> )	<name4> の上位 <val2> 位までの出現回数順の列
+<name1> . most_common ( <val2> )	<name1> の上位 <val2> 位までの出現回数順の列
+import <name5>	<name5> モジュールをインポートする
+import <name1>	<name1> モジュールをインポートする
+os . sep	ファイルパスのセパレータ記号
+os . getcwd	現在の作業ディレクトリ
+os . system	コマンド
+os . path . basename ( <name4> )	パス文字列 <name4> のファイル名
+os . path . basename ( <name1> )	パス文字列 <name1> のファイル名
+os . path . dirname ( <name1> )	パス <name1> のディレクトリ名
+os . path . abspath ( <name5> )	パス文字列 <name5> の絶対ファイルパス
+os . path . abspath ( <name1> )	パス文字列 <name1> の絶対ファイルパス
+os . path . split ( <name4> )	パス文字列 <name4> のディレクトリ名とファイル名
+os . path . split ( <name1> )	パス文字列 <name1> のディレクトリ名とファイル名
+os . path . join ( <val6> , <val1> , <val5> )	<val6> と <val1> と <val5> を連結したファイルパス
+os . path . join ( <val1> , <val2> , <val3> )	<val1> と <val2> と <val3> を連結したファイルパス
+os . path . splitext ( <name4> )	パス文字列 <name4> のファイル名と拡張子
+os . path . splitext ( <name1> )	パス文字列 <name1> のファイル名と拡張子
+os . path . get_size ( <name1> )	パス文字列 <name1> のファイルの大きさ
+import <name6>	<name6> モジュールをインポートする
+import <name1>	<name1> モジュールをインポートする
+sys . exit ( )	プログラムを終了する
+import <name1>	<name1> モジュールをインポートする
+datetime . datetime . now ( )	現在の日時
+datetime . datetime ( <name5> , <name4> , <name6> )	<name5> 年 <name4> 月 <name6> 日の日時
+datetime . datetime ( <name1> , <name2> , <name3> )	<name1> 年 <name2> 月 <name3> 日の日時
+datetime . datetime ( <name4> , <name3> , <name6> , <name2> , <name1> )	<name4> 年 <name3> 月 <name6> 日 <name2> 時 <name1> 分の日時
+datetime . datetime ( <name1> , <name2> , <name3> , <name4> , <name5> )	<name1> 年 <name2> 月 <name3> 日 <name4> 時 <name5> 分の日時
+datetime . datetime ( <name1> , <name6> , <name3> , <name4> , <name5> , <name2> )	<name1> 年 <name6> 月 <name3> 日 <name4> 時 <name5> 分 <name2> 秒の日時
+datetime . datetime ( <name1> , <name2> , <name3> , <name4> , <name5> , <name6> )	<name1> 年 <name2> 月 <name3> 日 <name4> 時 <name5> 分 <name6> 秒の日時
+re . search ( <name3> , <name5> )	<name5> において正規表現 <name3> のパターンが最初にマッチする位置
+re . search ( <name1> , <name2> )	<name2> において正規表現 <name1> のパターンが最初にマッチする位置
+re . match ( <name4> , <name3> )	<name3> の先頭に正規表現 <name4> のパターンをマッチさせた結果
+re . match ( <name1> , <name2> )	<name2> の先頭に正規表現 <name1> のパターンをマッチさせた結果
+re . fullmatch ( <name1> , <name6> )	<name6> 全体において正規表現 <name1> のパターンをマッチさせた結果
+re . fullmatch ( <name1> , <name2> )	<name2> 全体において正規表現 <name1> のパターンをマッチさせた結果
+re . split ( <name6> , <name1> )	<name1> を正規表現 <name6> のパターンにマッチした箇所で分割した文字列リスト
+re . split ( <name1> , <name2> )	<name2> を正規表現 <name1> のパターンにマッチした箇所で分割した文字列リスト
+re . sub ( <name2> , <name5> , <name1> )	<name1> 内の正規表現 <name2> のパターンにマッチした箇所を <name5> に置き換えた文字列
+re . sub ( <name1> , <name2> , <name3> )	<name3> 内の正規表現 <name1> のパターンにマッチした箇所を <name2> に置き換えた文字列
+re . subn ( <name3> , <name2> , <name6> )	<name6> 内の正規表現 <name3> のパターンにマッチした箇所を <name2> に置き換えた文字列と置き換えた箇所の数
+re . subn ( <name1> , <name2> , <name3> )	<name3> 内の正規表現 <name1> のパターンにマッチした箇所を <name2> に置き換えた文字列と置き換えた箇所の数
+re . findall ( <name3> , <name6> )	<name6> が正規表現 <name3> のパターンにマッチした文字列のリスト
+re . findall ( <name1> , <name2> )	<name2> が正規表現 <name1> のパターンにマッチした文字列のリスト
+re . compile ( <name4> )	<name4> を正規表現にコンパイルした結果
+re . compile ( <name1> )	<name1> を正規表現にコンパイルした結果

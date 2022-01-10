@@ -1,0 +1,1002 @@
+sum = 0	sumに0を代入する
+sum = 0	sumを0とする
+sum = 0	sumイコール0
+sum = 0	sumイコール0とする
+x = y	xにyを代入する
+x = y	yをxに代入する
+x + y	xにyを加えた値
+x + y	xにyを加えた値を算出する
+x + y	xプラスy
+x + y	xたすyを計算する
+x + y	xとyの和
+x + y	xとyの和を算出する
+x - y	xからyを引いた値
+x - y	xからyを引いた値を求める
+x - y	xマイナスy
+x - y	x引くyを算出する
+x - y	xとyの差
+x - y	xとyの差を算出する
+x * y	xにyをかけた値
+x * y	xにyをかけた値を算出する
+x * y	x掛けるy
+x * y	xかけるyを計算する
+x * y	xとyの積
+x * y	xとyの積を求める
+x / y	xをyでわった値
+x / y	xをyでわった値を求める
+x / y	xわるy
+x / y	x割るyを求める
+x / y	xとyの商
+x / y	xとyの商を計算する
+x / y	y分のx
+x / y	y分のxを計算する
+x // y	xをyでわった値の整数部分
+x // y	xをyでわった値の整数部分を計算する
+x ** 2	xの二乗
+x ** 2	xの2乗を算出する
+x % y	xをyで割った余り
+x % y	xをyで割った余りを計算する
+x % y	xをyで剰余
+x % y	xをyで剰余を計算する
+x % y	xとyのmod
+x % y	xとyのmodを求める
+x % y	xとyの割り算の余り
+x % y	xとyの割り算の余りを算出する
+(x + y - 1) // y	xをyで割った結果の切り上げ
+(x + y - 1) // y	xをyでわった結果の切り上げを求める
+(x + y - 1) // y	x割るyを切り上げる
+(x + y - 1) // y	x割るyの切り上げ
+(x + y - 1) // y	x割るyの切り上げを算出する
+(x + y - 1) // y	xをyでわった値を切り上げる
+x & y	xとyの論理積
+x & y	xとyの論理積を算出する
+x | y	xとyの論理和
+x | y	xとyの論理和を計算する
+x ^ y	aとyの排他的論理和
+x ^ y	aとyの排他的論理和を計算する
+x << y	xをyだけシフトした左シフト値
+x << y	xをyだけシフトした左シフト値を求める
+x >> y	xをyだけシフトした右シフト値
+x >> y	xをyだけシフトした右シフト値を算出する
+x += y	xをyだけ増加させる
+x += y	xにyを足して代入する
+x += y	xとyの値を足してxに代入する
+x += y	xたすyの値をxに代入する
+x -= y	xをyだけ減少させる
+x -= y	xからyの値を引いてxに代入する
+x -= y	xひくyの値をxに代入する
+x *= y	xをy倍にする
+x *= y	xにyをかけた値をxに代入する
+x **= y	xをy乗する
+x /= y	xをy分の一にする
+x //= y	xをy分の一にする
+x %= y	xをyで割った余りをxに代入する
+abs(x)	xの絶対値
+abs(x)	xの絶対値を計算する
+complex(x)	xの複素数
+complex(x)	xの複素数を計算する
+complex(x, y)	xを実部yを虚部とした複素数
+complex(x, y)	xを実部yを虚部とした複素数を求める
+divmod(x, y)	xをyで割ったときの商と剰余の組
+divmod(x, y)	xをyで割ったときの商とあまりの組を求める
+divmod(x, y)	xとyの商と剰余の組
+divmod(x, y)	xとyの商と剰余の組を求める
+hash(x)	xのハッシュ値
+hash(x)	xのハッシュ値を算出する
+pow(x, y)	xのy乗
+pow(x, y)	xのy乗を求める
+pow(x, y, z)	xのy乗に対するzの剰余
+pow(x, y, z)	xのy乗に対するzの剰余を計算する
+pow(x, y, z)	xのy乗をzで割った余り
+pow(x, y, z)	xのy乗をzで割った余りを算出する
+round(x)	xの小数点を丸めた値
+round(x)	xの小数点を丸めた値を計算する
+round(x)	xの整数値
+round(x)	xの整数値を求める
+round(x, 1)	xを小数点第一位までに丸めた値
+round(x, 1)	xを小数点第一位までに丸めた値を求める
+round(x, -1)	xを十の位までに丸めた値
+round(x, -1)	xを十の位までに丸めた値を計算する
+max(x, y, z)	x、y、zの中で一番大きい値
+max(x, y, z)	x、y、zの中で一番大きい値を算出する
+max(x, y, z)	x、y、zの最大値
+max(x, y, z)	x、y、zの最大値を算出する
+min(x, y, z)	x、y、zの中で一番小さい値
+min(x, y, z)	x、y、zの中で一番小さい値を算出する
+min(x, y, z)	x、y、zの最小値
+min(x, y, z)	x、y、zの最小値を求める
+del num	numをデリートする
+global num	numをグローバル変数とする
+nonlocal num	numを非ローカル変数とする
+float(x)	xを浮動小数点数に変換する
+X = float(x)	xを浮動小数点数にし、Xとする
+X = float(x)	xを浮動小数点数にした結果をXにする
+float(x)	xを変換した浮動小数点数
+X = float(x)	xを変換した浮動小数点数をXにする
+float(x)	xを浮動小数点数型として得る
+X = float(x)	xを浮動小数点数型として得、Xに代入する
+X = float(x)	xを浮動小数点数型として得た結果をXに代入する
+int(x)	xを整数型にする
+X = int(x)	xを整数に変換し、Xにする
+X = int(x)	xを整数に変換した結果をXに代入する
+int(x)	xを変換した整数
+X = int(x)	xを変換した整数をXに代入する
+int(x)	xを整数型として得る
+X = int(x)	xを整数型として得、Xとする
+X = int(x)	xを整数型として得た結果をXに代入する
+str(x)	xを文字列型に変換する
+X = str(x)	xを文字列に変換して、Xにする
+X = str(x)	xを文字列に変換した結果をXとする
+str(x)	xを変換した文字列
+X = str(x)	xを変換した文字列をXとする
+str(x)	xを文字列型として取得する
+X = str(x)	xを文字列型として取得し、Xに代入する
+X = str(x)	xを文字列型として取得した結果をXにする
+list(x)	xのリスト
+X = list(x)	xのリストをXにする
+list(x)	xをリストに変換する
+X = list(x)	xをリスト型に変換して、Xに代入する
+X = list(x)	xをリスト型に変換された結果をXとする
+list(x)	xをリスト型として取得する
+X = list(x)	xをリスト型として取得して、Xにする
+X = list(x)	xをリスト型として取得された結果をXにする
+type(x)	xのタイプ
+type(x)	xのタイプを抽出する
+type(x)	xのタイプを見る
+a == b	aとbが等しいかどうか
+a != b	aとbが等しくないかどうか
+if a == b :	もしaとbが等しい場合
+if a != b :	もしaとbが等しくないならば
+while a == b :	aとbが等しい間
+while a != b :	aとbが等しくない間
+a == b	aがbと等しいかどうか
+a != b	aがbと等しくないかどうか
+if a == b :	もしaがbと等しいならば
+if a != b :	aがbと等しくないなら
+while a == b :	aがbと等しい間
+while a != b :	aがbと等しくない間
+a == b	aがbかどうか
+a != b	aがbでないかどうか
+if a == b :	aがbの場合
+if a != b :	もしaがbでないなら
+while a == b :	aがbの間
+while a != b :	aがbでない間
+a > b	aがbより大きいかどうか
+not a > b	aがbより大きくないかどうか
+if a > b :	aがbより大きいとき
+if not a > b :	もしaがbより大きくないならば
+while a > b :	aがbより大きい間
+while not a > b :	aがbより大きくない間
+a > b	aがbよりも大きいかどうか
+not a > b	aがbよりも大きくないかどうか
+if a > b :	もしaがbよりも大きいなら
+if not a > b :	もしaがbよりも大きくないならば
+while a > b :	aがbよりも大きい間
+while not a > b :	aがbよりも大きくない間
+a < b	aがbより小さいかどうか
+not a < b	aがbより小さくないかどうか
+if a < b :	もしaがbより小さいならば
+if not a < b :	もしaがbより小さくないとき
+while a < b :	aがbより小さい間
+while not a < b :	aがbより小さくない間
+a < b	aがbよりも小さいかどうか
+not a < b	aがbよりも小さくないかどうか
+if a < b :	aがbよりも小さいとき
+if not a < b :	aがbよりも小さくない場合
+while a < b :	aがbよりも小さい間
+while not a < b :	aがbよりも小さくない間
+a >= b	aがb以上かどうか
+not a >= b	aがb以上でないかどうか
+if a >= b :	もしaがb以上の場合
+if not a >= b :	もしaがb以上でないならば
+while a >= b :	aがb以上の間
+while not a >= b :	aがb以上でない間
+a <= b	aがb以下かどうか
+not a <= b	aがb以下でないかどうか
+if a <= b :	もしaがb以下ならば
+if not a <= b :	もしaがb以下でないならば
+while a <= b :	aがb以下の間
+while not a <= b :	aがb以下でない間
+a % 2 == 0	aが偶数かどうか
+a % 2 != 0	aが偶数でないかどうか
+if a % 2 == 0 :	もしaが偶数の場合
+if a % 2 != 0 :	aが偶数でないなら
+a % 2 == 0	aが2で割った時の余りが0であるかどうか
+a % 2 != 0	aが2で割った時の余りが0であるでないかどうか
+if a % 2 == 0 :	aが2で割った時の余りが0であるならば
+if a % 2 != 0 :	もしaが2で割った時の余りが0であるでない場合
+a % 2 == 1	aが奇数かどうか
+a % 2 != 1	aが奇数でないかどうか
+if a % 2 == 1 :	もしaが奇数の場合
+if a % 2 != 1 :	もしaが奇数でないならば
+a % 2 == 1	aが2で割った時の余りが1かどうか
+a % 2 != 1	aが2で割った時の余りが1でないかどうか
+if a % 2 == 1 :	もしaが2で割った時の余りが1ならば
+if a % 2 != 1 :	もしaが2で割った時の余りが1でないならば
+a % n == 0	aがnの倍数かどうか
+a % n != 0	aがnの倍数でないかどうか
+if a % n == 0 :	もしaがnの倍数ならば
+if a % n != 0 :	aがnの倍数でないとき
+a % n == 0	aがnで割り切れるかどうか
+a % n != 0	aがnで割り切れるでないかどうか
+if a % n == 0 :	もしaがnで割り切れるならば
+if a % n != 0 :	もしaがnで割り切れるでないとき
+a and b	aかつb
+not a and b	aかつbでない
+if a and b :	もしaかつbのとき
+if not a and b :	もしaかつbでないなら
+a or b	aまたはb
+not a or b	aまたはbでない
+if a or b :	もしaまたはbのとき
+if not a or b :	もしaまたはbでない場合
+not a	aではない
+not not a	aではなくない
+if not a :	もしaではないとき
+if not not a :	もしaではなくないとき
+True	真
+False	偽
+None	未定値
+print()	改行を表示する
+print()	空行を出力する
+print(sum)	sumを表示する
+print(sum, end='')	改行なしでsumをプリントする
+print(sum, end='')	sumの出力を改行しないで行う
+print(sum, sep='')	区切りなしでsumをプリントする
+print(sum, sep='')	sumの出力を区切らないで行う
+print(sum, sep=',')	カンマ区切りでsumをプリントする
+print(sum, sep=',')	','区切りでsumをプリントする
+print(sum, sep=',')	sumの出力をカンマ区切りで行う
+print('Hello World')	'Hello World'とプリントする
+print('Hello World')	「ハローワールド」とプリントする
+print('Hello World')	試しに何か動かす
+print('Hello World')	最初のプログラム
+print('{:.5f}'.format(dist))	distの小数点以下5桁までをプリントする
+print('{:.5f}'.format(dist))	distの小数点以下を5桁までプリントする
+print('{:.5f}'.format(dist))	distの小数点以下を5桁で揃える
+print('{:.5f}'.format(dist))	distの小数部を5桁で丸める
+print(*l)	lを展開してプリントする
+input()	ユーザから入力を受け取る
+X = input()	ユーザから入力を受け取って、Xに代入する
+X = input()	ユーザから入力を受け取った結果をXにする
+input()	入力値を受け取る
+X = input()	入力値を受け取って、Xとする
+X = input()	入力値を受け取った結果をXとする
+input()	ユーザが入力した文字列
+X = input()	ユーザが入力した文字列をXにする
+input()	ユーザから入力された文字列
+X = input()	ユーザから入力された文字列をXに代入する
+input()	入力された文字列
+X = input()	入力された文字列をXに代入する
+input()	文字列を入力する
+X = input()	文字列を入力して、Xに代入する
+X = input()	文字列を入力した結果をXにする
+input()	データを入力する
+X = input()	データを入力して、Xに代入する
+X = input()	データを入力した結果をXとする
+int(input())	ユーザから入力を整数値として受け取る
+X = int(input())	ユーザから入力を数字として受け取り、Xにする
+X = int(input())	ユーザから入力を数字として受け取られた結果をXに代入する
+int(input())	整数値を受け取る
+X = int(input())	整数値を受け取って、Xとする
+X = int(input())	整数値を受け取った結果をXに代入する
+int(input())	ユーザが入力した整数値
+X = int(input())	ユーザが入力した整数値をXとする
+int(input())	ユーザから入力された整数値
+X = int(input())	ユーザから入力された整数値をXに代入する
+int(input())	入力された整数値
+X = int(input())	入力された整数値をXとする
+int(input())	整数値を入力する
+X = int(input())	整数値を入力し、Xとする
+X = int(input())	整数値を入力した結果をXにする
+int(input())	数値データを入力する
+X = int(input())	数値データを入力し、Xに代入する
+X = int(input())	数値データを入力した結果をXとする
+list(input())	複数の入力値をリストとして受け取る
+X = list(input())	複数の入力値をリストとして受け取り、Xに代入する
+X = list(input())	複数の入力値をリストとして受け取った結果をXに代入する
+list(input())	ユーザが入力したデータをリストに入れる
+X = list(input())	ユーザが入力したデータをリストに突っ込んで、Xに代入する
+X = list(input())	ユーザが入力したデータをリストに突っ込んだ結果をXに代入する
+list(input())	ユーザが入力したデータをリストに変換する
+X = list(input())	ユーザが入力した値をリストに変換し、Xに代入する
+X = list(input())	ユーザが入力した値をリストに変換した結果をXに代入する
+list(input())	ユーザが入力した値をリスト化する
+X = list(input())	ユーザが入力した値をリスト化し、Xにする
+X = list(input())	ユーザが入力した値をリスト化した結果をXとする
+list(map(int, input().split()))	空白ごとに入力された複数の整数をリストとして受け取る
+X = list(map(int, input().split()))	空白ごとに入力された複数の整数をリストとして受け取り、Xに代入する
+X = list(map(int, input().split()))	空白ごとに入力された複数の整数をリストとして受け取られた結果をXに代入する
+list(map(int, input().split()))	ユーザが入力した整数値をスペースで区切ってリストとして受け取る
+X = list(map(int, input().split()))	ユーザが入力した整数値をスペースで区切ってリストとして受け取り、Xに代入する
+X = list(map(int, input().split()))	ユーザが入力した整数値をスペースで区切ってリストとして受け取られた結果をXにする
+a, b, c = input().split()	入力された文字列を半角スペースで分割しa、b、cとする
+a, b, c = input().split()	空白ごとに入力文字列を受け取りa、b、cとする
+a, b, c = input().split()	半角スペースで区切って入力文字列を受け取りa、b、cとする
+a, b, c = map(int, input().split())	入力された整数値を半角スペースで分割しa、b、cとする
+a, b, c = map(int, input().split())	半角スペースごとに入力された整数値を受け取りa、b、cとする
+if name == 'Taro':	nameが'Taro'ならば
+if name == 'Taro':	もしnameが'Taro'ならば
+elif name == 'Hanako':	そうでなくてnameが'Hanako'ならば
+else	そうでなければ
+else	どれでもなければ
+else	それ以外のとき
+if age < 6 or age >= 60:	ageが6未満または60以上ならば
+if age < 6 or age >= 60:	もしageが6未満または60以上ならば
+if age < 6 and age >= 60:	ageが6未満かつ60以上ならば
+if age < 6 and age >= 60:	もしageが6未満かつ60以上ならば
+for i in range(10):	以下の処理を10回ループする
+for i in range(10):	10回ループする
+for i in range(10):	iに0から9を代入して、以降のプログラムをループする
+for i in range(10):	iに10未満の連続した数値を代入して、以降のプログラムをループする
+for i in range(10):	iを0から9まで1つずつ取り出しながら繰り返し処理を行う
+for i in range(10):	繰り返し処理を10回行う
+for i in range(10):	10回だけ繰り返し処理を行う
+for i in range(len(a)):	以降のプログラムをaの長さだけループする
+for i, ai in enumerate(a):	aのインデックスをi、要素をaiへ順番に代入して以降のプログラムをループする
+for ai, bi in zip(a, b):	aの要素をai、bの要素をbiへ順番に代入して以降のプログラムをループする
+while True:	以下の処理をずっとループする
+while True:	無限ループを行う
+pass	何もしない
+pass	何も行わない
+pass	パスする
+break	抜ける
+break	中断する
+break	ループ処理を終了する
+break	繰り返し処理から抜け出す
+continue	先頭に戻ってやり直す
+continue	最初から繰り返す
+try:	可能なら以下のプログラムを実行する
+except:	もし何らかの例外が発生した場合
+except:	もしtryの中のプログラムが実行できなかった時
+except ZeroDivisionError:	もしZeroDivisionErrorが発生したとき
+finally:	例外が発生してもしなくても
+def hoge(x):	xを引数に持つ関数hogeを定義する
+def hoge(x):	xを引数に持つ関数をhogeという名前で定義する
+return	何も返さない
+return x	xをリターンする
+yield 1	1を一旦リターンする
+[]	空列
+X = []	空列をXにする
+[]	空のリスト
+X = []	空のリストをXにする
+()	空のタプル
+X = ()	空のタプルをXにする
+a[0]	aの最初の要素
+a[-1]	aの末尾の要素
+a[:]	aのコピー
+a[:]	aがコピーされた列
+a[:-1]	aの最後を除いた部分列
+a[1:]	aの最初を除いた部分列
+a[start:end]	aのstart番目からend番目の要素を得る
+a[start:]	aのstart番目から末尾までの要素を取り出す
+a[start:]	aのstart番目以降の値を取り出す
+a[:end]	aの0番目からend番目の要素を取り出す
+a[::-1]	aの逆順
+a[::-1]	a内の要素の順番を逆にする
+len(a)	aの長さ
+len(a)	aの長さを見る
+len(a)	aの長さを算出する
+sum(a)	aの合計
+sum(a)	aの合計を確認する
+sum(a)	aの合計値を計算する
+min(a)	aの一番小さい値
+min(a)	aの一番小さい値をチェックする
+min(a)	aの最小値を求める
+max(a)   @check @calc	aの一番大きい値
+sum(a)/len(a)	aの平均
+sum(a)/len(a)	aの平均値を調べる
+sum(a)/len(a)	aの平均を計算する
+range(n)	0からn-1までの数列
+range(n)	0からn-1の範囲の数列
+range(n)	0からn-1の範囲で1ずつ増える数列
+range(n)	0~n-1の範囲の数列
+range(n)	0~n-1の範囲で1ずつ増える数列
+range(n)	0以上n未満の範囲で1ずつ増える数列
+range(n)	0以上n未満の範囲の数列
+range(1, n+1)	1からnまでの数列
+range(1, n+1)	1からnの範囲の数列
+range(1, n+1)	1からnの範囲で1ずつ増える数列
+range(1, n+1)	1~nの範囲の数列
+range(1, n+1)	1~nの範囲で1ずつ増える数列
+range(1, n+1)	1以上n+1未満の範囲で1ずつ増える数列
+range(1, n+1, 2)	1からnまでの2つ飛ばしの数列
+range(1, n+1, 2)	1からnの範囲の2つ飛ばしの数列
+range(1, n+1, 2)	1からnの範囲で2つずつ増える数列
+range(1, n+1, 2)	1~nの範囲の2つ飛ばしの数列
+range(1, n+1, 2)	1~nの範囲で2ずつ増える数列
+range(1, n+1, 2)	1以上n+1未満の範囲で2ずつ増える数列
+a.append(x)	aにxを追加する
+a.append(x)	aの最後にxをアペンドする
+a.extend(l)	aにlを展開して入れる
+a.extend(l)	lを追加してaを拡張する
+a.insert(i, x)	aのi番目にxを追加する
+a.pop()	aの末尾から値をポップする
+a.pop(i)	aのi番目から要素をポップする
+a.clear()	aの全ての要素を削除する
+a.remove(x)	a内のxと等しい要素の先頭を取り除く
+del a[0]	aの0番目の要素を取り除く
+a.index(x)	a内のxが存在する先頭のインデックスを取得する
+a.sort()	aを昇順にソートする
+X = a.sort()	aを昇順にソートし、Xに代入する
+X = a.sort()	aを昇順にソートした結果をXにする
+a.sort(reverse=True)	aを降順にソートする
+X = a.sort(reverse=True)	aを降順にソートして、Xにする
+X = a.sort(reverse=True)	aを降順にソートした結果をXにする
+a.reverse()	aを降順にする
+X = a.reverse()	aを降順にして、Xとする
+X = a.reverse()	aを降順にされた結果をXに代入する
+a.copy()	aのコピー
+X = a.copy()	aのコピーをXに代入する
+sorted(a)	aを昇順にソートする
+sorted(a)	aを昇順にソートした列
+sorted(a, reverse=True)	aを降順にソートする
+sorted(a, reverse=True)	aを降順にソートした列
+sorted(a, key=abs)	aにabs関数を適用してソートする
+sorted(a, key=abs)	aを絶対値に直してソートする
+sorted(a, key=abs)	aを絶対値に直してソートした列
+sorted(a, key=abs)	aの各要素の絶対値でソートする
+reversed(a)	aを降順にする
+reversed(a)	aをリバースした列
+all(l)	l内の全ての要素が真かどうか
+all(l)	l内の要素が全て真かどうか
+any(l)	l内の少なくともひとつの要素が真かどうか
+any(l)	l内の要素が少なくともひとつは真かどうか
+[0 for i in range(n)]	n個の0が含まれるリスト
+X = [0 for i in range(n)]	n個の0が含まれるリストをXにする
+[i for i in range(1, 101)]	1から100までの数が並んだリスト
+X = [i for i in range(1, 101)]	1から100までの数が並んだリストをXに代入する
+[i for i in range(1, 101)]	1以上101未満の数が並んだリスト
+X = [i for i in range(1, 101)]	1以上101未満の数が並んだリストをXとする
+''	空文字
+'\n'	改行文字
+'\n'	改行
+'\t'	タブ文字
+'\t'	タブ
+' '	空白文字
+' '	空白
+chr(x)	文字コードxの文字
+ord(x)	xの文字コード
+bin(x)	xの2進数文字列
+oct(x)	xの8進数表現
+hex(x)	xの16進数表現
+x.to_bytes()	xのバイト列
+byteorder='big'	ビッグエンディアンとして
+byteorder='little'	リトルエンディアンとして
+x.from_bytes()	バイト列xからの整数値
+x.is_integer()	xが整数かどうか
+s.upper()	sを英大文字に変換した文字列
+X = s.upper()	sを英大文字に変換した文字列をXに代入する
+s.upper()	s内の小文字を大文字にする
+X = s.upper()	s内の小文字を大文字に変換して、Xとする
+X = s.upper()	s内の小文字を大文字に変換した結果をXにする
+s.upper()	sを全て大文字に変換する
+X = s.upper()	sを全て大文字に変換し、Xに代入する
+X = s.upper()	sを全て大文字に変換した結果をXとする
+s.lower()	sを英小文字に変換した文字列
+X = s.lower()	sを英小文字に変換した文字列をXに代入する
+s.lower()	s内の大文字を小文字に変換する
+X = s.lower()	s内の大文字を小文字に直し、Xとする
+X = s.lower()	s内の大文字を小文字に直された結果をXにする
+s.lower()	sを全て小文字に変換する
+X = s.lower()	sを全て小文字に変換し、Xに代入する
+X = s.lower()	sを全て小文字に変換した結果をXにする
+list(s)	sの文字リスト
+X = list(s)	sの文字リストをXとする
+s.split()	sを空白で分割した文字列のリスト
+X = s.split()	sを空白で分割した文字列のリストをXとする
+s.split()	sを空白で分割してリストを返す
+X = s.split()	sを空白で分割してリストを返し、Xにする
+X = s.split()	sを空白で分割してリストを返した結果をXに代入する
+s.split()	空白を区切り文字としてsを分割した結果をリスト型にして返す
+X = s.split()	空白を区切り文字としてsを分割した結果をリスト型にして返し、Xにする
+X = s.split()	空白を区切り文字としてsを分割した結果をリスト型にして返した結果をXとする
+s.split(c)	sをcで分割した文字列のリスト
+X = s.split(c)	sをcで分割した文字列のリストをXにする
+s.split(c)	sをcで分割してリストを返す
+X = s.split(c)	sをcで分割してリストを返し、Xにする
+X = s.split(c)	sをcで分割してリストを返した結果をXとする
+s.split(c)	cを区切り文字としてsを分割した結果をリスト型にして返す
+X = s.split(c)	cを区切り文字としてsを分割した結果をリスト型にして返して、Xに代入する
+X = s.split(c)	cを区切り文字としてsを分割した結果をリスト型にして返した結果をXにする
+s.split(c, 2)	sをcで最大分割数2まで分割した文字列のリスト
+X = s.split(c, 2)	sをcで最大分割数2まで分割した文字列のリストをXに代入する
+s.split(c, 2)	sをcで最大分割数2まで分割してリストを返す
+X = s.split(c, 2)	sをcで最大分割数2まで分割してリストを返して、Xにする
+X = s.split(c, 2)	sをcで最大分割数2まで分割してリストを返した結果をXに代入する
+s.split(c, 2)	cを区切り文字、最大分割数を2としてsを分割した結果をリスト型にして返す
+X = s.split(c, 2)	cを区切り文字、最大分割数を2としてsを分割した結果をリスト型にして返し、Xにする
+X = s.split(c, 2)	cを区切り文字、最大分割数を2としてsを分割した結果をリスト型にして返した結果をXとする
+s.rsplit()	sを末尾から空白で分割した文字列のリスト
+X = s.rsplit()	sを最後から空白で分割した文字列のリストをXとする
+s.rsplit()	sを末尾から空白で分割してリストを返す
+X = s.rsplit()	sを末尾から空白で分割してリストを返し、Xとする
+X = s.rsplit()	sを末尾から空白で分割してリストを返した結果をXに代入する
+s.rsplit()	空白を区切り文字としてsを末尾から分割してリスト型にして返す
+X = s.rsplit()	空白を区切り文字としてsを最後から分割してリスト型にして返して、Xに代入する
+X = s.rsplit()	空白を区切り文字としてsを最後から分割してリスト型にして返された結果をXとする
+s.rsplit(c)	sを末尾からcで分割した文字列のリスト
+X = s.rsplit(c)	sを末尾からcで分割した文字列のリストをXとする
+s.rsplit(c)	sを末尾からcで分割してリストを返す
+X = s.rsplit(c)	sを末尾からcで分割してリストを返し、Xに代入する
+X = s.rsplit(c)	sを末尾からcで分割してリストを返した結果をXに代入する
+s.rsplit(c)	cを区切り文字としてsを最後から分割してリスト型にして返す
+X = s.rsplit(c)	cを区切り文字としてsを末尾から分割してリスト型にして返して、Xにする
+X = s.rsplit(c)	cを区切り文字としてsを末尾から分割してリスト型にして返した結果をXに代入する
+s.rsplit(c, 2)	sを末尾からcで最大分割数2まで分割した文字列のリスト
+X = s.rsplit(c, 2)	sを最後からcで最大分割数2まで分割した文字列のリストをXに代入する
+s.rsplit(c, 2)	sを末尾からcで最大分割数2まで分割してリストを返す
+X = s.rsplit(c, 2)	sを最後からcで最大分割数2まで分割してリストを返して、Xに代入する
+X = s.rsplit(c, 2)	sを最後からcで最大分割数2まで分割してリストを返した結果をXにする
+s.rsplit(c, 2)	cを区切り文字、最大分割数を2としてsを最後から分割してリスト型にして返す
+X = s.rsplit(c, 2)	cを区切り文字、最大分割数を2としてsを最後から分割してリスト型にして返して、Xに代入する
+X = s.rsplit(c, 2)	cを区切り文字、最大分割数を2としてsを最後から分割してリスト型にして返された結果をXに代入する
+s.replace(o, n)	s内のoをnに置き換えた文字列
+X = s.replace(o, n)	s内のoをnに置き換えた文字列をXとする
+s.strip()	sの両端から空白改行を除いた文字列
+X = s.strip()	sの両端から空白改行を抜いた文字列をXにする
+s.strip('x')	sの両端から'x'を取り除いた文字列
+X = s.strip('x')	sの両端から'x'を抜いた文字列をXにする
+s.lstrip()	sの左側から空白改行を取り除いた文字列
+X = s.lstrip()	sの先頭から空白改行を取り除いた文字列をXに代入する
+s.lstrip('x')	sの左側から'x'を取り除いた文字列
+X = s.lstrip('x')	sの先頭から'x'を取り除いた文字列をXに代入する
+s.rstrip()	sの終わりから空白改行を取り除いた文字列
+X = s.rstrip()	sの最後から空白改行を取り除いた文字列をXに代入する
+s.rstrip('x')	sの後ろから'x'を取り除いた文字
+X = s.rstrip('x')	sの終わりから'x'を取り除いた文字をXにする
+s.zfill(n)	sを長さがnになるように左を'0'で埋めた文字列
+X = s.zfill(n)	sを長さがnになるように左を'0'で埋めた文字列をXとする
+s.zfill(n)	sを長さがnになるように'0'で右寄せした文字列
+X = s.zfill(n)	sを長さがnになるように'0'で右寄せした文字列をXにする
+s.capitalize()	sの先頭を英大文字、残りを全て英小文字にした文字列
+X = s.capitalize()	sの最初を英大文字、残りを全て英小文字に変換した文字列をXに代入する
+s.strswap()	sの英大小文字を逆にした文字列
+X = s.strswap()	sの英大小文字を逆にした文字列をXとする
+s.strswap()	sの英大文字と英小文字を逆にした文字列
+X = s.strswap()	sの英大文字と英小文字を交換した文字列をXに代入する
+s.find('x')	sの最初から'x'を探して見つかった位置
+X = s.find('x')	sの最初から'x'を探して見つかった位置をXとする
+s.find('x')	s内の'x'がある位置
+X = s.find('x')	s内の'x'がある位置をXにする
+s.find('x', 2)	sの2番目から'x'を探して見つかった位置
+X = s.find('x', 2)	sの2番目から'x'を探して見つかった位置をXにする
+s.find('x', 2)	s内の2番目以降に'x'がある位置
+X = s.find('x', 2)	s内の2番目以降に'x'がある位置をXに代入する
+s.find('x', 2, 5)	sの2番目から5番目の間で'x'を探して見つかった位置
+X = s.find('x', 2, 5)	sの2番目から5番目の間で'x'を探して見つかった位置をXにする
+s.find('x', 2, 5)	s内の2番目から5番目に'x'がある位置
+X = s.find('x', 2, 5)	s内の2番目から5番目に'x'がある位置をXとする
+s.rfind('x')	sの後ろから'x'を探して見つかった位置
+X = s.rfind('x')	sの後ろから'x'を探して見つかった位置をXに代入する
+s.rfind('x')	s内の'x'がある後ろ側の位置
+X = s.rfind('x')	s内の'x'がある後ろ側の位置をXにする
+s.rfind('x', 2)	sの2番目から'x'を後ろから探して見つかった位置
+X = s.rfind('x', 2)	sの2番目から'x'を後ろから探して見つかった位置をXに代入する
+s.rfind('x', 2)	s内の2番目以降に'x'がある後ろ側の位置
+X = s.rfind('x', 2)	s内の2番目以降に'x'がある右側の位置をXに代入する
+s.rfind('x', 2, 5)	sの2番目から5番目の間で'x'を後ろから探して見つかった位置
+X = s.rfind('x', 2, 5)	sの2番目から5番目の間で'x'を後ろから探して見つかった位置をXとする
+s.rfind('x', 2, 5)	s内の2番目から5番目に'x'がある右側の位置
+X = s.rfind('x', 2, 5)	s内の2番目から5番目に'x'がある後ろ側の位置をXにする
+''.join(l)	l内の要素を連結した文字列
+X = ''.join(l)	l内の要素を連結した文字列をXとする
+','.join(l)	','を間に入れてl内の要素を連結した文字列
+X = ','.join(l)	','を間に入れてl内の値を連結した文字列をXとする
+s.count(x)	s内のxの出現回数
+s.count(x)	s内のxの出現回数を見る
+s.startswith(x)	sの先頭がxで始まる{かどうか}
+if s.startswith(x) :	もしsの先頭がxで始まる{かどうか}なら
+s.startswith(x)	sがxで始まるかどうか
+if s.startswith(x) :	sがxで始まるなら
+s.startswith(x, 2)	sの2番目がxで始まる{かどうか}
+if s.startswith(x, 2) :	もしsの2番目がxで始まる{かどうか}のとき
+s.endswith(x)	sの後ろがxで終わるかどうか
+if s.endswith(x) :	sの末尾がxで終わるならば
+s.endswith(x)	sの後ろがxであるかどうか
+if s.endswith(x) :	もしsの末尾がxであるのとき
+s.endswith(x, 2)	sの2番目がxで終わるかどうか
+if s.endswith(x, 2) :	もしsの2番目がxで終わるの場合
+s.isupper()	sが英大文字かどうか
+if s.isupper() :	もしsが英大文字のとき
+s.isupper()	s中の全ての文字が英大文字かどうか
+if s.isupper() :	もしs中の全ての文字が英大文字のとき
+s.isupper()	s中の全ての英字が大文字かどうか
+if s.isupper() :	もしs中の全ての英字が大文字ならば
+s.isupper()	s中の英字全てが大文字かどうか
+if s.isupper() :	もしs中の英字全てが大文字ならば
+s.islower()	sが英小文字かどうか
+if s.islower() :	もしsが英小文字のとき
+s.islower()	s中の全ての文字が英小文字かどうか
+if s.islower() :	もしs中の全ての文字が英小文字の場合
+s.islower()	s中の全ての英字が小文字かどうか
+if s.islower() :	もしs中の全ての英字が小文字ならば
+s.islower()	s中の英字全てが小文字かどうか
+if s.islower() :	もしs中の英字全てが小文字の場合
+s.isdigit()	sが数字かどうか
+if s.isdigit() :	もしsが数字ならば
+s.isdigit()	s中の全ての文字が数字かどうか
+if s.isdigit() :	s中の全ての文字が数字なら
+s.isdigit()	s全てが数字かどうか
+if s.isdigit() :	もしs全てが数字の場合
+s.isdigit()	sが数字であるかどうか
+if s.isdigit() :	もしsが数字であるなら
+s.isalpha()	sが全てアルファベットかどうか
+if s.isalpha() :	もしsが全てアルファベットならば
+s.isalnum()	sが全て英数字かどうか
+if s.isalnum() :	もしsが全て英数字のとき
+s.isascii()	sが全てASCII文字かどうか
+if s.isascii() :	もしsが全てASCII文字なら
+s.isdecimal()	sが全て数字かどうか
+if s.isdecimal() :	もしsが全て数字ならば
+s.isnumeric()	sが全て数字かどうか
+if s.isnumeric() :	もしsが全て数字ならば
+s.isidentifier()	sが識別子として利用可能かどうか
+if s.isidentifier() :	もしsが識別子として利用可能なら
+s.isprintable()	sが印字可能かどうか
+if s.isprintable() :	もしsが印字可能なら
+set()	空のセット
+X = set()	空の集合をXに代入する
+set()	空集合
+X = set()	空集合をXに代入する
+set(l)	lのセット
+X = set(l)	lの集合をXとする
+st.add(1)	stに1を追加する
+st.remove(1)	stから1を取り除く
+st1.union(st2)	st1とst2の和集合
+st1.union(st2)	st1とst2の和集合を計算する
+st1.union(st2)	st1とst2の和集合を抽出する
+st1.intersection(st2)	st1とst2の積集合
+st1.intersection(st2)	st1とst2の積集合を算出する
+st1.intersection(st2)	st1とst2の積集合を得る
+st1.intersection(st2)	st1とst2の積集合
+st1.intersection(st2)	st1とst2の共通部分を求める
+st1.intersection(st2)	st1とst2の共通部分を得る
+st1.difference(st2)	st1とst2の差集合
+st1.difference(st2)	st1とst2の差集合を計算する
+st1.difference(st2)	st1とst2の差集合を得る
+st1.symmetric_difference(st2)	st1とst2の対称差集合
+st1.symmetric_difference(st2)	st1とst2の対称差を計算する
+st1.symmetric_difference(st2)	st1とst2の対称差集合をえる
+st1.issubset(st2)	st1がst2の部分集合かどうか
+if st1.issubset(st2) :	もしst1がst2の部分集合なら
+st1.issuperset(st2)	st1がst2の上位集合かどうか
+if st1.issuperset(st2) :	もしst1がst2の上位集合ならば
+st1.isdisjoint(st2)	st1がst2と互いに素かどうか
+if st1.isdisjoint(st2) :	st1がst2と互いに素の場合
+st1.isdisjoint(st2)	st1とst2が互いに素かどうか
+if st1.isdisjoint(st2) :	もしst1とst2が互いに素なら
+frozenset()	イミュータブルなセット
+X = frozenset()	イミュータブルなセットをXにする
+frozenset(x)	xのイミュータブルなセット
+X = frozenset(x)	xのイミュータブルなセットをXとする
+breakpoint()	デバッガーを起動する
+globals	グローバル変数の辞書
+locals	ローカル変数の辞書
+import random	randomモジュールをインポートする
+random.random()	0.0〜1.0の乱数
+random.random()	0.0以上1.0未満の乱数
+random.randrange(10)	0から10未満までの整数乱数
+X = random.randrange(10)	0から10未満までの整数乱数をXとする
+random.randrange(10)	10未満までの整数乱数
+X = random.randrange(10)	10未満までの整数乱数をXとする
+random.randrange(100, 1000)	100から1000未満までの整数乱数
+X = random.randrange(100, 1000)	100から1000未満までの整数乱数をXとする
+random.randrange(100, 1000)	100以上1000未満までの整数乱数
+X = random.randrange(100, 1000)	100以上1000未満までの整数乱数をXに代入する
+random.randint(1, 10)	1以上10以下の整数乱数
+X = random.randint(1, 10)	1以上10以下の整数乱数をXに代入する
+random.seed(0)	乱数シードを0に固定する
+random.seed(0)	乱数シードを0として乱数生成器を初期化する
+random.choice(l)	lからランダムに要素をチョイスする
+random.sample(l, 3)	lからランダムに要素を3つチョイスする
+random.shuffle(l)	lをランダムにシャッフルする
+import math	mathモジュールをインポートする
+math.sqrt(x)	xの平方根
+math.sqrt(x)	xの平方根を表示する
+math.sqrt(x)	xの平方根を算出する
+X = math.sqrt(x)	xの平方根をXに代入する
+math.sqrt(x)	xのルート
+math.sqrt(x)	xのルートを調べる
+math.sqrt(x)	xのルートを求める
+X = math.sqrt(x)	xのルートをXに代入する
+math.ceil(x)	xの小数点以下切り上げ
+math.ceil(x)	xの切り上げを調べる
+math.ceil(x)	xの切り上げを計算する
+X = math.ceil(x)	xの切り上げをXにする
+math.ceil(x)	xを最も近い数値に切り上げ
+math.ceil(x)	xを最も近い整数に切り上げを調べる
+math.ceil(x)	xを最も近い整数に切り上げを算出する
+X = math.ceil(x)	xを最も近い整数に切り上げをXにする
+math.ceil(x)	xに最も近い数値に切り上げ
+math.ceil(x)	xに最も近い数値に切り上げを調べる
+math.ceil(x)	xに最も近い整数に切り上げを計算する
+X = math.ceil(x)	xに最も近い整数に切り上げをXに代入する
+math.floor(x)	xの小数点以下切り捨て
+math.floor(x)	xの切り捨てを表示する
+math.floor(x)	xの小数点以下切り捨てを算出する
+X = math.floor(x)	xの小数点以下切り捨てをXにする
+math.floor(x)	xを最も近い整数に切り捨て
+math.floor(x)	xを最も近い整数に切り捨てを調べる
+math.floor(x)	xを最も近い整数に切り捨てを算出する
+X = math.floor(x)	xを最も近い整数に切り捨てをXに代入する
+math.floor(x)	xに最も近い整数に切り捨て
+math.floor(x)	xに最も近い整数に切り捨てを見る
+math.floor(x)	xに最も近い整数に切り捨てを求める
+X = math.floor(x)	xに最も近い整数に切り捨てをXに代入する
+math.gcd(x, y)	xとyの最大公約数
+math.gcd(x, y)	xとyの最大公約数をチェックする
+math.gcd(x, y)	xとyの最大公約数を計算する
+X = math.gcd(x, y)	xとyの最大公約数をXにする
+math.lcm(x, y)	xとyの最小公倍数
+math.lcm(x, y)	xとyの最小公倍数を見る
+math.lcm(x, y)	xとyの最小公倍数を計算する
+X = math.lcm(x, y)	xとyの最小公倍数をXとする
+math.comb(x, y)	xとyの組み合わせ
+math.comb(x, y)	xとyの組み合わせを確認する
+math.comb(x, y)	xとyのコンビネーションを算出する
+X = math.comb(x, y)	xとyのコンビネーションをXに代入する
+math.copysign(x, y)	yの符号を持ったx
+math.copysign(x, y)	yの符号を持ったxを確認する
+math.copysign(x, y)	yの符号を持ったxを求める
+X = math.copysign(x, y)	yの符号を持ったxをXとする
+math.copysign(x, y)	xをyの符号にした値
+math.copysign(x, y)	xをyの符号にした値を見る
+math.copysign(x, y)	xをyの符号にした値を計算する
+X = math.copysign(x, y)	xをyの符号にした値をXとする
+math.fabs(x)	xの絶対値
+math.fabs(x)	xの絶対値を表示する
+math.fabs(x)	xの絶対値を求める
+X = math.fabs(x)	xの絶対値をXにする
+math.factorial(x)	xの階乗
+math.factorial(x)	xの階乗を調べる
+math.factorial(x)	xの階乗を計算する
+X = math.factorial(x)	xの階乗をXにする
+math.frexp(x)	xの仮数と指数
+math.frexp(x)	xの仮数と指数を調べる
+math.frexp(x)	xの仮数と指数を求める
+math.isclose(x, y)	xとyが近いかどうか
+math.isclose(x, y)	xとyが近いかどうかを調べる
+math.isclose(x, y)	xとyが近いかどうかを求める
+if math.isclose(x, y) :	もしxとyが近いとき
+math.isclose(x, y)	xとyが近似値かどうか
+math.isclose(x, y)	xとyが近似値かどうかを確認する
+math.isclose(x, y)	xとyが近似値かどうかを求める
+if math.isclose(x, y) :	もしxとyが近似値の場合
+math.isfinite(x)	xが有限かどうか
+math.isfinite(x)	xが有限かどうかを表示する
+math.isfinite(x)	xが有限かどうかを求める
+if math.isfinite(x) :	もしxが有限なら
+math.isinf(x)	xが無限大かどうか
+math.isinf(x)	xが無限大かどうかを確認する
+math.isinf(x)	xが無限大かどうかを算出する
+if math.isinf(x) :	xが無限大の場合
+math.isnan(x)	xがNaNかどうか
+math.isnan(x)	xがNaNかどうかを見る
+math.isnan(x)	xがNaNかどうかを求める
+if math.isnan(x) :	もしxがNaNなら
+math.modf(x)	xの小数部と整数部
+math.modf(x)	xの小数部と整数部を調べる
+math.modf(x)	xの小数部と整数部を計算する
+math.perm(x)	xの順列の総数
+math.perm(x)	xの順列の総数をチェックする
+math.perm(x)	xの順列の総数を算出する
+X = math.perm(x)	xの順列の総数をXとする
+math.perm(x, y)	xからy個取り出した時の順列の総数
+math.perm(x, y)	xからy個取り出した時の順列の総数を調べる
+math.perm(x, y)	xからy個取り出した時の順列の総数を算出する
+X = math.perm(x, y)	xからy個取り出した時の順列の総数をXとする
+math.prod(l)	lの要素積
+math.prod(l)	lの要素積を表示する
+math.prod(l)	lの要素積を算出する
+X = math.prod(l)	lの要素積をXにする
+math.remainder(x, y)	xをyで割った剰余
+math.remainder(x, y)	xをyで割った剰余を表示する
+math.remainder(x, y)	xをyで割った剰余を算出する
+X = math.remainder(x, y)	xをyで割った剰余をXに代入する
+math.exp(x)	eのx乗
+math.exp(x)	eのx乗を確認する
+math.exp(x)	eのx乗を求める
+X = math.exp(x)	eのx乗をXとする
+math.log(x)	xの自然対数
+math.log(x)	xの自然対数を見る
+math.log(x)	xの自然対数を計算する
+X = math.log(x)	xの自然対数をXとする
+math.log(x, y)	yを底とするxの対数
+math.log(x, y)	yを底とするxの対数を見る
+math.log(x, y)	yを底とするxの対数を計算する
+X = math.log(x, y)	yを底とするxの対数をXにする
+math.log(x, y)	yに対するxの対数
+math.log(x, y)	yに対するxの対数をチェックする
+math.log(x, y)	yに対するxの対数を計算する
+X = math.log(x, y)	yに対するxの対数をXに代入する
+math.log1p(x)	1+xの自然対数
+math.log1p(x)	1+xの自然対数を見る
+math.log1p(x)	1+xの自然対数を計算する
+X = math.log1p(x)	1+xの自然対数をXに代入する
+math.log2(x)	2を底とするxの対数
+math.log2(x)	2を底とするxの対数を表示する
+math.log2(x)	2を底とするxの対数を算出する
+X = math.log2(x)	2を底とするxの対数をXとする
+math.log10(x)	xの常用対数
+math.log10(x)	xの常用対数を表示する
+math.log10(x)	xの常用対数を求める
+X = math.log10(x)	xの常用対数をXとする
+math.log10(x)	xの10を底とする対数
+math.log10(x)	xの10を底とする対数を表示する
+math.log10(x)	xの10を底とする対数を求める
+X = math.log10(x)	xの10を底とする対数をXとする
+math.cos(x)	xの余弦
+math.cos(x)	xの余弦をチェックする
+math.cos(x)	xの余弦を計算する
+X = math.cos(x)	xの余弦をXにする
+math.cos(x)	xのコサイン
+math.cos(x)	xのコサインをチェックする
+math.cos(x)	xのコサインを計算する
+X = math.cos(x)	xのコサインをXにする
+math.sin(x)	xの正弦
+math.sin(x)	xの正弦を調べる
+math.sin(x)	xの正弦を求める
+X = math.sin(x)	xの正弦をXに代入する
+math.sin(x)	xのサイン
+math.sin(x)	xのサインを表示する
+math.sin(x)	xのサインを計算する
+X = math.sin(x)	xのサインをXに代入する
+math.tan(x)	xの正接
+math.tan(x)	xの正接をチェックする
+math.tan(x)	xの正接を算出する
+X = math.tan(x)	xの正接をXに代入する
+math.tan(x)	xのタンジェント
+math.tan(x)	xのタンジェントをチェックする
+math.tan(x)	xのタンジェントを算出する
+X = math.tan(x)	xのタンジェントをXとする
+math.acos(x)	xの逆余弦
+math.acos(x)	xの逆余弦を表示する
+math.acos(x)	xの逆余弦を計算する
+X = math.acos(x)	xの逆余弦をXに代入する
+math.acos(x)	xのアークコサイン
+math.acos(x)	xのアークコサインを調べる
+math.acos(x)	xのアークコサインを求める
+X = math.acos(x)	xのアークコサインをXにする
+math.asin(x)	xの逆正弦
+math.asin(x)	xの逆正弦をチェックする
+math.asin(x)	xの逆正弦を算出する
+X = math.asin(x)	xの逆正弦をXに代入する
+math.asin(x)	xのアークサイン
+math.asin(x)	xのアークサインをチェックする
+math.asin(x)	xのアークサインを求める
+X = math.asin(x)	xのアークサインをXに代入する
+math.atan(x)	xの逆正接
+math.atan(x)	xの逆正接を見る
+math.atan(x)	xの逆正接を算出する
+X = math.atan(x)	xの逆正接をXにする
+math.atan(x)	xのアークタンジェント
+math.atan(x)	xのアークタンジェントをチェックする
+math.atan(x)	xのアークタンジェントを計算する
+X = math.atan(x)	xのアークタンジェントをXにする
+math.degrees(x)	xの角度
+math.degrees(x)	xの角度をチェックする
+math.degrees(x)	xの角度を求める
+X = math.degrees(x)	xの角度をXとする
+math.radians(x)	xのラジアン
+math.radians(x)	xのラジアンをチェックする
+math.radians(x)	xのラジアンを求める
+X = math.radians(x)	xのラジアンをXに代入する
+math.acosh(x)	xの逆双曲線余弦
+math.acosh(x)	xの逆双曲線余弦を見る
+math.acosh(x)	xの逆双曲線余弦を求める
+X = math.acosh(x)	xの逆双曲線余弦をXにする
+math.asinh(x)	xの逆双曲線正弦
+math.asinh(x)	xの逆双曲線正弦を表示する
+math.asinh(x)	xの逆双曲線正弦を求める
+X = math.asinh(x)	xの逆双曲線正弦をXとする
+math.atanh(x)	xの逆双曲線正接
+math.atanh(x)	xの逆双曲線正接を確認する
+math.atanh(x)	xの逆双曲線正接を求める
+X = math.atanh(x)	xの逆双曲線正接をXに代入する
+math.cosh(x)	xの双曲線余弦
+math.cosh(x)	xの双曲線余弦を見る
+math.cosh(x)	xの双曲線余弦を求める
+X = math.cosh(x)	xの双曲線余弦をXにする
+math.sinh(x)	xの双曲線正弦
+math.sinh(x)	xの双曲線正弦を見る
+math.sinh(x)	xの双曲線正弦を求める
+X = math.sinh(x)	xの双曲線正弦をXにする
+math.tanh(x)	xの双曲線正接
+math.tanh(x)	xの双曲線正接を表示する
+math.tanh(x)	xの双曲線正接を求める
+X = math.tanh(x)	xの双曲線正接をXとする
+math.dist(x, y)	xとyのユークリッド距離
+math.dist(x, y)	xとyのユークリッド距離を確認する
+math.dist(x, y)	xとyのユークリッド距離を求める
+X = math.dist(x, y)	xとyのユークリッド距離をXにする
+math.hypot(x,y)	xとyのノルム
+math.hypot(x,y)	xとyのノルムをチェックする
+math.hypot(x,y)	xとyのノルムを求める
+X = math.hypot(x,y)	xとyのノルムをXに代入する
+math.hypot(x,y)	原点からの(x, y)の距離
+math.hypot(x,y)	原点からの(x, y)の距離を見る
+math.hypot(x,y)	原点からの(x, y)の距離を算出する
+X = math.hypot(x,y)	原点からの(x, y)の距離をXに代入する
+math.gamma(x)	xのガンマ関数
+math.gamma(x)	xのガンマ関数を表示する
+math.gamma(x)	xのガンマ関数を算出する
+X = math.gamma(x)	xのガンマ関数をXとする
+math.lgamma(x)	xのガンマ関数の絶対値の自然対数
+math.lgamma(x)	xのガンマ関数の絶対値の自然対数を見る
+math.lgamma(x)	xのガンマ関数の絶対値の自然対数を求める
+X = math.lgamma(x)	xのガンマ関数の絶対値の自然対数をXに代入する
+math.pi	円周率
+math.pi	円周率をチェックする
+math.pi	円周率を算出する
+math.e	ネイピア数
+math.e	ネイピア数を確認する
+math.e	ネイピア数を算出する
+math.inf	無限大
+math.inf	無限大を確認する
+math.inf	無限大を算出する
+math.nan	NaN
+math.nan	NaNを確認する
+math.nan	NaNを算出する
+import copy	copyモジュールをインポートする
+copy.copy(x)	xをコピーした結果
+copy.deepcopy(x)	xを深くコピーした結果
+import bisect	bisectモジュールをインポートする
+bisect.bisect_left(b, x)	ソートされた順序を保ったままxをbに挿入できる位置
+bisect.bisect_right(b, x)	ソートされた順序を保ったままxをbに挿入できる最後の位置
+bisect.insort_left(b, x)	xをbにソート順で挿入する
+bisect.insort_right(b, x)	xをbにソート順で最後に挿入する
+import itertools	itertoolsモジュールをインポートする
+itertools.repeat(10)	10の無限列
+itertools.repeat(10, 3)	10の3回続く列
+itertools.count()	無限にカウントアップする整数列
+itertools.count(2)	2からカウントアップする無限の整数列
+itertools.count(2, 10)	2から始まり10間隔でカウントアップする無限の整数列
+itertools.cycle(l)	lを無限に繰り返した列
+itertools.product(l1, l2)	l1とl2の直積
+itertools.permutations(l)	lの順列
+itertools.permutations(l, 2)	lのうち2個までの順列
+itertools.combinations(l, 2)	lのうち2個までの組み合わせ
+itertools.combinations_with_replacement(l, 2)	lのうち2個までの重複組み合わせ
+import collections	collectionsモジュールを用いる
+collections.deque()	dequeオブジェクトを作る
+X = collections.deque()	dequeオブジェクトを作成し、Xに代入する
+X = collections.deque()	dequeオブジェクトを作成した結果をXとする
+collections.deque(x)	xからdequeオブジェクトを作成する
+X = collections.deque(x)	xからdequeオブジェクトを作成して、Xに代入する
+X = collections.deque(x)	xからdequeオブジェクトを作成した結果をXとする
+maxlen=5	5を最大長として
+x.appendleft('l')	xの左側に'l'を追加する
+x.appendleft('l')	xの最初を'l'で拡張する
+x.popleft()	xの先頭から取り除いた値
+x.rotate()	xの要素を右にひとつローテート直す
+x.rotate(2)	xの要素を右に2つずつローテートする
+collections.Counter(l)	lの辞書カウンタ
+X = collections.Counter(l)	lの辞書カウンタをXとする
+c.most_common()	cの出現回数順の列
+c.most_common(3)	cの上位3位までの出現回数順の列
+import os	osモジュールをインポートする
+os.sep	ファイルパスのセパレータ記号
+os.getcwd	現在の作業ディレクトリ
+os.system	コマンド
+os.path.basename(p)	パス文字列pのファイル名
+os.path.dirname(p)	パスpのディレクトリ名
+os.path.abspath(p)	パス文字列pの絶対ファイルパス
+os.path.split(p)	パス文字列pのディレクトリ名とファイル名
+os.path.join('dir', 'subdir', 'filename.ext')	'dir'と'subdir'と'filename.ext'を連結したファイルパス
+os.path.splitext(p)	パス文字列pのファイル名と拡張子
+os.path.get_size(p)	パス文字列pのファイルの大きさ
+import sys	sysモジュールをインポートする
+sys.exit()	プログラムを終了する
+import datetime	datetimeモジュールをインポートする
+datetime.datetime.now()	現在の日時
+datetime.datetime(year, month, day)	year年month月day日の日時
+datetime.datetime(year, month, day, hour, minute)	year年month月day日hour時minute分の日時
+datetime.datetime(year, month, day, hour, minute, second)	year年month月day日hour時minute分second秒の日時
+re.search(r, s)	sにおいて正規表現rのパターンが最初にマッチする位置
+re.match(r, s)	sの先頭に正規表現rのパターンをマッチさせた結果
+re.fullmatch(r, s)	s全体において正規表現rのパターンをマッチさせた結果
+re.split(r, s)	sを正規表現rのパターンにマッチした箇所で分割した文字列リスト
+re.sub(r, t, s)	s内の正規表現rのパターンにマッチした箇所をtに置き換えた文字列
+re.subn(r, t, s)	s内の正規表現rのパターンにマッチした箇所をtに置き換えた文字列と置き換えた箇所の数
+re.findall(r, s)	sが正規表現rのパターンにマッチした文字列のリスト
+re.compile(r)	rを正規表現にコンパイルした結果
