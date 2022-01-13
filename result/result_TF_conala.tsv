@@ -1,0 +1,658 @@
+change flask security register url to <val1>	app . config [ 'SECURITY_REGISTER_URL' ] = <val1>	encoded = base64 . b64encode ( <val1> )
+add a column <val2> with value <val3> to dataframe <name4>	<name4> . xs ( <val3> , level = <val2> , drop_level = False )	dt = <name4> [ <val2> ] + <name4> [ <val3> ] . dt . dt
+List all the files that matches the pattern <val1>	glob . glob ( <val1> )	driver . find_element_by_css_selector ( <val1> ) . show ( )
+Return rows of data associated with the maximum value of column <val5> in dataframe <name1>	<name1> . loc [ <name1> [ <val5> ] . idxmax ( ) ]	df . <name1> [ <name1> [ <val2> ] == <val3> ] . isin ( float ) ]
+get the <name1> of Python <name3> under windows	os . <name1> . dirname ( sys . <name3> )	sys . <name1> . <name3> ( )
+limit float 13.949999999999999 to two decimal points	'{0:.2f}' . format ( 13.95 )	'{0:.2f}' . format ( '{0:.2f}' . format ( 13.95 ) ) [ 0 ]
+<name2> list <name1> by each element ' s attribute <name3> and attribute <name4> in <name5> order	<name1> . <name2> ( key = lambda x : ( x . <name3> , x . <name4> ) , <name5> = True )	<name5> . <name1> ( key = lambda x : x . <name2> , <name3> = True )
+split string <name1> based on white spaces	re . findall ( '\\s+|\\S+' , <name1> )	<name1> . split ( )
+create a <name1> list of integers	[ int ( 1000 * <name1> . <name1> ( ) ) for i in range ( 10000 ) ]	l = ( int ( x ) for x in <name1> )
+<name5> series <name2> into 3 months bins and sum each bin	<name2> . <name5> ( '3M' , how = 'sum' )	<name5> . <name2> ( '\\r' , <val4> )
+Convert each key , value pair <name1> a dictionary {'My Key': 'My Value'} to lowercase	dict ( ( k . lower ( ) , v . lower ( ) ) for k , v <name1> { 'My Key' : 'My Value' } . items ( ) )	dict ( ( k . lower ( ) , v ) for k , v in <name1> . items ( ) )
+convert <name1> list of lists <name1> into list of tuples of appropriate elements form nested lists	zip ( * <name1> )	dict ( zip ( <name1> , zip ( ) ) , <name1> ) )
+Use multiple <name5> and <name6> operations <val1> , <val4> , <val2> for pandas data frame <name3>	<name3> . <name5> ( level = 0 ) . <name6> ( [ <val1> , <val4> , <val2> ] )	np . <name6> ( <name5> , <name3> = <val4> ) . <name6> ( <val2> ) . <name6> ( )
+create a <name1> of integers between 2 values <val2> and <val3>	<name1> ( range ( <val2> , <val3> ) )	{ i : int ( i + <val2> ) for i in range ( <val3> ) }
+sort list <name1> of tuples by arbitrary <name2> from list <name3>	sorted ( <name1> , <name2> = lambda x : <name3> . index ( x [ 1 ] ) )	zip ( * sorted ( <name1> , <name2> ) )
+remove parentheses and text within it in string <name1>	re . sub ( '\\([^)]*\\)' , '' , <name1> )	<name1> = re . sub ( '[^A-Za-z0-9]+' , '' , <name1> )
+read the first line of a string <name3>	<name3> . splitlines ( ) [ 0 ]	<name3> [ 0 ] . rstrip ( '\n' ) [ 0 ]
+<name1> a <val2> unauthorized in django	<name1> HttpResponse ( 'Unauthorized' , status = <val2> )	<name1> ( <val2> , 16 )
+get first element of each tuple <name1> list <name2>	[ tup [ 0 ] for tup <name1> <name2> ]	new_list = [ x [ 0 ] [ 0 ] for x <name1> <name2> ]
+<name2> a single subcolumn <val4> in column <val3> from a dataframe <name1>	<name1> . <name2> ( ( <val3> , <val4> ) , axis = 1 )	np . <name1> ( ( <name2> , <val3> , <val4> ) ) . mean ( )
+<name2> unicode string <name1> into a readable unicode literal	<name1> . <name2> ( 'unicode_escape' )	<name4> . decode ( 'string_escape' ) . <name2> ( )
+Create <name3> to contain the lists from list <name2> excluding the empty lists from <name2>	<name3> = [ x for x in <name2> if x ]	<name2> = [ x for x in <name3> if x ]
+Get the difference between two lists [1, 2, 2, 2, 3] and [1, 2] that may have duplicate values	Counter ( [ 1 , 2 , 2 , 2 , 3 ] ) - Counter ( [ 1 , 2 ] )	dict ( [ 1 , 2 , 3 , 4 ] ) for i in [ 1 , 2 , 2 , 3 ] )
+convert date <name6> to <name1>	<name1> . <name1> . combine ( <name6> , <name1> . time . min )	t . <name1> . <name1> . <name6> . strftime ( <name6> )
+sort <name1> multidimensional array <name1> by column with index <val2>	sorted ( <name1> , key = lambda x : x [ <val2> ] )	sorted ( <name1> , key = <name1> . itemgetter ( <val2> ) )
+sort two lists <name1> and <name2> together using <name3> function	[ list ( x ) for x in zip ( * sorted ( zip ( <name1> , <name2> ) , key = <name3> pair : pair [ 0 ] ) ) ]	dict ( zip ( <name1> , zip ( * <name2> ) ) )
+Get keys from a dictionary 'd' where the <name1> is '1' .	print ( [ key for key , <name1> in list ( d . items ( ) ) if <name1> == 1 ] )	dict ( ( k , v ) for k , v in <name1> . items ( ) if v )
+return the column for value <val1> in dataframe <name4>	<name4> . ix [ : , ( <name4> . loc [ 0 ] == <val1> ) ] . columns	any ( <name4> . <name4> . columns [ <val1> ] == <val1> )
+extract attribute <name1> from each object <name2> list <name3>	[ o . <name1> for o <name2> <name3> ]	print ( [ item for item <name1> <name2> <name3> ] )
+initialize a list <name1> of <val3> objects <name2> ( )	<name1> = [ <name2> ( ) for _ in range ( <val3> ) ]	<name1> = [ <name2> ( ) for i in range ( <val3> ) ]
+Sort a string <name2> in lexicographic order	sorted ( <name2> , key = str . upper )	OrderedDict ( sorted ( sorted ( <name2> ) ) )
+create list changed_list containing elements of list <name1> whilst converting strings containing digits to integers	changed_list = [ ( int ( f ) if f . isdigit ( ) else f ) for f in <name1> ]	changed_list = map ( lambda x : int , ( x [ 0 -1 ] ) for x in <name1> ] )
+get the number of all keys <name1> the nested dictionary dict_list	len ( dict_test ) + sum ( len ( v ) for v <name1> dict_test . values ( ) )	{ i : len ( i ) for i in <name1> if i > len ( i ) }
+append each line <name6> file <name2> into a list	[ x for x <name6> <name2> . splitlines ( ) if x != '' ]	<name6> . extend ( <name2> ) . split ( )
+'split string `text` by ' <val1> ''	text . split ( <val1> )	s = re . split ( <val1> )
+add character '@' after word 'get' in string <name4>	<name4> = re . sub ( '(\\bget\\b)' , '\\1@' , <name4> )	url = <name4> . replace ( url , '' , <name4> )
+remove <name1> from dictionary <name6> <name4> the item ' s value <name3> is equal to <val2>	<name6> = { key : <name3> for key , <name3> in list ( <name6> . <name1> ( ) ) <name4> <name3> != <val2> }	dict ( ( x , <name1> . <name6> ( x ) ) for x in <name3> . <name4> ( ) )
+get all characters between two $ characters in <name1> <name1>	re . findall ( '\\$([^$]*)\\$' , <name1> )	<name1> = re . findall ( '\\d+(?=[^[]+$)' , <name1> )
+get the common prefix from comparing two absolute paths <val1> and <val2>	os . path . commonprefix ( [ <val1> , <val2> ] )	df . groupby ( [ <val2> , <val3> ] ) [ <val1> ] . read ( )
+get <name2> <name3> of pandas dataframe <name1> as list	<name1> . <name2> . <name3> . tolist ( )	<name3> . <name1> . <name2> . tolist ( )
+get <name3> of rows in dataframe <name1> which column <val2> matches value True	<name1> [ <name1> [ <val2> ] ] . <name3> . tolist ( )	<name4> [ <name1> [ <val2> ] == <name3> ]
+subtract elements of list <name1> from elements of list <name3>	[ ( x1 - x2 ) for x1 , x2 in zip ( <name1> , <name3> ) ]	zip ( <name3> - <name1> ) [ : -1 ]
+<name1> u'X\xc3\xbcY\xc3\x9f' as unicode and <name2> with utf -8	'X\xc3\xbcY\xc3\x9f' . <name1> ( 'raw_unicode_escape' ) . <name2> ( 'utf-8' )	stringnamehere . <name1> ( 'utf-8' , <name2> ) . encode ( 'utf-8' )
+generate a <name5> number in <val1> to <val2> with a given distribution [ <val6> , <val4> , <val4> , <val3> , <val5> , <val3> ]	numpy . <name5> . choice ( numpy . arange ( <val1> , <val2> ) , p = [ <val6> , <val4> , <val4> , <val3> , <val5> , <val3> ] )	plt . <name1> ( [ <val2> , <val3> , <val4> ] , <name5> = [ <val4> , <val6> ] ) . replace ( )
+check if dictionary <name2> is a <name2> of dictionary <name1>	all ( item in list ( <name1> . items ( ) ) for item in list ( <name2> . items ( ) ) )	isinstance ( k , v ) for k <name1> <name2> )
+get rows of dataframe <name1> where column <name2> has values ['men', 'rocks', 'mountains']	<name1> [ <name1> . <name2> . isin ( [ 'men' , 'rocks' , 'mountains' ] ) ]	print ( <name1> . loc [ <name1> . loc [ <name1> , <name2> . isin ( [ 'B' ] ) ] ) ] )
+get a <name1> of the row names from <name2> of a pandas data frame	<name1> ( df . <name2> )	datetime . <name1> ( ) . <name2> ( )
+Return values for column <val4> after group by on column <val6> and <val1> in dataframe <name5>	<name5> . groupby ( [ <val6> , <val1> ] ) [ <val4> ] . unique ( )	print ( <name5> [ <val6> ] . str [ <val1> ] , <name5> [ <val4> : <val6> ] ] )
+generate all permutations of <name1> [1, 2, 3] and <name1> [4, 5, 6]	print ( <name1> ( itertools . product ( [ 1 , 2 , 3 ] , [ 4 , 5 , 6 ] ) ) )	<name1> ( itertools . combinations ( ( [ 1 , 2 , 3 , 5 , 6 ] ) , [ 5 , 6 ] ) )
+remove duplicated items from <name3> of lists <name1>	<name3> ( map ( <name3> , set ( map ( lambda i : tuple ( i ) , <name1> ) ) ) )	sum ( [ item for item <name1> <name2> ] for item <name1> <name3> )
+Create a <name5> <name4> containing first element of each <name5> <name1> <name5> <name6>	<name4> = <name5> ( x [ 0 ] for x <name1> <name6> )	<name4> = [ <name6> ( x ) for x , y in <name1> . <name5> ( ) ]
+group a list <name6> of tuples by values	zip ( * <name6> )	<name6> ( zip ( * <name6> [ 1 : ] ) ) [ 0 ]
+'remove a substring ' <val1> ' from the end of string `url`'	print ( url . replace ( <val1> , '' ) )	urllib . parse . parse . sub ( url , '' , <val1> )
+Generate a random integer between <val2> and <val4>	randint ( <val2> , <val4> )	[ ( i + <val2> ) for i in range ( <val4> ) ]
+<name2> the index of sub string <val3> in string <name1>	<name1> . <name2> ( <val3> )	<name1> . <name2> ( <val3> )
+removing key values pairs with key <val1> from a list of dictionaries <name2>	[ { k : v for k , v in d . items ( ) if k != <val1> } for d in <name2> ]	[ d [ <val1> ] for d in <name2> if d != <val1> } ]
+prepend the line <val2> to the contents of file <val3> and save as the file <val1>	open ( <val1> , 'w' ) . write ( <val2> + open ( <val3> ) . read ( ) )	urllib . urlretrieve ( <val2> , <val1> ) . to_csv ( <val2> , <val3> )
+update all values associated with key <name5> to string <val4> <name6> value <name1> is not equal to <val5> <name2> dictionary <name3>	{ <name5> : <val4> for <name5> , <name1> <name2> list ( <name3> . items ( ) ) <name6> <name1> != <val5> }	<name6> = { k : v for k , v in list ( <name1> . <name3> ( ) ) <name5> <name2> != <val3> }
+Round number <name3> to <val2> precision after the decimal point	<name3> = str ( round ( <name3> , <val2> ) )	<name1> = <name3> . encode ( <val2> , 'ignore' )
+Django get maximum value associated with field 'added' in model <name1>	<name1> . objects . filter ( group = group ) . order_by ( '-added' ) [ 0 ]	<name1> . objects . order_by ( '?' ) . order_by ( '?' ) [ 0 ]
+Split string 'Hello' into a string of letters seperated by <val4>	'' '' ' ' <val4> ' ' '' ' . join ( ' Hello ' )'	<val4> '' ' ' <val4> ' ' ' '' ' . join ' )'
+case insensitive string comparison between <name4> and <name1>	( <name4> . lower ( ) == <name1> . lower ( ) )	str ( <name4> ) . lower ( ) == str ( )
+<name2> process <name6>	<name6> . <name2> ( )	( <name6> . <name2> ( ) )
+Parse string <name5> into a <name4> object using format pattern <val3>	dateobj = <name4> . <name4> . strptime ( <name5> , <val3> ) . date ( )	<name5> . <name4> ( ) . strftime ( <val3> )
+calculate the <name1> of the squares of each value in list <name2>	<name1> ( map ( lambda x : x * x , <name2> ) )	<name1> ( map ( lambda x : x * <name2> ) )
+delete all occureces of <val2> <name3> each string <name1> <name3> list <name4>	print ( [ <name1> . replace ( <val2> , '' ) for <name1> <name3> <name4> ] )	dict ( [ s . strip ( ) for s <name4> <name1> <name3> ] , <val2> )
+adding a <val1> - d <name5> [1, 2, 3, 4, 5, 6, 7, 8, 9] to a <val3> - d <name5> np.zeros((6, 9, 20))	np . zeros ( ( 6 , 9 , 20 ) ) + np . <name5> ( [ <val1> , 2 , <val3> , 4 , 5 , 6 , 7 , 8 , 9 ] ) [ ( None ) , : , ( None ) ]	numpy . zeros ( np . arange ( <name5> ) - <name5> [ 1 , 2 : , 3 , 7 , 7 , 8 , 7 , 8 ] ) [ <val1> ] ) [ 1 : 5 ] ( <name5> ]
+capture final output of a chain of system commands <val1>	subprocess . check_output ( <val1> , shell = True )	sys . path . exit ( <val1> )
+remove periods inbetween capital letters that aren ' t immediately preceeded by word character ( <name1> ) in a string <name1> using regular expressions	re . sub ( '(?<!\\w)([A-Z])\\.' , '\\1' , <name1> )	re . sub ( '.{20}(.mkv)' , '\\1' , <name1> )
+Iterate over dictionary <name1> in ascending order of values	sorted ( iter ( <name1> . items ( ) ) , key = lambda x : x [ 1 ] )	set ( list ( <name1> . items ( ) ) )
+request page <val1> with credentials of username <val2> and password <val3>	requests . get ( <val1> , auth = ( <val2> , <val3> ) )	urllib . request . urlretrieve ( <val2> , <val3> )
+match zero - or - more instances of lower case alphabet characters in a string f233op 	re . findall ( '([a-z]*)' , 'f233op' )	'' '' ' ' '' ' ' '' ' '' ' . join ( re . split ( ) for s in ' )'
+Compare if each value <name1> list <name2> is less than respective index value <name1> list <name3>	all ( i < j for i , j <name1> zip ( <name2> , <name3> ) )	c = [ ( x ) for x <name1> <name3> ] for x <name2> <name6> ]
+find all substrings in <name1> beginning and ending with square brackets	re . findall ( '\\[(.*?)\\]' , <name1> )	m = re . re re . sub ( '(.*?)\\[.*?\\]' , <name1> )
+check if <val1> is <name5> list <val1>	( <val1> <name5> a )	isinstance ( <name5> <val1> , <val1> )
+if Selenium textarea element <val5> is not empty , <name6> the field	driver . find_element_by_id ( <val5> ) . <name6> ( )	<val5> . <name6> . groups [ ( <val5> , <val5> ) , ( ) ]
+remove the punctuation <val1> , <val3> , <val2> from a string <name5>	out = '' . join ( c for c in <name5> if c not in ( <val1> , <val3> , <val2> ) )	<name5> . replace ( <val1> , '' ) . replace ( ' , '' ' , <val2> )
+Extract <name1> from string <name2>	<name1> = re . sub ( '[^(){}[\\]]' , '' , <name2> )	<name1> = re . split ( ' ' , <name2> )
+Get a list from two strings <val1> and <val2> with values as each character concatenated	[ ( x + y ) for x in <val1> for y in <val2> ]	'' '' ' ' <val1> ' ' '' ' . format ( <name6> [ <val2> ] + <val2> ) )'
+generate list of numbers <name4> specific format using string formatting precision .	[ ( '%.2d' % i ) for i <name4> range ( 16 ) ]	'' '' ' ' ', ' ', ' ' '' ' . format ( <name4> ) )'
+convert dictionary <name6> into a flat <name3>	print ( [ y for x in <name3> ( <name6> . items ( ) ) for y in x ] )	dict ( ( x , y ) for x in <name3> . items ( ) )
+divide the members of a list <name3> by the corresponding members of another list <name5>	[ ( c / t ) for c , t in zip ( <name3> , <name5> ) ]	zip ( * <name5> [ i ] for i in <name3> )
+'Trimming ' <val1> ' from string `myString`'	myString . strip ( <val1> )	myString . rstrip ( <val1> )
+calculate the <name6> of the nonzero values ' indices of dataframe df	np . flatnonzero ( x ) . <name6> ( )	pd . Series ( list ( <name6> ) ) [ 1 ]
+<name5> dictionary <name6> , overwriting values where keys are identical , with contents of dictionary <name2>	<name6> . <name5> ( <name2> )	res = dict ( ( k , v ) for k , v <name6> <name2> . items ( ) )
+Find all numbers and dots from a string <name5> using regex	re . findall ( 'Test([0-9.]*[0-9]+)' , <name5> )	'' '' ' ' re ' ' ' ' '' ' . split ( ) )'
+convert string <name2> to lowercase	<name2> . lower ( )	<name2> . lower ( )
+Change data type of data in column <val4> of dataframe <name1> into <name6> and then to <name2>	<name1> [ <val4> ] = <name1> [ <val4> ] . astype ( <name6> ) . astype ( <name2> )	np . <name1> ( <name6> . tolist ( ) ) . tolist ( ) . <name6> ( )
+<name3> <name4> while running unit tests in python django	<name4> . <name3> ( <name4> . CRITICAL )	self . <name4> ( <name3> . <name4> ( ) )
+Get all the sentences from a string <name1> using regex	re . split ( '\\.\\s' , <name1> )	<name1> = re . sub . split ( ',' , '' )
+insert _suff before the file extension in <val1> or replace _a with suff if it precedes the extension .	re . sub ( '(\\_a)?\\.([^\\.]*)$' , '_suff.\\2' , <val1> )	m = re . search ( '[\x00-\x7f]' , '' ) . encode ( 'utf-8' ) [ re . sub ( '[\x00-\x7f]' , <val1> , 'ignore' ) ]
+Find name of current directory	dir_path = os . path . dirname ( os . path . realpath ( __file__ ) )	cwd = os . chdir ( __file__ )
+make a list of integers from 0 to <val1> where each second element is a duplicate of the previous element	print ( [ u for v in [ [ i , i ] for i in range ( <val1> ) ] for u in v ] )	<val1> '' ' ' <val1> ' ' . join ( [ i for i in range ( <val1> ) ] )'
+merge rows from dataframe <name1> with rows from dataframe <name2> and calculate the <name5> for rows that have the same value of <name3> <val4>	pd . concat ( ( <name1> , <name2> ) , <name3> = <val4> ) . <name5> ( <name3> = <val4> )	np . <name1> ( <name5> [ <name2> ] == <name3> ) . size ( ) & ( <name1> ) ]
+build a dict of key : value pairs from a string representation of a dict , '{'muffin' : 'lolz', 'foo' : 'kitty'}'	'ast . literal_eval ( ' '{' muffin ' : ' lolz ', ' foo ' : ' kitty '}' ' )'	'' '' ' ' '' ' ' '' ' '' ' . format ( name , 20 , 20 )'
+get the maximum string length in nested list <name1>	len ( max ( <name1> , key = len ) )	max ( len ( <name1> ) for item in len ( <name1> ) )
+sort a list <name3> by number after second <val5>	print ( sorted ( <name3> , key = lambda x : int ( x . split ( <val5> ) [ 2 ] ) ) )	<name3> . sort ( key = operator . itemgetter ( <val5> ) )
+Selenium get the entire <name6> page text	<name6> . page_source	- <name6> . rawinput ) . click ( )
+Resample dataframe <name5> to resolution of 1 hour <val3> for timeseries index , summing values in the column <val6> averaging those in column <val2>	<name5> . resample ( <val3> ) . agg ( { <val6> : np . sum , <val2> : np . mean } )	<name1> . set_index ( <val6> ) [ <val2> ] . agg ( { <val3> : <val6> } , <name5> : <val1> } )
+throw a <name1> with message <val2>	raise <name1> ( <val2> )	hasattr ( <name1> , <val2> )
+check if string <val1> ends with one of the strings from a tuple ('.mp3', '.avi')	'' '' ' ' <val1> ' ' '' ' . endswith ( ( ' . mp3 ' , ' . avi ' ) )'	'' '' <val1> ' ' <val1> ' '' ' . join ( ( ' . isalpha ( ) )'
+get the ASCII value of a character u 'あ' as an int	ord ( '\u3042' )	struct . execute_script ( 'H' , 16 )
+get a <name2> of the keys <name1> each dictionary <name1> a dictionary of dictionaries <name3>	[ k for d <name1> <name2> ( <name3> . values ( ) ) for k <name1> d ]	[ d for d , d in <name1> ( d . <name2> ( ) ) for d in <name3> ]
+index a list <name5> with another list <name1>	T = [ <name5> [ i ] for i in <name1> ]	zip ( * <name5> [ i : i + <name1> ] )
+<name1> string <name3> based on occurrences of regex pattern <val2>	re . <name1> ( <val2> , <name3> )	re . <name1> ( <val2> , <name3> )
+sort list <name1> by second element of each tuple in ascending and third element of each tuple in descending	print ( sorted ( <name1> , key = lambda t : ( - t [ 2 ] , t [ 0 ] ) ) )	df . <name1> ( key = lambda x : ( x [ 2 , 3 ] , x [ 2 ] ) )
+subset numpy array <name1> by column and row , returning the values from the first row , first column and the second row , second column and the third row , first column .	<name1> [ np . arange ( 3 ) , ( 0 , 1 , 0 ) ]	[ np . <name1> [ 2 , 3 , 4 ] , <name1> [ 1 , 2 ] ]
+<name6> <name1> data from table <name3> where the value of column <name5> is bigger than <val4> <name2>	session . <name6> ( <name3> ) . filter ( <name3> . <name5> > timedelta ( <name2> = <val4> ) ) . <name1> ( )	<name5> . <name6> ( ) . <name3> ( <val4> )
+strip html from strings	re . sub ( '<[^<]+?>' , '' , text )	url . split ( ) [ : -1 ]
+request URI <val6> and pass authorization token <val4> to the header	r = requests . get ( <val6> , headers = { 'Authorization' : <val4> } )	subprocess . call ( <val4> , <val6> ) . reset_index ( )
+execute <name6> command <name5>	<name6> . system ( <name5> )	subprocess . call ( <name6> , <name5> )
+'remove white spaces from the end of string ' <val5> <val2>	<val2> <val2> ' ' <val5> ' ' <val2> ' . rstrip ( )'	'' '' ' ' <val5> ' ' '' ' . replace ( ' , <val2> ) )'
+Convert a list of lists <name1> to a dictionary with key as second value of a list and value as list itself	{ x [ 1 ] : x for x in <name1> }	{ x [ 1 : x ] for x in <name1> }
+get list of sums of neighboring integers <name1> string <name2>	[ sum ( map ( int , s ) ) for s <name1> <name2> . split ( ) ]	sum ( map ( int , s ) for s <name1> <name2> ) )
+<name3> column <val2> in dataframe <name1> into two columns by first whitespace <val4>	<name1> [ <val2> ] . str . <name3> ( <val4> , 1 , expand = True )	print ( <name1> [ <val2> ] + <name1> [ <val3> ] . str [ 1 : -1 ] )
+create <val3> numbers in range between <val1> and <val2>	print ( np . linspace ( <val1> , <val2> , num = <val3> , endpoint = False ) )	subprocess . call ( [ <val1> , <val2> , <val3> ] )
+find the current directory	os . getcwd ( )	sys . path . realpath ( __file__ )
+run function 'SudsMove' simultaneously	threading . Thread ( target = SudsMove ) . start ( )	sys . exit ( )
+get whatever is between parentheses as a single match , and any char outside as an individual match in string <val1>	re . findall ( '\\(.+?\\)|\\w' , <val1> )	print ( re . findall ( '\\d+' , <val1> ) . group ( 0 ) )
+set font <val2> to display non - ascii characters in <name1>	<name1> . rc ( 'font' , ** { 'sans-serif' : <val2> , 'family' : 'sans-serif' } )	rows = <name1> . findAll ( <val2> ) . strftime ( 'utf-8' )
+Set value for key <val1> in dict <name3> to <val5> if key <val1> does not exist or if value is none	<name3> . setdefault ( <val1> , <val5> )	df . <name3> ( [ <val4> , <val1> ] ) [ <val5> ]
+replace a string <val1> in case sensitive way using maketrans	'' '' ' ' <val1> ' ' '' ' . translate ( maketrans ( ' abcABC ' , ' defDEF ' ) )'	re . sub ( '\\.(?=[^ , '\\1' , <val1> )
+<name1> rows of <name5> matrix <name3> in ascending order according to all column values	<name5> . <name1> ( <name3> , axis = 0 )	<name5> . <name1> ( axis = 0 , <name3> = 1 , axis = 1 )
+Initialize <name5> list <name5> with <val6> items and each item ' s value <val1>	<name5> = [ <val1> ] * <val6>	<name6> = [ <name5> [ <val1> ] for <name5> in range ( <val1> ) ]
+get UTC <name4> in ISO format	<name4> . <name4> . utcnow ( ) . isoformat ( )	datetime . <name4> . <name4> ( ) . strftime ( '%a' )
+rotate the xtick <name2> of matplotlib plot <name3> by <val4> degrees to make long <name2> readable	<name3> . set_xticklabels ( <name2> , rotation = <val4> )	<name3> . groupby ( <val4> ) . <name2> ( lambda x : x [ <val6> ] == <val4> )
+check if file <name5> is descendant of directory <val2>	os . path . commonprefix ( [ <val2> , os . path . realpath ( <name5> ) ] ) == <val2>	sum ( os path == <name5> [ 0 , <val2> ] == <val2> ] )
+get the path of module <name3>	print ( <name3> . __file__ )	<name3> . path . append ( __file__ ) )
+change current working directory to directory <val1>	os . chdir ( <val1> )	full_path = os . chdir ( <val1> )
+find all the elements that consists value '1' <name1> <name2> list of tuples 'a'	[ item for item <name1> <name2> if 1 <name1> item ]	sum ( x ) for x <name1> <name2> [ 1 , 1 ] for x <name1> <name3> )
+increment a value with leading zeroes in a number <name5>	str ( int ( <name5> ) + 1 ) . zfill ( len ( <name5> ) )	map ( int , <name5> - str . split ( ',' ) )
+<name6> run command <val3> through the <name5>	<name6> . call ( <val3> , <name5> = True )	re . sub ( <val3> , <val3> , <name5> )
+<name2> the binary data represented by the hexadecimal string <val4> to a float	struct . <name2> ( 'd' , binascii . unhexlify ( <val4> ) )	np . unpack ( <val4> , <name2> ) [ 0 ] . encode ( <val4> )
+Jinja <name2> elements of array <name4> with space string <val5>	{{ <name4> | <name2> ( <val5> ) }}	<name2> . objects . filter ( 'utf-8' , <name4> ) . <name4> ( 'utf-8' )
+custom sort an alphanumeric list <name6>	sorted ( <name6> , key = lambda x : x . replace ( '0' , 'Z' ) )	c = sorted ( <name6> . split ( ',' ) , '' )
+convert pandas DataFrame <name5> to a dictionary using <val3> field as the key	<name5> . set_index ( <val3> ) . to_dict ( )	df . set_index ( <val3> ) [ <val3> ] = { <val3> ] . <name5> ( )
+convert dataframe <name2> to list of dictionaries including the index values	<name2> . to_dict ( 'index' )	DataFrame ( pd . DataFrame . DataFrame ( <name2> ) ) [ columns ] )
+Sum of sums of each list , <name1> a list of <name2> named 'lists' .	sum ( sum ( x ) for x <name1> <name2> )	<name1> ( sum ( x ) for x in <name2> )
+get a <name1> of tuples of every three consecutive items in <name1> [1, 2, 3, 4, 5, 6, 7, 8, 9]	<name1> ( zip ( * ( ( iter ( [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 ] ) , ) * 3 ) ) )	<name1> ( ( grouper , [ 1 , 4 , 2 , 5 , 6 , 5 , 6 , 6 , 7 ] ) )
+<name6> a function otherfunc inside a bash script test.sh using <name5>	<name5> . <name6> ( 'test.sh otherfunc' )	session . join ( x ) . <name5> ( )
+Django set <name2> value of field <name6> equal to <val5>	<name6> = models . CharField ( max_length = 7 , <name2> = <val5> , editable = False )	<name6> . objects . filter ( name = <val3> , <name2> = <val5> ) . <name2> ( )
+gets the <name6> th - to - last element in list <name3>	<name3> [ ( - <name6> ) ]	[ <name3> - <name6> ] - <name3> - len ( <name6> ) ]
+logoff computer having windows operating system using python	subprocess . call ( [ 'shutdown' , '/l ' ] )	sys . path . expanduser ( '~user' )
+Normalize line ends in a string 'mixed'	mixed . replace ( '\r\n' , '\n' ) . replace ( '\r' , '\n' )	url . decode ( 'unicode_escape' )
+generate <name1> <name4>	decimal . <name4> ( <name1> . randrange ( 10000 ) ) / 100	np . <name1> ( <name4> )
+create <name2> <name1> containing all cartesian products of elements in <name1> <name2>	<name1> ( itertools . product ( * <name2> ) )	map ( <name1> . <name2> ( ) ) [ : -1 ]
+Open a file <val3> in write mode	new_file = open ( <val3> , 'w' )	subprocess . Popen ( [ <val3> ] , 'wb' )
+reading tab - delimited csv file <name2> with <name1> on mac	<name1> . read_csv ( <name2> , sep = '\t' , lineterminator = '\r' )	requests . <name1> ( url , <name2> ) . tolist ( )
+get the <name1> <val4> <name3> from <name2>	six_months = ( <name1> . <name2> ( ) + relativedelta ( <name3> = ( + <val4> ) ) )	del <name1> ( <name2> )
+get number of <name2> in dictionary <name1>	len ( list ( <name1> . <name2> ( ) ) )	set ( list ( <name1> ) ) . <name2> ( ) )
+right align string mystring with a width of 7	'' '' ' ' '{:>7s}' ' ' '' ' . format ( mystring )'	'' '' ' ' <val2> ' ' '' ' . format ( ) )'
+convert column of date objects <val4> in pandas dataframe <name1> to strings in new column <val2>	<name1> [ <val2> ] = <name1> [ <val4> ] . dt . strftime ( '%d%m%Y' )	<name1> [ <val2> ] = <name1> [ <val2> ] = <name1> [ <val2> ] . dt . dt
+Get a new list <name1> by removing empty list from a list of lists <name2>	<name1> = [ x for x in <name2> if x != [ ] ]	sorted ( <name1> , <name2> = lambda x : x [ 'birth_info' ] )
+<name6> dataframe <name1> by values in column <val3> that appear more than once	<name1> . groupby ( <val3> ) . <name6> ( lambda x : len ( x ) > 1 )	len ( <name6> ) . <name6> ( lambda x : x [ <val3> ] ) . <name1> ( <val3> )
+substitute two or more whitespace characters with character <val1> in string <name2>	re . sub ( '\\s{2,}' , <val1> , <name2> . strip ( ) )	re . sub ( ' +' , <val1> , <name2> )
+combine two columns <val3> and <val1> in a <name4> data frame	<name4> . concat ( [ df [ <val3> ] . dropna ( ) , df [ <val1> ] . dropna ( ) ] ) . reindex_like ( df )	df [ <val3> ] = df . <name4> ( [ <val1> , <val3> ] ) + 1
+<name2> a list of numbers <name3>	<name2> ( <name3> )	map ( <name2> , <name3> )
+convert a string literal <name6> with values '\\' to raw string literal	<name6> = <name6> . replace ( '\\', ' \\\\' )	'' '' ' ' ' ' ' ' '' ' . format ( <name6> . split ( ) )'
+Divide elements <name1> list <name2> from elements at the same index <name1> list <name3>	[ ( x / y ) for x , y <name1> zip ( <name2> , <name3> ) ]	[ <name1> ( x ) for x , y in zip ( zip ( * <name2> , <name3> ) ]
+<name2> a file from redirected <name3> and save to variable <name6>	<name6> = sys . <name3> . <name2> ( )	sys . <name2> . <name6> ( <name3> )
+get the <name1> of the python module <name2>	<name1> = os . <name1> . abspath ( <name2> . __file__ )	<name1> ( os . path . dirname ( os . <name2> ) )
+Parse a unicode string <val1>	<val1> . decode ( 'unicode-escape' )	encode ( <val1> ) . encode ( 'unicode-escape' )
+import all classes from module <val1>	globals ( ) . update ( importlib . import_module ( <val1> ) . __dict__ )	driver . get ( <val6> ) . strftime ( <val1> )
+sort <name1> <name1> in ascending order by its values	sorted ( list ( <name1> . items ( ) ) , key = operator . itemgetter ( 1 ) )	l . <name1> ( key = lambda x : sorted ( x ) )
+sort a list of lists <name3> by indices <val6> , <val4> , <val1> of the inner list	sorted_list = sorted ( <name3> , key = itemgetter ( <val6> , <val4> , <val1> ) )	sorted ( <name3> , key = lambda x : ( x [ <val4> ] , x [ <val1> ] ) , x [ <val6> ] )
+start a new <name1> for <name6> with parameters <val2> and <val4>	<name1> . start_new_thread ( <name6> , ( <val2> , <val4> ) )	numpy . <name6> . <name6> ( <val2> , <val4> ) . <name1> ( )
+count the number of words in a string <name1>	len ( <name1> . split ( ) )	len ( set ( <name1> ) . split ( ) )
+iterate over a dictionary <name2> in <name1> order	it = iter ( <name1> ( <name2> . items ( ) ) )	return iter ( <name1> ( <name2> ) . items ( ) )
+<name2> list <name1> using values associated with <name3> <val5> according to elements in list <name4>	<name1> . <name2> ( <name3> = lambda x : <name4> . index ( x [ <val5> ] ) )	<name4> . <name1> ( key = lambda x : <name2> [ x ] , <name3> = True )
+create a list of tuples which contains number <val3> and the number before it , <name1> each occurrence of <val3> <name2> the list 'myList'	[ ( x , y ) <name1> x , y <name2> zip ( myList , myList [ 1 : ] ) if y == <val3> ]	<name1> ( [ i : j + j for i , j <name2> zip ( myList , <name5> ) ] )
+add a <name2> to plot <name1> using image <name3> on axes <name4>	<name1> . <name2> ( <name3> , <name4> = <name4> )	<name4> . <name1> ( <name2> , <name3> ) [ <name4> ]
+Set the resolution of a monitor as <name1> in <name6>	<name6> . display . set_mode ( ( 0 , 0 ) , <name6> . <name1> )	np . <name1> ( <name6> ) . tolist ( )
+Split string <val1> based on string 'and' , 'or' or 'for'	re . split ( '_(?:for|or|and)_' , <val1> )	'' '' ' ' <val1> ' ' '' ' . replace ( ' , ' , ' ) . split ( ' )'
+<name5> elements at the same index of each list in list <name2>	map ( <name5> , zip ( * <name2> ) )	map ( <name2> , zip ( * <name5> ) ) [ 1 ]
+generate a 12 - digit <name1> number	<name1> . randint ( 100000000000 , 999999999999 )	'%0.12d' % <name1> . randint ( 0 , 999999999999 )
+Split a string <name1> by last occurrence of character <val2>	print ( <name1> . rpartition ( <val2> ) [ 0 ] )	<name1> . split ( <val2> ) [ : -1 ]
+<name5> dict {'f': var6, 'g': var7, 'h': var8} to value of key <val1> in dict jsobj['a']['b']	jsobj [ 'a' ] [ 'b' ] [ <val1> ] . <name5> ( { 'f' : var6 , 'g' : var7 , 'h' : var8 } )	're . findall ( ' \\ [ <name5> ] ] , <name5> = [ ^\\ ] ] * \\ ) | <name5> ( <val1> )
+<name1> unicode string <val2> with utf -8	<name1> ( <val2> . encode ( 'raw_unicode_escape' ) )	<name1> . encode ( <val2> ) . encode ( 'utf-8' )
+update a list <name2> dictionaries with a key <name1> and value from list <name3>	[ dict ( d , <name1> = n ) for d , n in zip ( <name2> , <name3> ) ]	[ <name1> ( d ) for d in zip ( <name2> , <name3> ) ]
+modify the width of a text control as <val6> keeping default height in wxpython	wx . TextCtrl ( self , -1 , size = ( <val6> , -1 ) )	plt . plot ( ( x - y , y , x , y ) , ( 100 ) )
+<name1> string <val3> using a regex <val2>	re . <name1> ( <val2> , <val3> )	re . <name1> ( <val2> , <val3> )
+get last element of string splitted by '\\' from list of strings <name1>	[ l . split ( '\\' ) [ -1 ] for l in <name1> ]	s [ : -1 ] for s in <name1> . split ( ',' ) ]
+Create a list containing the indexes of rows where the value of column <val2> in dataframe <name1> are equal to True	<name1> . iloc [ np . flatnonzero ( <name1> [ <val2> ] ) ]	<name1> [ <name1> [ <name1> ] == <val2> ] . str . dt . dt
+convert bytes string <name3> to an unsigned integer	struct . unpack ( '>q' , <name3> ) [ 0 ]	<name3> = re . findall ( '\\b[A-Z]' , <name3> )
+copy <name2> <name3> as <name1>	<name1> = <name2> ( <name3> )	= <name1> = <name1> [ <name2> : <name3> ]
+select records of dataframe <name5> where the <name4> of column <val3> for each value in column <val2> is <val1>	<name5> . groupby ( <val2> ) [ <val3> ] . filter ( lambda x : x . <name4> ( ) == <val1> )	df [ <val1> ] = <name4> [ ( <name4> [ <val2> ] == <val3> ) & ( <name5> [ <val3> ] == <val1> ) ]
+get the list with the highest <name2> value in list <name1>	print ( max ( <name1> , key = <name2> ) )	min ( <name1> , key = lambda x : <name2> ( x [ 1 ] ) )
+remove white space padding around a saved image <val2> in matplotlib	plt . savefig ( <val2> , bbox_inches = 'tight' )	re . sub ( '.{20}(.mkv)' , '\\1' , <val2> )
+check whether file <name1> <name5>	os . path . <name5> ( <name1> )	print ( os . path . <name1> ( <name5> ) )
+get a new string from the 3 rd character to the end of the string <name1>	<name1> [ 2 : ]	m [ : -1 ] for m in <name1> [ : 2 ]
+add a header to a csv file	writer . writeheader ( )	open ( <val6> , 'rb' ) . close ( )
+find button that is in li class <name5> and assign it to variable <name5>	<name5> = driver . find_element_by_css_selector ( 'li.next>a' )	re . sub ( '[-+]?\\d*\\.\\d+|\\d+' , '\\1' , <name5> )
+sort <name2> in model <name1> based on Theirs <name3> attribute	sorted ( <name1> . <name2> . all ( ) , key = lambda p : p . <name3> )	sorted ( <name1> , <name2> . <name3> ( ) ) [ 1 ]
+'Access environment variable ' <val3> ''	os . environ [ <val3> ]	print ( os . environ [ <val6> ] )
+get <name2> of the first biggest element in list <name1>	<name1> . <name2> ( max ( <name1> ) )	max ( <name1> , key = operator . <name2> ) [ 1 ] [ 0 ]
+Get only first element <name1> each of the innermost of the multidimensional list <name2>	[ [ [ x [ 0 ] ] for x <name1> <name2> [ i ] ] for i <name1> range ( len ( <name2> ) ) ]	<name1> [ ( i [ 0 ] ) for i in <name2> ]
+<name4> a list of lists <name1> by index <val2> of the inner list	<name1> . <name4> ( key = ( lambda x : x [ <val2> ] ) )	<name4> . <name1> ( key = lambda x : x . split ( <val2> ) [ 0 ] )
+Get <name4> of rows from highest to lowest of dataframe <name2> , grouped by value in column <val5> , according to value in column <val3>	<name2> . groupby ( <val5> ) [ <val3> ] . <name4> ( ascending = False )	<name6> . groupby ( [ <val3> ] ) [ <val4> ] = np . <name4> ( ) [ <val5> ] . <name4> ( )
+convert a pandas <name1> <name2> object to dataframe	DataFrame ( { 'count' : <name1> . <name2> ( [ 'Name' , 'City' ] ) . size ( ) } ) . reset_index ( )	pd . concat ( [ <name1> , <name2> ] )
+Replace a separate word 'H3' by <val1> in a string 'text'	re . sub ( '\\bH3\\b' , <val1> , text )	re . sub ( '.{20}(.mkv)' , '\\1' , <val1> )
+Check if <val1> is <name2> <name3> a list [ <val4> , <val1> , <val5> ]	( <val1> <name2> <name3> [ <val4> , <val1> , <val5> ] )	( <val1> <name2> <name3> [ <val4> , <val5> , <val4> ] )
+remove duplicated items from <name1> of lists <name2>	<name1> ( map ( <name1> , set ( map ( lambda i : tuple ( i ) , <name2> ) ) ) )	sum ( item for x <name1> <name2> )
+get the context of a search by keyword <val2> in beautifulsoup <name1>	k = <name1> . find ( text = re . compile ( <val2> ) ) . parent . text	soup . find ( 'div' , <name1> = <val2> ) . decompose ( )
+Encode each value to <val1> <name2> the list <name3>	[ x . encode ( <val1> ) for x <name2> <name3> ]	new_list = [ x for x in <name2> . <name3> ( <val1> ) ]
+<name1> for the least squares ' solution of matrices <name2> and <name3>	np . linalg . <name1> ( np . dot ( <name2> . T , <name2> ) , np . dot ( <name2> . T , <name3> ) )	cursor . execute ( np . <name1> ( <name2> , <name3> ) ) . T
+<name5> off entries in dataframe <name1> column <val6> to two decimal places , and entries in column <val3> to three decimal places	<name1> . <name5> ( { <val6> : 2 , <val3> : 3 } )	df . <name1> ( <name5> = { <val6> : <val3> } ) [ <val2> ]
+delete all values in a list <name1>	del <name1> [ : ]	'' . join ( map ( <name1> , <name1> ) )
+unpivot first 2 columns into new columns <val2> and <val3> from a pandas dataframe <name1>	pd . melt ( <name1> , id_vars = [ 'farm' , 'fruit' ] , var_name = <val2> , value_name = <val3> )	<name1> . groupby ( [ <val2> , <val3> ] ) . unstack ( level = 1 )
+copy file <val5> to <val2>	shutil . copy2 ( <val5> , <val2> )	shutil . copy2 ( <val5> , <val2> )
+Find a <name1> value of the <name3> <val4> in a nested dictionary <name2>	<name1> ( <name2> , <name3> = lambda x : <name2> [ x ] [ <val4> ] )	min ( <name1> , <name2> = lambda x : <name3> [ x ] )
+select only specific columns <val3> and <val5> from a dataframe 'data' with multiindex columns	data . loc [ : , ( [ ( 'one' , <val3> ) , ( 'one' , <val5> ) , ( 'two' , <val3> ) , ( 'two' , <val5> ) ] ) ]	df . iloc [ : , ( [ <val5> , <val3> ] ) ] . isin ( [ <val5> ] ) ]
+create a <name1> from a list [1, 2, 3]	x = scipy . <name1> ( [ 1 , 2 , 3 ] ) . transpose ( )	itertools . <name1> ( [ 1 , 2 , 3 ] )
+<name3> the index of sub string <val2> in string <name1> starting from index <val5>	<name1> . <name3> ( <val2> , <val5> )	str . <name1> ( <val5> , <val2> ) . <name3> ( <val4> )
+get a dictionary <name6> of key - value pairs <name4> PyMongo <name2> <name2>	<name6> = dict ( ( record [ '_id' ] , record ) for record <name4> <name2> )	<name6> = { k : v for ( k , v ) <name6> <name2> . items ( ) }
+get a new string from the 3 rd character to the end of the string <name6>	<name6> [ 2 : ]	<name6> [ : -1 ] + <val4> + str . replace ( ',' , '' ) ]
+<name1> list <name4> in alphabetical order based on the letter after percent character % in each element	<name4> . <name1> ( key = lambda str : re . sub ( '.*%(.).*' , '\\1' , str ) )	str . <name4> ( key = lambda x : int ( x . <name1> ) . lower ( ) )
+convert hex <val1> to integer	ord ( <val1> )	ast . literal_eval ( <val1> , 16 )
+'Add key ' <val1> ' to dictionary `d` with value ' <val2> ''	d [ <val1> ] = <val2>	a [ <val1> ] = df [ <val2> ] . str . update ( a ) ]
+convert date strings in pandas dataframe column df['date'] to pandas timestamps using the <name6> <val2>	df [ 'date' ] = pd . to_datetime ( df [ 'date' ] , <name6> = <val2> )	df1 = df . <name6> . strptime ( <val2> ) . tolist ( )
+<name2> <name1> <name1> on <name3> <val4> and <name5> <val6> in Flask	<name1> . <name2> ( <name3> = <val4> , <name5> = <val6> , debug = False )	requests . <name1> ( <name5> , <name3> = <val4> , <name2> = True ) . <name1> ( )
+split string <name3> into strings of repeating elements	print ( [ a for a , b in re . findall ( '((\\w)\\2*)' , <name3> ) ] )	<name3> = re . sub ( '\\(+as .*?\\) ' , '' , <name3> )
+convert binary string <val5> to integer	int ( <val5> , 2 )	str ( <val5> ) [ 0 ]
+combine values from column <val4> and column <val3> of dataframe <name1> into column <val2> of datafram <name1>	<name1> [ <val2> ] = np . where ( <name1> [ <val3> ] . isnull , <name1> [ <val4> ] , <name1> [ <val3> ] )	pd . <name1> ( [ <name1> [ <val2> , <val3> ] , <name1> [ <val4> ] ] ) [ <val2> ]
+get rows of dataframe <name1> where column <name4> has values ['men', 'rocks', 'mountains']	<name1> [ <name1> . <name4> . isin ( [ 'men' , 'rocks' , 'mountains' ] ) ]	print ( <name1> . loc [ <name1> . loc [ 'A' ] , <name4> = [ 'B' ] ] ] )
+separate numbers and characters in string <val1>	re . findall ( '([0-9]+|[A-Z])' , <val1> )	'' re . findall ( '([0-9]+)([A-Z])' , <val1> )
+<name6> number <val3> up to <val2> decimal places	<name6> ( <val3> , <val2> )	re . <name6> ( <val2> , <val3> )
+convert decimal <val4> to a <name5> of its binary values	<name5> ( '{0:0b}' . format ( <val4> ) )	sorted ( <name5> , 16 )
+Sort dictionary <name3> by value in ascending order	sorted ( list ( <name3> . items ( ) ) , key = ( lambda x : x [ 1 ] ) )	od = sorted ( iter ( <name3> ) )
+use upper case letters to <name1> hex <name2> <name2>	<name1> ( '0x%X' % <name2> )	str1 = '' . format ( <name1> , <name2> )
+<name4> the column <val6> along the other columns <val3> , <val5> , <val2> in a pandas data frame <name1>	<name1> . groupby ( [ <val3> , <val5> , <val2> ] , as_index = False ) [ <val6> ] . <name4> ( )	df . <name1> ( [ <val2> , <val3> ] , <name4> = [ <val6> , <val3> ] ] , <name1> [ <val2> ] , inplace = True )
+change the font size on plot <name5> to <val1>	<name5> . rcParams . update ( { 'font.size' : <val1> } )	<name5> . plot ( x , y ) + y = 2 = True )
+remove substring <val2> from a string <val1>	print ( <val1> . replace ( <val2> , '' ) )	re . sub ( <val1> , <val2> , <val1> )
+count all elements <name1> a nested dictionary <name2>	sum ( len ( v ) for v <name1> <name2> . values ( ) )	max ( i for i <name1> <name2> )
+<name1> string <val6> at position <val2> of <name4> <name4>	<name4> . <name1> ( <val2> , <val6> )	str . <name4> ( <val6> ) . <name1> ( <val2> ) [ 0 ]
+get the row names from <name3> in a pandas data frame	df . <name3>	<name3> . apply ( lambda x : x . index ( ) )
+remove any url within string <name2>	<name2> = re . sub ( '^https?:\\/\\/.*[\\r\\n]*' , '' , <name2> , flags = re . MULTILINE )	<name1> = re . sub ( '[^A-Z]' , '' , <name2> )
+BeautifulSoup find tag <val2> with styling <val3> in HTML string <name1>	<name1> . findAll ( <val2> , style = <val3> )	soup . findAll ( <name1> = <val3> ) . encode ( <val2> )
+sort dictionary of dictionaries <name1> according to the <name2> <val3>	sorted ( list ( <name1> . items ( ) ) , <name2> = lambda x : x [ 1 ] [ <val3> ] , reverse = True )	collections sorted ( <name1> ( <name2> . items ( ) ) ) [ <val3> ]
+Convert a string <name1> containing hex bytes to a hex string	<name1> . decode ( 'hex' )	int ( re . pack ( 'hex' , 16 ) , 16 )
+Google App Engine execute GQL query <val1> with parameter foo.key()	db . GqlQuery ( <val1> , foo . key ( ) )	driver . find_element_by_id ( <val5> ) . is_selected ( ) [ <val1> ]
+Delete an element <val2> from <name1> dictionary <name1>	{ i : <name1> [ i ] for i in <name1> if ( i != <val2> ) }	<name1> . pop ( <val2> )
+<name5> a list [ <val2> , <val1> ] to list <name6>	<name6> . <name5> ( [ <val2> , <val1> ] )	<name4> . <name5> ( <name6> = <val2> ) [ <val1> ]
+selecting rows in Numpy ndarray 'a' , <name1> the value in the first column is <val2> and value in the second column is <val3>	a [ np . <name1> ( ( a [ : , ( <val2> ) ] == <val2> ) * ( a [ : , ( <val3> ) ] == <val3> ) ) ]	df . loc [ df [ <name1> [ <val3> ] , df [ <val2> ] ] = <name1> [ <val2> ] . str . str . astype ( <val3> ) ]
+create a pandas data frame from list of nested dictionaries <name1>	pd . concat ( [ pd . DataFrame ( l ) for l in <name1> ] , axis = 1 ) . T	dict ( [ d for d in <name1> ] ) for d in <name1> ] )
+SQLAlchemy <name3> records of columns of table <name4> in addition to current date column	print ( <name3> ( [ <name4> , func . current_date ( ) ] ) . execute ( ) )	print ( [ <name3> . <name4> ( ) for _ in <name4> ] ) . execute ( ) )
+removing vowel characters 'aeiouAEIOU' from string text	'' '' ' ' '' ' ' '' ' . join ( c for c in text if c not in ' aeiouAEIOU ' )'	re . findall ( '[^a-zA-Z]*' , 'your string' )
+remove multiple values from a list <name1> at the same time with index starting at <val5> and ending just before <val2> .	del <name1> [ <val5> : <val2> ]	<name1> = [ i . format ( <val2> ) for i in range ( <val2> , <val5> ) ]
+extract date from a string <val2>	dparser . parse ( <val2> , fuzzy = True )	strftime ( <val2> ) . strftime ( <val4> )
+<name6> number <name3> to nearest integer	<name3> = int ( <name6> ( <name3> ) )	map ( <name3> , <name3> )
+<name3> a shell script <val1> using <name5>	<name5> . <name3> ( [ <val1> ] )	sum ( <name5> [ <val1> ] for i <name5> <name3> )
+get a list containing the <name2> of each element <name6> <name5> list <name1> plus the previous elements	[ <name2> ( <name1> [ : <name6> ] ) for <name6> , _ <name5> enumerate ( <name1> ) ]	<name1> = [ ( x - y ) for y , x , y <name2> zip ( <name5> , <name5> [ 0 ] ) ]
+<name1> elements at index <name4> of each list <name5> list <name6>	print ( <name1> ( row [ <name4> ] for row <name5> <name6> ) )	<name1> ( map ( x , y ) for x , y <name6> zip ( <name5> , <name4> ) )
+display a grayscale image from array of pixels <name1>	imshow ( <name1> , cmap = 'Greys_r' )	np . unpack ( 'H' % ( <name1> ) ) . strftime ( 0 )
+'print string ' 'ABC' ' as hex literal'	'' '' ' ' 'ABC' ' ' '' ' . encode ( ' hex ' )'	mystring . decode ( 'unicode_escape' )
+find all substrings in string <name1> composed only of letters a and b where each a is directly preceded and succeeded by b	re . findall ( '\\b(?:b+a)+b+\\b' , <name1> )	m = re . findall ( '(.*?)(?:\\[.*?\\]|$)' , <name1> )
+replace a string <val4> in case sensitive way using maketrans	'' '' ' ' <val4> ' ' '' ' . translate ( maketrans ( ' abcABC ' , ' defDEF ' ) )'	str . re . compile ( <val4> , re . compile ( <val4> ) )
+running r script <val1> from python	subprocess . call ( [ '/usr/bin/Rscript' , '--vanilla' , <val1> ] )	subprocess . call ( <val1> , shell = True )
+delete all elements from a list <name5> <name4> a function <name3> taking value as parameter returns <val2>	[ <name5> for <name5> in lst <name4> <name3> ( <name5> ) != <val2> ]	<name4> = [ x for x in <name5> <name3> x != <val2> ]
+get a <name1> item from list <name2>	random_choice = <name1> . choice ( <name2> )	new_list = [ ( x + y ) for x in <name1> ]
+Update row values for a column <val5> using vectorized string operation in pandas	df [ <val5> ] . str . split ( '-' ) . str [ 0 ] . astype ( int )	<name1> [ <val5> ] = str . split ( ',' ) . str [ 1 : -1 ]
+<name1> numbers <name5> <name4> <name4> with precision of 3 decimal places	<name1> ( '[%s]' % ', ' . join ( '%.3f' % val for val <name5> <name4> ) )	<name4> = [ <name5> . format ( x ) for x in <name3> ]
+Open a file <val1> in write mode	f = open ( <val1> , 'w' )	open ( <val1> , 'w' ) . close ( )
+unpack <name1> and <name2> of a dictionary <name3> into two lists	<name1> , <name2> = zip ( * list ( <name3> . items ( ) ) )	zip ( * <name1> , <name2> )
+request http <name3> <name3> with parameters <name6>	r = requests . get ( <name3> , params = <name6> )	r = requests . get ( <name6> , <name3> )
+change the case of the first letter in string <name1>	return <name1> [ 0 ] . upper ( ) + <name1> [ 1 : ]	len ( <name1> . split ( ) [ 0 ] ) [ 0 ]
+erase all the contents of a file <name4>	open ( <name4> , 'w' ) . close ( )	pd . read_csv ( open ( <val6> ) ) . <name4> ( )
+Insert a character <val1> after every two elements in a string s	'' '' ' ' <val1> ' ' '' ' . join ( a + b for a , b in zip ( s [ : : 2 ] , s [ 1 : : 2 ] ) )'	print ( '' . join ( a [ 0 : 2 ] for a in s ) )
+sort a list of lists <name3> by index <val1> of the inner list	sorted ( <name3> , key = itemgetter ( <val1> ) )	<name3> ( sorted ( <name3> ) , key = lambda x : x [ <val1> ] )
+convert scalar <name1> to array	<name1> = np . asarray ( <name1> ) . reshape ( 1 , -1 ) [ ( 0 ) , : ]	numpy . <name1> . reshape ( <name1> ) [ -1 ]
+remove white space padding around a saved image <val1> in matplotlib	plt . savefig ( <val1> , bbox_inches = 'tight' )	re . compile ( <val1> , shell = True )
+get keys and <name2> of dictionary <name4>	list ( <name4> . <name2> ( ) )	list ( <name4> ( <name2> . keys ( ) ) )
+eliminate all strings from list <name1>	[ element for element in <name1> if isinstance ( element , int ) ]	new_list . isdigit ( )
+get the value of attribute <val6> of object <name2> with default value <val5>	getattr ( <name2> , <val6> , <val5> )	hasattr ( <name2> , key = operator . itemgetter ( <val6> ) )
+Generate <name2> <name1> integer between <name2> and <name3>	<name1> . randint ( <name2> , <name3> )	<name1> ( map ( int , <name2> ) . <name3> ( ) )
+convert a DateTime string back to a DateTime object of format <val4>	datetime . strptime ( '2010-11-13 10:33:54.227806' , <val4> )	datetime . datetime . datetime . strftime ( <val4> ) . strftime ( <val4> )
+remove duplicates from <name4> <name3>	mynewlist = <name4> ( <name3> )	<name3> ( <name4> . from_iterable ( <name4> ) )
+get the first value from dataframe <name4> where column <val3> is equal to <val5>	<name4> . loc [ <name4> [ <val3> ] == <val5> , <val3> ] . values [ 0 ]	df [ <val3> ] = <name4> [ <val5> ] . <name4> . str [ <val5> ]
+'remove trailing newline in string ' <val1> ''	<val1> . rstrip ( )	myString . rstrip ( <val1> )
+print a celsius symbol on x axis of a plot <name1>	<name1> . set_xlabel ( 'Temperature (\u2103)' )	<name1> . xaxis . set_xlabel ( 'top' )
+Insert item <val5> to a list <name2>	<name2> . append ( <val5> )	c . remove ( <val5> )
+split a <name4> of tuples <name1> into sub - lists of the same tuple field using <name2>	[ <name4> ( group ) for key , group in <name2> . groupby ( <name1> , operator . itemgetter ( 1 ) ) ]	map ( <name1> , zip ( * <name2> ) )
+<name2> the index of sub string <val3> in string <name1> starting from index <val4> and ending at index <val5>	<name1> . <name2> ( <val3> , <val4> , <val5> )	<name1> . <name2> ( <val3> , <val4> )
+split dictionary / list inside a pandas column <val4> into separate columns in dataframe <name1>	pd . concat ( [ <name1> . drop ( <val4> , axis = 1 ) , pd . DataFrame ( <name1> [ <val4> ] . tolist ( ) ) ] , axis = 1 )	<name1> [ pd . Series ( list ( <name1> [ <val2> ] ) , axis = 1 ) ]
+check if <name6> values in the columns of <name2> numpy matrix <name2> are same	np . <name6> ( <name2> == <name2> [ ( 0 ) , : ] , axis = 0 )	numpy . <name6> ( <name6> == <name2> ) [ 0 ] == <name6> . reshape ( 1 ) == 0 ]
+sort list <name2> based on values from another list <name5>	[ x for y , x in sorted ( zip ( <name5> , <name2> ) ) ]	zip ( * sorted ( <name5> , <name2> ) )
+concatenate items of list <name2> with a space <val1>	print ( <val1> . join ( map ( str , <name2> ) ) )	'' '' ' ' <val1> ' ' '' ' . format ( <name2> ) )'
+<name2> backslashes in string <name1> with empty string ''	<name1> = <name1> . <name2> ( '\\', ' ' )	<name5> . <name1> . <name2> ( ',' )
+Matplotlib change <name4> size to <val6>	scatter ( x , y , s = <val6> , color = 'green' , <name4> = 'h' )	pyplot . <name4> ( <val6> , fontsize = <val6> )
+<name1> float <name2> with two decimal points	<name1> ( ( '%.2f' % round ( <name2> , 2 ) ) )	<name1> ( ( '%.2f' % <name2> ) )
+'Manually throw an exception ' <val1> ''	raise Exception ( <val1> )	Exception ( <val1> )
+download the file from <name1> <name1> and save it under file <name2>	urllib . request . urlretrieve ( <name1> , <name2> )	urllib . request . <name1> . unquote ( <name2> ) ) + <name1> . hexdigest ( )
+<name1> string <name3> by the occurrences of regex pattern <val2>	re . <name1> ( <val2> , <name3> )	re . <name1> ( <val2> , <name3> ) . group ( 1 )
+get user <name6> using message <val1> and insert it to the first placeholder in string <val2>	print ( <val2> . format ( <name6> ( <val1> ) ) )	session . find_element_by_css_selector ( <val1> ) [ <val2> ] = <val2> . replace ( <name6> , <val2> ) . replace ( <val1> )
+reverse the keys and values <name1> a dictionary <name2>	{ i [ 1 ] : i [ 0 ] for i <name1> list ( <name2> . items ( ) ) }	zip ( <name1> , <name2> )
+read excel file <name6> using pandas	dfs = pd . read_excel ( <name6> , sheetname = None )	pd . read_csv ( <name6> , sep = '\t' ) . <name6> ( )
+get the non - masked values of array <name2>	<name2> [ ~ <name2> . mask ]	<name6> [ ~ <name2> ] [ : -1 ]
+get a name of function <name1> as a string	<name1> . __name__	len ( <name1> ) + 1
+<name6> escape sequences in string <name1>	<name1> . <name6> ( 'string_escape' )	map ( <name1> , <name6> . encode ( ',' ) )
+<name1> 1 d array <name2> into 2 d array at the last element	np . <name1> ( <name2> , [ -1 ] )	numpy . <name1> [ <name1> [ : -1 ] , ( <name2> ) ]
+create an empty data frame <name1> with <name2> from another data frame <name3>	<name1> = pd . DataFrame ( <name2> = <name3> . <name2> )	[ <name1> ( <name2> ) for _ in range ( <name3> ) ]
+remove all duplicate items from a <name1> <name5>	woduplicates = <name1> ( set ( <name5> ) )	floats = [ <name5> ( x ) for x in <name1> ]
+create a list where each element is a value of the key <val2> <name3> each dictionary <name1> <name4> the list <name5>	[ <name1> [ <val2> ] <name3> <name1> <name4> <name5> ]	<name3> = [ <name4> [ i ] for i <name5> <name6> ]
+get a <name6> key <name1> and value <name2> form a dictionary <name4>	<name1> , <name2> = <name6> . choice ( list ( <name4> . items ( ) ) )	<name6> = { k : v for k , v in list ( <name1> . <name2> ( ) ) }
+convert decimal <val1> to binary list	[ int ( x ) for x in bin ( <val1> ) [ 2 : ] ]	ord ( <val1> )
+convert bytes string <name1> to an unsigned integer	struct . unpack ( '>q' , <name1> ) [ 0 ]	struct . unpack ( 'H' , '' , <name1> ) [ 0 ]
+get a <name1> of all keys in Cassandra database <name2> with pycassa	<name1> ( <name2> . get_range ( ) . get_keys ( ) )	set ( <name1> ) - <name1> . <name2> ( ) ) . strftime ( '%Y-%m-%d' )
+<name1> list of items <name2>	<name1> ( '\n' . join ( str ( p ) for p in <name2> ) )	sorted ( <name1> , <name2> = True )
+get list of string elements <name2> string <name3> delimited by commas , putting <val1> <name2> place of empty strings	[ ( int ( x ) if x else <val1> ) for x <name2> <name3> . split ( ',' ) ]	<name3> = [ <name2> . split ( ',' ) [ 0 ] . split ( <val1> ) ] for <name2> <name3> ]
+concatenate lists <name5> and <name4>	( <name5> + <name4> )	zip ( <name4> , <name5> )
+get proportion of rows in dataframe <name1> whose values for column <val2> are greater than <val3>	( <name1> [ <val2> ] > <val3> ) . mean ( )	sum ( ( ( <name1> [ <val3> ] > <val4> ) > <val2> ) > <val3> )
+create a flat dictionary by summing values associated with similar keys <name1> each dictionary of list dictlist	dict ( ( key , sum ( d [ key ] for d <name1> dictList ) ) for key <name1> dictList [ 0 ] )	{ d [ key ] for d in <name1> ] for d in <name2> }
+get a new string with the 3 rd to the second - to - last characters of string <name3>	<name3> [ 2 : ( -2 ) ]	<name3> [ 1 ] [ : ] + <name3> [ : 2 ]
+'print ' <val1> ' to console, and read user input to `var`'	var = input ( <val1> )	driver . switch_to_frame ( <val1> )
+numpy <name1> two arrays <name2> and <name3> along the second <name5>	print ( <name1> ( ( <name2> , <name3> ) , <name5> = 1 ) )	np . <name1> ( <name5> ( <name2> , <name3> ) , <name5> = 1 )
+parse tab - delimited CSV file <val1> into a <name5>	lol = <name5> ( csv . reader ( open ( <val1> , 'rb' ) , delimiter = '\t' ) )	writer . writerow ( open ( <val1> ) ) . <name5> ( )
+Match regex pattern <val1> on string <val2>	re . findall ( <val1> , <val2> )	m . re . compile ( <val1> , <val2> )
+convert <name5> <name3> from being consecutive sequences of tuples into <name3> single sequence of elements	<name5> ( itertools . chain ( * <name3> ) )	zip ( <name5> , <name5> )
+Drop the rows in pandas timeseries <name5> from the row containing <name6> <name3> to the row containing <name6> <name4>	<name5> . loc [ ( <name5> . <name6> < <name3> ) | ( <name5> . <name6> > <name4> ) ]	sum ( <name6> . <name3> ( ) ) <name6> <name4> ( <name5> )
+converting dictionary <name2> into a dataframe <name1> with keys as data for column <val3> and the corresponding values as data for column <val4>	<name1> . DataFrame ( list ( <name2> . items ( ) ) , columns = [ <val3> , <val4> ] )	np . <name1> ( <name2> ) [ <val4> ] . agg ( lambda x , y : x . <name3> ) ] . mean ( )
+add variable <name3> to key <val2> of first element in JSON <name1> <name1>	<name1> [ 0 ] [ <val2> ] = <name3>	min ( <name1> , <name3> = <val2> )
+send the output of <name4> object <name5> to file <name3>	<name4> . <name4> ( <name5> , <name3> )	print ( <name4> . <name3> ( <name4> ) , <name5> = True )
+cartesian product of <name1> and <name2> array points into single array of <val3> d points	numpy . dstack ( numpy . meshgrid ( <name1> , <name2> ) ) . reshape ( -1 , <val3> )	{{ ( <name1> | <name1> . <name2> ( ) ) : <val3> }}
+'Selecting Element ' '//li/label/input' ' followed by text ' 'polishpottery' ' with Selenium WebDriver `driver`'	'driver . find_element_by_xpath ( ' '//li/label/input[contains(..,' polishpottery ')]' ' )'	're . sub ( ' '[^\\w' ( char , '' , your_string ) )'
+check if a global variable <val1> exists	( <val1> in globals ( ) )	globals ( ) [ <val1> , <val1> ] ( )
+get modification time of file <name1>	os . <name1> . getmtime ( <name1> )	config_file = os . path . getctime ( <name1> )
+zip file <name1> using its <name2> as directory name	archive . write ( <name1> , os . path . <name2> ( <name1> ) )	shutil . <name1> ( os . path . join ( <name2> ) )
+pass a list of parameters ` ( ( <val4> , <val1> , <val5> ) , ) to sql queue <val3>	cur . mogrify ( <val3> , ( ( <val4> , <val1> , <val5> ) , ) )	numpy . zeros ( ( <val1> , <val2> , <val3> , <val5> , <val4> ) , ( <val4> , <val1> , <val5> ) )
+MySQL <name1> query <val2> with parameters <name3> and <name4>	c . <name1> ( <val2> , ( <name3> , <name4> ) )	requests . <name1> ( <val2> , <name3> = <name4> )
+Get all matches with regex pattern <val3> <name1> list of string <name2>	[ i for i <name1> <name2> if re . search ( <val3> , i ) ]	[ i for i <name1> <name2> if re . search ( <val3> ) ]
+remove Nan values from array <name1>	<name1> = <name1> [ numpy . logical_not ( numpy . isnan ( <name1> ) ) ]	<name1> = np . isnan ( <name1> ) [ -1 ]
+combine lists <name4> and <name5> by alternating their elements	[ val for pair in zip ( <name4> , <name5> ) for val in pair ]	zip ( * <name4> , <name5> )
+find all substrings in <name6> beginning and ending with square brackets	re . findall ( '\\[(.*?)\\]' , <name6> )	're . findall ( ' +' - <name6> ) . re . findall ( '\xab([\\s\\S]*?)\xbb' , <name6> )
+remove decimal points in pandas data frame using <name3>	df . <name3> ( )	df . <name3> ( ) . <name3> ( )
+Reverse the order of words , delimited by <val6> , in string s	'' '' ' ' <val6> ' ' '' ' . join ( s . split ( ' . ' ) [ : : -1 ] )'	'' '' ' ' <val6> ' ' '' ' . join ( s . split ( ) )'
+count number of times string 'brown' occurred in string <val1>	'' '' ' ' <val1> ' ' '' ' . count ( ' brown ' )'	url . split ( <val1> )
+remove elements from an array <name1> that are in array <name2>	<name1> [ np . all ( np . any ( <name1> - <name2> [ : , ( None ) ] , axis = 2 ) , axis = 0 ) ]	np . where ( len ( <name1> ) ) [ 0 ] == <name2> ]
+<name3> the contents of the file <val2> into <name1>	<name1> = open ( <val2> ) . <name3> ( )	shutil . <name1> ( open ( <val2> ) . <name3> ( ) )
+find all matches of regex pattern <val6> in string <name3>	re . findall ( <val6> , <name3> )	str ( re . compile ( <val6> , re . <name3> ) )
+<name4> column <val3> in panda dataframe <name6>	<name6> . <name4> ( <val3> )	<val3> . <name6> ( <val3> )
+create a dataframe containing the multiplication of element - wise in dataframe <name1> and dataframe <name2> using <name3> name and column labels of dataframe <name1>	pd . DataFrame ( <name1> . values * <name2> . values , columns = <name1> . columns , <name3> = <name1> . <name3> )	pd . concat ( [ <name1> , <name2> ] . map ( lambda x : x . <name3> ) ] ) . tolist ( )
+Get a list values of a dictionary item <val1> from post requests in django	request . POST . getlist ( <val1> )	max ( d [ k ] for d in <name2> ] ) [ <val1> ] [ <val1> ]
+'Calling an external command ' 'ls -l' ''	from subprocess import call	logging . split ( 'utf-8' ) . read ( ) . strftime ( 'utf-8' )
+regex for repeating words in a string <name5>	re . sub ( '(?<!\\S)((\\S+)(?:\\s+\\2))(?:\\s+\\2)+(?!\\S)' , '\\1' , <name5> )	<name5> = re . sub ( '\\((\\w+)\\)' , '\\1' , <name5> )
+In <name1> , get the content of the sibling of the <val4> tag with <name2> content <val3>	print ( <name1> . find ( <name2> = <val3> ) . findNext ( <val4> ) . contents [ 0 ] )	getattr ( <name1> , <val3> ) . <name2> ( )
+insert a character ',' into a string in front of '+' character in second part of the string	'' '' ' ' ',+' ' ' '' ' . join ( c . rsplit ( ' + ' , 1 ) )'	re . sub ( '(?m)^[^\\S\\n]+' , '' , 1 ) [ 1 ]
+'format string ' <val2> <val1>	<val1> <val1> ' ' <val2> ' ' <val1> ' . format ( self )'	<val2> . strptime ( <val1> , <val2> )
+Get index of numpy array <name2> with another numpy array <name4>	<name2> [ tuple ( <name4> ) ]	c = np . where ( np . in1d ( <name4> ) , <name2> )
+pass dictionary items <name2> as keyword arguments in function <name1>	<name1> ( ** <name2> )	len ( set ( <name1> ) . <name2> ( ) )
+'check whether a file ' <val2> ' exists'	print ( os . path . isfile ( <val2> ) )	os . path . isfile ( <val2> ) )
+fetch all elements <name6> a dictionary 'parent_dict' where the key is between the range of <val3> to <val5>	dict ( ( k , v ) for k , v <name6> parent_dict . items ( ) if k > <val3> and k < <val5> )	db . <name6> ( { <val5> : <val3> } ) [ <val3> }
+<name3> a string <val2> to <val1> encoding	encoded = <val2> . <name3> ( <val1> )	unicodedata . find_element_by_css_selector ( <val1> , <val2> ) . <name3> ( )
+convert a raw string <name2> into a normal string	<name2> . decode ( 'string_escape' )	<name2> . encode ( 'unicode_escape' )
+grab one random item from a database <name1> in django / postgresql	<name1> . objects . all ( ) . order_by ( '?' ) [ 0 ]	Counter ( <name1> ) - len ( <name1> ) - len ( <name1> ) + 1
+Sort a list of strings 'words' such that items starting with <val1> come first .	sorted ( words , key = lambda x : 'a' + x if x . startswith ( <val1> ) else 'b' + x )	mylist . sort ( key = lambda x : x . split ( <val1> ) [ <val1> ] )
+get a value of <name5> .today ( ) in the UTC time zone	<name5> . now ( pytz . utc )	datetime . now ( ) . <name5> ( ) . strftime ( '%a' )
+removing key values pairs with key <val3> from a list of dictionaries <name2>	[ { k : v for k , v in d . items ( ) if k != <val3> } for d in <name2> ]	{ k : v for d in <name2> if <val3> , k } . items ( ) }
+delete items from list <name1> <name3> the item exist <name2> list to_dell	<name1> = [ [ x for x <name2> sublist <name3> x not <name2> to_del ] for sublist <name2> <name1> ]	newlist = [ <name1> [ i ] for i <name2> <name3> ]
+normalize the dataframe <name4> along the rows	np . sqrt ( np . square ( <name4> ) . sum ( axis = 1 ) )	any ( <name4> ) . sum ( axis = 0 )
+split a <name1> of tuples <name3> into sub - lists of the same tuple field using <name2>	[ <name1> ( group ) for key , group in <name2> . groupby ( <name3> , operator . itemgetter ( 1 ) ) ]	zip ( * [ <name1> ( i ) for i , j in zip ( <name2> , <name3> ) ] )
+Split string with comma ( , ) and remove whitespace from a string 'my_string'	[ item . strip ( ) for item in my_string . split ( ',' ) ]	'' '' ' ' <val3> ' ' '' ' . join ( re . split ( ) )'
+Get all the matches from a string <val1> if it begins with a character a	re . findall ( '[^a]' , <val1> )	print ( re . findall ( '#(\\w+)' , <val1> ) )
+argparse associate zero or more arguments with flag <val1>	parser . add_argument ( <val1> , nargs = '*' )	urllib . request . urlretrieve ( <val2> , <val1> )
+'Reverse a string ' <val1> <val2>	<val1> [ : : ( <val2> ) ]	<val2> [ : : : ( <val1> ) ]
+best way to extract subset of key - value pairs with <name1> matching <val3> , <val5> , or <val2> from python dictionary object	{ k : bigdict [ k ] for k in list ( bigdict . <name1> ( ) ) & { <val3> , <val5> , <val2> }}	<name1> [ <val2> , <val5> , <val3> , <val4> ] ] = <name1> [ <val2> , <val5> ]
+reverse a list <name1>	reversed ( <name1> )	<name3> [ : : ( -1 ) ]
+Create 2 D <name1> array from the data provided in <val2> with each row in the file having same number of values	X = <name1> . loadtxt ( <val2> , delimiter = ',' )	<name1> = np . read_csv ( <val2> , delimiter = ',' )
+find <name1> number proceeding sub - string <name4> in string <name6>	<name1> ( re . findall ( '(?:^|_)' + <name4> + '(\\d+\\.\\d*)' , <name6> ) [ 0 ] )	<name4> . <name6> ( '\n' ) [ str ( len ( x ) for x <name6> <name4> ) ]
+'list all files of a directory ' <val4> ''	os . listdir ( <val4> )	f = [ f for f in os . listdir ( <val4> ) ]
+replace each 'a' with 'b' and each 'b' with 'a' in the string <val3> in <name2> single pass .	'' '' ' ' <val3> ' ' '' ' . replace ( ' <name2> ' , ' % temp % ' ) . replace ( ' b ' , ' <name2> ' ) . replace ( ' % temp % ' , ' b ' )'	'' '' ' ' ' '' ' ' '' ' . replace ( ' , ' <name2> ' ) ' )' . replace ' )' . replace ' )'
+remove key <val1> from dictionary <name2>	del <name2> [ <val1> ]	[ i for k in <name2> if v != <val1> }
+generate <name2> <name1>	decimal . <name1> ( <name2> . randrange ( 10000 ) ) / 100	sorted ( <name1> ( <name2> ) )
+Get the <name2> output as <name1> from the lists [1, 2, 3] , [4, 5, 6] , [7, 8, 9]	[ <name1> ( a ) for a in <name2> ( [ 1 , 2 , 3 ] , [ 4 , 5 , 6 ] , [ 7 , 8 , 9 ] ) ]	<name1> ( grouper ( <name2> , [ 1 , 2 , 3 , 5 , 6 ] ) )
+convert a string <name3> with dot and comma into a <name2> number <name1>	<name1> = <name2> ( <name3> . replace ( ',' , '' ) )	<name1> = map ( int , <name2> ) . <name3> ( ',' )
+set the value of cell ['x']['C'] equal to <val2> in dataframe <name1>	<name1> [ 'x' ] [ 'C' ] = <val2>	<name5> [ <name1> ] . set_index ( [ <val2> ] == <val3> ] )
+find the string matches within parenthesis from a string <name5> using regex	m = re . search ( '\\[(\\w+)\\]' , <name5> )	'' re . sub ( '([a-z])\\1+' , '\\1' , <name5> )
+count the number of True values associated with key <val5> <name6> dictionary <name2>	sum ( 1 if <name2> [ <val5> ] else 0 for <name2> <name6> s )	[ x for x <name6> <name2> if x > <val5> ]
+Create array <name1> containing integers from <name2>	<name1> . fromlist ( [ int ( val ) for val in <name2> . read ( ) . split ( ) ] )	np . <name1> ( map ( int , <name2> ) )
+throw a value error with message <val6> , 'foo' , 'bar' , 'baz'	raise ValueError ( <val6> )	logging . info ( <val6> ) [ <val6> ]
+create a <name3> with the current date & time	<name3> . <name3> . now ( )	time . <name3> ( ) . <name3> . strftime ( '%B' )
+<name2> columns of an numpy array 'r'	np . random . <name2> ( np . transpose ( r ) )	print ( <name2> . shape [ 0 ] )
+<name5> float <name3> with two decimal points	<name5> ( ( '{0:.2f}' . format ( <name3> ) ) )	round ( <name3> ( <name5> ) )
+compare two lists in python <name5> and <name2> and return matches	set ( <name5> ) . intersection ( <name2> )	len ( <name5> ) . <name2> ( ) )
+<name2> a list of tuples <name1> by second parameter in the tuple	<name1> . <name2> ( key = lambda x : x [ 1 ] )	<name2> . <name1> ( key = lambda x : x [ 1 ] )
+get value of first child of xml node <name3>	<name3> [ 0 ] . firstChild . nodeValue	text [ 0 ] + <name3> [ 0 ] . issubset ( <name3> ) ]
+<name3> the values in each row of every two adjacent <name2> in dataframe <name1>	<name1> . groupby ( np . arange ( len ( <name1> . <name2> ) ) // 2 + 1 , axis = 1 ) . <name3> ( ) . add_prefix ( 's' )	map ( <name1> , zip ( <name1> , <name2> ) , <name3> [ 1 : -1 ] )
+'python, format string ' <val1> ' to have ' <name2> ' and ' <name3> ' in the first and second positions'	'' '' ' ' <val1> ' ' '' ' . format ( ' <name2> ' , ' <name3> ' )'	'' '' ' ' <val1> ' ' '' ' . format ( ' <name2> ' , ' <name3> ' )'
+get the count of each unique value in column <name2> of dataframe <name1> and store in column <val3>	<name1> . <name2> . value_counts ( ) . reset_index ( name = <val3> )	df . <name1> . groupby ( <val3> ) [ 1 ] == 1
+add string <val2> in 4th position of a string <name1>	<name1> [ : 4 ] + <val2> + <name1> [ 4 : ]	print ( <name1> [ <val2> ] + 1 )
+apply logical operator 'AND' to <name1> elements in list <name2>	<name1> ( <name2> )	<name1> ( <name2> )
+<name2> a list <name1> of class objects by their values for the attribute <val3>	<name1> . <name2> ( key = operator . attrgetter ( <val3> ) )	<name2> . <name1> ( key = operator . attrgetter ( <val3> ) ) . <name2> ( )
+set the y axis range to 0, 1000 in subplot using <name1>	<name1> . ylim ( [ 0 , 1000 ] )	<name1> . set_xticklabels ( <name1> . xaxis . get_majorticklabels ( ) , fontsize = <val6> )
+sort dataframe <name1> based on column <val2> in <name4> and column <val3> in descending	<name1> . sort_values ( [ <val2> , <val3> ] , <name4> = [ True , False ] , inplace = True )	<name1> . sort_values ( [ <val2> , <val3> ] , <name4> = [ True , False ] )
+get a <name2> of 4 d array <name1>	<name1> . <name2> ( axis = 0 ) . <name2> ( axis = 0 )	numpy . <name1> . reshape ( <name1> , <name2> ) [ : -1 ]
+get the size of a list [1,2,3]	len ( [ 1 , 2 , 3 ] )	[ x , 1 , 1 ] for x in <name2> if x . <name3> ( ) ]
+Swap values <name3> a tuple / list <name3> list <name6>	[ ( t [ 1 ] , t [ 0 ] ) for t <name3> <name6> ]	<name3> ( [ t [ 1 ] ] for t <name3> <name6> [ 0 ] )
+get the <name5> of the products of each pair of corresponding elements <name6> lists <name4> and <name3>	<name5> ( x * y for x , y <name6> zip ( <name4> , <name3> ) )	<name6> ( <name5> ( i , j ) for j , j <name3> zip ( <name4> , <name5> ) )
+Get the <name1> of values to the power of their indices <name2> a list <name3>	<name1> ( j ** i for i , j <name2> enumerate ( <name3> , 1 ) )	<name1> = [ i [ i ] for i <name2> <name3> ]
+remove multiple spaces in a string foo	'' '' ' ' ' ' ' ' '' ' . join ( foo . split ( ) )'	mystring . split ( ' , <val2> ) . encode ( 'utf-8' )
+Get the position of a regex match <val4> in a string <name2>	re . search ( <val4> , <name2> ) . start ( )	re . search ( <val4> , <name2> ) . <name3> ( <val4> )
+trim whitespace ( including tabs ) in <name1> on the right side	<name1> = <name1> . rstrip ( )	<name1> = <name1> . rstrip ( )
+Truncate <val2> from each string <name3> a list of string <name1>	<name1> = [ x . replace ( <val2> , '' ) for x <name3> <name1> ]	<name3> . decode ( <val2> ) . replace ( '' , '' )
+execute <name1> command <val5> with a | pipe in it	subprocess . call ( <val5> , <name1> = True )	<name1> . system ( <val5> )
+replace non - ascii chars from a unicode string u <val2>	unicodedata . normalize ( 'NFKD' , <val2> ) . encode ( 'ascii' , 'ignore' )	encode = re . sub ( 'NFKD' , <val2> , 'ignore' )
+python how to get every first element <name1> 2 dimensional list <name2>	[ i [ 0 ] for i <name1> <name2> ]	<name1> [ i [ i : i ] for i in <name2> ]
+'Drop rows of pandas dataframe `df` having NaN in column at index ' '1' <val1>	df . dropna ( subset = [ <val1> ] )	df . dropna ( subset = [ <val1> ] ) . apply ( lambda x : x . toordinal ( ) )
+create a <name2> from string <name6> to remove duplicate characters	print ( ' ' . join ( <name2> ( <name6> ) ) )	map ( <name6> , <name2> . split ( ',' ) )
+evaluate the expression <val5>	eval ( <val5> )	eval ( <val5> , <val5> )
+Create a pandas dataframe of <name6> from a dictionary <name5> which contains dictionaries of dictionaries	pd . concat ( map ( pd . DataFrame , iter ( <name5> . <name6> ( ) ) ) , keys = list ( <name5> . keys ( ) ) ) . stack ( ) . unstack ( 0 )	dict ( k , v ) for k , v in <name6> . <name5> ( ) if v . <name6> . to_dict ( )
+Concatenating two one - dimensional NumPy arrays 'a' and 'b' .	numpy . concatenate ( [ a , b ] )	np . vstack ( ( a , b ) . reshape ( a , b ) , ( 100 ) )
+'Check if the value of the key ' <val1> ' is ' <val2> ' in a list of dictionaries `label`'	any ( d [ <val1> ] == <val2> for d in label )	'' '' ' <val1> ' ' <val2> ' '' ' . format ( d in list ( d . items ( ) ) )'
+get modification time of file <name4>	t = os . path . getmtime ( <name4> )	config_file = <name4> . ctime ( os . path )
+lowercase keys and values <name6> dictionary {'My Key': 'My Value'}	{ k . lower ( ) : v . lower ( ) for k , v <name6> list ( { 'My Key' : 'My Value' } . items ( ) ) }	{ k . get ( k , v ) for k , v in list ( <name6> . items ( ) ) }
+create a DatetimeIndex containing <val3> <name2> of the second friday of each month starting from date <val1>	pd . date_range ( <val1> , freq = 'WOM-2FRI' , <name2> = <val3> )	df . <name2> ( <val3> , <val1> )
+create a DatetimeIndex containing <val3> <name4> of the second friday of each month starting from date <val5>	pd . date_range ( <val5> , freq = 'WOM-2FRI' , <name4> = <val3> )	str . <name4> ( <val3> , <val5> ) [ <val5> ]
+remove duplicate <name1> <name2> list <name3>	[ <name1> ( t ) for t <name2> set ( [ tuple ( d . items ( ) ) for d <name2> <name3> ] ) ]	<name3> = [ item [ 0 ] for item <name1> <name2> ]
+generate the <name4> of <val5> from a set {1, 2, 3, 4}	print ( list ( itertools . <name4> ( { 1 , 2 , <val5> , 4 } , <val5> ) ) )	list ( itertools . combinations ( ( 1 , 2 , 3 , 5 ) ) )
+find all elements <name3> <name1> list of tuples <name1> where the first element of each tuple equals <val5>	[ item for item <name3> <name1> if item [ 0 ] == <val5> ]	<name3> = [ item [ 0 ] for item <name1> <name3> ]
+<name1> the file <val2> in <val3> mode	f = <name1> ( <val2> , <val3> )	shutil . <name1> ( <val2> , <val3> )
+remove a key <val2> from a dictionary <name1>	<name1> . pop ( <val2> , None )	[ i for i in <name1> if i != <val3> ]
+get full <name2> of current directory	os . <name2> . dirname ( os . <name2> . abspath ( __file__ ) )	print ( os . <name2> . abspath ( __file__ ) ) )
+find all the rows in Dataframe 'df2' that are also present in Dataframe 'df1' , for the columns <val1> , <val2> , <val3> and <val4> .	pd . merge ( df1 , df2 , on = [ <val1> , <val2> , <val3> , <val4> ] , how = 'inner' )	print ( df [ <val4> ] , df [ <val2> , <val4> , <val3> ] ] ) . str
+<name1> list <name2> into a table - like shape	<name1> ( '\n' . join ( ' ' . join ( map ( str , row ) ) for row in <name2> ) )	result = ( [ s . strip ( ) for row in <name2> ] )
+<name3> of product of <name5> <name2> a <name4> <name6>	<name3> ( [ ( i * j ) for i , j <name2> <name4> ( itertools . <name5> ( <name6> , 2 ) ) ] )	<name3> ( <name5> . <name6> ( ) )
+Calculate <name6> over all rows of 2 D numpy array	a . <name6> ( axis = 1 )	a . <name6> ( axis = 1 )
+flatten <name1> tuple <name2>	[ ( <name1> , b , c ) for <name1> , ( b , c ) in <name2> ]	map ( <name1> , <name1> , <name2> )
+upload binary file <val1> with ftplib	ftp . storbinary ( 'STOR myfile.txt' , open ( <val1> , 'rb' ) )	open ( <val6> , 'rb' ) . close ( )
+removing control characters from a string <name1>	return '' . join ( ch for ch in <name1> if unicodedata . category ( ch ) [ 0 ] != 'C' )	<name1> . replace ( 'unicode_escape' , '' )
+Change the mode of file <val4> to permission number <val2>	os . chmod ( <val4> , <val2> )	json . load ( <val4> , <val2> )
+count the number of items <name2> a generator / iterator <name1>	sum ( 1 for i <name2> <name1> )	[ sum ( x ) for x <name1> <name2> ]
+Sort <name4> data <name4> in descending order based on the <name6> attribute of elements using <name1> function	<name4> = sorted ( <name4> , key = <name1> x : x . <name6> , reverse = True )	sorted ( <name1> , key = <name1> . <name4> , reverse = True )
+replace each 'a' with 'b' and each 'b' with 'a' in the string <val1> in <name2> single pass .	'' '' ' ' <val1> ' ' '' ' . replace ( ' <name2> ' , ' % temp % ' ) . replace ( ' b ' , ' <name2> ' ) . replace ( ' % temp % ' , ' b ' )'	'' '' ' ' ' ' ' '' ' . replace ( ' <name2> ' , ' ) . join ( ' , '' )'
+create a list of aggregation of each element from list <name1> to all elements of list <name2>	[ ( x + y ) for x in <name1> for y in <name2> ]	<name1> = [ ( x ) for x , x in <name2> ]
+<name2> <name1> while running unit tests in python django	<name1> . <name2> ( <name1> . CRITICAL )	t . <name1> ( <name2> ) . <name1> ( )
+Compare if each value <name2> list <name4> is less than respective index value <name2> list <name3>	all ( i < j for i , j <name2> zip ( <name4> , <name3> ) )	sum ( x ) for x <name2> <name3> <name4> )
+combine two columns <val2> and <val3> in a <name1> data frame	<name1> . concat ( [ df [ <val2> ] . dropna ( ) , df [ <val3> ] . dropna ( ) ] ) . reindex_like ( df )	print ( <name1> [ <val2> ] + <name1> [ <val3> ] )
+flatten list <name6>	[ image for menuitem in <name6> for image in menuitem ]	del <name6>
+use %s operator to print variable values <name1> inside a string	'first string is: %s, second one is: %s' % ( <name1> , 'geo.tif' )	json . dumps ( ' %s, format % ( <name1> ) ) [ i ] )
+move dictionaries in list <name1> to the end of the list if value of <name4> <val2> in each dictionary is not equal to <val3>	sorted ( <name1> , <name4> = lambda x : x [ <val2> ] != <val3> )	sorted ( <name4> , key = lambda x : <name1> . index ( x [ <val3> ] ) [ <val3> ] )
+convert <val1> to binary string	bin ( <val1> )	ast . literal_eval ( <val1> ) [ 0 ]
+extract all the values of a specific key named 'values' from a list of dictionaries	results = [ item [ 'value' ] for item in test_data ]	dict ( [ x , d ] for d in d [ 'name' ] ] for d in d ] )
+<name6> an integer <name2> from user	<name2> ( map ( int , <name6> ( ) . split ( ',' ) ) )	<name6> ( int ( x . split ( ) ) . strip ( ) )
+Sort the <name3> of the dataframe <name1> and align the <name5> accordingly based on the obtained indices after <name4> .argsort .	pd . DataFrame ( <name1> . <name5> [ <name4> . argsort ( <name1> . <name3> ) ] , <name1> . index , <name4> . unique ( <name1> . <name3> ) )	pd . Series ( <name5> , <name1> = <name4> ) . <name3> ( <name4> ) [ <name5> : -1 ]
+separate numbers and characters in string <val6>	re . findall ( '([0-9]+|[A-Z])' , <val6> )	'' re . sub ( '\\D' , <val6> , <val6> )
+Add row ['8/19/2014', 'Jun', 'Fly', '98765'] to dataframe <name3>	<name3> . loc [ len ( <name3> ) ] = [ '8/19/2014' , 'Jun' , 'Fly' , '98765' ]	set ( <name3> ) . tolist ( ) ) . sum ( )
+generate all possible string permutations of each two elements <name1> list ['hel', 'lo', 'bye']	print ( [ '' . join ( a ) for a <name1> combinations ( [ 'hel' , 'lo' , 'bye' ] , 2 ) ] )	'' '' '' ' ' '' ' '' ' . join ( map ( map ( str , <name1> ) ) for c <name1> ' )'
+convert a list of dictionaries <name3> to pandas data frame	pd . DataFrame ( <name3> )	<name3> . apply ( lambda x : x . tolist ( ) )
+<name6> a plot with x , y position of np.random.randn(100) and face color equal to none	plt . <name6> ( np . random . randn ( 100 ) , np . random . randn ( 100 ) , facecolors = 'none' )	np . sub ( <name6> ( range ( <name6> ) ) , repeat = <name6> ) . values ( )
+return a DateTime object with the current UTC <name4>	today = datetime . datetime . utcnow ( ) . <name4> ( )	<name4> . datetime . now ( ) . <name4> ( ) . isoformat ( )
+<name5> for occurrences of regex <name3> <name3> in string <name1>	print ( <name3> . <name5> ( <name1> ) . group ( 1 ) )	<name3> . <name5> ( '\n' ) + str ( <name1> )
+Get multiple matched strings using regex <name6> <val1>	<name6> = re . compile ( <val1> , re . IGNORECASE )	<name6> . re . compile ( <val1> , re . MULTILINE )
+Matplotlib clear the current axes .	plt . cla ( )	driver . set_xlabel ( 'Temperature ($^\\circ$C)' ) . isoformat ( )
+'replace value ' - ' in any column of pandas dataframe to ' <val2> ''	df . replace ( '-' , <val2> )	urllib . parse . sub ( <val2> , '' , <val2> )
+grab one random item from a database <name2> in django / postgresql	<name2> . objects . all ( ) . order_by ( '?' ) [ 0 ]	<name2> . objects . filter ( '?' ) [ : 3 ]
+get <name2> of key <val3> in dictionary <name1>	list ( <name1> . keys ( ) ) . <name2> ( <val3> )	<name1> . <name2> ( <val3> )
+Get a new list <name6> by removing empty list from a list of lists <name5>	<name6> = [ x for x in <name5> if x != [ ] ]	zip ( <name5> , <name6> ) [ i ]
+convert a <name1> - string representation to actual bytes	'' '' ' ' '\\xF3\\xBE\\x80\\x80' ' ' '' ' . replace ( ' \\ x ' , ' ' ) . decode ( ' <name1> ' )'	re . sub ( '(.*)</div>' , '' , <name1> )
+extracting column <val5> and <val2> from array <name6>	<name6> [ : , ( [ <val5> , <val2> ] ) ]	df . <name6> . strptime ( <val5> , <val2> )
+replace dot characters '.' associated with ascii letters <name2> list <name3> with space <val1>	[ re . sub ( '(?<!\\d)\\.(?!\\d)' , <val1> , i ) for i <name2> <name3> ]	're . sub ( ' <val1> ' , '' , <name2> ) . <name3> ( )
+Retrieve <name4> of <name2> from dictionary 'd'	<name4> ( d . <name2> ( ) )	dict ( d . <name2> ( ) ) for d in <name4> )
+sort a list of dictionaries <name1> by values in <name2> <val3> in descending order	newlist = sorted ( <name1> , <name2> = itemgetter ( <val3> ) , reverse = True )	sorted ( <name1> , key = lambda x : ( <name2> ( x [ <val3> ] ) ) )
+if Selenium textarea element <val1> is not empty , <name2> the field	driver . find_element_by_id ( <val1> ) . <name2> ( )	driver . find_element_by_id ( <val1> , <name2> ) . is_selected ( )
+write the data of dataframe <name2> into text file np.txt	np . savetxt ( 'c:\\data\\np.txt' , <name2> . values , fmt = '%d' )	pd . DataFrame ( <name2> - <name2> . values , fmt = '%d' )
+Create a dictionary <name1> from list <name2>	<name1> = dict ( ( ( key , value ) for ( key , value ) in <name2> ) )	{ key : value for ( key , value ) in <name1> }
+convert <name3> string <val1> to <name3> object in format <val2>	datetime . datetime . strptime ( <val1> , <val2> ) . <name3> ( )	datetime . strptime ( <val1> , <name3> ) . strftime ( <val2> )
+get the number of values <name2> list <name5> that is greater than <val6>	len ( [ 1 for i <name2> <name5> if ( i > <val6> ) ] )	[ ( x ) for x in <name2> if x == <val6> ]
+urlencode a querystring <val4> in python 2	urllib . parse . quote_plus ( <val4> )	urllib . parse . parse . quote ( <val4> )
+Create numpy array of <val3> numbers starting from <val1> with interval of <val2>	print ( np . linspace ( <val1> , <val2> , num = <val3> ) )	df [ <val1> ] = np . r_ [ <val3> , <val1> ]
+find the index of element closest to number <val6> in list <name3>	min ( enumerate ( <name3> ) , key = lambda x : abs ( x [ 1 ] - <val6> ) )	max ( min ( <name3> ) , key = lambda x : abs ( x [ <val6> ] ) )
+Delete third row in a <name2> array <name1>	<name1> = <name2> . delete ( <name1> , 2 , axis = 1 )	<name4> = <name1> . shape [ : , ( <name2> ) ]
+sort list <name1> based on second index of each string <name5>	sorted ( <name1> , key = lambda <name5> : <name5> . split ( ',' ) [ 1 ] )	<name5> . sort ( key = operator . itemgetter ( 1 ) )
+<name3> value of key <val2> in dictionary <name1> as <val4> , ignoring non - ascii characters	<name1> [ <val2> ] . <name3> ( <val4> , 'ignore' )	print ( list ( <name1> [ <val2> ] . <name3> ( <val4> , <val4> ) ) )
+'delay for ' '5' ' seconds'	time . sleep ( 5 )	myString . sleep ( <val2> ) . time ( )
+'check if the third element of all the lists in a list ' 'items' ' is equal to zero.'	any ( item [ 2 ] == 0 for item in items )	sum ( ( item [ 1 , 2 ] ) == 0 ] ) . sum ( )
+check whether elements in list <name5> appear only once	len ( set ( <name5> ) ) == len ( <name5> )	len ( set ( <name5> ) == len ( set ) )
+sort list <name4> by second element of each tuple in ascending and third element of each tuple in descending	print ( sorted ( <name4> , key = lambda t : ( - t [ 2 ] , t [ 0 ] ) ) )	map ( <name4> , key = lambda x : ( x [ 1 : 3 ] , x [ 2 ] ) )
+remove all non - numeric characters from string sdkjh987978asd098as0980a98sd 	re . sub ( '[^0-9]' , '' , 'sdkjh987978asd098as0980a98sd' )	'' '' ' ' re ' ' ' '' ' '' ' . join ( re . split ( ) )'
+<name2> dataframe <name1> where the length of each group <name3> is bigger than <val4>	<name1> . <name2> ( lambda <name3> : len ( <name3> ) > <val4> )	<name6> . <name2> ( lambda x : len ( x ) > <val4> )
+count the number of elements in array <name1>	len ( <name1> )	max ( <name1> ) - len ( <name1> ) - 1
+Parse string <val4> according to format <val5>	datetime . strptime ( <val4> , <val5> )	datetime . strptime ( <val5> , <val2> ) . strftime ( <val4> )
+<name4> sort <name2> in default dictionary <name1> by the third item in each <name3> ' s list of values	sorted ( iter ( <name1> . <name2> ( ) ) , <name3> = lambda k_v : k_v [ 1 ] [ 2 ] , <name4> = True )	zip ( * sorted ( <name1> , <name2> = lambda x : x [ 1 ] ) ) , <name4> = True )
+check if <val1> is inside list [1, 2, 3]	<val1> in [ 1 , 2 , <val1> ]	set ( [ 1 , 2 , 3 , 4 ] , [ 1 , 3 ] )
+SQLAlchemy <name5> the number of <name1> in table <name6>	<name1> = session . query ( <name6> ) . <name5> ( )	len ( <name6> ) + <name5> . split ( ) )
+check if string <name2> is UTF -8 encoded	<name2> . decode ( 'utf8' ) . encode ( 'utf8' )	print ( <name2> . decode ( 'utf8' ) . encode ( 'utf8' ) )
+get the size of file <val1>	os . stat ( <val1> ) . st_size	config_file = os . path . expanduser ( <val1> )
+Convert JSON <name1> <name1> to Python object	data = json . loads ( <name1> )	json . loads ( <name6> ) . strftime ( '%Y-%m-%d' )
+elementwise product of 3 d arrays <name1> and <name2>	np . einsum ( 'ijk,ikl->ijl' , <name1> , <name2> )	numpy . <name1> . array ( [ <name1> , <name2> ] ) . T
+Remove all <name2> from a dictionary <name1> where the values are less than 1	<name1> = dict ( ( k , v ) for k , v in <name1> . <name2> ( ) if v > 0 )	dict ( ( k , v ) for k , v in <name1> ( <name2> . items ( ) )
+keep a list <name1> of lists sorted as it is created by second element	<name1> . sort ( key = lambda x : x [ 1 ] )	<name1> . sort ( key = lambda x : x [ 1 ] [ 1 ] )
+trim whitespace in string <name1>	<name1> . strip ( )	<name4> . <name1> . strip ( )
+<name5> sort <name6> in default dictionary <name2> by the third item in each <name3> ' s list of values	sorted ( iter ( <name2> . <name6> ( ) ) , <name3> = lambda k_v : k_v [ 1 ] [ 2 ] , <name5> = True )	sorted ( list ( <name5> . items ( ) ) , key = lambda x : x [ 1 ] , <name2> = True )
+replace all elements in array <name5> that are not present in array [1, 3, 4] with zeros	np . where ( np . in1d ( <name5> , [ 1 , 3 , 4 ] ) . reshape ( <name5> . shape ) , <name5> , 0 )	np . where ( np . in1d ( <name5> , <name6> ) ) [ 0 , 2 , 4 ] , <name5> ]
+run command <val5> on command line tools as separate processes	subprocess . call ( <val5> , shell = True )	soup . call ( <val5> , shell = True )
+<name2> a dataframe <name1> to a list	<name1> . values . <name2> ( )	sorted ( <name1> , <name2> = True )
+elementwise product of 3 d arrays <name4> and <name2>	np . einsum ( 'ijk,ikl->ijl' , <name4> , <name2> )	np . <name4> ( ( ( <name2> ) ) . ravel ( ) )
+get html source of Selenium WebElement <name5>	<name5> . get_attribute ( 'innerHTML' )	urllib . parse . quote ( <name5> )
+remove all instances of [ <val2> , <val2> ] from list <name1>	<name1> [ : ] = [ x for x in <name1> if x != [ <val2> , <val2> ] ]	[ x for x in <name1> if x != <val2> ]
+get the <name2> of the OS	print ( os . <name2> )	self . <name2> ( )
+remove newline in string <name5> on the right side	<name5> . rstrip ( )	rstrip ( '\n' . rstrip ( ) )
+reverse a <name1> <name2>	<name1> ( reversed ( <name2> ) )	zip ( <name1> , <name2> ) [ -1 ]
+delete the element <val4> from list <name2>	<name2> . remove ( <val4> )	<name2> . pop ( <val4> )
+Check if value <val1> is among the <name2> of dictionary <name4>	<val1> in iter ( <name4> . <name2> ( ) )	string . <name2> ( <val1> , <name4> )
+find all anchors with a hyperlink that matches the pattern <val1>	soup . find_all ( 'a' , href = re . compile ( <val1> ) )	driver . find_all ( <val1> , href = re . MULTILINE )
+unzip the list [('a', 1), ('b', 2), ('c', 3), ('d', 4)]	zip ( * [ ( 'a' , 1 ) , ( 'b' , 2 ) , ( 'c' , 3 ) , ( 'd' , 4 ) ] )	set ( [ ( 'a' , 1 , 2 , 3 , 4 ] , [ ( 'c' , 4 ) ] ) )
+join two dataframes based <name5> values in selected columns	pd . merge ( a , b , <name5> = [ 'A' , 'B' ] , how = 'outer' )	<name5> . set_index ( list ( 'BC' ) ) , axis = 1 )
+<name6> for occurrences of regex pattern <val4> in xml string <name5>	print ( re . <name6> ( <val4> , <name5> ) . group ( 0 ) )	re . sub ( <val4> , '' , <name6> ) . <name5> ( <val4> )
+close the window in tkinter	self . root . destroy ( )	driver . execute_script ( '-topmost' , True )
+finding the index of an item <val1> given a list ['foo', 'bar', 'baz'] containing it	[ i for i , j in enumerate ( [ <val1> , 'bar' , 'baz' ] ) if j == <val1> ]	sum ( [ x , y ] for x , y <name6> enumerate ( myList , <val1> ) and x . startswith ( <val1> ) ] )
+serialize <name1> to file <name2>	pickle . dump ( <name1> , <name2> )	requests . <name1> ( <name2> )
+<name4> array <name2> based on column <val1> , <val3> and <val5>	<name2> . <name4> ( order = [ <val1> , <val3> , <val5> ] )	df . <name4> ( [ <val1> , <val3> ] , <name2> = <val3> )
+trim whitespaces ( including tabs ) in string <name4>	print ( re . sub ( '[\\s+]' , '' , <name4> ) )	print ( '' . join ( str ( <name4> ) ) )
+lookup dictionary key <name2> in Django template <name1>	{{ <name1> . <name2> }}	list ( <name1> . keys ( ) ) , <name2> = True )
+sort list <name6> based on the length of its elements	print ( sorted ( <name6> , key = len ) )	<name6> . sort ( key = lambda x : len ( x ) ) [ 0 ]
+'Remove characters ' '!@#$' ' from a string `line`'	line = re . sub ( '[!@#$]' , '' , line )	<name5> . translate ( None , None )
+Get the <name3> of values to the power of their indices <name6> a list <name5>	<name3> ( j ** i for i , j <name6> enumerate ( <name5> , 1 ) )	<name3> = [ i [ i ] for i <name6> <name5> ]
+get a list of items from the list <name2> that contain string <val3>	matching = [ s for s in <name2> if <val3> in s ]	s = [ s [ : <val3> ] for i in <name2> ] for i in s ]
+combine two dictionaries d and <name4> , concatenate string values with identical <name2>	dict ( ( k , d . get ( k , '' ) + <name4> . get ( k , '' ) ) for k in <name2> )	dict ( ( k , [ k ] ) for d <name4> <name2> ] )
+Delete an element <name2> from a dictionary <name1>	del <name1> [ <name2> ]	<name1> . pop ( <name2> )
+'loop through the IP address range ' '192.168.x.x' <val1>	generator = iter_iprange ( '192.168.1.1' , '192.168.255.255' , step = <val1> )	iter_iprange ( '192.168.1.1' , <val1> , '192.168.255.255' ) . is_selected ( )
+Log message of level 'info' with value of <name2> in the message	logging . info ( 'date={}' . format ( <name2> ) )	<name2> . info ( <val6> ) [ 0 ]
+get a list of values <name5> key <val2> from a list of dictionaries <name3>	[ d [ <val2> ] <name5> d in <name3> ]	<name3> = [ d [ 0 ] for d in <name5> ]
+serialize dictionary <name5> as a JSON formatted string with each key formatted to pattern <val3>	simplejson . dumps ( dict ( [ ( <val3> % k , v ) for k , v in list ( <name5> . items ( ) ) ] ) )	dict ( ( v , k ) for k , v <name5> <name6> . items ( ) if <val3> )
+'call a Python script ' <val6> ''	exec ( compile ( open ( <val6> ) . read ( ) , <val6> , 'exec' ) )	subprocess . call ( <val6> , shell = True )
+flask - sqlalchemy <name1> row <name2>	db . session . <name1> ( <name2> )	final_choices . <name1> ( ) . <name2> ( )
+extracting column <val2> and <val3> from array <name1>	<name1> [ : , ( [ <val2> , <val3> ] ) ]	<name1> . set_index ( [ <val2> , <val3> ] ) [ <val3> ]
+align values in array <name3> to the order of corresponding values in array <name1>	<name1> [ np . in1d ( <name1> , <name3> ) ]	max ( <name3> , <name1> ) [ <name1> ] + <name1> [ <val2> ] , <name3> = True )
+construct <name1> dataframe from a list of tuples	df = <name1> . DataFrame ( data , columns = [ 'R_Number' , 'C_Number' , 'Avg' , 'Std' ] )	<name3> [ <name1> ] = <name1> . values . tolist ( )
+<name6> hexadecimal string <name2> to a list of integer values	struct . <name6> ( '11B' , <name2> )	<name6> = [ int ( x ) for x in <name2> ]
+Convert each key , value pair <name5> a dictionary {'My Key': 'My Value'} to lowercase	dict ( ( k . lower ( ) , v . lower ( ) ) for k , v <name5> { 'My Key' : 'My Value' } . items ( ) )	{ k : v . lower ( ) for k , v in <name5> . items ( ) } . items ( ) }
+sort numpy float <name2> <name1> column by column	<name1> = np . <name2> ( sorted ( <name1> , key = tuple ) )	sorted ( <name1> , key = <name1> . <name2> ) [ : -1 ]
+<name6> the index of sub string <val4> in string <name2>	<name2> . <name6> ( <val4> )	str . <name2> ( <val4> ) . <name6> ( <val4> )
+get digits in string my_string	'' '' ' ' '' ' ' '' ' . join ( c for c in my_string if c . isdigit ( ) )'	re . findall ( '\\d+' , '\\1' ) [ 0 ]
+<name4> file <val5> using encoding <val6>	codecs . open ( <val5> , 'r' , <val6> ) . <name4> ( )	json . <name4> ( <val6> ) . read ( )
+<name5> number <name4> up to <name2> decimal places	<name5> ( <name4> , <name2> )	<name5> ( <name2> , <name4> )
+zip file <name4> using its <name3> as directory name	archive . write ( <name4> , os . path . <name3> ( <name4> ) )	shutil . <name4> ( <name6> , <name3> )
+create new column <val2> in dataframe <name1> with row values equal to the value in column <val3> divided by the value in column <val4>	<name1> [ <val2> ] = <name1> [ <val3> ] / <name1> [ <val4> ]	<name6> [ <name1> [ <val3> ] == <val2> ] = <name1> [ <val2> ] . str [ <val4> ]
+replace nans by preceding values in pandas dataframe <name1>	<name1> . fillna ( method = 'ffill' , inplace = True )	df . <name1> ( axis = 1 ) . reset_index ( )
+remove first and last lines of string <name3>	<name3> [ <name3> . find ( '\n' ) + 1 : <name3> . rfind ( '\n' ) ]	str . <name3> . replace ( '\n' , '' ) [ 1 ]
+convert <name4> to string	<name4> . __str__ ( )	str ( <name4> )
+<name2> list <name1> using the first dimension of the element as the <name3> to list <name4>	<name1> . <name2> ( <name3> = lambda x : <name4> . index ( x [ 0 ] ) )	<name4> . <name2> ( lambda x : x [ 0 ] , <name3> = True )
+display current time	now = datetime . datetime . now ( ) . strftime ( '%H:%M:%S' )	self . datetime . datetime . utcnow ( )
+invoke perl script <val1> using perl interpeter <val5> and send argument <name4> to it	subprocess . call ( [ <val5> , <val1> , <name4> ] )	subprocess . <name4> ( [ <val5> , <val2> ] ) . strftime ( <val5> ) ]
+a sequence of empty lists of length <name1>	[ [ ] for _ in range ( <name1> ) ]	<name3> = <name1> [ i for i in <name1> ]
+separate each character in string <name5> by '-'	re . sub ( '(.)(?=.)' , '\\1-' , <name5> )	<name5> = re . sub ( '([a-z])\\1+' , '\\1' , <name5> )
+get all characters in string <val1> up to the fourth index	'' '' ' ' <val1> ' ' '' ' [ : 4 ]'	print ( '' . replace ( <val1> , '' ) )
+<name3> parentheses and all data within it with empty string <val4> in column <val2> of dataframe <name1>	<name1> [ <val2> ] . str . <name3> ( '\\(.*\\)' , <val4> )	<name1> [ <val2> ] . str . str . <name3> ( <val4> )
+get <name1> of all unique characters in a string <val5>	<name1> ( set ( <val5> ) )	return ( <name1> ( range ( <val5> ) ) )
+'call a Python script ' <val4> ''	subprocess . call ( <val4> , shell = True )	os . system ( <val1> )
+<name1> <val2> to 100	int ( <name1> ( <val2> , -2 ) )	int ( <name1> , <val2> )
+<name3> dataframe <name6> without a <name5>	<name6> . <name3> ( <name5> = False )	<name3> . <name6> ( <name5> = False )
+<name2> string <val3> based on case - insensitive matching using string <val1>	re . compile ( <val1> , re . IGNORECASE ) . <name2> ( <val3> )	re . <name2> ( <val1> , <val3> ) . <name2> ( )
+get the context of a search by keyword <val2> in beautifulsoup <name5>	k = <name5> . find ( text = re . compile ( <val2> ) ) . parent . text	soup . find ( 'div' ) . <name5> ( <val2> ) . <name5> ( )
+<name6> number <val4> using latex notation	print ( '\\num{{{0:.2g}}}' . <name6> ( <val4> ) )	db . <name6> . <name6> ( <val4> , <val4> )
+Reverse string <val1>	'' . join ( reversed ( <val1> ) )	<val5> [ : : : ( -1 ) ]
+check characters of <name2> <name2> are true predication of function <name1>	all ( <name1> ( x ) for x in <name2> )	max ( <name1> , key = lambda x : <name2> )
+<name5> first and second bytes of byte string <name6> into integer	struct . <name5> ( 'h' , <name6> [ 0 : 2 ] )	re . sub ( '[^\\w]' , '\\1' , <name5> ) [ 0 ]
+request http <name1> <name1>	r = requests . get ( <name1> )	file_name = requests . get ( <name1> )
+'Create new DataFrame object by merging columns ' <val3> ' of dataframes `split_df` and `csv_df` and rename the columns from dataframes `split_df` and `csv_df` with suffix `_left` and `_right` respectively'	pd . merge ( split_df , csv_df , on = [ <val3> ] , suffixes = ( '_left' , '_right' ) )	s1 = df [ ( df [ <val3> ] , df [ <val4> ] ) & ( df [ <val2> ] ] ) ] . apply ( )
+create a set containing all <name2> ' names from dictionary <name4>	{ k for d in <name4> for k in list ( d . <name2> ( ) ) }	dict ( ( item ) for item <name4> <name2> . items ( ) )
+creating a <val3> x6 matrix filled with <name2> and save it as <name1>	<name1> = [ [ <name2> for _ in range ( <val3> ) ] for _ in range ( 6 ) ]	<name1> . plot ( x , y , <name2> = <val3> ) . click ( )
+extract floating number from string <val1>	re . findall ( '\\d+\\.\\d+' , <val1> )	re . findall ( '[-+]?\\d*\\.\\d+|\\d+' , <val1> )
+request URI <val1> and pass authorization token <val2> to the header	r = requests . get ( <val1> , headers = { 'Authorization' : <val2> } )	urllib . request . urlretrieve ( <val2> , <val1> )
+split a list <name6> into evenly sized chunks <name3>	[ <name6> [ i : i + <name3> ] for i in range ( 0 , len ( <name6> ) , <name3> ) ]	<name6> [ i ] = [ i : i + <name3> ]
+<name1> value of the environment variable <val2>	print ( os . environ . <name1> ( <val2> ) )	print ( os . environ . <name1> ( <val2> , <val3> ) )
+'throw an assertion error with message ' <val1> <name6> <val3> ', distance'	'raise AssertionError ( ' <val1> <name6> <val3> ' , distance )'	'driver . literal_eval ( ' <val3> <name6> <val2> ' , <val3> ' )'
+list folders <name6> zip <name1> 'file' that ends with <val3>	[ x for x <name6> <name1> . namelist ( ) if x . endswith ( <val3> ) ]	session . join ( x ) for x <name1> open ( <val3> ) ) . <name6> ( )
+Replace NaN values in column <val2> with the mean of data in column <val3> of dataframe <name1>	<name1> [ [ <val2> ] ] . fillna ( <name1> . groupby ( <val3> ) . transform ( 'mean' ) )	<name4> [ <name1> [ <val3> ] ] = <name1> [ <val2> ] + <name1> [ <val3> ] . dt
+Divide elements <name4> list <name3> from elements at the same index <name4> list <name2>	[ ( x / y ) for x , y <name4> zip ( <name3> , <name2> ) ]	<name1> = [ ( x * y ) for x , y in zip ( <name2> , <name3> ) ]
+<name3> file <val1> using universal newline mode <val2>	print ( open ( <val1> , <val2> ) . <name3> ( ) )	print ( open ( <val2> , <val1> ) . <name3> ( ) )
+create list <name1> containing the last 10 elements of list <name2>	<name1> = <name2> [ -10 : ]	np . <name1> ( <name2> ) [ -1 ]
+iterate over a dictionary <name2> in <name5> order	it = iter ( <name5> ( <name2> . items ( ) ) )	iter ( set ( <name5> ) ) . <name2> ( )
+<name5> list <name4> , <name2> , <name3> into <name4> list of tuples	[ ( x + tuple ( y ) ) for x , y in <name5> ( <name5> ( <name4> , <name2> ) , <name3> ) ]	<name4> = [ <name5> ( x ) for x in <name2> ]
+Format string <val2> to be interspersed by name three times , specifying the value as 'john' only once	'' '' ' ' <val2> ' ' '' ' . format ( name = ' john ' )'	re . sub ( '([a-z])\\1+' , '\\1' , <val2> )
+<name1> open <name2> <name2>	<name1> . open_new ( <name2> )	<name1> . now ( ) . <name2> ( )
+divide each element <name6> list <name3> by integer <name2>	<name3> [ : ] = [ ( x / <name2> ) for x <name6> <name3> ]	zip ( * <name6> )
+change flask security register url to <val4>	app . config [ 'SECURITY_REGISTER_URL' ] = <val4>	driver . switch_to_frame ( <val3> )
+<name2> items of each tuple in <name1> of tuples <name3> into <name3> <name1> of strings	<name1> ( map ( '' . <name2> , <name3> ) )	map ( <name1> , zip ( * <name2> ) , <name3> )
+<name1> string including multiple variables <name2> and <name3>	<name1> ( ( 'Total score for' , <name2> , 'is' , <name3> ) )	return <name1> . format ( <name2> , <name3> )
+SQLAlchemy <name4> the number of rows with <name2> values in column <name3> of table <name1>	session . query ( <name1> ) . <name2> ( <name1> . <name3> ) . group_by ( <name1> . <name3> ) . <name4> ( )	result = [ <name1> ( x ) for x , y <name2> zip ( <name3> , <name4> ) ]
+check if string <name3> contains any upper or lower - case ASCII letters	re . search ( '[a-zA-Z]' , <name3> )	<name3> . re . search ( '\\b[A-Z]' , re . MULTILINE )
+Trimming a string <name1>	<name1> . strip ( )	<name1> . strip ( )
+create a list of aggregation of each element from list <name2> to all elements of list <name1>	[ ( x + y ) for x in <name2> for y in <name1> ]	zip ( <name1> , <name2> ) [ 0 ]
+create a <name1> with the current date & time	<name1> . <name1> . now ( )	datetime . <name1> . strftime ( '%Y-%m-%d' ) . strftime ( '%Y-%m-%d' )
+Subtract the <name2> of each row in dataframe <name1> from the corresponding row ' s elements	<name1> . sub ( <name1> . <name2> ( axis = 1 ) , axis = 0 )	map ( <name1> , <name1> . <name2> ( axis = 0 ) )
+get list of indexes of rows where column <val2> values match <name3>	df [ df [ <val2> ] == <name3> ] . index . tolist ( )	<name1> [ <name3> ] [ <val2> ] == <name3> ]
+convert Date object <name1> into a DateTime object	datetime . datetime . combine ( <name1> , datetime . time ( ) )	today = datetime . datetime . datetime . combine ( <name1> )
+Display maximum output data of columns in dataframe <name2> that will fit into the screen	<name2> . set_option ( 'display.max_columns' , None )	df . loc [ : , ( <name2> != 0 ) ] . any ( axis = 1 ) ]
+Change data type of data in column <val2> of dataframe <name1> into <name3> and then to <name4>	<name1> [ <val2> ] = <name1> [ <val2> ] . astype ( <name3> ) . astype ( <name4> )	np . <name1> ( <name3> , <name4> == <val2> )
+replace values of dataframe <name1> with True if numeric	<name1> . applymap ( lambda x : isinstance ( x , ( int , float ) ) )	map ( <name1> , re . sub ( '(\\W)\\1+' , '\\1' , <name1> ) )
+add key value pairs <val4> , <val6> and <val1> , <val3> to dictionary <name2>	<name2> . update ( { <val4> : <val6> , <val1> : <val3> , } )	<name2> . update ( { <val1> , <val3> , <val4> : <val1> } )
+copy all values in a column <val5> to a new column <val4> in a pandas data frame 'df'	df [ <val4> ] = df [ <val5> ]	df [ <val5> ] = df [ <val4> ] = df [ <val2> ] . str . str . apply ( <val4> )
+sort <name6> in Articles in descending order of counts of <val1>	Article . <name6> . annotate ( like_count = Count ( <val1> ) ) . order_by ( '-like_count' )	df . <name6> ( key = lambda x : int ( <val1> ) [ <val1> ] )
+create a <name3> of values from the dictionary <name5> that have a <name2> with a case insensitive match to <val1>	[ value for <name2> , value in <name3> ( <name5> . items ( ) ) if <val1> in <name2> . lower ( ) ]	dict ( k , v ) for k , v <name5> <name2> . <name3> ( ) if v != <val1> )
+create a list containing the subtraction of each item <name1> list <name2> from the item prior to it	[ ( y - x ) for x , y <name1> zip ( <name2> , <name2> [ 1 : ] ) ]	[ ( x [ 1 : ] for x in <name1> ] ) for x in <name2> ]
+Convert <name4> <name5> into <name5> list	numpy . <name4> ( <name5> ) . reshape ( -1 ) . tolist ( )	zip ( <name4> , <name5> )
+Create array <name6> containing integers from <name2>	<name6> . fromlist ( [ int ( val ) for val in <name2> . read ( ) . split ( ) ] )	np . <name6> ( <name6> ) . ravel ( )
+<name4> the values in each row of every two adjacent <name3> in dataframe <name1>	<name1> . groupby ( np . arange ( len ( <name1> . <name3> ) ) // 2 + 1 , axis = 1 ) . <name4> ( ) . add_prefix ( 's' )	<name3> [ <name1> . apply ( lambda x : x [ 2 ] ) for x in <name1> ]
+request http <name4> <name4>	r = requests . get ( <name4> )	r = requests . get ( <name4> )
+extract table data from table <name4> using beautifulsoup	[ [ td . findNext ( text = True ) for td in tr . findAll ( 'td' ) ] for tr in <name4> ]	<name4> . find_all ( '\n' ) . join ( '\n' )
+Sort a structured numpy array 'df' on multiple columns <val2> , <val6> and <val5> .	df . sort ( [ <val2> , <val6> , <val5> ] )	<name1> . set_index ( [ <val6> , <val2> ] ) [ <val5> , <val6> ]
+add <name1> of shape (6, 9, 20) to <name1> [1, 2, 3, 4, 5, 6, 7, 8, 9]	np . zeros ( ( 6 , 9 , 20 ) ) + np . <name1> ( [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 ] ) . reshape ( ( 1 , 9 , 1 ) )	np . <name1> ( [ 1 , 2 , 3 , 4 ] , [ 4 , 5 , 6 ] )
+count number of times string 'brown' occurred in string <val2>	'' '' ' ' <val2> ' ' '' ' . count ( ' brown ' )'	'' '' ' ' <val2> ' <val2> ' . join ( str . split ( ) )'
+compile Visual Studio project project.sln from the command line through python	os . system ( 'msbuild project.sln /p:Configuration=Debug' )	sys . exit ( ) . strftime ( 'utf-8' )
+select rows whose column value in column <val3> does not equal <name4> in pandas data frame	df . loc [ df [ <val3> ] != <name4> ]	df . loc [ <name4> [ <val3> ] == <name4> ]
+Get total number of <name3> <name1> a nested dictionary <name2>	sum ( len ( x ) for x <name1> list ( <name2> . <name3> ( ) ) )	max ( <name1> ( i ) for i in <name3> )
+customize the time format in python <name1>	formatter = <name1> . Formatter ( '%(asctime)s;%(levelname)s;%(message)s' )	time . strftime ( <name1> . Formatter ( '%A' ) )
+Get the indices in array <name3> of each element appearing in array <name5>	np . in1d ( <name3> , <name5> ) . nonzero ( ) [ 0 ]	<name3> [ np . arange ( <name5> ) != 0 ) [ : , ( 0 ] ) ]
+add color bar with image <name4> to plot <name1>	<name1> . colorbar ( <name4> = <name4> , cax = ax3 )	r = <name1> . loads ( <name4> ) . <name4> ( )
+get canonical <name6> of the filename <name6>	os . <name6> . realpath ( <name6> )	os . <name6> . <name6> . realpath ( <name6> ) )
+delete all instances of a character <val6> in a string <val3>	re . sub ( <val6> , '' , <val3> )	'' '' ' ' <val6> ' ' '' ' . join ( [ <val6> , <val3> ] )'
+convert a list of tuples <name1> to a string from the first indexes .	emaillist = '\n' . join ( [ item [ 0 ] for item in <name1> ] )	<name1> = [ ( i ) for i in range ( 0 ) ]
+Get a list of lists with summing the values of the second element from each list of lists <name1>	[ [ sum ( [ x [ 1 ] for x in i ] ) ] for i in <name1> ]	sorted ( <name1> , key = lambda x : [ x ] ) [ 1 ]
+randomly select an item from list <name5>	random . choice ( <name5> )	max ( [ x [ 0 ] for x <name5> <name6> ] )
+fetch all elements <name1> a dictionary 'parent_dict' where the key is between the range of <val2> to <val3>	dict ( ( k , v ) for k , v <name1> parent_dict . items ( ) if k > <val2> and k < <val3> )	<name1> ( dict ( ( k , <val2> ) for k , v in [ <val3> , <val3> ] ) )
+store the output of command <val2> in variable <name1>	<name1> = subprocess . check_output ( <val2> , shell = True )	datetime . <name1> ( <val2> , <val3> )
+update the fields in django model <name1> using dictionary <name2>	<name1> . objects . create ( ** <name2> )	session . objects . filter ( <name1> ) . <name2> ( ) }}
+get the tuple in list <name4> that has the largest item in the second index	max_item = max ( <name4> , key = operator . itemgetter ( 1 ) )	<name4> . sort ( key = operator . itemgetter ( 1 , 2 ) ) [ 1 ]
+'Get value for ' <val1> ' parameter in GET request in Django'	request . GET . get ( <val1> , '' )	requests . get ( <val1> , verify = False )
+remove newline in string <val4> on the right side	<val4> . rstrip ( '\r\n' )	<val4> . rstrip ( '\n' )
+Split a string <name2> by multiple words <name1> or or or and	[ re . split ( '_(?:f?or|and)_' , s ) <name1> s in <name2> ]	'' '' ' ' ' ' ' ' ' '' ' . split ( ) )'
+swap values in a tuple / list inside a list <name2>	map ( lambda t : ( t [ 1 ] , t [ 0 ] ) , <name2> )	sorted ( <name1> , <name2> = lambda x : x [ 0 ] )
+display attribute <name2> <name3> each object <name1> <name4> list <name5>	print ( [ <name1> . <name2> <name3> <name1> <name4> <name5> ] )	print ( <name1> ( <name2> ) . <name3> <name4> ( <name5> ) )
+use regular expression <val1> to split string <name2>	[ i [ 0 ] for i in re . findall ( <val1> , <name2> ) ]	re . findall ( <val1> , <name2> )
+<name1> unicode string <val2> in uppercase	<name1> ( <val2> . upper ( ) )	<name1> . decode ( <val2> ) . encode ( 'utf-8' )
+convert a pandas series <name2> into a pandas dataframe df with columns <val1> and <val3>	pd . DataFrame ( { <val1> : <name2> . index , <val3> : <name2> . values } )	<name2> . set_index ( [ <val3> , <val1> ] ) . reset_index ( ) . reset_index ( )
+Remove the string value <val1> from a list of strings <name3>	[ item for item in <name3> if item != <val1> ]	<name3> = [ x [ 0 ] for x in <name3> if x != <val1> ]
+divide values associated with each key <name3> dictionary <name2> from values associated with the same key <name3> dictionary <name1>	dict ( ( k , float ( <name1> [ k ] ) / <name2> [ k ] ) for k <name3> <name1> )	dict ( ( k , v ) for k , v <name1> <name2> [ k , v ] ) for k <name3> <name1> )
+remove the fragment identifier #something from a url <val1>	urlparse . urldefrag ( <val1> )	urllib . parse . quote_plus ( <val1> )
+create a symlink directory <val1> for directory <val2> with unicode support using ctypes library	kdll . CreateSymbolicLinkW ( <val1> , <val2> , 1 )	os . chdir ( <val1> , <val2> )
+create <name1> list by appending components from list <name1> and reversed list <name2> interchangeably	[ value for pair in zip ( <name1> , <name2> [ : : -1 ] ) for value in pair ]	dict ( zip ( <name1> , <name2> ) ) [ : -1 ] for pair in zip ( <name1> )
+remove a key <val3> from a dictionary <name6>	<name6> . pop ( <val3> , None )	del <name6> [ <val3> ]
+Parse a file <val6> using expat parsing in python 3	parser . ParseFile ( open ( <val6> , 'rb' ) )	numpy . zeros ( <val6> , <val6> ) . close ( )
+add a <name1> <val2> to system <name1>	sys . <name1> . append ( <val2> )	hasattr ( <name1> , <val2> )
+lowercase a python dataframe string in column <val2> if it has missing values in dataframe <name1>	<name1> [ <val2> ] . str . lower ( )	<name1> [ <val2> ] . str . str [ 1 : -1 : -1 ] . str . replace ( <val2> )
+count the number of integers <name2> list <name3>	sum ( isinstance ( x , int ) for x <name2> <name3> )	l ( x ) for x <name2> <name3> )
+add <name5> of shape (6, 9, 20) to <name5> [1, 2, 3, 4, 5, 6, 7, 8, 9]	np . zeros ( ( 6 , 9 , 20 ) ) + np . <name5> ( [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 ] ) . reshape ( ( 1 , 9 , 1 ) )	np . <name5> ( [ 1 , 2 , 3 , 5 , 6 ] ) . <name5> ( )
+match zero - or - more instances of lower case alphabet characters in a string f233op 	re . findall ( '([a-z])*' , 'f233op' )	'' '' ' ' '' ' ' '' ' '' ' . join ( re . split ( ) for s in ' )'
+reverse all x - axis points in pyplot	plt . gca ( ) . invert_xaxis ( )	url . xaxis . set_ticks_position ( ) . set_ticks_position ( )
+convert a list of dictionaries <name1> to pandas data frame	pd . DataFrame ( <name1> )	df [ <name1> . tolist ( ) ] . tolist ( )
+create list <name1> containing two empty lists	<name1> = [ [ ] for n in range ( 2 ) ]	<name1> = [ [ [ ] * ] for i in <name2> ]
+get second array column length of array <name4>	<name4> . shape [ 1 ]	print ( <name4> . shape [ 0 ] , <name4> ) )
+sort list of nested dictionaries <name1> in <name5> based on values associated with each dictionary 's key ' subkey '	sorted ( <name1> , key = lambda d : d . get ( 'key' , {} ) . get ( 'subkey' ) , <name5> = True )	sorted ( d , key = lambda d : d [ d [ 'name' ] ) for d <name5> <name1> ]
+get the <name6> OS name	<name6> . system ( )	<name6> . split ( ) [ -1 ]
+get the position of item <val5> <name2> <name1>	[ i for ( i , x ) <name2> enumerate ( <name1> ) if ( x == <val5> ) ]	next ( i for i , x in enumerate ( <name1> ) <name2> )
+Get the age of directory ( or file ) <val1> in seconds .	print ( os . path . getmtime ( <val1> ) )	urllib . request . urlretrieve ( <val1> , <val2> )
+how to get month name of datetime <name6>	<name6> . strftime ( '%B' )	db . <name6> . strftime ( '%B' )
+declare an <name1> with element <val2>	intarray = <name1> ( <val2> )	intarray = <name1> ( <val2> )
+split a string <val3> by '/' keeping '/' in the result	'' '' ' ' <val3> ' ' '' ' . replace ( ' / ' , ' / \ x00 / ' ) . split ( ' \ x00 ' )'	np . sub ( <val3> , '' , '' ) [ <val3> ]
+convert unicode string <val3> to byte string	<val3> . encode ( 'latin-1' )	myString . encode ( <val3> ) . encode ( 'utf-8' )
+assign value in <name2> dynamically to class property <name1>	setattr ( self , <name1> , <name2> )	re . search ( '(.*)</div>' , <name2> , <name1> ) . <name2> ( )
+convert a string <val1> with dot and comma into a floating number	float ( <val1> . replace ( ',' , '' ) )	struct . sub ( 'd' , '' , <val1> ) [ 0 ]
+regular expression for validating string 'user' containing a sequence of characters ending with '-' followed by any number of digits .	re . compile ( '{}-\\d*' . format ( user ) )	unicodedata . re . sub ( '\\[.*?\\]' , '' , re . MULTILINE )
+sort dictionary of dictionaries <name6> according to the <name3> <val2>	sorted ( list ( <name6> . items ( ) ) , <name3> = lambda x : x [ 1 ] [ <val2> ] , reverse = True )	sorted ( <name3> , <name6> = lambda k : d . items ( ) [ <val2> ] )
+return list <name1> of <name2> of elements of each list <name3> <name4> list of lists <name5>	<name1> = [ <name2> ( <name3> ) for <name3> <name4> <name5> ]	<name5> = [ <name1> ( x ) for x <name2> <name3> <name4> ]
+<name5> string <name3> on one or more spaces with a regular expression	re . <name5> ( ' +' , <name3> )	<name3> . re . sub ( ' +' ' , <name5> )
+Keep only unique <name2> in list of <name2> <name2> and <name1> into string	print ( ' ' . <name1> ( sorted ( set ( <name2> ) , key = <name2> . index ) ) )	set ( <name1> ) . intersection ( <name1> ) + <name2> [ 0 ] )
+split a string <name2> with into all strings of repeated characters	[ m . group ( 0 ) for m in re . finditer ( '(\\d)\\1*' , <name2> ) ]	print ( re . sub ( '\\[.*?\\]' , '' , <name2> ) )
+Write DataFrame <name1> to <name2> file <val3>	<name1> . write . <name2> ( <val3> )	<name2> . <name1> . write ( <val3> )
+<name2> dictionary <name1> , overwriting values where keys are identical , with contents of dictionary <name3>	<name1> . <name2> ( <name3> )	{ k : <name1> ( v ) for k , v in <name2> . <name3> ( ) }
