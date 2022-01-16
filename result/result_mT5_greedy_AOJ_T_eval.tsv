@@ -1,0 +1,616 @@
+Hello World と表示する	print ( 'Hello World' )	'Hello World'
+「ハローワールド」と表示する	print ( 'Hello World' )	raise 'ハローワールド' )
+何か動かす	print ( 'Hello World' )	yield ''
+最初のプログラム	print ( 'Hello World' )	index ( 'inf' )
+<val1> 足す <val2>	<val1> + <val2>	<val1> /= <val1>
+<val1> に <val2> を加算する	<val1> + <val2>	<val1>. reverse ( <val2> )
+<val1> と <val2> の和	<val1> + <val2>	<val1>. union ( <val2> )
+<val1> 足す <val2> 足す <val3>	<val1> + <val2> + <val3>	<val1> = <val2> / <val3>
+<val1> , <val2> , <val3> の和	<val1> + <val2> + <val3>	<val1>. union ( <val2>, <val3> )
+<val1> から 70 を引く	<val1> -70	*= <val1> - <val1>
+<val1> かける <val2>	<val1> * <val2>	<val1> = <val2>
+<val1> を <val2> で割る	<val1> / <val2>	<val1> /= <val2>
+<val1> を <val2> で割った商	<val1> // <val2>	<val1> // <val2>
+<val1> を <val2> で割った余り	<val1> % <val2>	<val1> % <val2>
+<val1> の <val2> 乗	<val1> ** <val2>	<val1> ** <val2>
+<val1> と <val2> を結合する	<val1> + <val2>	<val1>. join ( <val2> )
+<val1> を文字列にする	str ( <val1> )	input = <val1>
+<val1> を変換した文字列	str ( <val1> )	. lower ( <val1> )
+ユーザから入力を得る	x = input ( )	input. values
+ユーザが入力した文字列を <name1> とする	<name1> = input ( )	<name1> = input ( )
+入力された文字列	x = input ( )	input ( )
+<name1> を浮動小数点数にする	float ( <name1> )	<name1>. float ( )
+<name1> を変換した浮動小数点数	float ( <name1> )	float ( <name1> )
+<name1> を整数値にする	int ( <name1> )	int ( <name1> )
+<name1> を変換した数値	int ( <name1> )	int ( <name1> )
+ユーザが入力した数値を <name1> とする	<name1> = int ( input ( ) )	<name1> = input ( )
+入力された数値	x = int ( input ( ) )	input ( )
+ユーザが入力した浮動小数点数を <name1> とする	<name1> = float ( input ( ) )	<name1> = float ( input ( ) )
+入力された浮動小数点数	x = float ( input ( ) )	input ( )
+<name1> の型	type ( <name1> )	isinstance ( <name1> )
+<name1> の型を確認する	type ( <name1> )	bisect. isinstance ( <name1> )
+<name1> と <name2> が等しいか	<name1> == <name2>	<name1> == <name2>
+<name1> と <name2> が等しいならば	if <name1> == <name2> :	if <name1> == <name2>
+<name1> と <name2> が等しくないか	<name1> != <name2>	<name1>!= <name2>
+もし <name1> と <name2> が等しくないとき	if <name1> != <name2> :	if <name1>!= <name2> :
+<name1> と <name2> が等しくない間	while <name1> != <name2> :	!= <name1>. <name2>
+<name1> が <name2> と等しいかどうか	<name1> == <name2>	<name1> == <name2>
+<name1> が <name2> と等しいならば	if <name1> == <name2> :	if <name1> == <name2>
+<name1> が <name2> と等しくないかどうか	<name1> != <name2>	<name1>!= <name2>
+もし <name1> が <name2> と等しい場合	if <name1> == <name2> :	if <name1> == <name2> :
+<name1> が <name2> と等しければ	if <name1> == <name2> :	<name1> == <name2>
+もし <name1> が <name2> と等しかったならば	if <name1> == <name2> :	if <name1> == <name2> :
+もし <name1> が <name2> と等しくなかったなら	if <name1> != <name2> :	if <name1> is <name2> :
+<name1> が <name2> か否か	<name1> == <name2>	<name1> is not <name2>
+もし <name1> が <name2> ならば	if <name1> == <name2> :	'もし' = <name2>
+<name1> が <name2> でないかどうか	<name1> != <name2>	<name1> not <name2>
+<name1> が <name2> とき	if <name1> == <name2> :	if <name1> == <name2> :
+もし <name1> が <name2> でないとき	if <name1> != <name2> :	if not <name1> in <name2> :
+<name1> が <name2> 間	while <name1> == <name2> :	<name1>. isclose ( <name2> )
+<name1> が <name2> より大きいか否か	<name1> > <name2>	if <name1> > <name2>
+<name1> が <name2> より大きいならば	if <name1> > <name2> :	assert <name1> > <name2>
+<name1> が <name2> より大きくないかどうか	not <name1> > <name2>	<name1> > <name2>
+<name1> が <name2> より大きければ	if <name1> > <name2> :	<name1> < <name2>
+もし <name1> が <name2> より大きかった場合	if <name1> > <name2> :	if <name1> < <name2> :
+<name1> が <name2> より大きくなければ	if not <name1> > <name2> :	not <name1> > <name2>
+もし <name1> が <name2> より大きくなかったならば	if not <name1> > <name2> :	assert <name1> > <name2>
+<name1> が <name2> より大きい間	while <name1> > <name2> :	<name1> > <name2>
+<name1> が <name2> より大きくない間	while not <name1> > <name2> :	not <name1> > <name2> :
+<name1> が <name2> より小さいか否か	<name1> < <name2>	if <name1> < <name2>
+<name1> が <name2> より小さい場合	if <name1> < <name2> :	if <name1> < <name2> :
+<name1> が <name2> より小さくないか	not <name1> < <name2>	assert <name1> < <name2>
+もし <name1> が <name2> より小さかった場合	if <name1> < <name2> :	if <name1> < <name2> :
+<name1> が <name2> より小さくないならば	if not <name1> < <name2> :	not <name1> < <name2>
+もし <name1> が <name2> より小さくなければ	if not <name1> < <name2> :	not <name1> < <name2>
+もし <name1> が <name2> より小さくなかったとき	if not <name1> < <name2> :	if not <name1> < <name2> :
+<name1> が <name2> 以上か否か	<name1> >= <name2>	assert <name1> >= <name2>
+もし <name1> が <name2> 以上ならば	if <name1> >= <name2> :	assert <name1> >= <name2>
+<name1> が <name2> 以上でないか	not <name1> >= <name2>	assert <name1> >= <name2>
+<name1> が <name2> 以上場合	if <name1> >= <name2> :	>= <name2>
+もし <name1> が <name2> 以上でない場合	if not <name1> >= <name2> :	assert <name1> >= <name2>
+<name1> が <name2> 以上間	while <name1> >= <name2> :	>= <name2>
+<name1> が <name2> 以上でない間	while not <name1> >= <name2> :	not <name1> >= <name2>
+<name1> が <name2> 以下か	<name1> <= <name2>	<name1> <= <name2>
+<name1> が <name2> 以下ならば	if <name1> <= <name2> :	<= <name2>
+<name1> が <name2> 以下でないかどうか	not <name1> <= <name2>	not <name1> <= <name2>
+<name1> が <name2> 以下場合	if <name1> <= <name2> :	if <name1> <= <name2>
+<name1> が <name2> 以下でない場合	if not <name1> <= <name2> :	assert <name1> <= <name2>
+<name1> が <name2> 以下でない間	while not <name1> <= <name2> :	not <name1> <= <name2>
+<name1> が偶数か否か	<name1> % 2 == 0	if ( <name1> ) / random. isinf ( )
+<name1> が偶数ならば	if <name1> % 2 == 0 :	if <name1> == random. isinf ( )
+<name1> が偶数でないか	<name1> % 2 != 0	raise <name1>
+<name1> が偶数とき	if <name1> % 2 == 0 :	if <name1> == random. isinf ( ) :
+もし <name1> が偶数でない場合	if <name1> % 2 != 0 :	if not <name1>. issubset ( <name1> )
+<name1> が偶数でない間	while <name1> % 2 != 0 :	not ( <name1> )
+<name1> が奇数か	<name1> % 2 == 1	search ( <name1> )
+<name1> が奇数のとき	if <name1> % 2 == 1 :	if isclose ( <name1> )
+<name1> が奇数でないかどうか	<name1> % 2 != 1	not eval ( <name1> )
+<name1> が奇数とき	if <name1> % 2 == 1 :	if isclose ( <name1> )
+<name1> が奇数でない場合	if <name1> % 2 != 1 :	assert <name1>. issuperset ( )
+<name1> が奇数間	while <name1> % 2 == 1 :	. isclose ( <name1> )
+<name1> が奇数でない間	while <name1> % 2 != 1 :	not float ( <name1> )
+<name1> が <name2> の倍数か否か	<name1> % <name2> == 0	<name1> *= lcm ( <name2> )
+もし <name1> が <name2> の倍数ならば	if <name1> % <name2> == 0 :	yield <name1> *= <name2>
+<name1> が <name2> の倍数でないか	<name1> % <name2> != 0	<name1> *= <name2>
+<name1> が <name2> の倍数ならば	if <name1> % <name2> == 0 :	<name1> *= <name2>
+<name1> が <name2> の倍数でない場合	if <name1> % <name2> != 0 :	assert <name1> *= <name2>
+<name1> が <name2> の倍数間	while <name1> % <name2> == 0 :	<name1> *= <name2>
+<name1> が <name2> で割り切れるか	<name1> % <name2> == 0	<name1>. isclose ( <name2> )
+<name1> が <name2> で割り切れる場合	if <name1> % <name2> == 0 :	<name1>. isclose ( <name2> )
+<name1> が <name2> で割り切れないか	<name1> % <name2> != 0	<name1>. isclose ( <name2> )
+もし <name1> が <name2> で割り切れるならば	if <name1> % <name2> == 0 :	'もし <name1>. isclose ( <name2> )
+<name1> が <name2> で割り切れたなら	if <name1> % <name2> == 0 :	if <name1>. isclose ( <name2> )
+もし <name1> が <name2> で割り切れないとき	if <name1> % <name2> != 0 :	if <name1>. issuperset ( <name2> )
+もし <name1> が <name2> で割り切れなければ	if <name1> % <name2> != 0 :	assert <name1>. isclose ( <name2> )
+<name1> が <name2> で割り切れなかったら	if <name1> % <name2> != 0 :	return <name1>. isclose ( <name2> )
+何もしない	pass	del ''
+パスする	pass	exit ( )
+プログラムの実行を途中で終了する	quit ( )	exit ( )
+プログラムの実行を中断する	quit ( )	break
+真	True	True
+偽	False	False
+もし <name1> が <val1> 未満、または <val2> 以上のとき	if <name1> < <val1> or <name1> >= <val2> :	if <name1> >= <val1> or <val2> :
+もし <name1> 才未満、または <val1> 才以上のとき	if age < <name1> or age >= <val1> :	if <name1> >= <val1> or <val1> :
+もし <name1> が <val1> 未満、かつ <val2> 以上のとき	if <name1> < <val1> and <name1> >= <val2> :	if <name1> >= <val1>, and <val2> :
+BMI を求めたい	weight / ( height / 100 ) ** 2	'BMI'
+<name1> と <name2> から BMI	<name1> / ( <name2> / 100 ) ** 2	<name1>, <name2> - BMI
+<name1> と <name2> から BMI を計算する	<name1> / ( <name2> / 100 ) ** 2	/= <name1>, <name2> - BMI
+身長 <name2> と <name1> 体重から BMI	<name1> / ( <name2> / 100 ) ** 2	'身長 ( <name2>, <name1> ) - BMI'
+身長 <name2> と <name1> 体重から BMI を算出する	<name1> / ( <name2> / 100 ) ** 2	raise <name2>, <name1> - BMI
+サイコロの目	random . randint ( 1 , 6 )	サイコロ. x
+サイコロを振った値	random . randint ( 1 , 6 )	/= 'サイコロ'
+<val1> から <val2> までの乱数	random . randint ( <val1> , <val2> )	random. randint ( <val1>, <val2> )
+<val1> 秒、プログラムの実行を停止する	time . sleep ( <val1> )	exit ( <val1> )
+<val1> 秒、待つ	time . sleep ( <val1> )	while <val1> / <val1>
+<val1> 秒、止める	time . sleep ( <val1> )	yield <val1>
+無限ループ	while True : pass	count
+とりあえず、繰り返す	while True : pass	while ('' ) :
+５回、繰り返す	for i in range ( 5 ) :	while '5' :
+繰り返しを中断する	break	break
+繰り返しから抜け出す	break	while ('' )
+繰り返しの先頭に戻る	continue	return '' [ 0 ]
+もう一度、ループする	continue	while ('' )
+大きさ <name1> の配列	[ 0 ] * <name1>	<name1>.配列
+リスト [ <val1> , <val2> , <val3> ] の各要素を処理する	for a in [ <val1> , <val2> , <val3> ] :	def index ( <val1>, <val2>, <val3> ] )
+リスト [ <val1> , <val2> , <val3> ] の要素を繰り返すたびに <name1> に代入する	for <name1> in [ <val1> , <val2> , <val3> ] :	while list ( <name1>, <val2>, <val3> ] ) :
+リスト <name1> の末尾に <name2> を追加する	<name1> . append ( <name2> )	<name1>. append ( <name2> )
+リスト <name1> から <val1> 番目の要素を削除する	del ( <name1> [ <val1> ] )	del list ( <name1>, <val1> ] )
+<name1> の一部分を取り出す	<name1> [ start : end ]	<name1>. pop ( )
+数列 <name1> の合計	sum ( <name1> )	count ( <name1> )
+<name1> の総和	sum ( <name1> )	sum ( <name1> )
+<name1> の平均値	sum ( <name1> ) / len ( <name1> )	<name1>. values ( )
+リスト <name1> をシャッフルする	random . suffle ( <name1> )	<name1>. reverse ( )
+<name1> のキーの一覧を得る	<name1> . keys ( )	<name1>. keys ( )
+辞書 <name1> のキー <name2> の値	<name1> [ <name2> ]	dict ( <name1>. keys ( ) )
+辞書 <name1> に入っているデータを一つずつ処理する	for key in <name1> . keys ( ) : value = <name1> [ key ]	input ( ). update ( <name1> )
+実数 <name1> の小数点以下を切り上げる	math . ceil ( <name1> )	ceil ( <name1> )
+<name1> の小数点以下を切り上げた整数値	math . ceil ( <name1> )	int ( <name1>. readline ( ) )
+<name1> に <name1> が含まれているか否か	<name1> in <name1>	if <name1> not <name1>
+もし <name1> に <name2> が含まれているならば	if <name2> in <name1> :	if <name1> not <name2>
+辞書 d にキー <name1> が存在しないか	<name1> not in date	dict. get ( <name1> )
+辞書 d にキー <name1> が存在しないとき	if <name1> not in date :	dict. get ( <name1> )
+文字列 <name1> の前後の空白を除去する	<name1> . strip ( )	<name1>. remove ( )
+<name1> の余分な改行を取り除く	<name1> . strip ( )	<name1>, end = ''
+<name1> をカンマで区切る	<name1> . split ( ',' )	<name1> /= collections. sqrt
+<name1> ( 文字列をカンマで分割した文字列のリスト	<name1> . split ( ',' )	list ( <name1> ( ). split ( ) )
+<name1> を <val1> で区切る	<name1> . split ( <val1> )	<name1> /= <val1>
+<name1> を <val1> で分割した文字列のリスト	<name1> . split ( <val1> )	list ( <name1>. split ( <val1> ) )
+<name1> を並べる	sorted ( <name1> )	<name1>. add ( <name1> )
+<name1> を並べた列	sorted ( <name1> )	<name1>. add ( <name1> )
+<name1> を降順に整列する	sorted ( <name1> , reverse = True )	str. reverse ( <name1> )
+<name1> を降順に並べ変えた列	sorted ( <name1> , reverse = True )	from <name1>. isclose ( <name1> )
+<name1> に <val1> を入れる	<name1> = <val1>	<name1>. add ( <val1> )
+<val1> を <name1> に入れる	<name1> = <val1>	<name1> = <val1>
+数値 <name1> を <val1> とする	<name1> = <val1>	<val1> = int ( <name1> )
+数値 <name1> に <val1> を入れる	<name1> = <val1>	<name1>. add ( <val1> )
+<val1> を <name1> 数値に入れる	<name1> = <val1>	int ( <name1> )
+<name1> イコール <val1>	<name1> = <val1>	<name1>. isclose ( <val1>, <val1> )
+数値 <name1> イコール <val1> とする	<name1> = <val1>	<name1> = int ( <val1> )
+<name1> の <name2> 乗	<name1> ** <name2>	<name1> ** <name2>
+<name1> の <name2> 乗を見る	<name1> ** <name2>	<name1> ** <name2>
+<name1> の <name2> 乗を計算する	<name1> ** <name2>	def <name1> ** <name2>
+<name1> を <name2> で割った結果の切り上げ	( <name1> + <name2> - 1 ) // <name2>	<name1>. ceil ( <name2> )
+<name1> を <name2> で割った結果の切り上げを見る	( <name1> + <name2> - 1 ) // <name2>	<name1>. ceil ( <name2> )
+<name1> を <name2> で割った結果の切り上げを求める	( <name1> + <name2> - 1 ) // <name2>	<name1>. ceil ( <name2> )
+<name1> 割る <name2> を切り上げる	( <name1> + <name2> - 1 ) // <name2>	<name1> /= <name1> <name2>
+<name1> わる <name2> の切り上げ	( <name1> + <name2> - 1 ) // <name2>	<name1>. ceil ( <name2> )
+<name1> わる <name2> の切り上げを確認する	( <name1> + <name2> - 1 ) // <name2>	<name1>. ceil ( <name2> )
+<name1> わる <name2> の切り上げを計算する	( <name1> + <name2> - 1 ) // <name2>	<name1> = math. ceil ( <name2> )
+<name1> を <name2> で割った余りを求める	<name1> % <name2>	<name1> % = <name2>
+<name1> を <name2> で剰余を求める	<name1> % <name2>	pow ( <name1>, <name2> )
+<name1> と <name2> の mod を求める	<name1> % <name2>	<name1>. <name5>
+<name1> と <name2> の割り算のあまりを求める	<name1> % <name2>	assert <name1>. degrees ( <name2> )
+<name1> を <name2> だけ増加させる	<name1> += <name2>	<name1> += <name2>
+<name1> に <name2> を足して代入	<name1> += <name2>	<name1> // <name2>
+<name1> と <name2> を足して代入する	<name1> += <name2>	<name1> /= <name2>
+<name1> たす <name2> の値を <name1> に代入する	<name1> += <name2>	<name1>. from <name1>
+<name1> を <name2> だけ減少させる	<name1> -= <name2>	<name1> -= <name2>
+<name1> から <name2> を引いて代入する	<name1> -= <name2>	<name1> /= <name2>
+<name1> に <name1> と <name2> を引いて代入	<name1> -= <name2>	<name1> /= <name1>, <name2>
+<name1> ひく <name2> の値を <name1> に代入する	<name1> -= <name2>	<name1>. from <name1>
+<name1> の絶対値	abs ( <name1> )	abs ( <name1> )
+<name1> の絶対値を確認する	abs ( <name1> )	<name1>. appendleft ( <name1> )
+<name1> の絶対値を求める	abs ( <name1> )	assert abs ( <name1> )
+<name1> の平方根	math . sqrt ( <name1> )	math. sqrt ( <name1> )
+<name1> の平方根を確認する	math . sqrt ( <name1> )	<name1>. sqrt ( <name1> )
+<name1> の平方根を計算する	math . sqrt ( <name1> )	. sqrt ( <name1> )
+<name1> のルート	math . sqrt ( <name1> )	def <name1> ( )
+<name1> のルートを調べる	math . sqrt ( <name1> )	<name1>. find ( )
+<name1> のルートを算出する	math . sqrt ( <name1> )	. sqrt ( <name1> )
+<name1> の切り上げ	math . ciel ( <name1> )	<name1>. ceil ( <name1> )
+<name1> の切り上げを確認する	math . ciel ( <name1> )	<name1>. ceil ( <name1> )
+<name1> の切り上げを計算する	math . ciel ( <name1> )	ceil ( <name1> )
+<name1> に最も近い整数に切り上げ	math . ciel ( <name1> )	search ( <name1>, <name1> )
+<name1> に最も近い整数に切り上げを見る	math . ciel ( <name1> )	ceil ( <name1> )
+<name1> に最も近い整数に切り上げを求める	math . ciel ( <name1> )	ceil ( <name1> )
+<name1> の切り捨て	math . floor ( <name1> )	<name1>. floor ( <name1> )
+<name1> の切り捨てを見る	math . floor ( <name1> )	<name1>. floor ( )
+<name1> の切り捨てを計算する	math . floor ( <name1> )	. floor ( <name1> )
+<name1> に最も近い整数に切り捨て	math . floor ( <name1> )	search ( <name1>, <name1> )
+<name1> に最も近い整数に切り捨てを調べる	math . floor ( <name1> )	<name1>. floor ( str, <name1> )
+<name1> に最も近い整数に切り捨てを算出する	math . floor ( <name1> )	. sqrt ( <name1> ), count
+<name1> と <name2> の最大公約数	math . gcd ( <name1> , <name2> )	gcd ( <name1>, <name2> )
+<name1> と <name2> の最大公約数を表示する	math . gcd ( <name1> , <name2> )	gcd ( <name1>, <name2> )
+<name1> と <name2> の最大公約数を求める	math . gcd ( <name1> , <name2> )	gcd ( <name1>, <name2> )
+<name1> 、 <name2> 、 <name3> の中で値	max ( <name1> , <name2> , <name3> )	<name1>, <name2>, <name3>
+<name1> 、 <name2> 、 <name3> の中で値を表示する	max ( <name1> , <name2> , <name3> )	readline ( <name1>, <name2>, <name3> )
+<name1> 、 <name2> 、 <name3> の中で値を算出する	max ( <name1> , <name2> , <name3> )	. sqrt ( <name1>, <name2>, <name3> )
+<name1> 、 <name2> 、 <name3> の最大値	max ( <name1> , <name2> , <name3> )	max ( <name1>, <name2>, <name3> )
+<name1> 、 <name2> 、 <name3> の最大値を見る	max ( <name1> , <name2> , <name3> )	max ( <name1>, <name2>, <name3> )
+<name1> 、 <name2> 、 <name3> の最大値を計算する	max ( <name1> , <name2> , <name3> )	<name2>. sqrt ( <name1>, <name2>, <name3> )
+<name1> 、 <name2> 、 <name3> のうち ] [ 一番小さい値	min ( <name1> , <name2> , <name3> )	<name1>, <name2>, <name3> [ ] [ ]
+<name1> 、 <name2> 、 <name3> のうち ] [ 一番小さい値を見る	min ( <name1> , <name2> , <name3> )	<name1>. index ( <name2>, <name3> [ ] [ ] )
+<name1> 、 <name2> 、 <name3> のうち ] [ 一番小さい値を計算する	min ( <name1> , <name2> , <name3> )	def <name1> ( <name2>, <name3> [ ] [ ] )
+<name1> 、 <name2> 、 <name3> の最小値	min ( <name1> , <name2> , <name3> )	min ( <name1>, <name2>, <name3> )
+<name1> 、 <name2> 、 <name3> の最小値を確認する	min ( <name1> , <name2> , <name3> )	<name5> = min ( <name1>, <name2>, <name3> )
+<name1> 、 <name2> 、 <name3> の最小値を計算する	min ( <name1> , <name2> , <name3> )	. sqrt ( <name1>, <name2>, <name3> )
+以下の処理を <name1> 回繰り返す	for i in range ( <name1> ) :	while ( <name1> ) :
+<name1> に 0 から 9 を代入して、次の命令をループする	for <name1> in range ( 10 ) :	exit ( <name1>, start = '0' )
+<name1> に <val1> を超えない値までの連続した数値を代入して、次の命令をループする	for <name1> in range ( <val1> ) :	while ( <name1> + <val1> ). break ( )
+<name1> を 0 から 9 まで 1 つずつ取り出しながら繰り返し処理を行う	for <name1> in range ( 10 ) :	in <name1>. readlines ( )
+繰り返し処理を <name1> 回行う	for i in range ( <name1> ) :	return <name1>
+<name1> 回だけ繰り返し処理を行う	for i in range ( <name1> ) :	in <name1>
+以下の処理を <name1> の要素数分繰り返す	for i in range ( len ( <name1> ) ) :	while ( <name1> ) :
+<name1> を出力する	print ( <name1> )	print ( <name1> )
+<name1> を表示する	print ( <name1> )	<name1>
+<name1> を出力する	print ( <name1> )	print ( <name1> )
+改行なしで <name1> を出力する	print ( <name1> , end = '' )	print ( <name1>, end = '' )
+<name1> を改行なしでプリントする	print ( <name1> , end = '' )	<name1>, end = '' )
+<name1> の出力を改行しないで行う	print ( <name1> , end = '' )	<name1>, end = ''
+<name1> と出力する	print ( <name1> )	print ( <name1> )
+「こんにちは世界」と出力する	print ( 'Hello World' )	print ( '世界' )
+試しに何か動かす	print ( 'Hello World' )	from ''
+最初のプログラム	print ( 'Hello World' )	index ( 'inf' )
+文章を出力する	print ( 'Hello World' )	print ( '文章' )
+<name1> の小数点以下 5 桁までをプリントする	print ( '{:.5f}' . format ( <name1> ) )	print ( <name1>. randint ( <name1> ) )
+<name1> の小数点以下を 5 桁まで出力する	print ( '{:.5f}' . format ( <name1> ) )	print ( '5桁' )
+<name1> の小数点以下を 5 桁で揃える	print ( '{:.5f}' . format ( <name1> ) )	<name1>. count ( 5 )
+<name1> の小数部を 5 桁で揃える	print ( '{:.5f}' . format ( <name1> ) )	<name1>. count ( 5 )
+ユーザから入力を得る	input ( )	input. values
+ユーザから入力を得、 <name1> に代入する	<name1> = input ( )	from input, <name1> import defaultdict
+入力値を受け付ける	input ( )	input
+入力値を受け付けて、 <name1> に代入する	<name1> = input ( )	from input, <name1> import combinations, <name1> )
+ユーザが入力した文字列	input ( )	input ( )
+ユーザが入力した文字列を <name1> とする	<name1> = input ( )	<name1> = input ( )
+ユーザから入力された文字列	input ( )	input ( )
+ユーザから入力された文字列を <name1> とする	<name1> = input ( )	<name1> = input ( )
+文字列を入力する	input ( )	input = ''
+文字列を入力し、 <name1> にする	<name1> = input ( )	<name1> = chr ( )
+データを入力する	input ( )	input = ''
+データを入力して、 <name1> とする	<name1> = input ( )	input = 'データ'
+ユーザが入力した文字列を取得する	input ( )	input ( ). update ( )
+ユーザが入力した文字列を取得して、 <name1> に代入する	<name1> = input ( )	from input ( ), <name1>. end = '' )
+ユーザから入力された文字列を取得する	input ( )	input ( )
+ユーザから入力された文字列を取得して、 <name1> とする	<name1> = input ( )	<name1> = input ( ). get ( )
+ユーザが入力した数	int ( input ( ) )	input ( )
+ユーザが入力した数を  <name1> に代入する	<name1> = int ( input ( ) )	from input ( )
+数値を得る	int ( input ( ) )	int ( 'inf' )
+数値を得て、  <name1> にする	<name1> = int ( input ( ) )	<name1> = int ( <name1> )
+ユーザから入力された整数	int ( input ( ) )	input ( )
+ユーザから入力された整数を  <name1> とする	<name1> = int ( input ( ) )	<name1> = input ( )
+整数値を入力する	int ( input ( ) )	input ( )
+整数値を入力し、  <name1> とする	<name1> = int ( input ( ) )	<name1> = int ( 'inf' )
+ユーザが入力した数データを取得する	int ( input ( ) )	input ( )
+ユーザが入力した数データを取得して、  <name1> にする	<name1> = int ( input ( ) )	<name1> = input ( ). get ( )
+ユーザから入力された数値データを取得する	int ( input ( ) )	input ( )
+ユーザから入力された数値データを取得し、  <name1> にする	<name1> = int ( input ( ) )	<name1> = input ( )
+複数の入力値をリストとして得る	list ( input ( ) )	defrozen ( ) :
+複数の入力値をリストとして得て、  <name1> に代入する	<name1> = list ( input ( ) )	from list ( input ( ) ), <name1>. end = ''
+ユーザが入力した文字列をリストに格納する	list ( input ( ) )	print ( list ( input ( ) ) )
+ユーザが入力した文字列をリストに格納して、  <name1> にする	<name1> = list ( input ( ) )	<name1> = sorted ( list ( input ( ) ) )
+ユーザから入力された文字列をリストに格納する	list ( input ( ) )	print ( list ( input ( ) ) )
+ユーザから入力された文字列をリストに格納して、  <name1> とする	<name1> = list ( input ( ) )	<name1> = sorted ( list ( input ( ) ) )
+入力値をリスト型にする	list ( input ( ) )	list ( input ( ) )
+入力値をリスト型にし、  <name1> とする	<name1> = list ( input ( ) )	<name1> = list ( input ( ) ) :
+入力値をリストに変換する	list ( input ( ) )	input ( ) )
+入力値をリストに変換して、  <name1> にする	<name1> = list ( input ( ) )	<name1> = list ( input ( ) ) :
+入力された文字列をリスト化する	list ( input ( ) )	list ( input ( ) )
+入力された文字列をリスト化して、  <name1> とする	<name1> = list ( input ( ) )	<name1> = list ( input ( ) ), <name1> = input (
+ユーザが入力した値をリスト化する	list ( input ( ) )	list ( input ( ) )
+ユーザが入力した値をリスト化して、  <name1> に代入する	<name1> = list ( input ( ) )	print ( list ( input ( ) ), <name1>. end = ''
+ユーザから入力されたデータをリストに変換する	list ( input ( ) )	input ( ). lower ( )
+ユーザから入力されたデータをリストに変換して、  <name1> とする	<name1> = list ( input ( ) )	<name1> = list ( input ( ) ), <name1> = True )
+ユーザが入力したデータをリストに変換する	list ( input ( ) )	print ( list ( input ( ) ) )
+ユーザが入力したデータをリストに変換して、  <name1> とする	<name1> = list ( input ( ) )	<name1> = list ( input ( ) ), <name1> = list ( input
+空白で区切って入力された整数をリストとして受け取る	list ( map ( int , input ( ) . split ( ) ) )	return list ( input ( ), input ( ) )
+空白で区切って入力された整数をリストとして受け取り、  <name1> とする	<name1> = list ( map ( int , input ( ) . split ( ) ) )	<name1> = list ( input ( ), <name1> ) :
+入力を空白ごとに数値としてリストに格納する	list ( map ( int , input ( ) . split ( ) ) )	list ( int ( input ( ) ) )
+入力を空白ごとに数値としてリストに格納し、  <name1> にする	<name1> = list ( map ( int , input ( ) . split ( ) ) )	<name1> = list ( int ( input ( ) ) )
+一行から空白で区切って複数の入力値をリストとして得る	list ( map ( int , input ( ) . split ( ) ) )	for <name2> in list ( input ( ), input ( ) )
+一行から空白で区切って複数の入力値をリストとして得、  <name1> とする	<name1> = list ( map ( int , input ( ) . split ( ) ) )	if not list ( input ( ), input ( ) ) :
+一行から複数の入力値を空白で区切ってリストに格納する	list ( map ( int , input ( ) . split ( ) ) )	print ( list ( input ( ). split ( ) ) )
+一行から複数の入力値を空白で区切ってリストに格納して、  <name1> に代入する	<name1> = list ( map ( int , input ( ) . split ( ) ) )	from list ( map ( int, input ( ). split ( )
+入力された数値をスペースで区切ってリストとして得る	list ( map ( int , input ( ) . split ( ) ) )	defrozen ( input ( ) ), sep = '' )
+入力された数値をスペースで区切ってリストとして得、  <name1> にする	<name1> = list ( map ( int , input ( ) . split ( ) ) )	if <name1> :
+ユーザが入力した整数値をスペースで区切ってリストとして受け取る	list ( map ( int , input ( ) . split ( ) ) )	return list ( map ( int, input ( ) ) )
+ユーザが入力した整数値をスペースで区切ってリストとして受け取り、  <name1> にする	<name1> = list ( map ( int , input ( ) . split ( ) ) )	def, <name1> = list ( map ( int, input ( )
+入力された文字列をスペースで分割し、 <name1> 、 <name2> 、 <name3> 代入する	<name1> , <name2> , <name3> = input ( ) . split ( )	input ( ). split ( ), <name1>, <name2>, <name3>
+スペースごとに入力文字列を受け取り、 <name1> 、 <name2> 、 <name3> 入れる	<name1> , <name2> , <name3> = input ( ) . split ( )	bisect. <name1>, <name2>, <name3> = input ( ),
+スペースで区切って入力文字列を受け取り、 <name1> 、 <name2> 、 <name3> 代入する	<name1> , <name2> , <name3> = input ( ) . split ( )	bisect. bisect_left ( input ( ), <name1>, <name2>
+一行で入力された整数を空白で分割し、 <name1> 、 <name2> 、 <name3> とする	<name1> , <name2> , <name3> = map ( int , input ( ) . split ( ) )	input ( ). split ( ), <name1>, <name2>, <name3>
+スペースで区切って一行で入力された整数を受け取り、 <name1> 、 <name2> 、 <name3> とする	<name1> , <name2> , <name3> = map ( int , input ( ) . split ( ) )	bisect, <name1>, <name2>, <name3> = map ( int,
+空白ごとに一行で入力された整数を受け取り、 <name1> 、 <name2> 、 <name3> とする	<name1> , <name2> , <name3> = map ( int , input ( ) . split ( ) )	bisect, <name1>, <name2>, <name3> = input ( ),
+<name1> を浮動小数点数にする	float ( <name1> )	<name1>. float ( )
+<name1> を変換した浮動小数点数	float ( <name1> )	float ( <name1> )
+<name1> を浮動小数点数として取得する	float ( <name1> )	<name6> = float ( <name1> )
+<name1> を浮動小数点数型に変換する	float ( <name1> )	<name1>. lower ( )
+<name1> を数値に変換する	int ( <name1> )	int ( <name1> )
+<name1> を変換した数	int ( <name1> )	lower ( <name1> )
+<name1> を整数として取得する	int ( <name1> )	<name6> = str. permutations ( <name1> )
+<name1> を整数型に変換する	int ( <name1> )	from str. upper ( )
+<name1> と <name2> が等しいかどうか	<name1> == <name2>	<name1> == <name2>
+<name1> と <name2> が等しいとき	if <name1> == <name2> :	if <name1> == <name2> :
+<name1> と <name2> が等しくないか	<name1> != <name2>	<name1>!= <name2>
+<name1> と <name2> が等しければ	if <name1> == <name2> :	if <name1>. isclose ( <name2> )
+<name1> と <name2> が等しくなければ	if <name1> != <name2> :	assert <name1>. isinf ( <name2> )
+<name1> と <name2> が等しい間	while <name1> == <name2> :	while <name1> == <name2> :
+<name1> と <name2> が等しくない間	while <name1> != <name2> :	!= <name1>. <name2>
+<name1> が <name2> と等しいか	<name1> == <name2>	<name1> == <name2>
+<name1> が <name2> と等しい場合	if <name1> == <name2> :	if <name1> == <name2> :
+<name1> が <name2> と等しくないか	<name1> != <name2>	<name1>!= <name2>
+もし <name1> が <name2> と等しい場合	if <name1> == <name2> :	if <name1> == <name2> :
+<name1> が <name2> と等しければ	if <name1> == <name2> :	<name1> == <name2>
+<name1> が <name2> と等しかったならば	if <name1> == <name2> :	if <name1> == <name2>
+<name1> が <name2> と等しくなければ	if <name1> != <name2> :	assert <name1> == <name2>
+<name1> が <name2> と等しい間	while <name1> == <name2> :	<name1> == <name2> :
+<name1> が <name2> と等しくない間	while <name1> != <name2> :	<name1>!= <name2> :
+<name1> は <name2> と等しいか否か	<name1> == <name2>	if <name1> == <name2>
+もし <name1> は <name2> と等しいならば	if <name1> == <name2> :	if <name1> == <name2> :
+<name1> は <name2> と等しくないか	<name1> != <name2>	<name1>!= <name2>
+<name1> は <name2> と等しいならば	if <name1> == <name2> :	if <name1> == <name2>
+もし <name1> は <name2> と等しければ	if <name1> == <name2> :	if <name1> == <name2>
+<name1> は <name2> と等しくなければ	if <name1> != <name2> :	assert <name1> == <name2>
+<name1> は <name2> と等しくない間	while <name1> != <name2> :	<name1>!= <name2> :
+<name1> が <name2> か否か	<name1> == <name2>	<name1> is not <name2>
+もし <name1> が <name2> ならば	if <name1> == <name2> :	'もし' = <name2>
+<name1> が <name2> でないかどうか	<name1> != <name2>	<name1> not <name2>
+もし <name1> が <name2> とき	if <name1> == <name2> :	if <name1> == <name2> :
+<name1> が <name2> でないとき	if <name1> != <name2> :	if not <name1> in <name2> :
+<name1> が <name2> 間	while <name1> == <name2> :	<name1>. isclose ( <name2> )
+<name1> が <name2> より大きいか否か	<name1> < <name2>	if <name1> > <name2>
+<name1> が <name2> より大きいとき	if <name1> < <name2> :	if <name1> > <name2> :
+<name1> が <name2> より大きくないか	not <name1> < <name2>	<name1> > <name2>
+もし <name1> が <name2> より大きいとき	if <name1> < <name2> :	if <name1> > <name2> :
+<name1> が <name2> より大きければ	if <name1> < <name2> :	<name1> < <name2>
+もし <name1> が <name2> より大きかったとき	if <name1> < <name2> :	if <name1> < <name2> :
+<name1> が <name2> より大きくなければ	if not <name1> < <name2> :	not <name1> > <name2>
+もし <name1> が <name2> より大きくなかったなら	if not <name1> < <name2> :	if not <name1> > <name2> :
+<name1> が <name2> より大きい間	while <name1> < <name2> :	<name1> > <name2>
+<name1> が <name2> より大きくない間	while not <name1> < <name2> :	not <name1> > <name2> :
+<name1> が <name2> よりも大きいか否か	<name1> < <name2>	if <name1> > <name2>
+<name1> が <name2> よりも大きいならば	if <name1> < <name2> :	if <name1> > <name2>
+<name1> が <name2> よりも大きくないかどうか	not <name1> < <name2>	<name1> > <name2>
+もし <name1> が <name2> よりも大きければ	if <name1> < <name2> :	if <name1> < <name2>
+<name1> が <name2> よりも大きくなかった場合	if not <name1> < <name2> :	if <name1> > <name2> :
+<name1> が <name2> よりも大きい間	while <name1> < <name2> :	<name1> > <name2>
+<name1> が <name2> より小さいかどうか	<name1> < <name2>	<name1> < <name2>
+<name1> が <name2> より小さいとき	if <name1> < <name2> :	if <name1> < <name2> :
+<name1> が <name2> より小さくないか	not <name1> < <name2>	assert <name1> < <name2>
+<name1> が <name2> より小さいならば	if <name1> < <name2> :	<name1> < <name2>
+<name1> が <name2> より小さくないならば	if not <name1> < <name2> :	not <name1> < <name2>
+もし <name1> が <name2> より小さくなければ	if not <name1> < <name2> :	not <name1> < <name2>
+<name1> が <name2> より小さくなかったならば	if not <name1> < <name2> :	not <name1> < <name2>
+<name1> が <name2> より小さい間	while <name1> < <name2> :	<name1> < <name2> :
+<name1> が <name2> よりも小さいかどうか	<name1> < <name2>	<name1> < <name2>
+もし <name1> が <name2> よりも小さいならば	if <name1> < <name2> :	if <name1> < <name2> :
+<name1> が <name2> よりも小さくないかどうか	not <name1> < <name2>	not <name1> < <name2>
+<name1> が <name2> よりも小さければ	if <name1> < <name2> :	<name1> < <name2>
+もし <name1> が <name2> よりも小さかった場合	if <name1> < <name2> :	if <name1> < <name2> :
+<name1> が <name2> よりも小さくなかったならば	if not <name1> < <name2> :	not <name1> < <name2>
+<name1> が <name2> 以上か	<name1> >= <name2>	>= <name2>
+<name1> が <name2> 以上ならば	if <name1> >= <name2> :	>= <name2>
+<name1> が <name2> 以上でないかどうか	not <name1> >= <name2>	not <name1> >= <name2>
+もし <name1> が <name2> 以上ならば	if <name1> >= <name2> :	assert <name1> >= <name2>
+<name1> が <name2> 以上でない場合	if not <name1> >= <name2> :	assert <name1> >= <name2>
+<name1> が <name2> 以上でない間	while not <name1> >= <name2> :	not <name1> >= <name2>
+<name1> が <name2> 以上であるか	<name1> >= <name2>	>= <name2>
+<name1> が <name2> 以上であるとき	if <name1> >= <name2> :	if <name1> >= <name2> :
+<name1> が <name2> 以上であるでないか	not <name1> >= <name2>	assert <name1> >= <name2>
+もし <name1> が <name2> 以上であるならば	if <name1> >= <name2> :	assert <name1> >= <name2>
+<name1> が <name2> 以上であるでないならば	if not <name1> >= <name2> :	not <name1> >= <name2>
+<name1> が <name2> 以上である間	while <name1> >= <name2> :	assert <name1> >= <name2> :
+<name1> が <name2> 以上であるでない間	while not <name1> >= <name2> :	not <name1> >= <name2> :
+<name1> が <name2> 以降かどうか	<name1> <= <name2>	<name1> >= <name2>
+<name1> が <name2> 以降のとき	if <name1> <= <name2> :	if <name1> >= <name2> :
+<name1> が <name2> 以降でないか	not <name1> <= <name2>	assert <name1> >= <name2>
+<name1> が <name2> 以降ならば	if <name1> <= <name2> :	yield <name1> >= <name2>
+<name1> が <name2> 以降でない場合	if not <name1> <= <name2> :	assert <name1> >= <name2>
+<name1> が <name2> 以降間	while <name1> <= <name2> :	<name1> >= <name2>
+<name1> が <name2> 以降でない間	while not <name1> <= <name2> :	not <name1>!= <name2>
+<name1> が <name2> 以下であるか	<name1> <= <name2>	<name1> <= <name2>
+<name1> が <name2> 以下であるならば	if <name1> <= <name2> :	assert <name1> <= <name2>
+<name1> が <name2> 以下であるでないか	not <name1> <= <name2>	assert <name1> <= <name2>
+もし <name1> が <name2> 以下であるとき	if <name1> <= <name2> :	if <name1> <= <name2> :
+もし <name1> が <name2> 以下であるでないとき	if not <name1> <= <name2> :	if not <name1> <= <name2> :
+<name1> が <name2> 以下であるでない間	while not <name1> <= <name2> :	not <name1> <= <name2>
+<name1> が偶数か否か	<name1> % 2 == 0	if ( <name1> ) / random. isinf ( )
+<name1> が偶数のとき	if <name1> % 2 == 0 :	if isclose ( <name1> ) :
+<name1> が偶数でないかどうか	<name1> % 2 != 0	not <name1>
+もし <name1> が偶数ならば	if <name1> % 2 == 0 :	if isclose ( <name1> )
+<name1> が偶数でないならば	if <name1> % 2 != 0 :	not <name1>
+<name1> が偶数間	while <name1> % 2 == 0 :	count. isclose ( <name1> )
+<name1> が偶数でない間	while <name1> % 2 != 0 :	not ( <name1> )
+<name1> が偶数であるか	<name1> % 2 == 0	from <name1>
+<name1> が偶数であるとき	if <name1> % 2 == 0 :	if <name1> == count :
+<name1> が偶数であるでないか	<name1> % 2 != 0	raise <name1>
+もし <name1> が偶数であるとき	if <name1> % 2 == 0 :	if isclose ( <name1> ) :
+もし <name1> が偶数であるでない場合	if <name1> % 2 != 0 :	if not <name1>. issuperset ( <name1> )
+<name1> が偶数である間	while <name1> % 2 == 0 :	while <name1>. issuperset ( )
+<name1> が偶数であるでない間	while <name1> % 2 != 0 :	not <name1> :
+<name1> が <val1> で割った時の余りが <val2> であるか否か	<name1> % <val1> == <val2>	if <name1> % <val1> == <val2>
+<name1> が <val1> で割った時の余りが <val2> であるならば	if <name1> % <val1> == <val2> :	= <name1> % <val1> == <val2>
+<name1> が <val1> で割った時の余りが <val2> であるでないかどうか	<name1> % <val1> != <val2>	not <name1> % <val1> == <val2>
+<name1> が <val1> で割った時の余りが <val2> であるならば	if <name1> % <val1> == <val2> :	= <name1> % <val1> == <val2>
+<name1> が <val1> で割った時の余りが <val2> であるでない場合	if <name1> % <val1> != <val2> :	assert <name1> % <val1>!= <val2>
+<name1> が <val1> で割った時の余りが <val2> であるでない間	while <name1> % <val1> != <val2> :	not <name1> % <val1> == <val2> :
+<name1> が奇数か	<name1> % 2 == 1	search ( <name1> )
+<name1> が奇数のとき	if <name1> % 2 == 1 :	if isclose ( <name1> )
+<name1> が奇数でないか	<name1> % 2 != 1	raise <name1>
+<name1> が奇数場合	if <name1> % 2 == 1 :	search ( <name1> )
+<name1> が奇数でないとき	if <name1> % 2 != 1 :	if not <name1>. issuperset ( )
+<name1> が奇数間	while <name1> % 2 == 1 :	. isclose ( <name1> )
+<name1> が奇数でない間	while <name1> % 2 != 1 :	not float ( <name1> )
+<name1> が奇数であるか	<name1> % 2 == 1	search ( <name1> )
+<name1> が奇数である場合	if <name1> % 2 == 1 :	if <name1> is not float ( <name1> )
+<name1> が奇数であるでないかどうか	<name1> % 2 != 1	not isclose ( <name1> )
+もし <name1> が奇数である場合	if <name1> % 2 == 1 :	if isclose ( <name1> )
+<name1> が奇数であるでないとき	if <name1> % 2 != 1 :	if not <name1>. issuperset ( )
+<name1> が <val1> で割った時の余りが <val2> であるか否か	<name1> % <val1> == <val2>	if <name1> % <val1> == <val2>
+<name1> が <val1> で割った時の余りが <val2> であるならば	if <name1> % <val1> == <val2> :	= <name1> % <val1> == <val2>
+<name1> が <val1> で割った時の余りが <val2> であるでないかどうか	<name1> % <val1> != <val2>	not <name1> % <val1> == <val2>
+<name1> が <val1> で割った時の余りが <val2> であるならば	if <name1> % <val1> == <val2> :	= <name1> % <val1> == <val2>
+<name1> が <val1> で割った時の余りが <val2> であるでない場合	if <name1> % <val1> != <val2> :	assert <name1> % <val1>!= <val2>
+<name1> が <val1> で割った時の余りが <val2> であるでない間	while <name1> % <val1> != <val2> :	not <name1> % <val1> == <val2> :
+<name1> が <val1> の倍数か	<name1> % <val1> == 0	<name1> *= <val1>
+<name1> が <val1> の倍数の場合	if <name1> % <val1> == 0 :	<name1> *= <val1>
+<name1> が <val1> の倍数でないかどうか	<name1> % <val1> != 0	not <name1> *= <val1>
+<name1> が <val1> の倍数とき	if <name1> % <val1> == 0 :	if <name1> *= <val1> :
+もし <name1> が <val1> の倍数でないとき	if <name1> % <val1> != 0 :	if not <name1> *= <val1> :
+<name1> が <val1> で割り切れるか	<name1> % <val1> == 0	<name1> /= <val1>
+<name1> が <val1> で割り切れるとき	if <name1> % <val1> == 0 :	if <name1>. isclose ( <val1> )
+<name1> が <val1> で割り切れないか	<name1> % <val1> != 0	<name1> /= <val1>
+<name1> が <val1> で割り切れれば	if <name1> % <val1> == 0 :	<name1> / <val1>
+もし <name1> が <val1> で割り切れたならば	if <name1> % <val1> == 0 :	'もし <name1>. reduce ( <val1> )
+<name1> が <val1> で割り切れる間	while <name1> % <val1> == 0 :	<name1>. replace ( <val1> )
+何もしない	pass	del ''
+何も行わない	pass	\ = ''
+パスする	pass	exit ( )
+抜ける	break	'抜ける'
+ループを終了する	break	exit ( )
+ループを抜ける	break	raise 'ループ'
+ループ処理から抜ける	break	raise 'ループ'. keys
+ループ文を抜け出す	break	exit ( )
+ループから抜け出す	break	exit
+繰り返し処理を終了する	break	exit ( )
+繰り返し処理から抜ける	break	while input ( ) :
+もし <name1> が <val1> 未満、または <val2> 以上のとき	if <name1> < <val1> or <name1> >= <val2> :	if <name1> >= <val1> or <val2> :
+もし <val1> 才未満、または <val2> 才以上のとき	if age < <val1> or age >= <val2> :	if ( <val1> ) or ( <val2> ) :
+もし <name1> が <val1> 未満、かつ <val2> 以上のとき	if <name1> < <val1> and <name1> >= <val2> :	if <name1> >= <val1>, and <val2> :
+もし <val1> 才未満、かつ <val2> 才以上のとき	if age < <val1> and age >= <val2> :	if isclose ( <val1>, and <val2> ) :
+<name1> を整列する	sorted ( <name1> )	str. str = <name1>
+<name1> を並べ変えた列	sorted ( <name1> )	<name1>. replace ( <name1> )
+<name1> を降順に並べ変える	sorted ( <name1> , reverse = True )	<name1>. replace ( <name1>, <name1> )
+<name1> を降順にソートした列	sorted ( <name1> , reverse = True )	bisect. sort ( <name1>, <name1> )
+<name1> の最初	<name1> [ 0 ]	<name1>. index ( )
+<name1> の末尾の要素	<name1> [ -1 ]	<name1> [ - 1 ].
+<name1> の一部分を取り出す	<name1> [ start : end ]	<name1>. pop ( )
+<name1> の <name2> 番目から <name3> 番目の値を取り出す	<name1> [ <name2> : <name3> ]	<name1> [ <name2> ]. pop ( <name3> )
+<name1> の <name2> 番目から末尾までの要素を取り出す	<name1> [ <name2> : ]	<name1> [ <name2> : - 1 ]
+<name1> の <name2> 番目以降の要素を取り出す	<name1> [ <name2> : ]	<name1> [ <name2> ]. pop ( )
+<name1> の一部分を取り出す	<name1> [ : end ]	<name1>. pop ( )
+<name1> の先頭から <name2> 番目の値を取り出す	<name1> [ : <name2> ]	<name1>. pop ( <name2> )
+<name1> の逆順	<name1> [ : : -1 ]	<name1> [ : : - 1 ]
+<name1> 内の要素の順番を逆転する	<name1> [ : : -1 ]	<name1>. reverse ( )
+<name1> の要素数	len ( <name1> )	<name1>. degrees ( )
+<name1> の要素数を調べる	len ( <name1> )	<name1>. find ( )
+<name1> の要素数を算出する	len ( <name1> )	. ceil ( <name1> )
+<name1> の合計値	sum ( <name1> )	<name1>. sum ( <name1> )
+<name1> の合計値を見る	sum ( <name1> )	<name1>. sum ( <name1> )
+<name1> の合計値を求める	sum ( <name1> )	assert ( <name1> )
+数列 <name1> の総和	sum ( <name1> )	sum ( <name1> )
+数列 <name1> の総和を確認する	sum ( <name1> )	<name5>. append ( sum ( <name1> ) )
+数列 <name1> の総和を求める	sum ( <name1> )	sum ( <name1> )
+リスト <name1> の最小値	min ( <name1> )	min ( list ( <name1> ) )
+リスト <name1> の最小値を見る	min ( <name1> )	min ( list ( <name1> ) )
+リスト <name1> の最小値を求める	min ( <name1> )	assert min ( list ( <name1> ) )
+リスト <name1> の最大値	max ( <name1> )	max ( list ( <name1> ) )
+リスト <name1> の最大値を調べる	max ( <name1> )	eval ( list ( <name1> ) )
+リスト <name1> の最大値を計算する	max ( <name1> )	. sqrt ( list ( <name1> ) )
+数列 <name1> の平均値	sum ( <name1> ) / len ( <name1> )	count ( <name1> )
+数列 <name1> の平均値を調べる	sum ( <name1> ) / len ( <name1> )	eval ( <name1> )
+数列 <name1> の平均値を計算する	sum ( <name1> ) / len ( <name1> )	. sqrt ( <name1> )
+0 から <name1> -1 までの数列	range ( <name1> )	range ( <name1> - 1 )
+0 から <name1> -1 の範囲の数列	range ( <name1> )	range ( <name1> - 1 )
+0 から <name1> -1 の範囲で 1 ずつ増える数列	range ( <name1> )	count ( <name1> - 1, 1 )
+0 ~ <name1> -1 の範囲の数列	range ( <name1> )	range ( <name1> - 1 )
+0 ~ <name1> -1 の範囲で 1 ずつ増える数列	range ( <name1> )	count ( 1, - 1 )
+0 以上 <name1> 未満で 1 ずつ増える数列	range ( <name1> )	range ( <name1> )
+0 以上 <name1> 未満の範囲の数列	range ( <name1> )	range ( <name1> )
+<val1> から <name1> までの数列	range ( <val1> , <name1> + <val1> )	range ( <val1>, <name1> )
+<val1> から <name1> の範囲の数列	range ( <val1> , <name1> + <val1> )	range ( <val1>, <name1> )
+<val1> から <name1> の範囲で <val1> ずつ増える数列	range ( <val1> , <name1> + <val1> )	count ( <val1>, <name1> )
+<val1> ~ <name1> の範囲の数列	range ( <val1> , <name1> + <val1> )	range ( <val1> ~ <name1> )
+<val1> ~ <name1> の範囲で <val1> ずつ増える数列	range ( <val1> , <name1> + <val1> )	count ( <val1> ~ <name1>, <val1> )
+<val1> 以上 <name1> + <val1> 未満の範囲で <val1> ずつ増える数列	range ( <val1> , <name1> + <val1> )	range ( <val1> >= <val1> + <val1> )
+空のリストを作る	[ ]	list ( )
+空のリストを作って、<name1> とする	<name1> = [ ]	<name1> = list ( ) :
+リスト <name1> に <name2> を加える	<name1> . append ( <name2> )	list ( <name1> + <name2> )
+<name1> の末尾に <name2> を加える	<name1> . append ( <name2> )	<name1>. append ( <name2> )
+<name1> を追加する要素としてリスト <name2> の末尾に値を付加する	<name2> . append ( <name1> )	<name2>. append ( <name1> ) <name2>. append ( )
+<name1> の末尾から要素を取り出す	<name1> . pop ( )	<name1>. pop ( )
+<name1> の <name2> 番目から要素を取り出す	<name1> . pop ( <name2> )	<name1> [ <name2> ]. pop ( )
+<name1> 個の <val1> が含まれるリスト	[ <val1> for i in range ( <name1> ) ]	<name1>. add ( <val1> )
+<name1> 個の <val1> が含まれるリストを <name2> に代入する	<name2> = [ <val1> for i in range ( <name1> ) ]	<name2>. fromfrozen ( <val1> )
+<val1> から 100 までの数が並んだリスト	[ i for i in range ( <val1> , 101 ) ]	list ( range ( <val1>, <val1> ) )
+<val1> から 100 までの数が並んだリストを <name1> とする	<name1> = [ i for i in range ( <val1> , 101 ) ]	<name1> = list ( range ( <val1>, <val1> ) )
+<val1> 以上 <val2> 未満の数が並んだリスト	[ i for i in range ( <val1> , <val2> ) ]	list ( range ( <val1> ) )
+<val1> 以上 <val2> 未満の数が並んだリストを <name1> にする	<name1> = [ i for i in range ( <val1> , <val2> ) ]	<name1> = list ( range ( <val1> ) )
+文字列 <name1> 内の <val1> を <val2> に置き換えた文字列	<name1> . replace ( <val1> , <val2> )	<name1>. replace ( <val1>, <val2> )
+文字列 <name1> 内の <val1> を <val2> に置き換えた文字列を <name2> とする	<name2> = <name1> . replace ( <val1> , <val2> )	<name2> = eval ( <val1>, <val2> )
+<name1> を英大文字に変換した文字列	<name1> . upper ( )	<name1>. upper ( )
+<name1> を英大文字に変換した文字列を <name2> とする	<name2> = <name1> . upper ( )	<name2> = <name1>. upper ( )
+文字列 <name1> 内の小文字を大文字に変換する	<name1> . upper ( )	. lower ( ). lower ( )
+文字列 <name1> 内の小文字を大文字に変換し、<name2> とする	<name2> = <name1> . upper ( )	<name2> = chr ( <name1>. lower ( ) )
+<name1> を全て大文字に変換する	<name1> . upper ( )	<name1>. upper ( )
+<name1> を全て大文字に変換して <name2> にする	<name2> = <name1> . upper ( )	<name2> = <name1>. isupper ( )
+<name1> を全て大文字にする	<name1> . upper ( )	<name1>. isupper ( )
+<name1> を全て大文字にし、<name2> とする	<name2> = <name1> . upper ( )	<name2> = <name1>. isupper ( )
+文字列 <name1> の全ての文字を大文字にする	<name1> . upper ( )	. upper ( )
+文字列 <name1> の全ての文字を大文字にして、<name2> に代入する	<name2> = <name1> . upper ( )	print (''. isupper ( ). isupper (
+<name1> の全ての英字を大文字にする	<name1> . upper ( )	<name1>. isupper ( )
+<name1> の全ての英字を大文字にし、<name2> に代入する	<name2> = <name1> . upper ( )	<name1>. isupper ( ). isupper ( )
+<name1> の英字全てを大文字にする	<name1> . upper ( )	<name1>. upper = <name1>. lower ( )
+<name1> の英字全てを大文字にし、<name2> とする	<name2> = <name1> . upper ( )	<name2> = <name1>. upper ( )
+文字列 <name1> を英小文字に変換した文字列	<name1> . lower ( )	eval ( <name1>. lower ( ) )
+文字列 <name1> を英小文字に変換した文字列を <name2> とする	<name2> = <name1> . lower ( )	<name2> = eval ( <name1>. lower ( ) )
+文字列 <name1> の中の大文字を小文字に変換する	<name1> . lower ( )	. lower ( ). lower ( )
+文字列 <name1> の中の大文字を小文字に変換して、<name2> とする	<name2> = <name1> . lower ( )	<name2> = chr ( <name1> ). lower ( ) :
+<name1> を全て小文字に変換する	<name1> . lower ( )	<name1>. lower ( )
+<name1> を全て小文字に変換して、<name2> とする	<name2> = <name1> . lower ( )	<name2> = <name1>. islower ( )
+<name1> を全て小文字にする	<name1> . lower ( )	<name1>. islower ( )
+<name1> を全て小文字にして、<name2> にする	<name2> = <name1> . lower ( )	<name2> = <name1>. islower ( )
+文字列 <name1> の全ての英字を小文字に変換する	<name1> . lower ( )	<name1>. islower ( )
+文字列 <name1> の全ての英字を小文字に変換し、<name2> とする	<name2> = <name1> . lower ( )	<name2> = eval ( <name1>. lower ( ) )
+<name1> の全ての文字を小文字にして返す	<name1> . lower ( )	return <name1>. islower ( )
+<name1> の全ての文字を小文字にして返して、<name2> とする	<name2> = <name1> . lower ( )	<name2> = <name1>. islower ( )
+<name1> の英字全てを小文字に変換する	<name1> . lower ( )	<name1>. lower ( )
+<name1> の英字全てを小文字に変換し、<name2> にする	<name2> = <name1> . lower ( )	<name2> = <name1>. lower ( )
+文字列 <name1> の文字リスト	list ( <name1> )	list ( str ( <name1> ) )
+文字列 <name1> の文字リストを <name2> にする	<name2> = list ( <name1> )	<name2> = list ( <name1> )
+文字列 <name1> を <val1> で分割した文字列のリスト	<name1> . split ( <val1> )	list ( <name1>. split ( <val1> ) )
+文字列 <name2> を <val1> で分割した文字列のリストを <name2> とする	<name2> = <name2> . split ( <val1> )	<name2> = list ( <name2>. split ( <val1> ) )
+<name1> を <val1> で分割してリストを返す	<name1> . split ( <val1> )	return <name1>. split ( <val1> )
+<name1> を <val1> で分割してリストを返して、 <name2> とする	<name2> = <name1> . split ( <val1> )	<name2> = <name1>. split ( <val1> )
+<val1> を区切り文字に指定して <name1> を分割してリスト型にする	<name1> . split ( <val1> )	list ( <name1>, sep = <val1> )
+<val1> を区切り文字に指定して <name1> を分割してリスト型にして、<name2> に代入する	<name2> = <name1> . split ( <val1> )	from <name1>. split ( <val1>, sep = <val1> ), <name2>
+<name1> 内の <name2> の出現回数	<name1> . count ( <name2> )	<name1>. count ( <name2> )
+<name1> 内の <name2> の出現回数を確認する	<name1> . count ( <name2> )	<name1>. count ( <name2> )
+<name1> 内の <name2> の登場回数	<name1> . count ( <name2> )	<name1>. count ( <name2> )
+<name1> 内の <name2> の登場回数を調べる	<name1> . count ( <name2> )	<name1>. count ( <name2> )
+文字列 <name1> が <name2> で始まるか	<name1> . startswith ( <name2> )	. startswith ( <name2> )
+もし文字列 <name1> が <name2> で始まるならば	if <name1> . startswith ( <name2> ) :	. startswith ( <name1>, <name2> )
+もし文字列 <name1> が <name2> で始まれば	if <name1> . startswith ( <name2> ) :	. startswith ( <name1>, <name2> )
+文字列 <name1> が <name2> で始まったら	if <name1> . startswith ( <name2> ) :	eval ( <name1>, <name2> )
+文字列 <name1> の先頭が <name2> であるどうか	<name1> . startswith ( <name2> )	eval ( <name1> [ 0 ] )
+文字列 <name1> の先頭が <name2> であるどう場合	if <name1> . startswith ( <name2> ) :	if <name1> [ 0 ] == <name2>
+<name1> が <name2> で終わるかどうか	<name1> . endswith ( <name2> )	<name1> is not <name2>
+<name1> が <name2> で終わるとき	if <name1> . endswith ( <name2> ) :	if <name1> is not <name2> :
+<name1> が <name2> で終われば	if <name1> . endswith ( <name2> ) :	<name1>. exit ( <name2> )
+文字列 <name1> の末尾が <name2> であるどうか	<name1> . endswith ( <name2> )	eval ( <name1> [ - 1 ] )
+文字列 <name1> の末尾が <name2> であるどうとき	if <name1> . endswith ( <name2> ) :	if eval ( <name1> [ - 1 ] is not <name2> )
+文字列 <name1> が英大文字か	<name1> . isupper ( )	eval ( <name1>. isupper ( ) )
+文字列 <name1> が英大文字ならば	if <name1> . isupper ( ) :	eval ( <name1>. isupper ( ) )
+もし文字列 <name1> が英大文字ならば	if <name1> . isupper ( ) :	' '. isupper ( )
+<name1> 中の全ての文字が英大文字か	<name1> . isupper ( )	<name1>. isupper ( ). isupper ( )
+もし <name1> 中の全ての文字が英大文字ならば	if <name1> . isupper ( ) :	' '. isupper ( )
+もし <name1> 中の全ての文字が英大文字とき	if <name1> . isupper ( ) :	if <name1>. isupper ( ). isupper ( ) :
+文字列 <name1> 中の全ての英字が大文字か否か	<name1> . isupper ( )	eval ( <name1>. isupper ( ) )
+文字列 <name1> 中の全ての英字が大文字のとき	if <name1> . isupper ( ) :	if eval ( <name1> ). islower ( )
+文字列 <name1> 中の全ての英字が大文字とき	if <name1> . isupper ( ) :	if eval ( <name1> ). islower ( )
+文字列 <name1> 中の英字全てが大文字か	<name1> . isupper ( )	eval ( <name1>. lower ( ) )
+文字列 <name1> 中の英字全てが大文字ならば	if <name1> . isupper ( ) :	eval ( <name1>. lower ( ) )
+もし文字列 <name1> 中の英字全てが大文字とき	if <name1> . isupper ( ) :	if input ( ) <name1>. lower ( ) :
+<name1> が英小文字か	<name1> . islower ( )	<name1>. islower ( )
+<name1> が英小文字の場合	if <name1> . islower ( ) :	<name1>. islower ( )
+<name1> が英小文字場合	if <name1> . islower ( ) :	<name1>. islower ( )
+<name1> 中の全ての文字が英小文字か否か	<name1> . islower ( )	<name1>. islower ( )
+<name1> 中の全ての文字が英小文字のとき	if <name1> . islower ( ) :	if <name1>. islower ( ) :
+もし <name1> 中の全ての文字が英小文字とき	if <name1> . islower ( ) :	if <name1>. islower ( ). islower ( ) :
+文字列 <name1> 中の全ての英字が小文字か	<name1> . islower ( )	eval ( <name1>. islower ( ) )
+文字列 <name1> 中の全ての英字が小文字の場合	if <name1> . islower ( ) :	eval ( <name1>. islower ( ) )
+もし文字列 <name1> 中の全ての英字が小文字ならば	if <name1> . islower ( ) :	' '. islower ( )
+<name1> 中の英字全てが小文字か否か	<name1> . islower ( )	<name1>. islower ( )
+もし <name1> 中の英字全てが小文字ならば	if <name1> . islower ( ) :	' '. islower ( )
+もし <name1> 中の英字全てが小文字ならば	if <name1> . islower ( ) :	' '. islower ( )
+<name1> が数字かどうか	<name1> . isdigit ( )	<name1>. isdigit ( )
+<name1> が数字のとき	if <name1> . isdigit ( ) :	if <name1>. isdigit ( )
+もし <name1> が数字場合	if <name1> . isdigit ( ) :	if <name1>. isdigit ( )
+文字列 <name1> 中の全ての文字が数字か	<name1> . isdigit ( )	eval ( <name1> ). isdigit ( )
+文字列 <name1> 中の全ての文字が数字ならば	if <name1> . isdigit ( ) :	eval ( <name1> ). isdigit ( )
+もし文字列 <name1> 中の全ての文字が数字とき	if <name1> . isdigit ( ) :	if input ( ). isdigit ( ) :
+<name1> 全てが数字かどうか	<name1> . isdigit ( )	<name1>. isdigit ( )
+<name1> 全てが数字の場合	if <name1> . isdigit ( ) :	<name1>. isdigit ( )
+もし <name1> 全てが数字ならば	if <name1> . isdigit ( ) :	. isdigit ( <name1> )
+文字列 <name1> が数字であるか	<name1> . isdigit ( )	eval ( <name1> )
+文字列 <name1> が数字である場合	if <name1> . isdigit ( ) :	if eval ( <name1> )
+文字列 <name1> が数字である場合	if <name1> . isdigit ( ) :	if eval ( <name1> )
