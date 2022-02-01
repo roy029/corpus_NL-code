@@ -1,0 +1,113 @@
+もし <A> が偶数の場合	if <A> % 2 == 0 :	== <A> % <B> == 0 :
+<A> をランダムにシャッフルする	random . shuffle ( <A> )	<A> = [ ] ]
+もし <A> が <B> より小さくないとき	if not <A> < <B> :	if not <A> > <B> :
+<A> 回ループする	for i in range ( <A> ) :	min ( <A> ) :
+<A> の出力を区切らないで行う	print ( <A> , sep = '' )	print ( <A> , sep = ',' )
+もし <A> が <B> 未満または <C> 以上ならば	if <A> < <B> or <A> >= <C> :	except <A> >= <B> :
+<B> を <A> にソート順で最後に挿入する	bisect . insort_right ( <A> , <B> )	<A> . sort ( <B> )
+真	True	frozenset ( )
+<A> と <B> の共通部分を求める	<A> . intersection ( <B> )	divmod ( <A> , <B> )
+<B> の逆双曲線正接を <A> に代入する	<A> = math . atanh ( <B> )	math . <A> , <B> )
+<A> が <B> 以上でないかどうか	not <A> >= <B>	while <A> >= <B> :
+<A> の常用対数を求める	math . log10 ( <A> )	math . log10 <A> ( <A> )
+<A> 、 <B> 、 <C> の最大値	max ( <A> , <B> , <C> )	pow ( <A> , <B> , <C> )
+<A> の最初を除いた部分列	<A> [ 1 : ]	divmod ( <A> ) :
+<A> と <B> の論理積を算出する	<A> & <B>	math . <A> ( <B> )
+<A> に <B> を足して代入する	<A> += <B>	breakpoint ( <A> , <B> )
+<A> が偶数でないなら	if <A> % 2 != 0 :	not <A> % <B> != 0 :
+<A> を <B> で割った剰余を算出する	math . remainder ( <A> , <B> )	pow ( <A> , <B> )
+<A> のうち <B> 個までの重複組み合わせ	itertools . combinations_with_replacement ( <A> , <B> )	divmod ( <A> , <B> )
+<B> の両端から空白改行を抜いた文字列を <A> にする	<A> = <B> . strip ( )	complex ( <A> , <B> )
+<A> ~ <B> の範囲の <C> つ飛ばしの数列	range ( <A> , <B> + <A> , <C> )	if <A> . range ( <B> + <A> , <C> ) :
+<B> を末尾から空白で分割してリストを返し、 <A> とする	<A> = <B> . rsplit ( )	int ( <A> , <B> )
+もし <A> が <B> と等しいならば	if <A> == <B> :	== <A> == <B> :
+<B> の双曲線正弦を <A> にする	<A> = math . sinh ( <B> )	<A> = math . asinh ( <B> )
+どれでもなければ	else	break
+<A> 内の要素が少なくともひとつは真かどうか	any ( <A> )	round ( <A> )
+<A> と <B> の差	<A> - <B>	math . comb <A> ( <A> , <B> )
+もし <A> 全てが数字の場合	if <A> . isdigit ( ) :	except <A> : ( <B> ) :
+<A> の小数点以下 5 桁までをプリントする	print ( '{:.5f}' . format ( <A> ) )	for print ( <A> ) :
+<A> 割る <B> の切り上げを算出する	( <A> + <B> - 1 ) // <B>	complex ( <A> , <B> )
+<A> と <B> の商を計算する	<A> / <B>	pow ( <A> , <B> )
+<A> 掛ける <B>	<A> * <B>	pow <A> ( <B> )
+<B> を最後から <C> で最大分割数 <D> まで分割してリストを返した結果を <A> にする	<A> = <B> . rsplit ( <C> , <D> )	<A> = <B> . split ( <C> , <D> )
+パスする	pass	print ( )
+<A> の <B> 番目の要素を取り除く	del <A> [ <B> ]	re . <A> ( <A> , <B> )
+<B> 以上 <C> 未満の数が並んだリストを <A> とする	<A> = [ i for i in range ( <B> , <C> ) ]	if <A> = list ( <B> , <C> ) :
+<A> に <B> を加えた値	<A> + <B>	pow <A> ( <A> , <B> )
+乱数シードを <A> として乱数生成器を初期化する	random . seed ( <A> )	list ( <A> )
+<A> からランダムに要素を <B> つチョイスする	random . sample ( <A> , <B> )	reversed <A> ( <B> )
+ユーザから入力を数字として受け取られた結果を <A> に代入する	<A> = int ( input ( ) )	sorted ( <A> , input ( ) )
+<A> わる <B>	<A> / <B>	pow <A> ( <B> )
+<B> を整数に変換し、 <A> にする	<A> = int ( <B> )	complex <A> ( <B> )
+<B> の <D> 番目から <C> を後ろから探して見つかった位置を <A> に代入する	<A> = <B> . rfind ( <C> , <D> )	, <A> . rfind ( <B> , <C> , <D> )
+乱数シードを <A> に固定する	random . seed ( <A> )	math . log ( <A> )
+<A> 内の <C> 番目から <D> 番目に <B> がある位置	<A> . find ( <B> , <C> , <D> )	<A> . rfind ( <B> , <C> , <D> )
+NaN を確認する	math . nan	math . inf
+<B> を全て小文字に変換した結果を <A> にする	<A> = <B> . lower ( )	sorted <A> ( <B> )
+<A> を小数点第一位までに丸めた値	round ( <A> , 1 )	re . round ( <A> , 1 )
+<A> 以上 <B> 未満の数が並んだリスト	[ i for i in range ( <A> , <B> ) ]	for <A> in range ( <B> , <C> ) :
+もし <A> が印字可能なら	if <A> . isprintable ( ) :	all ( <A> ) :
+もし <A> と <B> が等しくないならば	if <A> != <B> :	except <A> != <B> :
+<A> の終わりから空白改行を取り除いた文字列	<A> . rstrip ( )	<A> . lstrip ( )
+<A> が <B> 以下の間	while <A> <= <B> :	<= <A> == <B> :
+<A> を <B> 乗する	<A> ** = <B>	pow ( <A> , <B> )
+<B> を整数型として得た結果を <A> に代入する	<A> = int ( <B> )	int <A> , <B> )
+もし <A> 中の英字全てが大文字ならば	if <A> . isupper ( ) :	except <A> . isupper ( ) :
+<A> のラジアン	math . radians ( <A> )	divmod ( <A> ) ]
+<A> のアークタンジェントを計算する	math . atan ( <A> )	math . acos ( <A> )
+整数値を受け取る	int ( input ( ) )	input ( )
+<A> が <B> 以下でないかどうか	not <A> <= <B>	while <A> <= <B> :
+もし <A> が数字ならば	if <A> . isdigit ( ) :	for <A> . isdigit ( ) :
+ユーザから入力を数字として受け取り、 <A> にする	<A> = int ( input ( ) )	sorted ( <A> , input ( ) )
+<A> の常用対数	math . log10 ( <A> )	round <A> )
+<A> を深くコピーした結果	copy . deepcopy ( <A> )	sorted ( <A> ) :
+<A> が <B> 未満かつ <C> 以上ならば	if <A> < <B> and <A> >= <C> :	except <A> >= <B> :
+<B> 内の <D> 番目から <E> 番目に <C> がある位置を <A> とする	<A> = <B> . find ( <C> , <D> , <E> )	<A> = <B> . find ( <C> , <D> )
+<B> を正規表現 <A> のパターンにマッチした箇所で分割した文字列リスト	re . split ( <A> , <B> )	if <A> . re ( <B> ) :
+区切りなしで <A> をプリントする	print ( <A> , sep = '' )	datetime . print ( <A> , sep = ',' )
+e の <A> 乗	math . exp ( <A> )	pow ( <A> )
+deque オブジェクトを作る	collections . deque ( )	collections . deque ( <A> )
+<B> の終わりから <C> を取り除いた文字を <A> にする	<A> = <B> . rstrip ( <C> )	pow ( <A> , <B> )
+<B> の英大文字と英小文字を交換した文字列を <A> に代入する	<A> = <B> . strswap ( )	<A> . lower ( <B> )
+<A> 内の <B> が存在する先頭のインデックスを取得する	<A> . index ( <B> )	all <A> , <B> )
+文字列を入力した結果を <A> にする	<A> = input ( )	int ( <A> , input ( ) )
+<C> を区切り文字、最大分割数を <D> として <B> を分割した結果をリスト型にして返し、 <A> にする	<A> = <B> . split ( <C> , <D> )	<A> = <B> . split ( <C> )
+<A> の文字コード	ord ( <A> )	print ( <A> )
+<A> から <B> までの数列	range ( <A> , <B> + <A> )	<A> . range ( <B> )
+0 以上 <A> 未満の範囲の数列	range ( <A> )	random . randrange ( <A> )
+<B> の双曲線余弦を <A> にする	<A> = math . cosh ( <B> )	complex ( <A> , math . <A> )
+<B> の正弦を <A> に代入する	<A> = math . sin ( <B> )	<A> = math . asin ( <B> )
+<A> と <B> と <C> を連結したファイルパス	os . path . join ( <A> , <B> , <C> )	<A> = math . gcd ( <B> , <C> )
+<A> を <B> で割った結果の切り上げ	( <A> + <B> - 1 ) // <B>	complex <A> ( <A> , <B> )
+<B> のアークコサインを <A> にする	<A> = math . acos ( <B> )	math . <A> ( <B> )
+<A> を整数型にする	int ( <A> )	list ( <A> )
+<A> ではなくない	not not <A>	maxlen <A>
+<A> の一番小さい値をチェックする	min ( <A> )	round ( <A> )
+<A> が <B> より小さくない間	while not <A> < <B> :	while not <A> > <B> :
+<B> の正接を <A> に代入する	<A> = math . tan ( <B> )	math . <A> ( <A> = <B> )
+<A> を実部 <B> を虚部とした複素数を求める	complex ( <A> , <B> )	int ( <A> , <B> )
+<A> の 16 進数表現	hex ( <A> )	print ( <A> , sep )
+<A> から <B> を取り除く	<A> . remove ( <B> )	reversed <A> . <A> ( <B> )
+そうでなくて <A> が <B> ならば	elif <A> == <B> :	all ( <A> , <B> ) :
+ユーザが入力した整数値をスペースで区切ってリストとして受け取る	list ( map ( int , input ( ) . split ( ) ) )	<A> = list ( input ( ) )
+<A> のアークタンジェント	math . atan ( <A> )	math . acos ( <A> )
+<A> からランダムに要素をチョイスする	random . choice ( <A> )	sorted <A> ( )
+数値データを入力した結果を <A> とする	<A> = int ( input ( ) )	int ( <A> , input ( ) )
+<A> を変換した文字列	str ( <A> )	print ( <A> )
+<B> の逆双曲線余弦を <A> にする	<A> = math . acosh ( <B> )	math . <A> ( <B> )
+<A> を絶対値に直してソートする	sorted ( <A> , key = abs )	reversed ( <A> , key = abs )
+<A> を <B> だけシフトした右シフト値を算出する	<A> >> <B>	<< <A> >> <B>
+<A> の <B> 番目から <C> 番目の要素を得る	<A> [ <B> : <C> ]	re . <A> ( <A> , <B> )
+<A> 内の全ての要素が真かどうか	all ( <A> )	<A> . isdigit ( )
+円周率	math . pi	list ( <A> )
+0 以上 <A> 未満の範囲で 1 ずつ増える数列	range ( <A> )	os . range ( <A> )
+<A> と <B> の対称差を計算する	<A> . symmetric_difference ( <B> )	bisect . <A> ( <A> , <B> )
+<A> の合計	sum ( <A> )	print ( <A> )
+<C> を区切り文字、最大分割数を <D> として <B> を最後から分割してリスト型にして返して、 <A> に代入する	<A> = <B> . rsplit ( <C> , <D> )	<A> = <B> . split ( <C> )
+<A> が識別子として利用可能かどうか	<A> . isidentifier ( )	<A> . isascii ( )
+<A> と <B> の値を足して <A> に代入する	<A> += <B>	divmod ( <A> , <B> )
+もし try の中のプログラムが実行できなかった時	except :	except <A> : ]
+<A> が <B> 以上かどうか	<A> >= <B>	while <A> >= <B> :
+0 から <A> 未満までの整数乱数	random . randrange ( <A> )	<A> . randrange ( <B> )
+<A> が <B> と等しい間	while <A> == <B> :	== <A> == <B> :

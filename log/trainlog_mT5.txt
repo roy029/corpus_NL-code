@@ -1,0 +1,85 @@
+2022-01-08 22:36:00
+Input File : DS_B.tsv
+Output File : result/result_mT5_greedy_DS_B.tsv
+Pretrained Model : trained_model/model_mT5_greedy_DS_B.zip
+Train Data : 14753, Validation Data : 3162, Test Data : 3162
+Number of parameters : 300176768
+Training Time : 3420.481545448303
+Epoch : 7
+
+2022-01-08 23:53:02
+Input File : DS_B_par.tsv
+Output File : result/result_mT5_greedy_DS_B_par.tsv
+Pretrained Model : trained_model/model_mT5_greedy_DS_B_par.zip
+Train Data : 16191, Validation Data : 3470, Test Data : 3470
+Number of parameters : 300176768
+Training Time : 3746.050167322159
+Epoch : 7
+
+2022-01-09 01:04:02
+Input File : euler.tsv
+Output File : result/result_mT5_greedy_euler.tsv
+Pretrained Model : trained_model/model_mT5_greedy_euler.zip
+Train Data : 595, Validation Data : 127, Test Data : 128
+Number of parameters : 300176768
+Training Time : 262.3892216682434
+Epoch : 7
+
+2022-01-09 01:15:40
+Input File : conala.tsv
+Output File : result/result_mT5_greedy_conala.tsv
+Pretrained Model : trained_model/model_mT5_greedy_conala.zip
+Train Data : 3324, Validation Data : 712, Test Data : 713
+Number of parameters : 300176768
+Training Time : 881.8520314693451
+Epoch : 7
+
+2022-01-09 23:32:29
+Input File : DS.tsv
+Output File : result/result_mT5_greedy_DS.tsv
+Pretrained Model : trained_model/model_mT5_greedy_DS.zip
+Train Data : 331, Validation Data : 71, Test Data : 72
+Number of parameters : 300176768
+Training Time : 196.27531838417053
+Epoch : 7
+
+2022-01-10 22:39:53
+Input File : AOJ_T.tsv
+Output File : result/result_mT5_greedy_AOJ_T.tsv
+Pretrained Model : trained_model/model_mT5_greedy_AOJ_T.zip
+Train Data : 73235, Validation Data : 15693, Test Data : 15694
+Number of parameters : 300176768
+Training Time : 16044.588617563248
+
+2022-01-12 16:52:32
+Input File : DS_B_BASE.tsv
+Output File : result/result_mT5_greedy_DS_B_BASE.tsv
+Pretrained Model : trained_model/model_mT5_greedy_DS_B_BASE.zip
+Train Data : 14721, Validation Data : 3155, Test Data : 3155
+Number of parameters : 300176768
+Training Time : 3275.210864543915
+
+2022-01-15 11:09:04
+Input File : AOJ_B.tsv
+Output File : result/result_mT5_greedy_AOJ_B.tsv
+Pretrained Model : trained_model/model_mT5_greedy_AOJ_B.zip
+Train Data : 9917, Validation Data : 2125, Test Data : 2126
+Number of parameters : 300176768
+Training Time : 2333.854566335678
+
+2022-01-15 11:59:14
+Input File : AOJ.tsv
+Output File : result/result_mT5_greedy_AOJ.tsv
+Pretrained Model : trained_model/model_mT5_greedy_AOJ.zip
+Train Data : 1282, Validation Data : 275, Test Data : 275
+Number of parameters : 300176768
+Training Time : 417.24777483940125
+
+2022-01-15 12:12:26
+Input File : AOJ_B_par.tsv
+Output File : result/result_mT5_greedy_AOJ_B_par.tsv
+Pretrained Model : trained_model/model_mT5_greedy_AOJ_B_par.zip
+Train Data : 10036, Validation Data : 2151, Test Data : 2151
+Number of parameters : 300176768
+Training Time : 2342.174238204956
+

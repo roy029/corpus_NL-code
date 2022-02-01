@@ -1,0 +1,42 @@
+2022-01-10 22:35:22
+Input File : result/result_TF_AOJ_B.tsv
+Correct Rate : 49.90593
+Levenshtein Distance : 0.92634
+BLEU : 0.45066
+
+2022-01-10 22:35:30
+Input File : result/result_TF_AOJ_T.tsv
+Correct Rate : 34.98598
+Levenshtein Distance : 0.95206
+BLEU : 0.33596
+
+2022-01-10 22:36:35
+Input File : result/result_TF_AOJ.tsv
+Correct Rate : 26.18182
+Levenshtein Distance : 0.80753
+BLEU : 0.36869
+
+2022-01-10 22:36:46
+Input File : result/result_TF_conala.tsv
+Correct Rate : 1.82371
+Levenshtein Distance : 0.61053
+BLEU : 0.31701
+
+2022-01-10 22:37:06
+Input File : result/result_TF_DS.tsv
+Correct Rate : 13.88889
+Levenshtein Distance : 0.77436
+BLEU : 0.35742
+
+2022-01-10 22:37:14
+Input File : result/result_TF_DS_B.tsv
+Correct Rate : 49.55724
+Levenshtein Distance : 0.93521
+BLEU : 0.44573
+
+2022-01-10 22:37:30
+Input File : result/result_TF_euler.tsv
+Correct Rate : 15.62500
+Levenshtein Distance : 0.82197
+BLEU : 0.30759
+

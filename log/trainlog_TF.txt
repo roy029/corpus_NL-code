@@ -1,0 +1,56 @@
+2022-01-08 12:08:49
+Input File : DS.tsv
+Output File : result/result_TF_DS.tsv
+Train Data : 331, Validation Data : 71, Test Data : 72
+Number of parameters : 25627335
+Training Time : 38.535629987716675
+Epoch : 31
+
+2022-01-08 12:10:39
+Input File : DS_B.tsv
+Output File : result/result_TF_DS_B.tsv
+Train Data : 14753, Validation Data : 3162, Test Data : 3162
+Number of parameters : 25822986
+Training Time : 965.499605178833
+Epoch : 21
+
+2022-01-08 12:46:49
+Input File : euler.tsv
+Output File : result/result_TF_euler.tsv
+Train Data : 595, Validation Data : 127, Test Data : 128
+Number of parameters : 25479276
+Training Time : 34.96235704421997
+Epoch : 18
+
+2022-01-08 12:48:25
+Input File : AOJ_B.tsv
+Output File : result/result_TF_AOJ_B.tsv
+Train Data : 9917, Validation Data : 2125, Test Data : 2126
+Number of parameters : 25877817
+Training Time : 588.9851815700531
+Epoch : 21
+
+2022-01-08 15:12:52
+Input File : AOJ_T.tsv
+Output File : result/result_TF_AOJ_T.tsv
+Train Data : 73235, Validation Data : 15693, Test Data : 15694
+Number of parameters : 26811986
+Training Time : 5686.454787731171
+Epoch : 20
+
+2022-01-08 18:35:17
+Input File : conala.tsv
+Output File : result/result_TF_conala.tsv
+Train Data : 3324, Validation Data : 712, Test Data : 713
+Number of parameters : 28129075
+Training Time : 288.99419355392456
+Epoch : 35
+
+2022-01-10 22:28:05
+Input File : AOJ.tsv
+Output File : result/result_TF_AOJ.tsv
+Train Data : 1282, Validation Data : 275, Test Data : 275
+Number of parameters : 25784602
+Training Time : 58.900959968566895
+Epoch : 17
+

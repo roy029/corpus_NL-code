@@ -1,0 +1,97 @@
+2022-01-18 23:25:54
+File name : /content/corpus_NL-code/result/result_TF_AOJ_B.tsv
+Correct Num : 486
+Correct Cnt : 1000
+Correct Rate : 48.60000
+Levenshtein Distance : 0.92634
+BLEU : 0.76992
+===
+Correct Mean : 8
+Correct Num : 494
+Correct Cnt : 1000
+Correct Rate : 49.0000
+<SPT> miss : 234
+
+2022-01-18 23:25:56
+File name : /content/corpus_NL-code/result/result_TF_conala.tsv
+Correct Num : 12
+Correct Cnt : 658
+Correct Rate : 1.82371
+Levenshtein Distance : 0.61053
+BLEU : 0.72414
+===
+Correct Mean : 2
+Correct Num : 14
+Correct Cnt : 658
+Correct Rate : 2.12766
+<SPT> miss : 4
+
+2022-01-18 23:25:58
+File name : /content/corpus_NL-code/result/result_TF_euler.tsv
+Correct Num : 20
+Correct Cnt : 128
+Correct Rate : 15.62500
+Levenshtein Distance : 0.82197
+BLEU : 0.62233
+===
+Correct Mean : 2
+Correct Num : 22
+Correct Cnt : 128
+Correct Rate : 17.18750
+<SPT> miss : 18
+
+2022-01-18 23:25:59
+File name : /content/corpus_NL-code/result/result_TF_DS_B.tsv
+Correct Num : 501
+Correct Cnt : 1000
+Correct Rate : 50.10000
+Levenshtein Distance : 0.93521
+BLEU : 0.80400
+===
+Correct Mean : 56
+Correct Num : 557
+Correct Cnt : 1000
+Correct Rate : 55.70000
+<SPT> miss : 257
+
+2022-01-18 23:26:02
+File name : /content/corpus_NL-code/result/result_TF_DS.tsv
+Correct Num : 10
+Correct Cnt : 72
+Correct Rate : 13.88889
+Levenshtein Distance : 0.77436
+BLEU : 0.69166
+===
+Correct Mean : 0
+Correct Num : 10
+Correct Cnt : 72
+Correct Rate : 13.88889
+<SPT> miss : 11
+
+2022-01-18 23:26:02
+File name : /content/corpus_NL-code/result/result_TF_AOJ_T.tsv
+Correct Num : 347
+Correct Cnt : 1000
+Correct Rate : 34.70000
+Levenshtein Distance : 0.95206
+BLEU : 0.73982
+===
+Correct Mean : 81
+Correct Num : 428
+Correct Cnt : 1000
+Correct Rate : 42.80000
+<SPT> miss : 140
+
+2022-01-18 23:26:17
+File name : /content/corpus_NL-code/result/result_TF_AOJ.tsv
+Correct Num : 72
+Correct Cnt : 275
+Correct Rate : 26.18182
+Levenshtein Distance : 0.80753
+BLEU : 0.66003
+===
+Correct Mean : 3
+Correct Num : 75
+Correct Cnt : 275
+Correct Rate : 27.27273
+<SPT> miss : 18

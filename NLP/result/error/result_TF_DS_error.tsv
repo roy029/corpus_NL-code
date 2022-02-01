@@ -1,0 +1,35 @@
+<A> の 'percipitation' 列内の <B> を 0.0 に置き換える	<A> [ 'precipitation' ] = <A> [ 'precipitation' ] . str . replace ( <B> , 0 ) . astype ( float )	plt . plot ( <A> , <B> , <B> ] ) , align = True )
+<A> の name と kcal を抽出し、先頭 5 行を表示する	<A> [ [ 'name' , 'kcal' ] ] . head ( )	<A> . isnull ( ) . head ( )
+<A> 番目までの列を表示させる	pd . set_option ( 'display.max_columns' , <A> )	random . seed ( <A> ) . head ( )
+<A> の列 <B> にある欠損値を '0.0' に置換	<A> . fillna ( value = { <B> : 0.0 } , inplace = True )	<A> . dropna ( subset = [ <B> , axis , axis = True ) . sum ( )
+<A> の <B> 列ごとに <C> 列の値の平均を計算する	<A> . groupby ( [ <B> ] ) [ <C> ] . mean ( )	<A> . groupby ( [ <B> , <C> , <D> ] ] ) [ <C> ] . sum ( )
+列 <B> を参照において、自身も含めた後ろ <C> つの要素の平均値を、列 <A> に格納する。	df [ <A> ] = df [ <B> ] . rolling ( window = <C> ) . mean ( )	pd . plot ( <A> [ <B> ] = <A> [ <B> ] , <C> ] , <D> , <D> ) . head ( )
+<A> の行数および列数を表示	<A> . shape	random . shape ( <A> [ <A> ) . shape
+<A> の <B> 列に欠損値がある行を削除する	<A> . dropna ( subset = [ <B> ] , axis = 0 , inplace = True )	<A> . dropna ( subset = [ <B> , axis = True , axis = True )
+remarks 'の行を削除する	df . drop ( [ 'remarks' ] , axis = 1 , inplace = True )	<A> . set_index ( [ <B> ] , axis = True )
+<A> の column を確認	<A> . columns	import <A> . shape
+<A> の <B> 列と <C> 列の上 5 行を表示する	<A> [ [ <B> , <C> ] ] . head ( )	<A> [ <B> , <C> , <C> ] . head ( )
+<A> の形状を取得する。	<A> . dtypes	from <A> [ <A> . shape
+<A> の <B> と <C> をインポートする	from <A> import <B> , <C>	import <A> <B> as <C>
+<A> に含まれる欠損値の有無を行ごとに判定し、初めの５行について結果を表示	<A> [ <A> . isnull ( ) . any ( axis = 1 ) ] . head ( )	pd . DataFrame ( df [ <A> [ <A> ] . head ( ) . head ( ) . head ( )
+データ <A> の absences についての標準偏差を取得	<A> [ 'absences' ] . std ( )	<A> [ <A> [ 'absences' 'absences' ] ] ) . head ( )
+<A> の <B> を参照し、各要素の出現回数を取得する	<A> [ <B> ] . value_counts ( )	from <A> [ <B> , <C> ] . head ( )
+<A> の先頭 <B> 行を表示する	<A> . head ( <B> )	import <A> . head ( <B> )
+<A> の <B> 列の値を横 <C> 縦 <D> のサイズで透過率が <E> のヒストグラムとして表示する	<A> . plot ( kind = 'hist' , y = <B> , bins = 10 , figsize = ( <C> , <D> ) , alpha = <E> )	df . plot ( <A> [ <B> , <C> ] , <D> , <D> ] , <D> )
+student - mat .csv 'のデータを読み込み、 <A> とする	<A> = pd . read_csv ( 'student-mat.csv' )	sns . read_csv ( <A> , <B> ) = True ) . read_csv ( )
+' sales' 列と <B> 列が降順になるよう <A> をソートし、上 5 行を表示する	<A> . sort_values ( [ 'sales' , <B> ] , ascending = False ) . head ( )	df . plot ( <A> [ <B> ] , axis = True ) . head ( )
+データ <A> の G1 についての箱ひげ図を表示	plt . boxplot ( <A> [ 'G1' ] )	<A> [ <B> ] . value_counts ( ) [ 'G1' ] . head ( )
+<A> の列 <B> を降順で並び替え、最初の５行を表示	<A> . sort_values ( by = <B> , ascending = True ) . head ( )	pd . sort_values ( <A> [ <B> ] > <B> ] , axis = True )
+<A> 軸を <B> 、 <C> 軸を <D> とした散布図を表示	df . plot ( kind = 'scatter' , <A> = <B> , <C> = <D> )	pd . plot ( <A> = <B> , <B> , <D> = <C> , <D> )
+列 'precipitationの要素をstr型にした後に' - - ' を <A> に置き換えて、 <B> 型にデータ型を変換する。	df [ 'precipitation' ] = df [ 'precipitation' ] . str . replace ( '--' , <A> ) . astype ( <B> )	df . plot ( <A> , <B> , <B> , ascending = True )
+<A> の列 <B> , 列 <C> について最初の５行を表示	<A> [ [ <B> , <C> ] ] . head ( )	df [ <A> [ <B> ] , <C> ] . head ( <C> ] . head ( )
+複数のグラフを <B> つにまとめて表示して、これは <A> 行 <B> 列の <B> 番目の位置にプロットする	plt . subplot ( <A> , <B> , <B> )	pd . plot ( <A> [ <B> , <B> ] , <D> ) . head ( )
+<A> 軸 = <B> 、階級数 = <C> 、サイズ = ( <D> , <E> ) 、透過率 = <F> のヒストグラムを描く。	df . plot ( kind = 'hist' , <A> = <B> , bins = <C> , figsize = ( <D> , <E> ) , alpha = <F> )	<A> = <A> . plot ( [ <B> ] , <D> , <D> , <D> , <D> , <D> , <D> = <E> ) , <D> ) = <E> )
+<A> の <C> 列の移動平均を <D> サイズを <E> として計算し、 <B> 列とする	<A> [ <B> ] = <A> [ <C> ] . rolling ( <D> = <E> ) . mean ( )	df . plot ( <A> [ <B> , <C> , <D> ] , <D> , <D> ] , <D> )
+<A> を <B> という名前でインポートする。	import <A> as <B>	random import <A> <B> as <B>
+<A> の列 <B> のカラム名を <C> に変更	<A> . rename ( columns = { <B> : <C> } , inplace = True )	<A> . groupby ( [ <B> , <C> ] , <D> ] , <D> )
+<A> のインデックスを datetime64 [ ns ] 型の年月日をハイフン区切りにしたものに変更	<A> . index = pd . to_datetime ( <A> . index , format = '%Y-%m-%d' )	df . plot ( <A> [ <B> ] . head ( ) . head ( )
+<A> のインデックスを datetime 型に変換する	<A> . index = pd . to_datetime ( <A> . index , format = '%Y-%m-%d' )	plt . savefig ( <A> , <A> )
+データ <A> の absences についての中央値を取得	<A> [ 'absences' ] . median ( )	<A> . groupby ( [ <B> ] ] ) [ 'absences' ] . head ( )
+複数のグラフを <B> つにまとめて表示して、これは <A> 行 <B> 列の <A> 番目の位置にプロットする	plt . subplot ( <A> , <B> , <A> )	pd . plot ( <A> [ <B> , <B> ] , <C> ] , <D> ] )
+<A> の index を確認	<A> . index	from <A> . shape

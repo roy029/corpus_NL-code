@@ -1,0 +1,35 @@
+2022-01-16 05:44:43
+File name : /content/corpus_NL-code/result/result_mT5_greedy_DS_B_BASE.tsv
+Correct Num : 940
+Correct Num : 1000
+Correct Rate : 94.00000
+Levenshtein Distance : 0.98403
+BLEU : 0.78791
+
+2022-01-16 05:44:46
+File name : /content/corpus_NL-code/result/result_mT5_greedy_AOJ_B_eval.tsv
+Correct Num : 206
+Correct Num : 616
+Correct Rate : 33.44156
+Levenshtein Distance : 0.91414
+BLEU : 0.64493
+===
+Correct Mean : 147
+Correct Num : 353
+Correct Cnt : 616
+Correct Rate :57.30519
+<SPT> miss : 6
+
+2022-01-16 05:45:09
+File name : /content/corpus_NL-code/result/result_mT5_greedy_AOJ_T_eval.tsv
+Correct Num : 66
+Correct Num : 616
+Correct Rate : 10.71429
+Levenshtein Distance : 0.73284
+BLEU : 0.47087
+===
+Correct Mean : 42
+Correct Num : 108
+Correct Cnt : 616
+Correct Rate :17.53247
+<SPT> miss : 0
